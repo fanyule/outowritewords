@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "chapter_title": "第23章 考试周撞上紧急任务",
+  "analyzed_at": "2026-05-08T02:21:10",
+  "summary": "本章暂无正文内容，仅标题暗示考试周与紧急任务同时发生，可能涉及林小鹿在学业与组织任务之间的冲突。",
+  "outline": [],
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": [
+        "小鹿",
+        "林远舟的女儿"
+      ],
+      "chapter_role": "protagonist",
+      "tier": "active",
+      "importance_score": 70,
+      "summary": "女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她面临考试周与紧急任务的双重压力。"
+    }
+  ],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "directed_relations": [],
+  "pair_relations": [],
+  "fact_updates": [],
+  "unresolved": []
+}

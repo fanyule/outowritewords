@@ -1,0 +1,373 @@
+{
+  "summary": "天枢外勤组长陈默突然到访苏晚家，告知她父亲林建国被囚禁在天枢地下二层B107室，并透露苏晚觉醒的能力是找到父亲留下的‘秘法’的关键。陈默以父亲下落为条件邀请苏晚加入天枢，苏晚在目睹父亲受审的记忆片段后同意加入。",
+  "entities": [
+    {
+      "name": "苏晚",
+      "aliases": ["晓晓"],
+      "chapter_role": "protagonist",
+      "summary": "大学生，父亲林建国失踪三年，母亲改嫁后独自生活。刚觉醒通过触摸物品获取记忆画面的能力，决心救出父亲。"
+    },
+    {
+      "name": "陈默",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "天枢生物科技研究院外勤组长，三十出头，表情平静，受林建国委托在苏晚能力觉醒后接触她，并引导她加入天枢。"
+    },
+    {
+      "name": "林建国",
+      "aliases": ["父亲"],
+      "chapter_role": "major_actor",
+      "summary": "前国家科学院院士，天枢首席科学家，三年前失踪。被囚禁在地下二层B107室，曾将‘秘法’编码进苏晚的基因中。"
+    },
+    {
+      "name": "白大褂",
+      "aliases": [],
+      "chapter_role": "supporting",
+      "summary": "天枢审讯人员，在记忆片段中对林建国进行注射审讯，身份不明。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "陈默",
+      "to": "苏晚",
+      "raw_label": "引导与招募",
+      "structural_base": "same_faction",
+      "structural_base_raw": "陈默代表天枢邀请苏晚加入",
+      "dynamic_stance": "friendly",
+      "dynamic_stance_raw": "陈默语气平静，提供父亲照片和线索",
+      "state_summary": "陈默受林建国委托，在苏晚能力觉醒后主动接触她，以父亲下落为条件引导她加入天枢，态度平静但带有利用性质。",
+      "enum_reason": "陈默明确代表天枢招募苏晚，双方即将成为同一组织成员；陈默表现出合作与引导姿态，无敌对迹象。",
+      "evidence_summary": "陈默出示证件，告知父亲被囚禁，提供照片，邀请苏晚加入天枢。",
+      "evidence_quotes": ["我叫陈默。天枢生物科技研究院，外勤组。", "加入天枢，你就有权限进入研究院的核心区域。"],
+      "relation_analysis": "陈默作为天枢外勤组长，主动接触苏晚并传递关键信息，其行为符合招募与引导角色，且态度平静友好，无威胁或敌意。",
+      "confidence": 0.9
+    },
+    {
+      "from": "苏晚",
+      "to": "陈默",
+      "raw_label": "警惕与接受",
+      "structural_base": "same_faction",
+      "structural_base_raw": "苏晚同意加入天枢",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "苏晚对陈默保持警惕，但为了父亲选择接受",
+      "state_summary": "苏晚对陈默的突然出现和天枢身份保持高度警惕，但为了救父亲，她选择接受陈默的邀请加入天枢。",
+      "enum_reason": "苏晚同意加入天枢，双方即将成为同一组织成员；但苏晚内心不信任陈默，表现出警惕。",
+      "evidence_summary": "苏晚犹豫后让陈默进门，质问父亲下落，最终同意加入。",
+      "evidence_quotes": ["我凭什么相信你？", "我加入。"],
+      "relation_analysis": "苏晚虽同意加入，但内心对陈默和天枢充满怀疑，其警惕态度源于父亲被囚禁的事实。",
+      "confidence": 0.85
+    },
+    {
+      "from": "苏晚",
+      "to": "林建国",
+      "raw_label": "女儿寻找父亲",
+      "structural_base": "kinship_parent_child",
+      "structural_base_raw": "苏晚是林建国的女儿",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "苏晚决心救出父亲",
+      "state_summary": "苏晚深爱父亲，得知父亲被囚禁后决心加入天枢以救出父亲，情感强烈。",
+      "enum_reason": "明确父女关系，苏晚的行动完全出于保护父亲的动机。",
+      "evidence_summary": "苏晚看到父亲受审的记忆片段后眼眶发红，决定加入天枢救父。",
+      "evidence_quotes": ["父亲在等她。她不会让他等太久。"],
+      "relation_analysis": "苏晚的整个行动由对父亲的亲情驱动，她愿意冒险加入天枢以换取父亲自由。",
+      "confidence": 1.0
+    },
+    {
+      "from": "林建国",
+      "to": "苏晚",
+      "raw_label": "父亲保护女儿",
+      "structural_base": "kinship_parent_child",
+      "structural_base_raw": "林建国是苏晚的父亲",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "林建国在记忆片段中劝苏晚不要来找他",
+      "state_summary": "林建国深爱女儿，在被囚禁期间仍通过陈默传递信息，并在记忆片段中劝苏晚不要来找他，以保护她的安全。",
+      "enum_reason": "明确父女关系，林建国的行为表现出对女儿的保护意图。",
+      "evidence_summary": "照片背面写有‘晓晓，等我回来’；记忆片段中林建国说‘晓晓，别来找我’。",
+      "evidence_quotes": ["晓晓，等我回来。", "晓晓，别来找我。"],
+      "relation_analysis": "林建国虽被囚禁，仍设法保护女儿，其行为符合父亲保护子女的动机。",
+      "confidence": 0.95
+    },
+    {
+      "from": "陈默",
+      "to": "林建国",
+      "raw_label": "合作与受托",
+      "structural_base": "same_faction",
+      "structural_base_raw": "陈默与林建国同属天枢，且有约定",
+      "dynamic_stance": "friendly",
+      "dynamic_stance_raw": "陈默受林建国委托保护苏晚",
+      "state_summary": "陈默与林建国之间存在合作约定，陈默受林建国委托在苏晚能力觉醒后接触她，并传递信息。",
+      "enum_reason": "陈默明确表示与林建国合作，且受其委托，双方属于同一组织且有信任基础。",
+      "evidence_summary": "陈默说‘你父亲失踪前，我们一直在合作’；‘我和你父亲的约定，是保护你，直到你能力觉醒’。",
+      "evidence_quotes": ["你父亲失踪前，我们一直在合作。", "我和你父亲的约定，是保护你，直到你能力觉醒。"],
+      "relation_analysis": "陈默与林建国之间存在明确的合作与信任关系，陈默执行林建国的嘱托。",
+      "confidence": 0.9
+    },
+    {
+      "from": "白大褂",
+      "to": "林建国",
+      "raw_label": "审讯与折磨",
+      "structural_base": "opposing_faction",
+      "structural_base_raw": "白大褂代表天枢审讯林建国",
+      "dynamic_stance": "hostile",
+      "dynamic_stance_raw": "白大褂对林建国进行注射审讯",
+      "state_summary": "白大褂代表天枢组织对林建国进行审讯，使用注射手段逼问‘秘法’，态度冷酷。",
+      "enum_reason": "白大褂的行为明显敌对，双方处于对立阵营。",
+      "evidence_summary": "记忆片段中白大褂给林建国注射，林建国痛苦颤抖。",
+      "evidence_quotes": ["林教授，你还不打算说吗？", "那就让我们再试一次。"],
+      "relation_analysis": "白大褂作为审讯者，对林建国施加痛苦，双方关系敌对。",
+      "confidence": 0.85
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "苏晚",
+      "entity_b": "林建国",
+      "shared_structural_base": "kinship_parent_child",
+      "shared_structural_base_raw": "苏晚是林建国的女儿",
+      "pair_summary": "苏晚和林建国是亲生父女，关系亲密，彼此关心保护。",
+      "evidence_summary": "苏晚为救父亲加入天枢；林建国在记忆片段中劝苏晚不要来找他。",
+      "evidence_quotes": ["父亲在等她。她不会让他等太久。", "晓晓，别来找我。"],
+      "pair_analysis": "父女关系明确，双方行动均以对方安全为核心，符合亲子关系特征。",
+      "confidence": 1.0
+    },
+    {
+      "entity_a": "陈默",
+      "entity_b": "林建国",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "陈默与林建国同属天枢且有合作约定",
+      "pair_summary": "陈默与林建国同属天枢组织，且存在合作与信任关系，陈默受林建国委托保护苏晚。",
+      "evidence_summary": "陈默表示与林建国合作，并受其委托在苏晚能力觉醒后接触她。",
+      "evidence_quotes": ["你父亲失踪前，我们一直在合作。", "我和你父亲的约定，是保护你，直到你能力觉醒。"],
+      "pair_analysis": "双方同属天枢，且有明确的委托关系，属于同一阵营。",
+      "confidence": 0.9
+    },
+    {
+      "entity_a": "苏晚",
+      "entity_b": "陈默",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "苏晚同意加入天枢，与陈默成为同一组织成员",
+      "pair_summary": "苏晚同意加入天枢后，与陈默成为同一组织成员，但双方关系尚浅，苏晚保持警惕。",
+      "evidence_summary": "陈默招募苏晚，苏晚同意加入。",
+      "evidence_quotes": ["我加入。", "明天早上八点，天枢生物科技研究院，门口有人接你。"],
+      "pair_analysis": "苏晚加入天枢后与陈默成为同事，但信任尚未建立。",
+      "confidence": 0.8
+    }
+  ],
+  "identity_revelations": [
+    {
+      "source_name": "陈默",
+      "target_name": "陈默",
+      "revelation_type": "true_identity",
+      "evidence": "陈默自称天枢外勤组长，并出示证件。",
+      "confidence": 0.95
+    },
+    {
+      "source_name": "白大褂",
+      "target_name": "白大褂",
+      "revelation_type": "true_identity",
+      "evidence": "记忆片段中白大褂对林建国进行审讯。",
+      "confidence": 0.7
+    }
+  ],
+  "events": [
+    {
+      "event_id": "evt1",
+      "intra_chapter_order": 0,
+      "event_type": "来访",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "陈默来访是本章核心事件",
+      "enum_reason": "该事件驱动整个章节情节发展，是核心转折点。",
+      "summary": "陈默到访苏晚家，出示证件，告知父亲被囚禁，并邀请苏晚加入天枢。",
+      "location": "苏晚家客厅",
+      "enum_reason": "该事件驱动整个章节情节发展，是核心转折点。",
+      "evidence_summary": "陈默按门铃，苏晚开门，陈默出示证件并说明来意。",
+      "evidence_quotes": ["我叫陈默。天枢生物科技研究院，外勤组。", "加入天枢，你就有权限进入研究院的核心区域。"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "陈默", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt2",
+      "intra_chapter_order": 1,
+      "event_type": "记忆闪回",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "苏晚通过触摸纸片看到父亲受审画面",
+      "enum_reason": "该事件揭示父亲被囚禁的真相，是情节关键。",
+      "summary": "苏晚触摸陈默带来的纸片，触发记忆闪回，看到父亲被白大褂审讯和注射的场景。",
+      "location": "苏晚家客厅",
+      "enum_reason": "该事件揭示父亲被囚禁的真相，是情节关键。",
+      "evidence_summary": "苏晚触摸证物袋中的纸片，大脑一震，看到父亲被审讯的画面。",
+      "evidence_quotes": ["画面像潮水一样涌来。", "白大褂把注射器扎进父亲的手臂。"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "林建国", "role": "target", "confidence": 1.0},
+        {"entity_name": "白大褂", "role": "actor", "confidence": 0.9}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt3",
+      "intra_chapter_order": 2,
+      "event_type": "决定加入",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "苏晚决定加入天枢",
+      "enum_reason": "该事件是苏晚行动方向的转折点。",
+      "summary": "苏晚在得知父亲被囚禁后，决定加入天枢以寻找救父机会。",
+      "location": "苏晚家客厅",
+      "enum_reason": "该事件是苏晚行动方向的转折点。",
+      "evidence_summary": "苏晚沉默后说‘我加入’。",
+      "evidence_quotes": ["我加入。"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "陈默", "role": "witness", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt4",
+      "intra_chapter_order": 3,
+      "event_type": "揭示基因钥匙",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "陈默告知苏晚的基因能打开B107的门",
+      "enum_reason": "该事件提供重要信息，推动后续情节。",
+      "summary": "陈默在离开前告知苏晚，她的指纹、虹膜和DNA能打开关押父亲的地下二层B107室的门。",
+      "location": "苏晚家玄关",
+      "enum_reason": "该事件提供重要信息，推动后续情节。",
+      "evidence_summary": "陈默回头告知苏晚基因钥匙的信息。",
+      "evidence_quotes": ["你父亲留下的‘秘法’，不只是方法。他把自己的一部分能力编码进了你的基因里。你的指纹，你的虹膜，你的DNA，都能打开B107的门。"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "target", "confidence": 1.0},
+        {"entity_name": "陈默", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 0.95
+    },
+    {
+      "event_id": "evt5",
+      "intra_chapter_order": 4,
+      "event_type": "第二次记忆闪回",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "苏晚再次触摸纸片看到父亲独自哭泣",
+      "enum_reason": "该事件补充父亲的情感状态，但非核心情节推动。",
+      "summary": "陈默离开后，苏晚再次触摸纸片，看到父亲独自在审讯室哭泣并劝她不要来找他。",
+      "location": "苏晚家客厅",
+      "enum_reason": "该事件补充父亲的情感状态，但非核心情节推动。",
+      "evidence_summary": "苏晚拿起纸片，再次触发记忆，看到父亲独自哭泣并说话。",
+      "evidence_quotes": ["晓晓，别来找我。"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "林建国", "role": "target", "confidence": 1.0}
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "interactions": [
+    {
+      "from": "陈默",
+      "to": "苏晚",
+      "interaction_type": "revelation",
+      "interaction_type_raw": "陈默告知苏晚父亲被囚禁的真相",
+      "impact_level": "critical",
+      "impact_level_raw": "该信息彻底改变苏晚的行动方向",
+      "polarity": "neutral",
+      "polarity_raw": "陈默语气平静，信息本身对苏晚是冲击性的",
+      "summary": "陈默向苏晚透露父亲被囚禁在天枢地下二层，并展示照片和纸片作为证据。",
+      "enum_reason": "陈默揭示了父亲被囚禁的关键真相。",
+      "evidence_summary": "陈默说‘你父亲被关在地下二层，B107室’，并展示照片。",
+      "evidence_quotes": ["你父亲被关在地下二层，B107室。", "这是你父亲被带走前拍的。"],
+      "interaction_analysis": "陈默的揭示是本章的核心信息传递，对苏晚产生重大影响。",
+      "confidence": 1.0
+    },
+    {
+      "from": "苏晚",
+      "to": "陈默",
+      "interaction_type": "promise",
+      "interaction_type_raw": "苏晚同意加入天枢",
+      "impact_level": "high",
+      "impact_level_raw": "该决定改变苏晚的人生轨迹",
+      "polarity": "mixed",
+      "polarity_raw": "苏晚被迫接受，内心矛盾",
+      "summary": "苏晚在权衡后同意加入天枢，以换取救父的机会。",
+      "enum_reason": "苏晚做出了加入天枢的承诺。",
+      "evidence_summary": "苏晚说‘我加入’。",
+      "evidence_quotes": ["我加入。"],
+      "interaction_analysis": "苏晚的承诺是本章的转折点，她明知被利用但别无选择。",
+      "confidence": 1.0
+    },
+    {
+      "from": "白大褂",
+      "to": "林建国",
+      "interaction_type": "conflict",
+      "interaction_type_raw": "白大褂对林建国进行注射审讯",
+      "impact_level": "critical",
+      "impact_level_raw": "审讯行为对林建国造成身体痛苦",
+      "polarity": "negative",
+      "polarity_raw": "审讯行为明显敌对",
+      "summary": "在记忆闪回中，白大褂给林建国注射药物，导致林建国剧烈颤抖和痛苦。",
+      "enum_reason": "白大褂对林建国实施强制审讯，属于冲突行为。",
+      "evidence_summary": "白大褂说‘那就让我们再试一次’，然后注射。",
+      "evidence_quotes": ["那就让我们再试一次。", "父亲的瞳孔猛地放大，身体剧烈颤抖起来。"],
+      "interaction_analysis": "白大褂的审讯行为是敌对和暴力的，对林建国造成身心伤害。",
+      "confidence": 0.9
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "苏晚",
+      "predicate": "觉醒能力",
+      "object_value": "通过触摸物品获取记忆画面",
+      "summary": "苏晚的能力在昨天觉醒，陈默确认了这一点。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林建国",
+      "predicate": "被囚禁位置",
+      "object_value": "天枢生物科技研究院地下二层B107室",
+      "summary": "陈默告知苏晚，林建国被关押在地下二层B107室。",
+      "is_state": true,
+      "confidence": 0.95
+    },
+    {
+      "subject": "林建国",
+      "predicate": "研究核心成果",
+      "object_value": "‘秘法’，一种能让人在不消耗寿命的情况下使用异能的方法",
+      "summary": "陈默解释林建国研究的核心成果是‘秘法’。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "苏晚",
+      "predicate": "基因功能",
+      "object_value": "苏晚的指纹、虹膜和DNA能打开B107的门",
+      "summary": "陈默告知苏晚，林建国将能力编码进她的基因中，使她成为钥匙。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "苏晚",
+      "predicate": "能力代价",
+      "object_value": "每次使用能力都会消耗寿命",
+      "summary": "陈默指出苏晚使用能力后感到被抽空是因为消耗寿命。",
+      "is_state": true,
+      "confidence": 0.95
+    },
+    {
+      "subject": "陈默",
+      "predicate": "身份",
+      "object_value": "天枢生物科技研究院外勤组长",
+      "summary": "陈默出示证件并自我介绍。",
+      "is_state": true,
+      "confidence": 0.95
+    },
+    {
+      "subject": "苏晚",
+      "predicate": "加入天枢",
+      "object_value": "苏晚同意加入天枢，明天早上八点报到",
+      "summary": "苏晚在对话后决定加入天枢。",
+      "is_state": true,
+      "confidence": 1.0
+    }
+  ]
+}

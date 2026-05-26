@@ -1,0 +1,75 @@
+<chapter_title>
+第一件任务
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第一件任务","analyzed_at":"2026-05-08T11:59:19","summary":"陈默带苏晚进入废弃实验室，让她触碰父亲林建国曾使用过的仪器，苏晚通过能力读取到父亲被转移至地下的记忆片段，但代价是丢失部分记忆。陈默暗示组织内部有风险，要求苏晚保密。","outline":[{"order":0,"text":"陈默带苏晚进入废弃实验室，让她触碰父亲林建国曾使用过的仪器，苏晚通过能力读取到父亲被转移至地下的记忆片段。","involved_names":["苏晚","陈默","林建国"]},{"order":1,"text":"苏晚通过触碰仪器读取到父亲林建国在实验室的记忆片段，看到父亲被两人带走转移至地下，父亲眼神中带有警告。","involved_names":["苏晚","林建国"]},{"order":2,"text":"苏晚在读取记忆后出现剧烈头痛，并发现丢失了部分关于笔记本的记忆。","involved_names":["苏晚"]},{"order":3,"text":"陈默要求苏晚对看到的画面保密，包括对方瑶，并清理操作台痕迹，暗示组织内部有风险。","involved_names":["陈默","苏晚"]}],"entities":[{"name":"苏晚","aliases":["晓晓","晚晚"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"大学生，父亲林建国失踪三年，母亲改嫁后独自生活。觉醒记忆读取能力，加入天枢组织寻找父亲。本章中通过触碰仪器读取到父亲被转移至地下的记忆片段，但付出丢失部分记忆的代价。"},{"name":"陈默","aliases":[],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天枢组织外勤组长，三十出头，表情平静，受林建国委托引导苏晚。本章中带苏晚进入废弃实验室，让她触碰仪器读取记忆，暗示组织内部有风险，要求苏晚保密。"},{"name":"林建国","aliases":["父亲"],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪。本章中通过苏晚的记忆片段出现，被两人带走转移至地下，眼神中带有警告。"}],"identity_revelations":[],"events":[{"event_id":"evt_1","intra_chapter_order":0,"event_type":"任务执行","narrative_weight":"core","narrative_weight_raw":"本章核心事件","enum_reason":"这是本章的核心事件，推动剧情发展。","summary":"陈默带苏晚进入废弃实验室，让她触碰父亲林建国曾使用过的仪器，苏晚通过能力读取到父亲被转移至地下的记忆片段。","location":"废弃实验室","participants":[{"entity_name":"苏晚","role":"actor","confidence":1.0},{"entity_name":"陈默","role":"actor","confidence":1.0},{"entity_name":"林建国","role":"witness","confidence":0.9}],"evidence_summary":"陈默用灰色磁卡刷开废弃实验室的门，带苏晚进入，让她触碰仪器，苏晚读取到父亲记忆片段。","evidence_quotes":["废弃实验室的门是陈默用一张灰色磁卡刷开的。","我需要你碰一下它。","触碰到仪器外壳的瞬间，世界消失了。"],"confidence":1.0},{"event_id":"evt_2","intra_chapter_order":1,"event_type":"记忆读取","narrative_weight":"core","narrative_weight_raw":"本章核心事件","enum_reason":"这是本章的核心事件，揭示关键信息。","summary":"苏晚通过触碰仪器读取到父亲林建国在实验室的记忆片段，看到父亲被两人带走转移至地下，父亲眼神中带有警告。","location":"废弃实验室","participants":[{"entity_name":"苏晚","role":"actor","confidence":1.0},{"entity_name":"林建国","role":"target","confidence":1.0}],"evidence_summary":"苏晚触碰仪器后，看到父亲在实验室操作仪器，然后被两人带走转移至地下，父亲回头时眼神带有警告。","evidence_quotes":["她看到父亲站在这个实验室里，穿着白大褂……","父亲转过身，神色紧张，正在对什么人说话。","铁门打开了，门后是一条向下的楼梯，灯光昏暗。父亲被推进门里……","苏晚看到父亲最后回头的那一眼，眼睛里有一种她从未见过的东西。不是恐惧。是警告。"],"confidence":1.0},{"event_id":"evt_3","intra_chapter_order":2,"event_type":"代价显现","narrative_weight":"turning_point","narrative_weight_raw":"本章转折点","enum_reason":"这是本章的转折点，揭示能力代价。","summary":"苏晚在读取记忆后出现剧烈头痛，并发现丢失了部分关于笔记本的记忆。","location":"废弃实验室及走廊","participants":[{"entity_name":"苏晚","role":"actor","confidence":1.0}],"evidence_summary":"苏晚读取记忆后头痛剧烈，之后在走廊试图回忆笔记本内容时发现记忆空白。","evidence_quotes":["一股尖锐的疼痛从太阳穴两侧刺入……","她记不起来了。不是模糊，而是空白。","像是有人用橡皮把她记忆中的那一块擦得干干净净。"],"confidence":1.0},{"event_id":"evt_4","intra_chapter_order":3,"event_type":"保密要求","narrative_weight":"mainline","narrative_weight_raw":"本章主线事件","enum_reason":"这是本章主线事件，推动剧情发展。","summary":"陈默要求苏晚对看到的画面保密，包括对方瑶，并清理操作台痕迹，暗示组织内部有风险。","location":"废弃实验室","participants":[{"entity_name":"陈默","role":"actor","confidence":1.0},{"entity_name":"苏晚","role":"target","confidence":1.0}],"evidence_summary":"陈默要求苏晚不要告诉任何人包括方瑶，并擦拭操作台痕迹。","evidence_quotes":["你刚才看到的画面，不要告诉任何人。包括方瑶。","陈默转身走到墙角，从一个积满灰尘的柜子里翻出一块抹布，开始擦拭操作台上那些明显的指纹痕迹。"],"confidence":1.0}],"interactions":[{"from":"陈默","to":"苏晚","interaction_type":"command","interaction_type_raw":"陈默要求苏晚触碰仪器并保密","impact_level":"high","impact_level_raw":"影响苏晚的能力使用和记忆","polarity":"neutral","polarity_raw":"陈默态度平静，但带有利用性质","enum_reason":"陈默作为上级下达指令，要求苏晚执行任务并保密。","summary":"陈默命令苏晚触碰仪器读取记忆，并要求她对所见保密。","evidence_summary":"陈默让苏晚触碰仪器，并告诉她不要告诉任何人包括方瑶。","evidence_quotes":["我需要你碰一下它。","你刚才看到的画面，不要告诉任何人。包括方瑶。"],"interaction_analysis":"陈默作为上级下达指令，苏晚服从，表现出命令与服从的关系。","confidence":0.9},{"from":"苏晚","to":"陈默","interaction_type":"cooperation","interaction_type_raw":"苏晚听从陈默的指示","impact_level":"medium","impact_level_raw":"苏晚执行任务","polarity":"positive","polarity_raw":"苏晚配合陈默","enum_reason":"苏晚配合陈默的任务安排。","summary":"苏晚听从陈默的指示，戴手套并触碰仪器。","evidence_summary":"苏晚接过手套戴上，并触碰仪器。","evidence_quotes":["苏晚接过手套，动作顿了顿。","苏晚深吸一口气，走到那台仪器前。"],"interaction_analysis":"苏晚配合陈默的任务安排，表现出合作态度。","confidence":0.9},{"from":"苏晚","to":"陈默","interaction_type":"revelation","interaction_type_raw":"苏晚向陈默透露看到的记忆内容","impact_level":"high","impact_level_raw":"揭示关键信息","polarity":"neutral","polarity_raw":"苏晚如实告知","enum_reason":"苏晚向陈默透露关键信息。","summary":"苏晚向陈默透露她通过能力看到的记忆内容，包括父亲被转移至地下和红色标志。","evidence_summary":"苏晚告诉陈默她看到父亲被两人带走转移至地下，以及红色标志。","evidence_quotes":["我看到了。我父亲在这间实验室里操作过那台仪器。有人发现了什么，他被迫转移了。有两个人带他走的，其中一个穿黑色制服，像是……安保人员。","地下。走廊尽头有一扇铁门，门上有个红色标志，门后面是向下的楼梯。"],"interaction_analysis":"苏晚向陈默透露关键信息，表现出信任。","confidence":0.9}],"directed_relations":[{"from":"陈默","to":"苏晚","raw_label":"引导与保护","state_summary":"陈默作为上级引导苏晚完成第一次任务，给予保护性建议，暗示组织内部有风险，要求苏晚对所见保密。","structural_base":"superior_subordinate","structural_base_raw":"陈默作为外勤组长，带苏晚执行任务","dynamic_stance":"protective","dynamic_stance_raw":"陈默让苏晚戴手套、提醒她别逞强、清理操作台、要求保密","enum_reason":"陈默是天枢外勤组长，苏晚是新成员，存在明确的上下级关系；动态上陈默表现出保护性。","evidence_summary":"陈默带苏晚进入废弃实验室，让她触碰仪器，提醒她戴手套、别逞强，清理操作台，要求她不要告诉任何人包括方瑶。","evidence_quotes":["戴上。别留指纹。","记住，只要感受到什么就立刻收手。别逞强。","你刚才看到的画面，不要告诉任何人。包括方瑶。","我在担心你。"],"relation_analysis":"陈默作为上级，在任务中给予苏晚保护性指导，并暗示组织内部有风险，表现出保护性动态。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.9},{"from":"苏晚","to":"陈默","raw_label":"警惕与信任","state_summary":"苏晚在任务中听从陈默的指示，表现出一定信任，但内心对组织内部风险保持警惕。","structural_base":"superior_subordinate","structural_base_raw":"苏晚作为新成员，接受陈默的任务安排","dynamic_stance":"trusting","dynamic_stance_raw":"苏晚听从陈默的指示，戴手套、触碰仪器，并接受他的保密要求","enum_reason":"苏晚作为下属接受陈默的任务安排，动态上表现出信任。","evidence_summary":"苏晚听从陈默的指示戴手套、触碰仪器，接受他的保密要求，并追问组织内部情况。","evidence_quotes":["苏晚接过手套，动作顿了顿。","苏晚深吸一口气，走到那台仪器前。","所以，组织内部……不是铁板一块？"],"relation_analysis":"苏晚在任务中服从陈默的指导，表现出信任，但她的追问显示她保持警惕。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8},{"from":"苏晚","to":"林建国","raw_label":"女儿寻找父亲","state_summary":"苏晚深爱父亲，通过能力读取父亲记忆，试图找到父亲下落，但付出丢失部分记忆的代价。","structural_base":"kinship_parent_child","structural_base_raw":"苏晚是林建国的女儿","dynamic_stance":"protective","dynamic_stance_raw":"苏晚通过能力读取父亲记忆，试图找到父亲下落","enum_reason":"苏晚和林建国是亲生父女，动态上苏晚表现出保护性。","evidence_summary":"苏晚通过触碰仪器读取到父亲在实验室的记忆片段，看到父亲被转移至地下，并试图记住红色标志。","evidence_quotes":["她看到父亲站在这个实验室里，穿着白大褂……","父亲回头看了一眼，嘴唇动了动，像是在说什么。","苏晚看到父亲最后回头的那一眼，眼睛里有一种她从未见过的东西。不是恐惧。是警告。"],"relation_analysis":"苏晚通过能力读取父亲记忆，试图找到父亲下落，表现出保护性。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.9},{"from":"林建国","to":"苏晚","raw_label":"父亲警告女儿","state_summary":"林建国深爱女儿，在记忆片段中通过眼神向苏晚发出警告，暗示不要相信这里的人。","structural_base":"kinship_parent_child","structural_base_raw":"林建国是苏晚的父亲","dynamic_stance":"protective","dynamic_stance_raw":"父亲在记忆片段中眼神带有警告","enum_reason":"林建国和苏晚是亲生父女，动态上父亲表现出保护性。","evidence_summary":"苏晚在记忆片段中看到父亲最后回头时眼神带有警告，苏晚解读为父亲在警告她不要相信这里的人。","evidence_quotes":["苏晚看到父亲最后回头的那一眼，眼睛里有一种她从未见过的东西。不是恐惧。是警告。","父亲在警告她什么。不是不要来找他，而是不要相信这里的人。"],"relation_analysis":"父亲在记忆片段中通过眼神向苏晚发出警告，表现出保护性。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8}],"pair_relations":[{"entity_a":"苏晚","entity_b":"陈默","shared_structural_base":"superior_subordinate","shared_structural_base_raw":"陈默是外勤组长，苏晚是新成员","pair_summary":"陈默作为上级引导苏晚执行任务，苏晚作为下属服从安排，双方存在明确的上下级关系。","evidence_summary":"陈默带苏晚进入废弃实验室，安排她触碰仪器，苏晚听从指示。","evidence_quotes":["陈默带苏晚进入废弃实验室","苏晚接过手套，动作顿了顿。","苏晚深吸一口气，走到那台仪器前。"],"pair_analysis":"陈默作为外勤组长，苏晚作为新成员，存在明确的上下级关系。","shared_intensity_score":50,"confidence":0.9},{"entity_a":"苏晚","entity_b":"林建国","shared_structural_base":"kinship_parent_child","shared_structural_base_raw":"苏晚是林建国的女儿","pair_summary":"苏晚和林建国是亲生父女，关系亲密，彼此关心保护。","evidence_summary":"苏晚通过能力读取父亲记忆，看到父亲被转移至地下，父亲眼神中带有警告。","evidence_quotes":["她看到父亲站在这个实验室里，穿着白大褂……","苏晚看到父亲最后回头的那一眼，眼睛里有一种她从未见过的东西。不是恐惧。是警告。"],"pair_analysis":"苏晚和林建国是亲生父女，关系亲密，彼此关心保护。","shared_intensity_score":50,"confidence":0.9}],"fact_updates":[{"subject":"苏晚","predicate":"能力代价","object_value":"使用能力后会出现剧烈头痛，并丢失部分记忆","summary":"苏晚在读取记忆后出现剧烈头痛，并发现丢失了关于笔记本的部分记忆。","is_state":true,"retracted":false,"confidence":1.0},{"subject":"林建国","predicate":"被转移至地下","object_value":"被两人带走，通过铁门进入向下的楼梯，转移至地下","summary":"苏晚通过能力看到父亲被两人带走，通过一扇有红色标志的铁门进入向下的楼梯，转移至地下。","is_state":true,"retracted":false,"confidence":0.9},{"subject":"林建国","predicate":"警告苏晚","object_value":"通过眼神警告苏晚不要相信这里的人","summary":"苏晚在记忆片段中看到父亲最后回头时眼神带有警告，苏晚解读为父亲在警告她不要相信这里的人。","is_state":true,"retracted":false,"confidence":0.8},{"subject":"天枢组织","predicate":"内部有风险","object_value":"组织内部不是铁板一块，存在派系斗争","summary":"陈默暗示组织内部有风险，要求苏晚保密，并清理操作台痕迹。","is_state":true,"retracted":false,"confidence":0.9}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 父亲的遗物: 苏晚在父亲失踪三年后整理杂物间，发现父亲的手表，触摸后触发记忆片段，看到父亲被灰色西装男子审讯的场景，得知父亲与天枢组织有关。她决定前往西郊科技园区，潜入天枢生物科技研究院，在地下室找到父亲被关押的房间，但被灰色西装男子发现并追捕，最终被迫逃离。
+- 天枢的邀请: 天枢外勤组长陈默突然到访苏晚家，告知她父亲林建国被囚禁在天枢地下二层B107室，并透露苏晚觉醒的能力是找到父亲留下的‘秘法’的关键。陈默以父亲下落为条件邀请苏晚加入天枢，苏晚在目睹父亲受审的记忆片段后同意加入。
+- 能力测试: 苏晚在天枢研究院接受能力测试，触摸手表后感知到工程师的死亡记忆片段，被陈默告知能力代价。随后登记加入天枢，见到科研部主管方瑶，方瑶表面温和但暗中评估苏晚的利用价值，并秘密启动与林建国相关的基因锁计划。苏晚回到宿舍后克制住使用笔记本的冲动，决定先了解组织。
+</recent_summary>
+
+<focus_entities>
+- 林建国
+- 苏晚
+- 陈默
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 苏晚 tier=core score=100 aliases=晓晓, 晚晚 summary=大学生，父亲林建国失踪三年，母亲改嫁后独自生活。勇敢果断，决心寻找父亲。发现父亲的手表后触发记忆片段，潜入天枢研究院试图营救父亲，但被迫逃跑。
+Update: 大学生，父亲林建国失踪三年，母亲改嫁后独自生活。刚觉醒通过触摸物品获取记忆画面的能力，决心救出父亲。
+Update: 大学生，父亲林建国失踪三年，母亲改嫁后独自生活。觉醒感知类异能，能通过触摸物品读取残留记忆。加入天枢组织，决心寻找父亲。
+- 林建国 tier=active score=90 aliases=父亲 summary=前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪。被囚禁在地下室，身体虚弱，通过手表向苏晚传递警告，劝她离开。
+Update: 前国家科学院院士，天枢首席科学家，三年前失踪。被囚禁在地下二层B107室，曾将‘秘法’编码进苏晚的基因中。
+Update: 前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪。被囚禁在地下室，苏晚的父亲。
+- 陈默 tier=active score=80 summary=天枢生物科技研究院外勤组长，三十出头，表情平静，受林建国委托在苏晚能力觉醒后接触她，并引导她加入天枢。
+Update: 天枢组织外勤组长，走路无声，身份不简单。受林建国委托引导苏晚加入天枢，带苏晚进行能力测试，并给予保护性建议。
+</known_entities>
+
+<relevant_relation_history>
+[directed_relation_states]
+- 陈默 -> 苏晚: 引导与招募; 陈默受林建国委托，在苏晚能力觉醒后主动接触她，以父亲下落为条件引导她加入天枢，态度平静但带有利用性质。
+Update: 陈默向苏晚透露父亲被囚禁在天枢地下二层，并展示照片和纸片作为证据。
+Update: 陈默作为上级引导苏晚完成测试，给予保护性建议，暗示组织内部有风险，但态度平静且带有利用性质。
+Update: 陈默在测试后告知苏晚能力代价和使用上限，并暗示不要在摄像头下使用能力。
+- 苏晚 -> 林建国: 女儿寻找父亲; 苏晚深爱父亲，发现父亲被囚禁后不顾危险前往营救，决心坚定。
+Update: 苏晚在地下室找到父亲被关押的房间，隔门对话，确认父亲还活着，父亲劝她离开。
+Update: 苏晚深爱父亲，得知父亲被囚禁后决心加入天枢以救出父亲，情感强烈。
+Update: 苏晚深爱父亲，决心查明真相，但克制自己先了解组织，避免冲动使用能力。
+- 白大褂 -> 林建国: 审讯与折磨; 白大褂代表天枢组织对林建国进行审讯，使用注射手段逼问‘秘法’，态度冷酷。
+Update: 在记忆闪回中，白大褂给林建国注射药物，导致林建国剧烈颤抖和痛苦。
+- 灰色西装男子 -> 林建国: 审讯与威胁; 灰色西装男子代表天枢组织审讯林建国，以女儿安全威胁他交出核心算法。
+Update: 灰色西装男子审讯林建国，以女儿安全威胁他交出核心算法。
+- 灰色西装男子 -> 苏晚: 追捕入侵者; 灰色西装男子发现苏晚潜入后，立即组织保安追捕，意图阻止她。
+Update: 灰色西装男子发现苏晚潜入后，立即组织保安追捕，苏晚被迫逃跑。
+- 苏晚 -> 陈默: 警惕与接受; 苏晚对陈默的突然出现和天枢身份保持高度警惕，但为了救父亲，她选择接受陈默的邀请加入天枢。
+Update: 苏晚在权衡后同意加入天枢，以换取救父的机会。
+- 方瑶 -> 苏晚: 评估与利用; 方瑶表面欢迎苏晚，笑容温和，但眼神中带有审视和评估，将苏晚视为工具，秘密启动与林建国相关的基因锁计划。
+Update: 方瑶与苏晚见面，笑容温和，但眼神审视，苏晚感到不适。
+- 林建国 -> 苏晚: 父亲警告女儿; 林建国担心女儿安全，通过手表传递警告，并在苏晚到达时劝她离开。
+Update: 林建国深爱女儿，在被囚禁期间仍通过陈默传递信息，并在记忆片段中劝苏晚不要来找他，以保护她的安全。
+- 方瑶 -> 林建国: 计划关联; 方瑶与林建国之间存在未明确的关联，她正在启动与林建国相关的基因锁计划。
+- 陈默 -> 林建国: 合作与受托; 陈默与林建国之间存在合作约定，陈默受林建国委托在苏晚能力觉醒后接触她，并传递信息。
+
+[pair_relation_states]
+- 苏晚 <-> 陈默: same_faction; 苏晚同意加入天枢后，与陈默成为同一组织成员，但双方关系尚浅，苏晚保持警惕。
+Update: 陈默向苏晚透露父亲被囚禁在天枢地下二层，并展示照片和纸片作为证据。
+Update: 苏晚在权衡后同意加入天枢，以换取救父的机会。
+Update: 苏晚加入天枢后，与陈默成为同一组织成员，但双方关系尚浅，苏晚保持警惕。
+Update: 陈默在测试后告知苏晚能力代价和使用上限，并暗示不要在摄像头下使用能力。
+- 林建国 <-> 白大褂: unknown; 在记忆闪回中，白大褂给林建国注射药物，导致林建国剧烈颤抖和痛苦。
+- 林建国 <-> 灰色西装男子: opposing_faction; 灰色西装男子代表天枢组织审讯林建国，双方处于敌对阵营。
+Update: 灰色西装男子审讯林建国，以女儿安全威胁他交出核心算法。
+- 林建国 <-> 苏晚: kinship_parent_child; 苏晚和林建国是亲生父女，关系亲密，彼此关心。
+Update: 苏晚在地下室找到父亲被关押的房间，隔门对话，确认父亲还活着，父亲劝她离开。
+Update: 苏晚和林建国是亲生父女，关系亲密，彼此关心保护。
+Update: Entity summary projection: 林建国 and 苏晚 show a kinship_parent_child shared-stru
+...(truncated)
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

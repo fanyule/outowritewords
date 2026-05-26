@@ -1,0 +1,10 @@
+{
+  "summary": "本章无正文内容，仅标题暗示任务简报中存在异常信息。",
+  "entities": [],
+  "directed_relations": [],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "fact_updates": []
+}

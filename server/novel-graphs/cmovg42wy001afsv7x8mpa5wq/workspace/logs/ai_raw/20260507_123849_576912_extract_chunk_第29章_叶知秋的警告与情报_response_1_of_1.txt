@@ -1,0 +1,118 @@
+{
+  "summary": "本章无正文内容，仅标题暗示叶知秋向林小鹿发出警告并提供情报。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["小叶"],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织前台同事，戴眼镜的年轻女人，接待林小鹿，带她到资料室，并告知可以随时找她。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "发出警告与提供情报",
+      "structural_base": "colleague",
+      "structural_base_raw": "同事",
+      "dynamic_stance": "friendly",
+      "dynamic_stance_raw": "友好",
+      "state_summary": "叶知秋作为天衍前台同事，主动向林小鹿发出警告并提供情报，表明她对林小鹿有一定信任或善意。",
+      "enum_reason": "叶知秋主动提供警告和情报，显示友好态度。",
+      "evidence_summary": "标题暗示叶知秋向林小鹿发出警告并提供情报。",
+      "evidence_quotes": ["叶知秋的警告与情报"],
+      "relation_analysis": "叶知秋主动向林小鹿提供警告和情报，表明她愿意帮助林小鹿，关系从普通同事升级为信息提供者。",
+      "confidence": 0.6
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "接受警告与情报",
+      "structural_base": "colleague",
+      "structural_base_raw": "同事",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "信任",
+      "state_summary": "林小鹿作为新员工，接受叶知秋的警告和情报，表明她对叶知秋有一定信任。",
+      "enum_reason": "林小鹿接受叶知秋的警告和情报，显示信任。",
+      "evidence_summary": "标题暗示林小鹿接受叶知秋的警告与情报。",
+      "evidence_quotes": ["叶知秋的警告与情报"],
+      "relation_analysis": "林小鹿接受叶知秋的警告和情报，表明她信任叶知秋，愿意听取她的建议。",
+      "confidence": 0.6
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "叶知秋",
+      "shared_structural_base": "colleague",
+      "shared_structural_base_raw": "同事",
+      "pair_summary": "林小鹿和叶知秋是天衍组织的同事，叶知秋是前台，林小鹿是新入职的组员。",
+      "evidence_summary": "标题暗示两人进行情报交易，关系从普通同事升级为信息交换伙伴。",
+      "evidence_quotes": ["叶知秋的警告与情报"],
+      "pair_analysis": "两人同为天衍组织成员，叶知秋主动提供警告和情报，表明关系进一步深化。",
+      "confidence": 0.6
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt_29_1",
+      "intra_chapter_order": 0,
+      "event_type": "information_exchange",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心",
+      "summary": "叶知秋向林小鹿发出警告并提供情报。",
+      "location": "未知",
+      "enum_reason": "标题直接点明本章核心事件。",
+      "evidence_summary": "标题暗示叶知秋向林小鹿发出警告并提供情报。",
+      "evidence_quotes": ["叶知秋的警告与情报"],
+      "participants": [
+        {"entity_name": "叶知秋", "role": "actor", "confidence": 0.8},
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.8}
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "interactions": [
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "interaction_type": "revelation",
+      "interaction_type_raw": "警告与情报",
+      "impact_level": "high",
+      "impact_level_raw": "高",
+      "polarity": "positive",
+      "polarity_raw": "正面",
+      "summary": "叶知秋主动向林小鹿发出警告并提供情报。",
+      "enum_reason": "叶知秋向林小鹿透露重要信息，属于揭示性互动。",
+      "evidence_summary": "标题暗示叶知秋向林小鹿发出警告并提供情报。",
+      "evidence_quotes": ["叶知秋的警告与情报"],
+      "interaction_analysis": "叶知秋主动提供警告和情报，对林小鹿有正面帮助。",
+      "confidence": 0.6
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "叶知秋",
+      "predicate": "向林小鹿发出警告",
+      "object_value": "警告内容未知",
+      "summary": "叶知秋向林小鹿发出警告，具体内容未知。",
+      "is_state": false,
+      "confidence": 0.6
+    },
+    {
+      "subject": "叶知秋",
+      "predicate": "向林小鹿提供情报",
+      "object_value": "情报内容未知",
+      "summary": "叶知秋向林小鹿提供情报，具体内容未知。",
+      "is_state": false,
+      "confidence": 0.6
+    }
+  ]
+}

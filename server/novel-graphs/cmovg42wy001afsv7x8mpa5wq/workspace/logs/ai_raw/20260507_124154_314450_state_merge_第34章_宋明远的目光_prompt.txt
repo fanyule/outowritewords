@@ -1,0 +1,70 @@
+<chapter_title>
+第34章 宋明远的目光
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第34章 宋明远的目光","analyzed_at":"2026-05-07T12:41:54","summary":"本章无正文内容，仅标题暗示宋明远对林小鹿的关注或审视。","outline":[{"order":0,"text":"本章无正文内容，仅标题暗示宋明远对林小鹿的关注或审视。","involved_names":["宋明远","林小鹿"]}],"entities":[{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"},{"name":"宋明远","aliases":["宋哥"],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。"}],"identity_revelations":[],"events":[{"event_id":"ch34_01","intra_chapter_order":0,"event_type":"unknown","narrative_weight":"detail","narrative_weight_raw":"无正文内容","enum_reason":"无正文内容，仅标题提供信息，权重较低。","summary":"本章无正文内容，仅标题暗示宋明远对林小鹿的关注或审视。","location":"未知","participants":[{"entity_name":"宋明远","role":"actor","confidence":0.6},{"entity_name":"林小鹿","role":"target","confidence":0.6}],"evidence_summary":"标题'宋明远的目光'。","evidence_quotes":["第34章 宋明远的目光"],"confidence":0.5}],"interactions":[],"directed_relations":[{"from":"宋明远","to":"林小鹿","raw_label":"审视与关注","state_summary":"宋明远作为组长对林小鹿保持警惕和审视，可能仍在调查她的背景和动机。","structural_base":"superior_subordinate","structural_base_raw":"组长与组员","dynamic_stance":"wary","dynamic_stance_raw":"试探与不信任","enum_reason":"标题暗示宋明远的目光，结合前文试探行为，选择wary。","evidence_summary":"标题'宋明远的目光'暗示宋明远对林小鹿的关注或审视。","evidence_quotes":["第34章 宋明远的目光"],"relation_analysis":"标题直接指向宋明远对林小鹿的注视，结合前文宋明远的试探行为，表明他仍对林小鹿保持警惕。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.6},{"from":"林小鹿","to":"宋明远","raw_label":"被审视的警惕","state_summary":"林小鹿作为下属对上司宋明远的审视保持警惕，可能正在准备应对策略。","structural_base":"superior_subordinate","structural_base_raw":"下属与上司","dynamic_stance":"wary","dynamic_stance_raw":"被试探的警惕","enum_reason":"标题暗示宋明远的目光，林小鹿作为被审视方，结合前文警惕态度，选择wary。","evidence_summary":"标题'宋明远的目光'暗示林小鹿被宋明远关注或审视。","evidence_quotes":["第34章 宋明远的目光"],"relation_analysis":"标题暗示林小鹿处于被审视的位置，结合前文她对宋明远的警惕，保持wary stance。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.6}],"pair_relations":[{"entity_a":"林小鹿","entity_b":"宋明远","shared_structural_base":"superior_subordinate","shared_structural_base_raw":"组长与组员","pair_summary":"林小鹿和宋明远是天衍组织中的上下级关系，宋明远是组长，林小鹿是新入职的组员。","evidence_summary":"前文已建立上下级关系，本章标题暗示宋明远对林小鹿的关注。","evidence_quotes":["第34章 宋明远的目光"],"pair_analysis":"标题强化了上下级关系中的审视动态，但未改变基本结构。","shared_intensity_score":50,"confidence":0.7}],"fact_updates":[],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第31章 废弃工厂的暗语: 本章无正文内容，仅标题暗示林小鹿前往废弃工厂并解读暗语。
+- 第32章 目标临终前的低语: 本章无正文内容，仅标题暗示林小鹿在废弃工厂中听到目标临终前的低语，可能获得关键信息。
+- 第33章 战利品中的另一条线索: 本章无正文内容，仅标题暗示林小鹿在战利品中发现另一条线索。
+</recent_summary>
+
+<focus_entities>
+- 宋明远
+- 林小鹿
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=100 aliases=小鹿 summary=女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，加入天衍组织寻找父亲。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她主动争取某事。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她将接受新任务，前往废弃研究所。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中与叶知秋进行情报交易。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她通过金属盒发现线索。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她发现代号并转向主动行动。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在考试周遇到紧急任务。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她面临紧急情况，需要同时处理三条任务线。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有意外发现。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中接受叶知秋的警告与情报。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中面临双重压力并做出决断。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她前往废弃工厂并解读暗语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在废弃工厂中听到目标临终前的低语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在战利品中发现另一条线索。
+- 宋明远 tier=active score=65 aliases=宋哥 summary=天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。
+Update: 天衍组织组长，林小鹿的上司，面试并安排林小鹿入职，对林小鹿进行试探。
+Update: 天衍组织外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。
+Update: 天衍组织组长，林小鹿的上司，面试并安排林小鹿入职。
+Update: 天衍组织组长，林小鹿的上司，面试并安排林小鹿入职，暗中调查她的背景。
+Update: 天衍组织组长，对林小鹿进行试探。
+Update: 天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。本章中试探升级。
+</known_entities>
+
+<relevant_relation_history>
+[directed_relation_states]
+- 叶知秋 -> 林小鹿: 暗示; 叶知秋作为前台同事对林小鹿友好，主动提供帮助。
+Update: 叶知秋作为前台同事，对林小鹿保持友好态度，并主动提供善意提醒。
+Update: 叶知秋对林小鹿进行善意提醒，具体内容未知。
+Update: 叶知秋对林小鹿进行暗示，可能提供重要信息或提醒。
+Update: 叶知秋作为前台同事对林小鹿友好，主动提供帮助和暗示。
+Update: 叶知秋作为前台同事，与林小鹿进行情报交易，表明叶知秋对林小鹿有一定信任或利益考量。
+Update: 叶知秋作为天衍前台同事，主动向林小鹿发出警告并提供情报，表明她对林小鹿有一定信任或善意。
+Update: 叶知秋主动向林小鹿发出警告并提供情报。
+- 林小鹿 -> 叶知秋: 接受提醒; 林小鹿与叶知秋是同事关系，但林小鹿对叶知秋保持基本礼貌，没有深入互动。
+Update: 叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。
+Update: 林小鹿作为新员工，对叶知秋的提醒保持基本礼貌，但具体反应未知。
+Update: 林小鹿作为新员工对叶知秋的提醒保持基本礼貌，但具体反应未知。
+Update: 林小鹿与叶知秋是天衍组织的同事，本章标题暗示林小鹿主动与叶知秋进行情报交易，表明林小鹿对叶知秋有一定信任。
+Update: 林小鹿与叶知秋进行情报交易，具体内容未知。
+Update: 林小鹿作为新员工，接受叶知秋的警告和情报，表明她对叶知秋有一定信任。
+- 林小鹿 -> 宋明远: 被试探的警惕; 林小鹿作为新员工对上司宋明远保持警惕，怀疑他在调查自己。
+Update: 宋明远面试林小鹿，询问她的背景和动机，林小鹿用准备好的说辞应对，成功入职。
+Update: 林小鹿作为下属对宋明远的突然关心可能保持警惕或疑惑，但具体反应
+...(truncated)
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

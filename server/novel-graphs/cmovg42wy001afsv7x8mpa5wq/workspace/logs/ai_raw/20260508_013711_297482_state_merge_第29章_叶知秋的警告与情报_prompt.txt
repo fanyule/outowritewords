@@ -1,0 +1,59 @@
+<chapter_title>
+第29章 叶知秋的警告与情报
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第29章 叶知秋的警告与情报","analyzed_at":"2026-05-08T01:37:11","summary":"本章无正文内容，仅标题暗示叶知秋向林小鹿发出警告并提供情报。","outline":[{"order":0,"text":"叶知秋向林小鹿发出警告并提供情报。","involved_names":["叶知秋","林小鹿"]}],"entities":[{"name":"叶知秋","aliases":["叶","叶姐","小叶"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"天衍组织的前台接待员，年轻女性，戴眼镜，穿白色衬衫和深色长裤。曾因哥哥失踪而对林小鹿产生保护欲，主动提供情报和警告。"},{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。对叶知秋保持礼貌配合，但内心高度警惕。"}],"identity_revelations":[],"events":[{"event_id":"e1","intra_chapter_order":0,"event_type":"warning","narrative_weight":"core","narrative_weight_raw":"标题核心事件","enum_reason":"标题明确为本章核心内容。","summary":"叶知秋向林小鹿发出警告并提供情报。","location":"未知","participants":[{"entity_name":"叶知秋","role":"actor","confidence":0.9},{"entity_name":"林小鹿","role":"target","confidence":0.9}],"evidence_summary":"标题暗示叶知秋向林小鹿发出警告并提供情报。","evidence_quotes":["叶知秋的警告与情报"],"confidence":0.7}],"interactions":[{"from":"叶知秋","to":"林小鹿","interaction_type":"revelation","interaction_type_raw":"发出警告与提供情报","impact_level":"high","impact_level_raw":"警告与情报可能影响林小鹿后续行动","polarity":"positive","polarity_raw":"叶知秋主动提供帮助","enum_reason":"叶知秋主动向林小鹿透露重要信息，属于揭示性互动。","summary":"叶知秋向林小鹿发出警告并提供情报。","evidence_summary":"标题暗示叶知秋向林小鹿发出警告并提供情报。","evidence_quotes":["叶知秋的警告与情报"],"interaction_analysis":"叶知秋主动向林小鹿发出警告并提供情报，表明她对林小鹿有一定信任或善意。","confidence":0.7}],"directed_relations":[{"from":"叶知秋","to":"林小鹿","raw_label":"发出警告与提供情报","state_summary":"叶知秋作为天衍前台同事，对林小鹿保持友好和保护态度，曾主动提供情报和警告。本章标题暗示双方信任进一步巩固，但存在暗流。","structural_base":"colleague","structural_base_raw":"天衍组织前台同事","dynamic_stance":"protective","dynamic_stance_raw":"主动冒险警告并分享秘密","enum_reason":"叶知秋主动向林小鹿发出警告并提供情报，表明她对林小鹿有一定信任或善意，动机不明但带有保护倾向。","evidence_summary":"标题暗示叶知秋向林小鹿发出警告并提供情报。","evidence_quotes":["叶知秋的警告与情报"],"relation_analysis":"叶知秋作为天衍前台同事，对林小鹿保持友好和保护态度，曾主动提供情报和警告。本章标题暗示双方信任进一步巩固，但存在暗流。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.7},{"from":"林小鹿","to":"叶知秋","raw_label":"接受警告与情报","state_summary":"林小鹿对叶知秋保持信任，接受其提供的情报和帮助，并据此调整自己的行动。","structural_base":"colleague","structural_base_raw":"天衍组织前台同事","dynamic_stance":"trusting","dynamic_stance_raw":"接受叶知秋的警告并追问细节","enum_reason":"林小鹿接受叶知秋的警告，并追问更多信息，表现出对叶知秋的信任。","evidence_summary":"标题暗示林小鹿接受叶知秋的警告与情报。","evidence_quotes":["叶知秋的警告与情报"],"relation_analysis":"林小鹿对叶知秋保持信任，接受其提供的情报和帮助，并据此调整自己的行动。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.7}],"pair_relations":[{"entity_a":"叶知秋","entity_b":"林小鹿","shared_structural_base":"colleague","shared_structural_base_raw":"天衍组织前台同事","pair_summary":"叶知秋和林小鹿是天衍组织的同事关系，叶知秋作为前台接待员，林小鹿作为新成员。","evidence_summary":"标题暗示双方进行情报交易，信任进一步巩固。","evidence_quotes":["叶知秋的警告与情报"],"pair_analysis":"叶知秋和林小鹿是天衍组织的同事关系，叶知秋作为前台接待员，林小鹿作为新成员。本章标题暗示双方信任进一步巩固，但存在暗流。","shared_intensity_score":50,"confidence":0.7}],"fact_updates":[{"subject":"叶知秋","predicate":"向林小鹿发出警告并提供情报","object_value":"警告与情报内容未知","summary":"叶知秋向林小鹿发出警告并提供情报。","is_state":false,"retracted":false,"confidence":0.7}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第32章 目标临终前的低语: 本章无正文内容，仅标题暗示林小鹿在废弃工厂中听到目标临终前的低语，可能获得关键信息。
+- 第33章 战利品中的另一条线索: 本章无正文内容，仅标题暗示林小鹿在战利品中发现另一条线索。
+- 第34章 宋明远的目光: 本章无正文内容，仅标题暗示宋明远对林小鹿的关注或审视。
+</recent_summary>
+
+<focus_entities>
+- 叶知秋
+- 林小鹿
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=100 aliases=小鹿 summary=女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她按照笔记本地址找到咖啡馆，获得新线索，并发现被跟踪。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，她按照父亲笔记本的指引来到旧书店街17号，通过暗号进入天衍组织基地，接受基础异能检测和定向检测。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月后加入天衍组织。本章通过异能检测，成为外围成员，领取临时证件和初始任务。对组织保持警惕，内心思念父亲。
+Update: 女大学生，外院大二英语专业，父亲失踪后加入天衍组织，决心寻找父亲。本章中她作为新员工被安排整理档案，暗中寻找父亲线索。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，加入天衍组织寻找父亲。本章中她整理档案时发现青石镇调查纪要，被宋明远试探，收到匿名警告，凌晨撤离住处。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她执行组织任务，同时面临考试压力和组织内部的信任危机。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。本章中接受叶知秋的警告与情报。
+Update: 女大学生，外院大二英语专业，父亲失踪后加入天衍组织，决心寻找父亲。本章中她主动向组长宋明远申请升级任务，获得C级任务外围工作机会。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她接到新任务，目标地点为废弃研究所。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在残页上发现暗语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有异常发现。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她成为宋明远试探的对象。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中与叶知秋进行情报交易。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在金属盒背后发现线索。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在伪装下进行紧急行动。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她获得代号并转向主动行动。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在考试周遇到紧急任务。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在打工时被老板突然查岗。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她面临紧急情况，需要同时处理三条任务线。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有意外发现。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中面临宋明远的试探升级。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中接受叶知秋的警告与情报。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中面临双重压力并做出决断。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她前往废弃工厂并解读暗语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在废弃工厂中听到目标临终前的低语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在战利品中发现另一条线索。
+- 叶知秋 tier=core score=78 aliases=叶, 叶姐, 小叶 summary=天衍的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。
+Update: 天衍组织的前台接待员，负责林小鹿的接待和初步评估，年轻女性，穿白色衬衫和深
+...(truncated)
+</known_entities>
+
+<relevant_relation_history>
+
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

@@ -1,0 +1,66 @@
+{
+  "summary": "本章暂无正文内容，仅标题暗示宋明远对林小鹿的试探进一步升级。",
+  "entities": [
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥", "宋组长"],
+      "chapter_role": "protagonist",
+      "summary": "天衍组织外勤组长，四十岁上下，灰色夹克，短发，声音沙哑。本章标题暗示他对林小鹿的试探升级。"
+    },
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿", "林远舟的女儿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她面临宋明远升级的试探。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "试探升级",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "外勤组长与下属",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "怀疑和试探",
+      "state_summary": "宋明远作为天衍外勤组长，对林小鹿保持职业性的怀疑和试探，本章标题暗示试探进一步升级。",
+      "enum_reason": "宋明远是林小鹿的上司，属于上下级关系；动态立场为警惕，因为他持续试探林小鹿。",
+      "evidence_summary": "标题明确提到'宋明远的试探升级'。",
+      "evidence_quotes": ["第28章 宋明远的试探升级"],
+      "relation_analysis": "标题直接表明宋明远对林小鹿的试探行为升级，结合已知的上下级关系，动态立场为警惕。",
+      "confidence": 0.8
+    }
+  ],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "e1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "本章暂无正文内容",
+      "enum_reason": "无正文内容，仅标题提供信息，属于细节性事件。",
+      "summary": "本章暂无正文内容，仅标题暗示宋明远对林小鹿的试探升级。",
+      "location": "未知",
+      "evidence_summary": "标题'第28章 宋明远的试探升级'。",
+      "evidence_quotes": ["第28章 宋明远的试探升级"],
+      "participants": [
+        {"entity_name": "宋明远", "role": "actor", "confidence": 0.8},
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.8}
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "宋明远",
+      "predicate": "试探升级",
+      "object_value": "对林小鹿的试探进一步升级",
+      "summary": "标题暗示宋明远对林小鹿的试探行为升级。",
+      "is_state": true,
+      "confidence": 0.8
+    }
+  ]
+}

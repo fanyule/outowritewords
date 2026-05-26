@@ -1,0 +1,93 @@
+{
+  "summary": "本章无正文内容，仅标题暗示宋明远对林小鹿的试探升级。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中面临宋明远的试探升级。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥", "宋组长"],
+      "chapter_role": "major_actor",
+      "summary": "天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。本章中对林小鹿的试探升级。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "试探升级",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "宋明远是天衍的外勤组长，林小鹿是新成员",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "宋明远对林小鹿的接头方式有疑问，背景调查更严格",
+      "state_summary": "宋明远作为林小鹿的上司，对她的背景和动机保持警惕，试探行为升级。",
+      "enum_reason": "宋明远是组长，林小鹿是下属，属于上下级关系；动态立场选择wary，因为标题明确表示试探升级，表明不信任。",
+      "evidence_summary": "标题暗示宋明远对林小鹿的试探升级。",
+      "evidence_quotes": ["第28章 宋明远的试探升级"],
+      "relation_analysis": "标题直接表明宋明远对林小鹿的试探行为升级，结合已知背景，宋明远对林小鹿的接头方式有疑问，背景调查更严格，因此动态立场为警惕。",
+      "confidence": 0.7
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "被试探",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "林小鹿是天衍新成员，宋明远是组长",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "林小鹿对宋明远的试探保持警惕",
+      "state_summary": "林小鹿作为新成员，对宋明远的试探保持警惕，但具体反应未知。",
+      "enum_reason": "林小鹿是下属，宋明远是上级，属于上下级关系；动态立场选择wary，因为标题暗示试探升级，林小鹿可能处于被动警惕状态。",
+      "evidence_summary": "标题暗示林小鹿面临宋明远的试探升级。",
+      "evidence_quotes": ["第28章 宋明远的试探升级"],
+      "relation_analysis": "标题表明宋明远对林小鹿的试探升级，林小鹿作为被试探方，动态立场应为警惕。",
+      "confidence": 0.6
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "宋明远",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "宋明远是组长，林小鹿是新成员",
+      "pair_summary": "宋明远和林小鹿是天衍组织内的上下级关系，宋明远对林小鹿的试探升级。",
+      "evidence_summary": "标题暗示试探升级，结合已知背景，宋明远是林小鹿的上司。",
+      "evidence_quotes": ["第28章 宋明远的试探升级"],
+      "pair_analysis": "标题直接表明宋明远对林小鹿的试探升级，结合已知背景，两人是上下级关系，因此共享结构为superior_subordinate。",
+      "confidence": 0.7
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt_28_1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "本章无正文内容，仅标题暗示试探升级",
+      "summary": "本章无正文内容，仅标题暗示宋明远对林小鹿的试探升级。",
+      "location": "未知",
+      "enum_reason": "本章无正文内容，仅标题提供信息，属于细节性提示。",
+      "evidence_summary": "标题为'第28章 宋明远的试探升级'。",
+      "evidence_quotes": ["第28章 宋明远的试探升级"],
+      "participants": [
+        {"entity_name": "宋明远", "role": "actor", "confidence": 0.7},
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.7}
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "宋明远",
+      "predicate": "对林小鹿的试探升级",
+      "object_value": "试探升级",
+      "summary": "标题暗示宋明远对林小鹿的试探行为升级。",
+      "is_state": true,
+      "confidence": 0.7
+    }
+  ]
+}

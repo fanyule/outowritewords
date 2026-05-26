@@ -1,0 +1,212 @@
+{
+  "summary": "林小鹿完成C级任务后获得B+评分和C级权限升级卡。她利用权限查询“夜枭”档案，发现需要B级权限，但通过物理存档找到X-47档案，发现关键页被撕毁，仅剩摘要提及“实验体‘麒麟’”。她发现父亲以“夜枭”代号参与三年前的回收行动。离开时察觉门外有脚步声，并看到宋明远的车停在楼下。她决定明天赴约旧书店街17号。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "天衍组织外围成员，C级权限，外院大二学生，父亲失踪，正在秘密调查父亲下落。"
+    },
+    {
+      "name": "赵姐",
+      "aliases": [],
+      "chapter_role": "supporting",
+      "summary": "天衍组织行政办公室人员，负责积分结算和权限升级发放。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋组长"],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织外勤组长，对林小鹿保持监督和试探，本章中其车辆出现在档案室楼下。"
+    },
+    {
+      "name": "林父",
+      "aliases": ["林远舟", "父亲", "陈默", "夜枭"],
+      "chapter_role": "mentioned",
+      "summary": "林小鹿失踪的父亲，曾以代号“夜枭”参与天衍组织的“麒麟”项目和三年前的回收行动。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "高度警惕与怀疑",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "宋明远是外勤组长，林小鹿是外围成员",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "林小鹿对宋明远的突然出现和车辆感到不安，怀疑他在监视自己",
+      "state_summary": "林小鹿对宋明远保持高度警惕，认为他在暗中监视自己，并怀疑其动机。",
+      "enum_reason": "林小鹿发现宋明远的车停在楼下，且之前叶知秋警告过她小心宋明远，表明不信任。",
+      "evidence_summary": "林小鹿下楼时看到宋明远的黑色越野车停在门外，驾驶座有红光（抽烟），她感到心脏猛跳但保持镇定。",
+      "evidence_quotes": ["林小鹿的心脏猛跳了一下", "她余光瞥见那辆黑色越野车的驾驶座上，有一点红光在明灭——有人在抽烟。"],
+      "relation_analysis": "林小鹿对宋明远的警惕从之前的试探升级为怀疑监视，动态立场从不信任转为更深的怀疑。",
+      "confidence": 0.85
+    },
+    {
+      "from": "林小鹿",
+      "to": "林父",
+      "raw_label": "追寻与依赖",
+      "structural_base": "kinship_parent_child",
+      "structural_base_raw": "林小鹿是林父的女儿",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "林小鹿积极寻找父亲的下落，保护父亲留下的线索",
+      "state_summary": "林小鹿通过档案发现父亲以代号“夜枭”参与三年前的行动，决心继续追查。",
+      "enum_reason": "林小鹿发现父亲代号和行动记录后，更加坚定寻找父亲，表现出保护性动机。",
+      "evidence_summary": "林小鹿从X-47档案中确认父亲代号“夜枭”参与回收“麒麟”遗留物的行动，并发现关键页被撕毁。",
+      "evidence_quotes": ["父亲在那个废弃研究所参与过“麒麟”项目，使用代号“夜枭”。", "林小鹿的指尖发凉。"],
+      "relation_analysis": "林小鹿对父亲的追寻从模糊线索变为具体行动记录，依赖感增强。",
+      "confidence": 0.9
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "林父",
+      "shared_structural_base": "kinship_parent_child",
+      "shared_structural_base_raw": "林小鹿是林父的女儿",
+      "pair_summary": "父女关系，林小鹿正在秘密调查父亲失踪的真相。",
+      "evidence_summary": "林小鹿通过档案确认父亲代号“夜枭”，并发现其参与三年前的行动。",
+      "evidence_quotes": ["父亲在那个废弃研究所参与过“麒麟”项目，使用代号“夜枭”。"],
+      "pair_analysis": "父女关系是稳定的血缘关系，本章进一步确认了父亲的组织身份。",
+      "confidence": 0.95
+    }
+  ],
+  "identity_revelations": [
+    {
+      "source_name": "夜枭",
+      "target_name": "林父",
+      "revelation_type": "codename",
+      "evidence": "林小鹿从X-47档案和残页中确认父亲使用代号“夜枭”参与麒麟项目和三年前的回收行动。",
+      "confidence": 0.9
+    }
+  ],
+  "events": [
+    {
+      "event_id": "evt1",
+      "intra_chapter_order": 0,
+      "event_type": "任务结算与权限升级",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "林小鹿获得B+评分和C级权限卡",
+      "enum_reason": "这是本章的起点事件，推动后续剧情发展。",
+      "summary": "林小鹿在行政办公室找赵姐结算任务积分，获得B+评分和C级权限升级卡。",
+      "location": "三楼行政办公室",
+      "evidence_summary": "赵姐给林小鹿积分明细和蓝色权限卡，告知C级权限可访问外围任务数据库。",
+      "evidence_quotes": ["这是你的权限升级卡。从D级升到C级。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "赵姐", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt2",
+      "intra_chapter_order": 1,
+      "event_type": "档案查询与发现",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "林小鹿发现X-47档案关键页被撕毁",
+      "enum_reason": "这是本章的核心转折点，林小鹿获得关键线索。",
+      "summary": "林小鹿利用C级权限查询“夜枭”档案，发现需要B级权限，但通过物理存档找到X-47档案，发现关键页被撕毁，仅剩摘要提及“实验体‘麒麟’”。",
+      "location": "三楼档案室",
+      "evidence_summary": "林小鹿搜索“夜枭”得到一条结果但无法访问，通过关联档案室编号找到物理档案，发现第二页及之后被撕毁。",
+      "evidence_quotes": ["搜索结果：1条。匹配文件：行动记录-编号X-47。权限要求：B级。当前权限：C级——无法访问。", "第二页是空白的。不，不是空白。纸张边缘有明显的撕痕。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt3",
+      "intra_chapter_order": 2,
+      "event_type": "发现父亲代号",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "林小鹿确认父亲代号“夜枭”",
+      "enum_reason": "这是本章的关键揭示，连接父亲失踪和组织秘密。",
+      "summary": "林小鹿结合残页和档案摘要，确认父亲以代号“夜枭”参与麒麟项目和三年前的回收行动。",
+      "location": "三楼档案室",
+      "evidence_summary": "林小鹿从残页上看到“夜枭”落款，与档案中的行动代号一致。",
+      "evidence_quotes": ["落款是一个手写的代号：“夜枭”。", "父亲在那个废弃研究所参与过“麒麟”项目，使用代号“夜枭”。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "林父", "role": "mentioned", "confidence": 0.9}
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "evt4",
+      "intra_chapter_order": 3,
+      "event_type": "察觉监视",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "林小鹿察觉门外脚步声和宋明远的车",
+      "enum_reason": "这是本章的悬念事件，增加紧张感。",
+      "summary": "林小鹿离开档案室时听到门外脚步声，下楼后发现宋明远的黑色越野车停在门外，驾驶座有人抽烟。",
+      "location": "三楼走廊及一楼大厅",
+      "evidence_summary": "林小鹿在门内听到脚步声停在楼梯口，下楼后看到宋明远的车。",
+      "evidence_quotes": ["门外传来轻微的脚步声。", "一辆黑色的越野车。宋明远的车。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "宋明远", "role": "mentioned", "confidence": 0.8}
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "interactions": [
+    {
+      "from": "林小鹿",
+      "to": "赵姐",
+      "interaction_type": "daily_interaction",
+      "interaction_type_raw": "任务结算对话",
+      "impact_level": "low",
+      "impact_level_raw": "日常行政交流",
+      "polarity": "neutral",
+      "polarity_raw": "职业化对话",
+      "enum_reason": "这是日常行政互动，没有强烈情感或冲突。",
+      "summary": "林小鹿找赵姐结算任务积分，赵姐告知评分和扣分项，并发放权限升级卡。",
+      "evidence_summary": "赵姐给林小鹿积分明细和蓝色权限卡，林小鹿表示感谢。",
+      "evidence_quotes": ["“来了？”赵姐头也不抬", "“谢谢赵姐。”"],
+      "interaction_analysis": "职业化的上下级互动，林小鹿表现出好学态度以掩饰真实目的。",
+      "confidence": 1.0
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "权限等级",
+      "object_value": "C级",
+      "summary": "林小鹿从D级升到C级，可访问外围任务数据库和基础装备申领系统。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林父",
+      "predicate": "组织代号",
+      "object_value": "夜枭",
+      "summary": "林父以代号“夜枭”参与天衍组织的“麒麟”项目和三年前的回收行动。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "X-47档案",
+      "predicate": "状态",
+      "object_value": "关键页被撕毁",
+      "summary": "X-47档案的封面和第一页摘要保留，其余页被撕毁。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "目标",
+      "object_value": "三个月内从C级升到B级",
+      "summary": "林小鹿需要在三个月内升到B级才能查看完整X-47档案。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "下一步行动",
+      "object_value": "明天下午三点赴约旧书店街17号",
+      "summary": "林小鹿决定明天下午三点去旧书店街17号见发短信的人。",
+      "is_state": false,
+      "confidence": 1.0
+    }
+  ]
+}

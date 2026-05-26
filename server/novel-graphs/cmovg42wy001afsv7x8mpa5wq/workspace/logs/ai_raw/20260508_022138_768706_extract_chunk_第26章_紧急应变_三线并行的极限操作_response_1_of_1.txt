@@ -1,0 +1,43 @@
+{
+  "summary": "本章暂无正文内容，仅标题暗示林小鹿面临紧急情况，需要三线并行操作，可能涉及同时应对多个危机或任务。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿", "林远舟的女儿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她面临紧急情况，需要三线并行操作。"
+    }
+  ],
+  "directed_relations": [],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "e1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "本章暂无正文内容",
+      "summary": "本章暂无正文内容，仅标题暗示林小鹿面临紧急情况，需要三线并行操作。",
+      "location": null,
+      "enum_reason": "本章无正文内容，仅标题提供信息，故选择detail。",
+      "evidence_summary": "本章暂无正文内容。",
+      "evidence_quotes": [],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 0.5}
+      ],
+      "confidence": 0.1
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "面临紧急情况",
+      "object_value": "三线并行的极限操作",
+      "summary": "本章标题暗示林小鹿需要同时处理三条线索或任务，可能涉及紧急应变。",
+      "is_state": true,
+      "confidence": 0.3
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+<chapter_title>
+方瑶的局
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"方瑶的局","analyzed_at":"2026-05-08T12:11:32","summary":"方瑶以调查十年前组织事故为名，引导苏晚触碰父亲遗物钢笔，触发记忆闪回：父亲林建国因拒绝参与‘秘法’实验、拒绝提供基因锁方案而遭威胁。苏晚隐瞒真实所见，意识到方瑶在试探自己的能力边界，决定按计划与陈默潜入地下三层营救父亲。","outline":[{"order":0,"text":"方瑶以调查十年前组织事故为名，引导苏晚触碰父亲遗物钢笔，触发记忆闪回。","involved_names":["苏晚","方瑶"]},{"order":1,"text":"苏晚通过能力看到父亲因拒绝参与秘法实验、拒绝提供基因锁方案而被组织威胁。","involved_names":["苏晚","林建国"]},{"order":2,"text":"苏晚隐瞒真实所见，只告诉方瑶看到碎片，决定不暴露父亲的信息。","involved_names":["苏晚","方瑶"]},{"order":3,"text":"苏晚回到宿舍后整理信息，决定按计划与陈默潜入地下三层营救父亲。","involved_names":["苏晚"]}],"entities":[{"name":"苏晚","aliases":["晓晓","晚晚"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"大学生，父亲林建国失踪三年，能力为触觉类感知。加入天枢后为救父而行动，对组织保持警惕。"},{"name":"方瑶","aliases":[],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天枢科研部主管，在组织工作六年，从底层升至主管。以调查旧事故为名引导苏晚触碰遗物，实则试探苏晚能力边界。"},{"name":"林建国","aliases":["父亲"],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"前国家科学院院士，天枢首席科学家，三年前失踪。因拒绝参与‘秘法’实验、拒绝提供基因锁方案而被囚禁。"},{"name":"陈默","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"天枢外勤组长，受林建国委托接触苏晚，承诺协助营救父亲。"}],"identity_revelations":[],"events":[{"event_id":"evt_1","intra_chapter_order":0,"event_type":"meeting","narrative_weight":"core","narrative_weight_raw":"核心事件，推动主线","enum_reason":"该事件直接揭示父亲被囚禁的原因，是本章核心情节。","summary":"方瑶以调查十年前组织事故为名，引导苏晚触碰父亲遗物钢笔，触发记忆闪回。","location":"天枢研究院地下仓库","participants":[{"entity_name":"苏晚","role":"actor","confidence":1.0},{"entity_name":"方瑶","role":"actor","confidence":1.0}],"evidence_summary":"方瑶拿出钢笔，苏晚触碰后看到父亲与冷声音的对话，父亲拒绝提供基因锁方案。","evidence_quotes":["‘实验体不是工具，他们是人。’","‘我不会帮你们做这种事。’"],"confidence":0.95},{"event_id":"evt_2","intra_chapter_order":1,"event_type":"revelation","narrative_weight":"turning_point","narrative_weight_raw":"转折点，揭示父亲被囚禁的真正原因","enum_reason":"该事件改变了苏晚对父亲被囚禁原因的认知，是情节转折点。","summary":"苏晚通过能力看到父亲因拒绝参与秘法实验、拒绝提供基因锁方案而被组织威胁。","location":"天枢研究院地下仓库","participants":[{"entity_name":"苏晚","role":"actor","confidence":1.0},{"entity_name":"林建国","role":"target","confidence":0.9}],"evidence_summary":"记忆闪回中父亲与冷声音争吵，父亲拒绝合作，冷声音威胁‘那你就别怪我们了’。","evidence_quotes":["‘所以我们需要你的基因锁方案。’","‘那你就别怪我们了。’"],"confidence":0.9},{"event_id":"evt_3","intra_chapter_order":2,"event_type":"deception","narrative_weight":"mainline","narrative_weight_raw":"主线情节，苏晚隐瞒真实所见","enum_reason":"苏晚的隐瞒是本章关键决策，属于欺骗行为。","summary":"苏晚隐瞒真实所见，只告诉方瑶看到碎片，决定不暴露父亲的信息。","location":"天枢研究院地下仓库","participants":[{"entity_name":"苏晚","role":"actor","confidence":1.0},{"entity_name":"方瑶","role":"target","confidence":1.0}],"evidence_summary":"苏晚撒谎说只看到碎片，内心决定不把真实情况告诉方瑶。","evidence_quotes":["‘碎片。’苏晚说，‘很乱的碎片，看不清具体内容。’","她撒谎了。但直觉告诉她，不能把真实情况告诉方瑶。"],"confidence":0.95},{"event_id":"evt_4","intra_chapter_order":3,"event_type":"planning","narrative_weight":"detail","narrative_weight_raw":"细节，为后续行动铺垫","enum_reason":"该事件为后续行动做铺垫，属于细节。","summary":"苏晚回到宿舍后整理信息，决定按计划与陈默潜入地下三层营救父亲。","location":"苏晚宿舍","participants":[{"entity_name":"苏晚","role":"actor","confidence":1.0}],"evidence_summary":"苏晚拿出陈默给的地图，确认明天晚上八点通过通风管道潜入地下三层X区07号房间。","evidence_quotes":["明天晚上八点，她要和陈默一起，通过通风管道潜入那里。"],"confidence":0.9}],"interactions":[{"from":"方瑶","to":"苏晚","interaction_type":"deception","interaction_type_raw":"方瑶以调查旧事故为名，实则试探苏晚能力","impact_level":"high","impact_level_raw":"直接影响苏晚对父亲真相的认知和后续行动","polarity":"negative","polarity_raw":"方瑶的试探带有利用性质，苏晚感到不对","enum_reason":"方瑶表面合作，实则隐藏真实目的，属于欺骗。","summary":"方瑶以调查十年前组织事故为名，引导苏晚触碰父亲遗物钢笔，实则试探苏晚的能力边界。","evidence_summary":"方瑶说‘我想知道真相’，但苏晚觉得‘太合情理了，反而让她觉得不对’；苏晚事后意识到方瑶在试探。","evidence_quotes":["‘我想知道真相。’","‘太合情理了，反而让她觉得不对’"],"interaction_analysis":"方瑶利用职务之便设局，苏晚察觉并隐瞒，形成单向的欺骗与警惕互动。","confidence":0.85},{"from":"苏晚","to":"方瑶","interaction_type":"deception","interaction_type_raw":"苏晚隐瞒真实所见","impact_level":"high","impact_level_raw":"保护父亲信息，影响后续信任关系","polarity":"negative","polarity_raw":"苏晚不信任方瑶，选择隐瞒","enum_reason":"苏晚故意隐瞒真实情况，属于欺骗。","summary":"苏晚撒谎说只看到碎片，隐瞒了父亲和秘法的真实信息。","evidence_summary":"苏晚说‘很乱的碎片，看不清具体内容’，内心决定不告诉方瑶真相。","evidence_quotes":["‘碎片。’苏晚说","她撒谎了。但直觉告诉她，不能把真实情况告诉方瑶。"],"interaction_analysis":"苏晚察觉方瑶的试探意图，选择隐瞒，形成双向欺骗互动。","confidence":0.9}],"directed_relations":[{"from":"方瑶","to":"苏晚","raw_label":"试探与利用","state_summary":"方瑶作为科研部主管，以调查旧事故为名引导苏晚触碰遗物，实则试探苏晚的能力边界和反应。苏晚对方瑶保持警惕，隐瞒真实所见。","structural_base":"superior_subordinate","structural_base_raw":"方瑶是科研部主管，苏晚是组织新成员","dynamic_stance":"distrustful","dynamic_stance_raw":"方瑶设局试探苏晚能力边界，苏晚感到不对","enum_reason":"方瑶是科研部主管，苏晚是组织新成员，存在上下级关系；方瑶的试探行为表明她不信任苏晚，带有利用性质。","evidence_summary":"方瑶以调查十年前事故为名，引导苏晚触碰父亲遗物钢笔；苏晚感到‘太合情理了，反而让她觉得不对’；苏晚撒谎隐瞒真实所见。","evidence_quotes":["‘因为你够新。’方瑶笑了笑","‘太合情理了，反而让她觉得不对’","她撒谎了。但直觉告诉她，不能把真实情况告诉方瑶。"],"relation_analysis":"方瑶作为主管，利用职务之便设局，表面合作实则试探，苏晚察觉并隐瞒，形成单向的试探与警惕关系。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.85},{"from":"苏晚","to":"方瑶","raw_label":"警惕与隐瞒","state_summary":"苏晚对方瑶保持高度警惕，认为方瑶在试探自己的能力边界，选择隐瞒通过能力看到的真实内容。","structural_base":"superior_subordinate","structural_base_raw":"苏晚是组织新成员，方瑶是科研部主管","dynamic_stance":"distrustful","dynamic_stance_raw":"苏晚觉得方瑶的局太合情理，不对，选择隐瞒真实所见","enum_reason":"苏晚是下属，方瑶是上级，但苏晚不信任方瑶，选择隐瞒。","evidence_summary":"苏晚觉得方瑶的理由‘太合情理了，反而让她觉得不对’；苏晚撒谎说只看到碎片，隐瞒了父亲和秘法的信息。","evidence_quotes":["‘太合情理了，反而让她觉得不对’","她撒谎了。但直觉告诉她，不能把真实情况告诉方瑶。"],"relation_analysis":"苏晚作为下属，察觉上级方瑶的试探意图，选择隐瞒真实信息，形成警惕与隐瞒的单向关系。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.85},{"from":"苏晚","to":"林建国","raw_label":"女儿寻找父亲","state_summary":"苏晚深爱父亲，通过能力看到父亲因拒绝参与秘法实验而被威胁，决心继续营救。","structural_base":"kinship_parent_child","structural_base_raw":"父亲","dynamic_stance":"protective","dynamic_stance_raw":"苏晚决心查明父亲被囚禁的真相，救出父亲","enum_reason":"明确的父女血缘关系；苏晚的行动动机是保护父亲。","evidence_summary":"苏晚通过钢笔看到父亲与冷声音的对话，父亲拒绝提供基因锁方案；苏晚决心查明真相，救出父亲。","evidence_quotes":["父亲的声音还在耳边回响——实验体、秘法、基因锁方案。","父亲被囚禁，不是因为背叛组织，而是因为他拒绝参与某个实验。"],"relation_analysis":"父女血缘关系明确，苏晚的行动始终以救父为核心，情感强烈。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.95},{"from":"林建国","to":"苏晚","raw_label":"父亲保护女儿","state_summary":"林建国因拒绝参与秘法实验、拒绝提供基因锁方案而被组织威胁，其拒绝行为间接保护了女儿，但本章未直接互动。","structural_base":"kinship_parent_child","structural_base_raw":"父亲","dynamic_stance":"protective","dynamic_stance_raw":"父亲因拒绝参与实验而被威胁，但未直接出现在本章","enum_reason":"明确的父女血缘关系；父亲拒绝合作的行为隐含保护女儿的动机。","evidence_summary":"记忆闪回中父亲说‘实验体不是工具，他们是人’并拒绝提供基因锁方案；苏晚推断父亲因拒绝而被囚禁。","evidence_quotes":["‘我不会帮你们做这种事。’","父亲被囚禁，不是因为背叛组织，而是因为他拒绝参与某个实验。"],"relation_analysis":"父亲拒绝合作的行为间接保护了女儿，但本章无直接互动，关系基于血缘和记忆闪回。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8}],"pair_relations":[{"entity_a":"苏晚","entity_b":"林建国","shared_structural_base":"kinship_parent_child","shared_structural_base_raw":"父女","pair_summary":"苏晚与林建国是亲生父女，苏晚为救父而行动，父亲因拒绝实验被囚禁。","evidence_summary":"苏晚通过钢笔看到父亲记忆；苏晚决心救父；父亲因拒绝秘法实验被囚禁。","evidence_quotes":["父亲的声音还在耳边回响","父亲被囚禁，不是因为背叛组织，而是因为他拒绝参与某个实验。"],"pair_analysis":"明确的父女血缘关系，双方情感纽带强烈，是本章的核心关系。","shared_intensity_score":50,"confidence":0.95},{"entity_a":"苏晚","entity_b":"方瑶","shared_structural_base":"superior_subordinate","shared_structural_base_raw":"主管与新成员","pair_summary":"方瑶是科研部主管，苏晚是组织新成员，双方存在上下级关系，但苏晚对方瑶保持警惕。","evidence_summary":"方瑶以主管身份引导苏晚触碰遗物；苏晚觉得方瑶的局太合情理，选择隐瞒。","evidence_quotes":["‘因为你够新。’","‘太合情理了，反而让她觉得不对’"],"pair_analysis":"明确的组织上下级关系，但信任缺失，关系紧张。","shared_intensity_score":50,"confidence":0.8}],"fact_updates":[{"subject":"林建国","predicate":"被囚禁原因","object_value":"因拒绝参与‘秘法’实验、拒绝提供基因锁方案而被组织威胁囚禁","summary":"苏晚通过能力看到父亲因拒绝合作而被组织威胁，推断父亲被囚禁的真正原因。","is_state":true,"retracted":false,"confidence":0.85},{"subject":"天枢组织","predicate":"存在秘法实验","object_value":"十年前组织内部发生过重大事故，涉及‘秘法’实验，需要基因锁方案","summary":"方瑶提及十年前事故，苏晚通过记忆闪回得知秘法实验和基因锁方案的存在。","is_state":true,"retracted":false,"confidence":0.8},{"subject":"方瑶","predicate":"真实意图","object_value":"以调查旧事故为名，实则试探苏晚的能力边界","summary":"苏晚觉得方瑶的局太合情理，意识到方瑶在试探自己。","is_state":true,"retracted":false,"confidence":0.75},{"subject":"苏晚","predicate":"计划","object_value":"决定按计划与陈默于明晚八点通过通风管道潜入地下三层X区07号房间营救父亲","summary":"苏晚回到宿舍后拿出地图，确认行动时间和路线。","is_state":true,"retracted":false,"confidence":0.9}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 赵毅的警告: 赵毅在走廊截住苏晚，警告她不要多管闲事。苏晚借机触碰赵毅，通过能力看到父亲被赵毅审讯的画面，得知父亲被囚禁在地下三层。赵毅识破苏晚的能力并发出最后威胁。苏晚回到宿舍后头疼加剧，记忆开始模糊。
+- 记忆混乱的代价: 苏晚醒来后发现自己记忆混乱，家中出现不明水渍和笔记本，触摸笔记本后闪回父亲被注射实验体的画面。陈默来访，告知父亲被关在天枢地下三层，并警告她不要过度使用能力。苏晚在陈默离开后再次触摸墙上的划痕，发现自己曾做过此事但毫无记忆。她入睡后梦见父亲被绑在操作台上，醒来后收到陈默和方瑶的消息，感到现实与梦境难以区分。
+- 禁地地图: 苏晚在陈默的协助下潜入档案室，通过触摸地图触发能力，看到父亲被囚禁在地下三层X区07号房间的记忆片段。陈默确认该区域需要双重生物认证，他无法进入。苏晚决心独自营救，陈默提供通风管道接近方案并承诺解决门禁卡，约定明晚行动。苏晚因能力反噬头痛加剧，被陈默扶住并送回宿舍。
+</recent_summary>
+
+<focus_entities>
+- 方瑶
+- 林建国
+- 苏晚
+- 陈默
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 苏晚 tier=core score=100 aliases=晓晓, 晚晚 summary=大学生，父亲林建国失踪三年，母亲改嫁后独自生活。勇敢果断，决心寻找父亲。发现父亲的手表后触发记忆片段，潜入天枢研究院试图营救父亲，但被迫逃跑。
+Update: 大学生，父亲林建国失踪三年，母亲改嫁后独自生活。刚觉醒通过触摸物品获取记忆画面的能力，决心救出父亲。
+Update: 大学生，父亲林建国失踪三年，母亲改嫁后独自生活。觉醒感知类异能，能通过触摸物品读取残留记忆。加入天枢组织，决心寻找父亲。
+Update: 大学生，父亲林建国失踪三年，母亲改嫁后独自生活。已加入天枢组织，能力为触觉类记忆读取，使用能力会消耗寿命。决心救出父亲。
+Update: 大学生，父亲林建国失踪三年，母亲改嫁后独自生活。能力觉醒后加入天枢，但记忆开始出现混乱，无法区分真实与植入记忆。
+Update: 大学生，父亲林建国失踪三年，母亲改嫁后独自生活。勇敢果断，决心寻找父亲。发现父亲的手表后触发记忆片段，潜入天枢研究院试图营救父亲。
+- 林建国 tier=core score=89 aliases=父亲 summary=前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪。被囚禁在地下室，身体虚弱，通过手表向苏晚传递警告，劝她离开。
+Update: 前国家科学院院士，天枢首席科学家，三年前失踪。被囚禁在地下二层B107室，曾将‘秘法’编码进苏晚的基因中。
+Update: 前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪。被囚禁在地下室，苏晚的父亲。
+Update: 前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪。被囚禁在天枢地下三层，被赵毅审讯，以女儿安全被威胁。
+Update: 前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪，被囚禁在天枢地下三层，作为实验体接受注射。
+Update: 前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪。被囚禁在地下三层X区07号房间，身体虚弱，手腕脚踝有勒痕。
+- 陈默 tier=core score=82 summary=天枢生物科技研究院外勤组长，三十出头，表情平静，受林建国委托在苏晚能力觉醒后接触她，并引导她加入天枢。
+Update: 天枢组织外勤组长，走路无声，身份不简单。受林建国委托引导苏晚加入天枢，带苏晚进行能力测试，并给予保护性建议。
+Update: 天枢组织外勤组长，受林建国委托引导苏晚加入天枢。
+Update: 天枢组织外勤组长，三十出头，表情平静，受林建国委托引导苏晚，对苏晚的能力代价有了解，并继续调查林建国下落。
+Update: 天枢组织外勤组长，三十出头，表情平静，受林建国委托在苏晚能力觉醒后接触她，并引导她加入天枢。走路无声，身份不简单。
+- 方瑶 tier=background score=59 summary=天枢研究院科研部主管，三十岁左右，长发低马尾，戴细框眼镜。表面温和，实则将苏晚视为工具，秘密启动与林建国相关的基因锁计划。
+Update: 天枢科研部主管，表面温和但暗中评估苏晚的利用价值。
+Update: 天枢科研部主管，表面温和但暗中评估苏晚的利用价值，与林建国存在未明确的关联。
+</known_entities>
+
+<relevant_relation_history>
+[directed_relation_states]
+- 陈默 -> 苏晚: 引导与招募; 陈默受林建国委托，在苏晚能力觉醒后主动接触她，以父亲下落为条件引导她加入天枢，态度平静但带有利用性质。
+Update: 陈默向苏晚透露父亲被囚禁在天枢地下二层，并展示照片和纸片作为证据。
+Update: 陈默作为上级引导苏晚完成测试，给予保护性建议，暗示组织内部有风险，但态度平静且带有利用性质。
+Update: 陈默在测试后告知苏晚能力代价和使用上限，并暗示不要在摄像头下使用能力。
+Update: 陈默作为天枢外勤组长，继续引导和保护苏晚，警告她能力使用的风险，并承诺继续调查她父亲的下落。
+Update: 陈默扶住眩晕的苏晚，警告她不要过度使用能力，并承诺继续调查父亲的事。
+Update: 陈默作为天枢外勤组长，继续引导和保护苏晚，警告她能力使用的风险，并承诺协助营救父亲。
+Update: 陈默在苏晚能力反噬时扶住她，警告她不要过度使用能力，并承诺协助营救父亲。
+- 苏晚 -> 陈默: 警惕与接受; 苏晚对陈默的突然出现和天枢身份保持高度警惕，但为了救父亲，她选择接受陈默的邀请加入天枢。
+Update: 苏晚在权衡后同意加入天枢，以换取救父的机会。
+Update: 苏晚在记忆混乱中依赖陈默的帮助，但对他如何知道父亲的事感到疑惑，内心保持警惕。
+Update: 苏晚接受陈默的扶助和警告，但追问父亲下落时表现出警惕。
+Update: 苏晚接受陈默的扶助和承诺，但追问父亲下落时表现出警惕。
+- 苏晚 -> 林建国: 女儿寻找父亲; 苏晚深爱父亲，发现父亲被囚禁后不顾危险前往营救，决心坚定。
+Update: 苏晚在地下室找到父亲被关押的房间，隔门对话，确认父亲还活着，父亲劝她离开。
+Update: 苏晚深爱父亲，得知父亲被囚禁后决心加入天枢以救出父亲，情感强烈。
+Update: 苏晚深爱父亲，决心查明真相，但克制自己先了解组织，避免冲动使用能力。
+Update: 苏晚深爱父亲，得知父亲被囚禁在天枢地下三层后决心救他，但记忆混乱中不断闪回父亲被注射的画面。
+Update: 苏晚深爱父亲，得知父亲被囚禁在天枢地下三层后决心救他，情感强烈。
+- 林建国 -> 苏晚: 父亲警告女儿; 林建国担心女儿安全，通过手表传递警告，并在苏晚到达时劝她离开。
+Update: 林建国深爱女儿，在被囚禁期间仍通过陈默传递信息，并在记忆片段中劝苏晚不要来找
+...(truncated)
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

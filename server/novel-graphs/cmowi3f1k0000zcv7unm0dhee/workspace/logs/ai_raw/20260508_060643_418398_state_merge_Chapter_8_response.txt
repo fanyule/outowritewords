@@ -1,0 +1,10 @@
+{
+  "summary": "本章内容为无意义的字母序列，无实际情节。",
+  "entities": [],
+  "directed_relations": [],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "fact_updates": []
+}

@@ -1,0 +1,62 @@
+<chapter_title>
+第39章 两难的选择
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第39章 两难的选择","analyzed_at":"2026-05-08T01:41:10","summary":"本章暂无正文内容，仅标题暗示林小鹿面临两难选择，可能涉及对叶知秋或宋明远的信任抉择。","outline":[],"entities":[{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"},{"name":"叶知秋","aliases":["叶","叶姐","小叶"],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天衍组织的前台接待员，年轻女性，戴眼镜，穿白色衬衫和深色裙子。对林小鹿保持友好和保护态度，曾主动提供情报和警告。"},{"name":"宋明远","aliases":["宋哥","宋组长"],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天衍组织的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。"},{"name":"陆沉","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"标题暗示的代号指向人物，身份不明，可能为关键线索。"},{"name":"林小鹿的父亲","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"林小鹿失踪的父亲，三个月前失踪，留下笔记本和地址，与组织有接触，可能卷入了危险的事。"}],"identity_revelations":[],"events":[],"interactions":[],"directed_relations":[{"from":"叶知秋","to":"林小鹿","raw_label":"友好保护","state_summary":"叶知秋作为天衍前台同事，对林小鹿保持友好和保护态度，曾主动提供情报和警告。本章标题暗示双方信任可能面临考验。","structural_base":"colleague","structural_base_raw":"天衍组织前台同事","dynamic_stance":"protective","dynamic_stance_raw":"主动提供情报和警告","enum_reason":"叶知秋与林小鹿同为天衍组织成员，属于同事关系；叶知秋多次主动警告和保护林小鹿，符合protective stance。","evidence_summary":"叶知秋曾通过短信警告林小鹿接头地点被监控，并提醒小心宋明远。","evidence_quotes":["叶知秋通过短信警告林小鹿接头地点已被监控"],"relation_analysis":"叶知秋对林小鹿的保护行为表明她有一定信任和善意，但动机不明。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.7},{"from":"林小鹿","to":"叶知秋","raw_label":"礼貌配合","state_summary":"林小鹿作为新成员，对叶知秋保持礼貌配合，但内心高度警惕。本章标题暗示她对叶知秋的信任可能面临两难选择。","structural_base":"colleague","structural_base_raw":"天衍组织新员工与前台同事","dynamic_stance":"trusting","dynamic_stance_raw":"接受叶知秋的警告并调整行动","enum_reason":"林小鹿接受叶知秋的警告并据此调整行动，表明一定程度的信任；但内心警惕，故为trusting而非完全friendly。","evidence_summary":"林小鹿接受叶知秋的警告，并追问更多信息，表现出对叶知秋的信任。","evidence_quotes":["林小鹿接受叶知秋的警告，并追问更多信息"],"relation_analysis":"林小鹿对叶知秋的信任基于叶知秋的多次帮助，但仍有疑虑。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.6},{"from":"宋明远","to":"林小鹿","raw_label":"严格审查","state_summary":"宋明远作为天衍外勤组长，对林小鹿的接头方式有疑问，背景调查更严格，表现出不信任。","structural_base":"superior_subordinate","structural_base_raw":"天衍外勤组长与新成员","dynamic_stance":"distrustful","dynamic_stance_raw":"对林小鹿的接头方式有疑问，背景调查更严格","enum_reason":"宋明远是林小鹿的上司，属于superior_subordinate；他对林小鹿的背景调查和疑问表明distrustful stance。","evidence_summary":"叶知秋告知林小鹿，宋明远对其接头方式有疑问，背景调查会更严格。","evidence_quotes":["宋明远对其接头方式有疑问，背景调查会更严格"],"relation_analysis":"宋明远对林小鹿的严格审查表明他怀疑林小鹿的动机或背景。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8},{"from":"林小鹿","to":"宋明远","raw_label":"警惕防备","state_summary":"林小鹿对宋明远的严格审查保持警惕，可能怀疑其动机。","structural_base":"superior_subordinate","structural_base_raw":"天衍新成员与外勤组长","dynamic_stance":"wary","dynamic_stance_raw":"对宋明远的审查保持警惕","enum_reason":"林小鹿作为下属，对上级的审查感到警惕，符合wary stance。","evidence_summary":"林小鹿对叶知秋的警告感到警惕，怀疑宋明远的意图。","evidence_quotes":["林小鹿对叶知秋的警告感到警惕，怀疑宋明远的意图"],"relation_analysis":"林小鹿对宋明远的不信任源于其严格的背景调查和叶知秋的警告。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.7}],"pair_relations":[{"entity_a":"林小鹿","entity_b":"叶知秋","shared_structural_base":"colleague","shared_structural_base_raw":"天衍组织同事","pair_summary":"林小鹿与叶知秋同为天衍组织成员，叶知秋作为前台同事对林小鹿友好并多次提供帮助。","evidence_summary":"叶知秋接待林小鹿，带她熟悉环境，并主动提供情报和警告。","evidence_quotes":["叶知秋接待林小鹿，带她到资料室，并告知可以随时找她"],"pair_analysis":"两人在组织内是同事关系，叶知秋对林小鹿有保护倾向，林小鹿对叶知秋有一定信任。","shared_intensity_score":50,"confidence":0.7},{"entity_a":"林小鹿","entity_b":"宋明远","shared_structural_base":"superior_subordinate","shared_structural_base_raw":"天衍组织上下级","pair_summary":"林小鹿与宋明远是天衍组织内的上下级关系，宋明远作为外勤组长对林小鹿进行严格审查。","evidence_summary":"宋明远负责面试林小鹿，安排她入职，并暗中调查其背景。","evidence_quotes":["宋明远负责面试林小鹿，安排她入职，并暗中让人调查她的背景"],"pair_analysis":"两人存在明确的上下级关系，但信任度较低，宋明远对林小鹿持怀疑态度。","shared_intensity_score":50,"confidence":0.8}],"fact_updates":[],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第36章 暗流下的抉择: 本章暂无正文内容，仅标题暗示林小鹿在暗流中面临抉择，可能涉及对叶知秋或宋明远的信任选择。
+- 第37章 代号指向陆沉: 本章暂无正文内容，仅标题暗示林小鹿追踪的代号指向陆沉。
+- 第38章 陆沉的橄榄枝: 本章暂无正文内容，仅标题暗示陆沉向林小鹿伸出橄榄枝，可能涉及合作或招揽。
+</recent_summary>
+
+<focus_entities>
+- 叶知秋
+- 宋明远
+- 林小鹿
+- 林小鹿的父亲
+- 陆沉
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=100 aliases=小鹿 summary=女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她按照笔记本地址找到咖啡馆，获得新线索，并发现被跟踪。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，她按照父亲笔记本的指引来到旧书店街17号，通过暗号进入天衍组织基地，接受基础异能检测和定向检测。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月后加入天衍组织。本章通过异能检测，成为外围成员，领取临时证件和初始任务。对组织保持警惕，内心思念父亲。
+Update: 女大学生，外院大二英语专业，父亲失踪后加入天衍组织，决心寻找父亲。本章中她作为新员工被安排整理档案，暗中寻找父亲线索。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，加入天衍组织寻找父亲。本章中她整理档案时发现青石镇调查纪要，被宋明远试探，收到匿名警告，凌晨撤离住处。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她执行组织任务，同时面临考试压力和组织内部的信任危机。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。本章中接受叶知秋的警告与情报。
+Update: 女大学生，外院大二英语专业，父亲失踪后加入天衍组织，决心寻找父亲。本章中她主动向组长宋明远申请升级任务，获得C级任务外围工作机会。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她接到新任务，目标地点为废弃研究所。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在残页上发现暗语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有异常发现。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她成为宋明远试探的对象。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中与叶知秋进行情报交易。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在金属盒背后发现线索。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在伪装下进行紧急行动。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她获得代号并转向主动行动。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在考试周遇到紧急任务。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在打工时被老板突然查岗。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她面临紧急情况，需要同时处理三条任务线。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有意外发现。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中面临宋明远的试探升级。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。对叶知秋保持礼貌配合，但内心高度警惕。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中面临双重压力并做出决断。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在废弃工厂中获取暗语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在目标临终前听到了低语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在战利品中发现另一条线索。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她正在追踪某个代号。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本
+...(truncated)
+</known_entities>
+
+<relevant_relation_history>
+
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

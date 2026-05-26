@@ -1,0 +1,10 @@
+{
+  "summary": "本章无正文内容，仅标题提示与残页上的暗语相关。",
+  "entities": [],
+  "directed_relations": [],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "fact_updates": []
+}

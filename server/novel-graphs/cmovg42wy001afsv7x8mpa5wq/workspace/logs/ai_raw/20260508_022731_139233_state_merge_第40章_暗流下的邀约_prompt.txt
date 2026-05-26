@@ -1,0 +1,65 @@
+<chapter_title>
+第40章 暗流下的邀约
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第40章 暗流下的邀约","analyzed_at":"2026-05-08T02:27:31","summary":"本章暂无正文内容，仅标题暗示暗流下的邀约，可能涉及林小鹿收到来自陆沉或叶知秋的邀约，面临新的选择或考验。","outline":[{"order":0,"text":"本章暂无正文内容，仅标题暗示暗流下的邀约。","involved_names":[]}],"entities":[{"name":"林小鹿","aliases":["小鹿","林远舟的女儿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她可能收到暗流下的邀约。"},{"name":"陆沉","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"标题中出现的代号人物，身份不明，可能为关键线索，向林小鹿伸出橄榄枝，动机尚不明确。"},{"name":"叶知秋","aliases":["叶姐","小叶"],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"天衍组织的前台接待员，年轻女性，对林小鹿保持友好和保护态度，曾主动提供情报和警告。本章标题暗示她可能再次向林小鹿发出暗示或警告。"},{"name":"宋明远","aliases":["宋哥","宋组长","天衍外勤组长"],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"天衍组织外勤组长，四十岁上下，对林小鹿保持审视和试探态度，通过背景调查和任务考验来评估她的可信度和能力。"}],"identity_revelations":[],"events":[{"event_id":"E40-1","intra_chapter_order":0,"event_type":"unknown","narrative_weight":"detail","narrative_weight_raw":"本章暂无正文内容","enum_reason":"本章无正文，仅标题提供信息，属于细节性内容。","summary":"本章暂无正文内容，仅标题暗示暗流下的邀约。","location":"未知","participants":[],"evidence_summary":"标题为'暗流下的邀约'，暗示可能发生邀约事件。","evidence_quotes":[],"confidence":0.3}],"interactions":[],"directed_relations":[{"from":"叶知秋","to":"林小鹿","raw_label":"保护与警告","state_summary":"叶知秋作为天衍同事，对林小鹿保持友好和保护态度，曾主动提供情报和警告。本章标题暗示双方信任可能面临考验。","structural_base":"colleague","structural_base_raw":"天衍同事","dynamic_stance":"protective","dynamic_stance_raw":"保护态度","enum_reason":"叶知秋与林小鹿同为天衍组织成员，属于同事关系；叶知秋多次主动保护林小鹿，动态立场为保护性。","evidence_summary":"本章无正文，但标题暗示暗流下的邀约，可能涉及叶知秋向林小鹿发出邀约或警告。","evidence_quotes":[],"relation_analysis":"基于前几章叶知秋对林小鹿的保护行为，本章标题暗示双方关系可能进一步发展，但存在暗流。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.6},{"from":"宋明远","to":"林小鹿","raw_label":"审视与试探","state_summary":"宋明远作为天衍外勤组长，对林小鹿保持审视和试探态度，通过背景调查和任务考验来评估她的可信度和能力。","structural_base":"superior_subordinate","structural_base_raw":"上司与下属","dynamic_stance":"wary","dynamic_stance_raw":"警惕","enum_reason":"宋明远是林小鹿的上司，属于上下级关系；他对林小鹿保持警惕和试探，动态立场为警惕。","evidence_summary":"本章无正文，但标题暗示暗流，可能涉及宋明远对林小鹿的进一步试探或监控。","evidence_quotes":[],"relation_analysis":"基于前几章宋明远对林小鹿的试探行为，本章标题暗示双方关系可能面临新的考验。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.6}],"pair_relations":[{"entity_a":"叶知秋","entity_b":"林小鹿","shared_structural_base":"colleague","shared_structural_base_raw":"天衍同事","pair_summary":"叶知秋与林小鹿同为天衍组织成员，叶知秋对林小鹿保持友好和保护态度。","evidence_summary":"本章无正文，但标题暗示暗流下的邀约，可能涉及双方关系进一步发展。","evidence_quotes":[],"pair_analysis":"基于前几章叶知秋对林小鹿的保护行为，本章标题暗示双方关系可能面临考验。","shared_intensity_score":50,"confidence":0.6},{"entity_a":"宋明远","entity_b":"林小鹿","shared_structural_base":"superior_subordinate","shared_structural_base_raw":"上司与下属","pair_summary":"宋明远作为林小鹿的上司，对她保持审视和试探态度。","evidence_summary":"本章无正文，但标题暗示暗流，可能涉及宋明远对林小鹿的进一步试探。","evidence_quotes":[],"pair_analysis":"基于前几章宋明远对林小鹿的试探行为，本章标题暗示双方关系可能面临新的考验。","shared_intensity_score":50,"confidence":0.6}],"fact_updates":[{"subject":"林小鹿","predicate":"面临暗流下的邀约","object_value":"可能收到来自陆沉或叶知秋的邀约","summary":"本章标题暗示林小鹿可能面临暗流下的邀约，涉及新的选择或考验。","is_state":true,"retracted":false,"confidence":0.3}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第37章 代号指向陆沉: 本章暂无正文内容，仅标题暗示林小鹿追踪的代号指向陆沉，可能涉及林小鹿发现陆沉身份或线索。
+- 第38章 陆沉的橄榄枝: 本章暂无正文内容，仅标题暗示陆沉向林小鹿伸出橄榄枝，可能涉及双方建立联系或合作。
+- 第39章 两难的选择: 本章暂无正文内容，仅标题暗示林小鹿面临两难选择，可能涉及是否接受陆沉的橄榄枝或是否信任叶知秋的警告。
+</recent_summary>
+
+<focus_entities>
+- 叶知秋
+- 宋明远
+- 林小鹿
+- 陆沉
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林远舟的女儿 tier=core score=100 aliases=小鹿, 林小鹿 summary=女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中她整理档案时被宋明远试探，谨慎应对，后收到匿名警告，凌晨发现被监视后撤离出租屋。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。本章中她执行组织任务，同时面临考试压力，收到叶知秋的警告后陷入疑虑。
+Update: 女大学生，父亲林远舟失踪三个月，持父亲笔记本加入天衍组织。本章中她凌晨收到叶知秋的加密短信，下午赴约图书馆，得知接头地点被监控、叶知秋哥哥失踪等秘密，内心对父亲失踪的真相更加怀疑。
+Update: 女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中她主动向组长宋明远申请升级任务，获得C级任务外围工作的机会，同时收到叶知秋的警告，内心保持警惕。
+Update: 女大学生，天衍组织新成员，父亲林远舟失踪。本章中她随宋明远执行任务，发现父亲留下的档案，内心震惊但表面镇定，决定次日赴约。
+Update: 女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她成为宋明远关心的对象。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她可能获得任务奖励并面临新的机会。
+Update: 女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中她与叶知秋的信任关系可能进一步巩固，但面临组织内部的暗流。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有异常发现。
+Update: 女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她受到宋明远的试探。
+Update: 女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她主动设计任务组合。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中与叶知秋进行情报交易。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她可能进行伪装下的紧急行动。
+Update: 女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她可能转向主动行动。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她面临考试周与紧急任务的双重压力。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中她正在打工，被老板突然查岗。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲林远舟失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她面临紧急情况，需要三线并行操作。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有意外发现。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她面临宋明远升级的试探。
+Update: 女大学生，外院大二英语专业，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她可能在废弃工厂中发现暗语。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她在战利品中发现另一条线索。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她正被宋明远审视。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她面临暗流下的抉择。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她追踪的代号指向陆沉。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中她面临两难选择。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。
+- 叶知秋 tier=core score=95 aliases=叶, 叶姐, 小叶 summary=天衍的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。
+Update: 天衍组织的前台接待员，年轻女性，穿白色衬衫和深灰色长裤，负责林小鹿的接待和初步评估，进行基础异能检测和定向检测。
+Update: 天衍组织工作人员，负责林小鹿的异能检测和任务安排。对林小鹿保持职业性的审视，传递宋明远的警告，暗示背景调查会更严格。
+Update: 天衍组织前台工作人员，年轻女性。本章中她在前台与林小鹿点头示意，没有深入交流。
+Update: 天衍组织的前台工作人员，年轻女性，戴眼镜。本章中她通过短信警告林小鹿接头地点已被监控，语气带有提醒和警告意味。
+Update: 天衍组织档案室工作人员，戴眼
+...(truncated)
+</known_entities>
+
+<relevant_relation_history>
+
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

@@ -1,0 +1,300 @@
+{
+  "schema_version": 2,
+  "chapter_title": "方瑶的局",
+  "analyzed_at": "2026-05-08T12:33:04",
+  "summary": "方瑶以调查十年前组织事故为名，引导苏晚触碰父亲遗物钢笔，触发记忆碎片，揭示父亲因拒绝参与‘秘法’实验而被囚禁。苏晚隐瞒真实所见，决定继续与陈默合作潜入地下三层。",
+  "outline": [
+    {
+      "order": 0,
+      "text": "方瑶以调查十年前组织事故为名，带苏晚到地下仓库，让她触碰父亲遗物钢笔，触发记忆碎片。",
+      "involved_names": [
+        "苏晚",
+        "方瑶"
+      ]
+    },
+    {
+      "order": 1,
+      "text": "苏晚通过钢笔触发记忆，看到父亲与另一人争吵，父亲拒绝参与‘秘法’实验，并提到‘基因锁方案’，随后被威胁。",
+      "involved_names": [
+        "苏晚",
+        "林建国",
+        "方瑶"
+      ]
+    },
+    {
+      "order": 2,
+      "text": "苏晚回到宿舍后，决定继续与陈默合作，计划明晚八点潜入地下三层。",
+      "involved_names": [
+        "苏晚",
+        "陈默"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "name": "苏晚",
+      "aliases": [
+        "晓晓",
+        "晚晚"
+      ],
+      "chapter_role": "protagonist",
+      "tier": "core",
+      "importance_score": 86,
+      "summary": "大学生，父亲林建国失踪三年，母亲改嫁后独自生活。勇敢果断，决心寻找父亲。发现父亲的手表后触发记忆片段，潜入天枢研究院试图营救父亲，但被迫逃跑。"
+    },
+    {
+      "name": "方瑶",
+      "aliases": [
+        "方姐"
+      ],
+      "chapter_role": "major_actor",
+      "tier": "active",
+      "importance_score": 76,
+      "summary": "天枢科研部主管，三十岁左右，长发低马尾，戴细框眼镜。表面温和，实则将苏晚视为工具，秘密启动与林建国相关的基因锁计划。"
+    },
+    {
+      "name": "林建国",
+      "aliases": [
+        "父亲"
+      ],
+      "chapter_role": "mentioned",
+      "tier": "active",
+      "importance_score": 60,
+      "summary": "前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪。被囚禁在地下室，身体虚弱，通过手表向苏晚传递警告，劝她离开。"
+    },
+    {
+      "name": "陈默",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "tier": "active",
+      "importance_score": 60,
+      "summary": "天枢组织外勤组长，三十出头，表情平静，受林建国委托在苏晚能力觉醒后接触她，并引导她加入天枢。"
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt_1",
+      "intra_chapter_order": 0,
+      "event_type": "meeting",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心事件：方瑶设局引导苏晚触碰遗物",
+      "enum_reason": "该事件是本章核心，推动剧情发展，揭示关键信息。",
+      "summary": "方瑶以调查十年前组织事故为名，带苏晚到地下仓库，让她触碰父亲遗物钢笔，触发记忆碎片。",
+      "location": "天枢研究院三楼方瑶办公室及地下仓库",
+      "participants": [
+        {
+          "entity_name": "苏晚",
+          "role": "actor",
+          "confidence": 1.0
+        },
+        {
+          "entity_name": "方瑶",
+          "role": "actor",
+          "confidence": 1.0
+        }
+      ],
+      "evidence_summary": "方瑶在办公室与苏晚交谈后，带她到地下仓库，拿出钢笔等遗物，苏晚触碰后触发记忆碎片。",
+      "evidence_quotes": [
+        "“十年前，组织内部发生过一次重大事故。”",
+        "她伸出手，指尖触到笔身的瞬间，一股凉意顺着指尖蔓延上来。"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "event_id": "evt_2",
+      "intra_chapter_order": 1,
+      "event_type": "revelation",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "转折点：苏晚通过记忆碎片发现父亲被囚禁真相",
+      "enum_reason": "该事件揭示父亲被囚禁的真正原因，是剧情转折点。",
+      "summary": "苏晚通过钢笔触发记忆，看到父亲与另一人争吵，父亲拒绝参与‘秘法’实验，并提到‘基因锁方案’，随后被威胁。",
+      "location": "地下仓库（记忆场景中为办公室）",
+      "participants": [
+        {
+          "entity_name": "苏晚",
+          "role": "actor",
+          "confidence": 1.0
+        },
+        {
+          "entity_name": "林建国",
+          "role": "target",
+          "confidence": 0.9
+        },
+        {
+          "entity_name": "方瑶",
+          "role": "witness",
+          "confidence": 0.8
+        }
+      ],
+      "evidence_summary": "苏晚看到父亲坐在办公室，与一个冷声音争吵，父亲拒绝参与秘法实验，对方威胁他。",
+      "evidence_quotes": [
+        "“实验体不是工具，他们是人。”",
+        "“我不会帮你们做这种事。”",
+        "“那你就别怪我们了。”"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "evt_3",
+      "intra_chapter_order": 2,
+      "event_type": "decision",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "主线：苏晚决定继续与陈默合作",
+      "enum_reason": "该事件延续主线行动，推动后续剧情。",
+      "summary": "苏晚回到宿舍后，决定继续与陈默合作，计划明晚八点潜入地下三层。",
+      "location": "苏晚宿舍",
+      "participants": [
+        {
+          "entity_name": "苏晚",
+          "role": "actor",
+          "confidence": 1.0
+        },
+        {
+          "entity_name": "陈默",
+          "role": "participant",
+          "confidence": 0.9
+        }
+      ],
+      "evidence_summary": "苏晚回到宿舍后，拿出陈默给的地图，决定明晚八点与陈默一起通过通风管道潜入地下三层。",
+      "evidence_quotes": [
+        "明天晚上八点，她要和陈默一起，通过通风管道潜入那里。",
+        "在此之前，她必须撑住。"
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "interactions": [
+    {
+      "from": "方瑶",
+      "to": "苏晚",
+      "interaction_type": "deception",
+      "interaction_type_raw": "以调查旧案为名，实则试探",
+      "impact_level": "high",
+      "impact_level_raw": "影响苏晚对真相的认知和后续行动",
+      "polarity": "negative",
+      "polarity_raw": "表面合作，实则利用",
+      "enum_reason": "方瑶表面说调查旧案，实则试探苏晚能力，属于欺骗。",
+      "summary": "方瑶以调查十年前事故为名，引导苏晚触碰遗物，实则试探其能力边界并监控反应。",
+      "evidence_summary": "方瑶主动提出让苏晚触碰遗物还原真相，但苏晚直觉认为她在试探。",
+      "evidence_quotes": [
+        "“我想知道真相。”",
+        "苏晚没放松警惕——陈默说过，方瑶在科研部待了六年，能从底层爬到主管位置，靠的绝不是温和。"
+      ],
+      "interaction_analysis": "方瑶设局，表面合作实则试探，符合deception。",
+      "confidence": 0.85
+    },
+    {
+      "from": "苏晚",
+      "to": "方瑶",
+      "interaction_type": "deception",
+      "interaction_type_raw": "隐瞒真实所见",
+      "impact_level": "high",
+      "impact_level_raw": "影响方瑶对苏晚的掌控",
+      "polarity": "negative",
+      "polarity_raw": "不信任与隐瞒",
+      "enum_reason": "苏晚故意隐瞒真实所见，属于欺骗。",
+      "summary": "苏晚在触发记忆后，对方瑶撒谎说只看到碎片，隐瞒了父亲和秘法等信息。",
+      "evidence_summary": "苏晚看到父亲画面后，对方瑶说只看到碎片，内心决定不告诉她真相。",
+      "evidence_quotes": [
+        "“碎片。”苏晚说，“很乱的碎片，看不清具体内容。”",
+        "她撒谎了。但直觉告诉她，不能把真实情况告诉方瑶。"
+      ],
+      "interaction_analysis": "苏晚主动隐瞒关键信息，符合deception。",
+      "confidence": 0.9
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "方瑶",
+      "to": "苏晚",
+      "raw_label": "利用与试探",
+      "state_summary": "方瑶以调查旧案为名引导苏晚触碰遗物，实则试探其能力边界并监控反应，表现出利用与不信任。",
+      "structural_base": "employer_employee",
+      "structural_base_raw": "科研部主管与新人",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "表面关切，实则试探能力边界",
+      "enum_reason": "方瑶是科研部主管，苏晚是新人，存在上下级关系；方瑶设局试探，动态上不信任。",
+      "evidence_summary": "方瑶以调查十年前事故为名，让苏晚触碰钢笔触发记忆，并在苏晚出现反应后递水关切，但苏晚直觉认为方瑶在试探。",
+      "evidence_quotes": [
+        "“因为你够新。”方瑶笑了笑",
+        "苏晚没放松警惕——陈默说过，方瑶在科研部待了六年，能从底层爬到主管位置，靠的绝不是温和。"
+      ],
+      "relation_analysis": "方瑶主动设局，利用职务之便引导苏晚触碰遗物，表面合作实则监控，符合employer_employee下的distrustful动态。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.85
+    },
+    {
+      "from": "苏晚",
+      "to": "方瑶",
+      "raw_label": "警惕与隐瞒",
+      "state_summary": "苏晚对方瑶保持高度警惕，隐瞒了看到父亲和听到‘秘法’等关键信息，决定不信任方瑶。",
+      "structural_base": "employer_employee",
+      "structural_base_raw": "新人与科研部主管",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "隐瞒真实所见，保持警惕",
+      "enum_reason": "苏晚是新人，方瑶是主管，存在上下级关系；苏晚隐瞒真实所见，动态上不信任。",
+      "evidence_summary": "苏晚看到父亲画面后撒谎说只看到碎片，内心决定不告诉方瑶真相。",
+      "evidence_quotes": [
+        "“碎片。”苏晚说，“很乱的碎片，看不清具体内容。”",
+        "她撒谎了。但直觉告诉她，不能把真实情况告诉方瑶。"
+      ],
+      "relation_analysis": "苏晚在能力触发后选择隐瞒关键信息，表明对方瑶的不信任，符合employer_employee下的distrustful动态。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.9
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "方瑶",
+      "entity_b": "苏晚",
+      "shared_structural_base": "employer_employee",
+      "shared_structural_base_raw": "科研部主管与新人",
+      "pair_summary": "方瑶作为科研部主管，苏晚作为新人，存在明确的上下级雇佣关系。",
+      "evidence_summary": "方瑶是科研部主管，苏晚是组织新人，方瑶以工作名义安排苏晚触碰遗物。",
+      "evidence_quotes": [
+        "“进来坐。”方瑶从桌后绕出来，手里拿着一个档案袋",
+        "“你的能力确实很特殊，触觉类感知，在整个组织里都少见。”"
+      ],
+      "pair_analysis": "文本明确显示方瑶是主管，苏晚是新人，存在雇佣关系。",
+      "shared_intensity_score": 50.0,
+      "confidence": 0.95
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "林建国",
+      "predicate": "被囚禁原因",
+      "object_value": "因拒绝参与‘秘法’实验，拒绝提供基因锁方案而被囚禁",
+      "summary": "苏晚通过记忆碎片发现，父亲因拒绝参与秘法实验和提供基因锁方案而被威胁囚禁。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 0.85
+    },
+    {
+      "subject": "天枢组织",
+      "predicate": "存在秘法实验",
+      "object_value": "十年前发生过重大事故，涉及秘法实验，实验体被视为工具",
+      "summary": "记忆碎片显示，天枢组织内部存在秘法实验，父亲拒绝参与。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 0.8
+    },
+    {
+      "subject": "方瑶",
+      "predicate": "真实意图",
+      "object_value": "以调查旧案为名，实则试探苏晚能力边界",
+      "summary": "苏晚直觉认为方瑶设局试探，而非单纯调查旧案。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 0.75
+    }
+  ],
+  "unresolved": []
+}

@@ -1,0 +1,97 @@
+import { lazy } from "react";
+import type { RouteObject } from "react-router-dom";
+import { Navigate, useRoutes } from "react-router-dom";
+import RequireAuth from "@/components/auth/RequireAuth";
+import AppLayout from "@/components/layout/AppLayout";
+import { featureFlags } from "@/config/featureFlags";
+
+const Home = lazy(() => import("@/pages/Home"));
+const LoginPage = lazy(() => import("@/pages/auth/LoginPage"));
+const AccountCenterPage = lazy(() => import("@/pages/account/AccountCenterPage"));
+const BillingPage = lazy(() => import("@/pages/billing/BillingPage"));
+const NovelGraphPage = lazy(() => import("@/pages/novelGraph/NovelGraphPage"));
+const NovelList = lazy(() => import("@/pages/novels/NovelList"));
+const NovelCreate = lazy(() => import("@/pages/novels/NovelCreate"));
+const NovelPreview = lazy(() => import("@/pages/novels/NovelPreview"));
+const NovelEdit = lazy(() => import("@/pages/novels/NovelEdit"));
+const NovelChapterEdit = lazy(() => import("@/pages/novels/NovelChapterEdit"));
+const CreativeHubPage = lazy(() => import("@/pages/creativeHub/CreativeHubPage"));
+const ChatPage = lazy(() => import("@/pages/chat/ChatPage"));
+const BookAnalysisPage = lazy(() => import("@/pages/bookAnalysis/BookAnalysisPage"));
+const TaskCenterPage = lazy(() => import("@/pages/tasks/TaskCenterPage"));
+const AutoDirectorFollowUpCenterPage = lazy(() => import("@/pages/autoDirectorFollowUps/AutoDirectorFollowUpCenterPage"));
+const KnowledgePage = lazy(() => import("@/pages/knowledge/KnowledgePage"));
+const GenreManagementPage = lazy(() => import("@/pages/genres/GenreManagementPage"));
+const StoryModeManagementPage = lazy(() => import("@/pages/storyModes/StoryModeManagementPage"));
+const TitleStudioPage = lazy(() => import("@/pages/titles/TitleStudioPage"));
+const ModelRoutesPage = lazy(() => import("@/pages/settings/ModelRoutesPage"));
+const SettingsPage = lazy(() => import("@/pages/settings/SettingsPage"));
+const WorldList = lazy(() => import("@/pages/worlds/WorldList"));
+const WorldGenerator = lazy(() => import("@/pages/worlds/WorldGenerator"));
+const WorldWorkspace = lazy(() => import("@/pages/worlds/WorldWorkspace"));
+const WritingFormulaPage = lazy(() => import("@/pages/writingFormula/WritingFormulaPage"));
+const CharacterLibrary = lazy(() => import("@/pages/characters/CharacterLibrary"));
+
+const routes: RouteObject[] = [
+  {
+    path: "/login",
+    element: <LoginPage />,
+  },
+  {
+    path: "/billing",
+    element: <BillingPage />,
+  },
+  {
+    element: <RequireAuth />,
+    children: [
+      {
+        path: "/novels/:id/graph",
+        element: <NovelGraphPage />,
+      },
+      {
+        path: "/",
+        element: <AppLayout />,
+        children: [
+          { index: true, element: <Home /> },
+          { path: "novels", element: <NovelList /> },
+          { path: "novels/create", element: <NovelCreate /> },
+          { path: "novels/:id/preview", element: <NovelPreview /> },
+          { path: "novels/:id/edit", element: <NovelEdit /> },
+          { path: "novels/:id/chapters/:chapterId", element: <NovelChapterEdit /> },
+          { path: "creative-hub", element: <CreativeHubPage /> },
+          { path: "chat-legacy", element: <ChatPage /> },
+          { path: "chat", element: <Navigate to="/creative-hub" replace /> },
+          { path: "book-analysis", element: <BookAnalysisPage /> },
+          { path: "tasks", element: <TaskCenterPage /> },
+          { path: "auto-director/follow-ups", element: <AutoDirectorFollowUpCenterPage /> },
+          { path: "auto-director/follow-up-center", element: <Navigate to="/auto-director/follow-ups" replace /> },
+          { path: "auto-director/followup-center", element: <Navigate to="/auto-director/follow-ups" replace /> },
+          { path: "knowledge", element: <KnowledgePage /> },
+          { path: "genres", element: <GenreManagementPage /> },
+          { path: "story-modes", element: <StoryModeManagementPage /> },
+          { path: "titles", element: <TitleStudioPage /> },
+          { path: "settings/model-routes", element: <ModelRoutesPage /> },
+          { path: "account", element: <AccountCenterPage /> },
+          { path: "settings", element: <SettingsPage /> },
+          { path: "worlds", element: <WorldList /> },
+          {
+            path: "worlds/generator",
+            element: featureFlags.worldWizardEnabled ? <WorldGenerator /> : <Navigate to="/worlds" replace />,
+          },
+          {
+            path: "worlds/:id/workspace",
+            element: featureFlags.worldWizardEnabled ? <WorldWorkspace /> : <Navigate to="/worlds" replace />,
+          },
+          { path: "style-engine", element: <WritingFormulaPage /> },
+          { path: "writing-formula", element: <Navigate to="/style-engine" replace /> },
+          { path: "base-characters", element: <CharacterLibrary /> },
+          { path: "*", element: <Navigate to="/" replace /> },
+        ],
+      },
+    ],
+  },
+];
+
+export default function AppRouter() {
+  return useRoutes(routes);
+}

@@ -1,0 +1,17 @@
+{
+  "summary": "本章暂无正文内容，仅标题暗示林小鹿在执行任务过程中有意外发现。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿", "林远舟的女儿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。"
+    }
+  ],
+  "directed_relations": [],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "fact_updates": []
+}

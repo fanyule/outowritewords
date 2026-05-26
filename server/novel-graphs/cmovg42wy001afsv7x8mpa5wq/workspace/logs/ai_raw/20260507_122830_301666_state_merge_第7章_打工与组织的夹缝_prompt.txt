@@ -1,0 +1,55 @@
+<chapter_title>
+第7章 打工与组织的夹缝
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第7章 打工与组织的夹缝","analyzed_at":"2026-05-07T12:28:30","summary":"本章暂无内容，仅标题提示林小鹿在打工与组织之间周旋。","outline":[],"entities":[{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。","confidence":1.0},{"name":"宋明远","aliases":["宋哥"],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天衍组织外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。","confidence":1.0},{"name":"叶知秋","aliases":[],"chapter_role":"supporting","tier":"active","importance_score":40,"summary":"天衍组织前台同事，接待林小鹿，带她到资料室，并告知可以随时找她。","confidence":1.0},{"name":"林小鹿的父亲","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"林小鹿的亲生父亲，已失踪三个月，林小鹿根据他留下的笔记本加入天衍组织寻找他。","confidence":1.0},{"name":"姓陆的","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"林小鹿父亲警告她警惕的未知人物，身份不明。","confidence":1.0}],"identity_revelations":[],"events":[],"interactions":[],"directed_relations":[{"from":"林小鹿","to":"宋明远","raw_label":"新员工对上司的警惕","state_summary":"林小鹿作为新员工对上司宋明远保持警惕，怀疑他在调查自己。","structural_base":"superior_subordinate","structural_base_raw":"林小鹿是宋明远的下属","dynamic_stance":"wary","dynamic_stance_raw":"林小鹿对宋明远保持警惕","enum_reason":"林小鹿是宋明远的下属，属于明确的上下级关系；动态立场上她表现出警惕。","evidence_summary":"林小鹿用准备好的说辞应对宋明远的面试，成功入职，但怀疑他在调查自己。","evidence_quotes":["林小鹿用准备好的说辞应对"],"relation_analysis":"林小鹿对宋明远保持警惕，但表面维持正常上下级关系。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.9},{"from":"宋明远","to":"林小鹿","raw_label":"上司对新员工的试探","state_summary":"宋明远作为组长对林小鹿进行试探，可能不信任她。","structural_base":"superior_subordinate","structural_base_raw":"宋明远是林小鹿的上司","dynamic_stance":"distrustful","dynamic_stance_raw":"宋明远对林小鹿不信任","enum_reason":"宋明远是林小鹿的上司，动态立场上他表现出不信任。","evidence_summary":"宋明远面试林小鹿，询问她的背景和动机，并暗中让人调查她的背景。","evidence_quotes":["宋明远面试林小鹿，询问她的背景和动机"],"relation_analysis":"宋明远对林小鹿不信任，通过面试和调查进行试探。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.9},{"from":"林小鹿","to":"叶知秋","raw_label":"新员工对前台同事的礼貌","state_summary":"林小鹿与叶知秋是同事关系，但林小鹿对叶知秋保持基本礼貌，没有深入互动。","structural_base":"colleague","structural_base_raw":"林小鹿和叶知秋是同事","dynamic_stance":"neutral","dynamic_stance_raw":"林小鹿对叶知秋保持基本礼貌","enum_reason":"两人是同事关系，动态立场上林小鹿保持中立礼貌。","evidence_summary":"叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。","evidence_quotes":["叶知秋接待林小鹿，带她到资料室"],"relation_analysis":"林小鹿对叶知秋保持基本礼貌，没有深入互动。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8},{"from":"叶知秋","to":"林小鹿","raw_label":"前台同事对新员工的友好","state_summary":"叶知秋作为前台同事对林小鹿友好，主动提供帮助。","structural_base":"colleague","structural_base_raw":"叶知秋和林小鹿是同事","dynamic_stance":"friendly","dynamic_stance_raw":"叶知秋对林小鹿友好","enum_reason":"两人是同事关系，动态立场上叶知秋表现出友好。","evidence_summary":"叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。","evidence_quotes":["叶知秋接待林小鹿，带她到资料室，并告知可以随时找她"],"relation_analysis":"叶知秋对林小鹿友好，主动提供帮助。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8},{"from":"林小鹿","to":"林小鹿的父亲","raw_label":"女儿对失踪父亲的思念与追寻","state_summary":"林小鹿深爱父亲，因父亲失踪而焦虑，决心按照笔记本指引找到他。","structural_base":"kinship_parent_child","structural_base_raw":"林小鹿是父亲的女儿","dynamic_stance":"protective","dynamic_stance_raw":"林小鹿深爱父亲，决心找到他","enum_reason":"两人是亲生父女关系，动态立场上林小鹿表现出保护性追寻。","evidence_summary":"林小鹿因父亲失踪而焦虑，决心按照笔记本指引找到他。","evidence_quotes":["林小鹿深爱父亲，因父亲失踪而焦虑，决心按照笔记本指引找到他"],"relation_analysis":"林小鹿对父亲有深厚的感情，决心找到他。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":1.0},{"from":"林小鹿","to":"姓陆的","raw_label":"对未知人物的警惕","state_summary":"林小鹿根据父亲警告，对姓陆的未知人物保持高度戒备。","structural_base":"unknown","structural_base_raw":"林小鹿对姓陆的未知人物保持警惕","dynamic_stance":"wary","dynamic_stance_raw":"林小鹿对姓陆的保持高度戒备","enum_reason":"关系基础未知，动态立场上林小鹿表现出警惕。","evidence_summary":"林小鹿根据父亲警告，对姓陆的未知人物保持高度戒备。","evidence_quotes":["林小鹿根据父亲警告，对姓陆的未知人物保持高度戒备"],"relation_analysis":"林小鹿对姓陆的保持高度戒备，但关系基础未知。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.7}],"pair_relations":[{"entity_a":"林小鹿","entity_b":"林小鹿的父亲","shared_structural_base":"kinship_parent_child","shared_structural_base_raw":"林小鹿与父亲是亲生父女","pair_summary":"林小鹿与父亲是亲生父女，父亲失踪后林小鹿决心寻找。","evidence_summary":"林小鹿因父亲失踪而焦虑，决心按照笔记本指引找到他。","evidence_quotes":["林小鹿深爱父亲，因父亲失踪而焦虑，决心按照笔记本指引找到他"],"pair_analysis":"两人是明确的亲生父女关系，父亲失踪后林小鹿决心寻找。","shared_intensity_score":50,"confidence":1.0},{"entity_a":"宋明远","entity_b":"林小鹿","shared_structural_base":"superior_subordinate","shared_structural_base_raw":"宋明远是林小鹿的上司","pair_summary":"林小鹿与宋明远是上下级关系，宋明远是组长，林小鹿是新入职的组员。","evidence_summary":"宋明远面试林小鹿，询问她的背景和动机，林小鹿用准备好的说辞应对，成功入职。","evidence_quotes":["宋明远面试林小鹿，询问她的背景和动机，林小鹿用准备好的说辞应对，成功入职"],"pair_analysis":"两人是明确的上下级关系，宋明远是组长，林小鹿是新入职的组员。","shared_intensity_score":50,"confidence":0.9},{"entity_a":"叶知秋","entity_b":"林小鹿","shared_structural_base":"colleague","shared_structural_base_raw":"叶知秋和林小鹿是同事","pair_summary":"叶知秋和林小鹿是同事关系，叶知秋是前台同事。","evidence_summary":"叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。","evidence_quotes":["叶知秋接待林小鹿，带她到资料室，并告知可以随时找她"],"pair_analysis":"两人是同事关系，叶知秋是前台同事。","shared_intensity_score":50,"confidence":0.8},{"entity_a":"叶知秋","entity_b":"宋明远","shared_structural_base":"colleague","shared_structural_base_raw":"叶知秋和宋明远是同事","pair_summary":"叶知秋和宋明远是同事关系，叶知秋是前台，宋明远是组长。","evidence_summary":"叶知秋接待林小鹿，带她到资料室，并告知可以随时找她，宋明远是组长。","evidence_quotes":["叶知秋接待林小鹿，带她到资料室"],"pair_analysis":"两人是同事关系，叶知秋是前台，宋明远是组长。","shared_intensity_score":50,"confidence":0.7},{"entity_a":"姓陆的","entity_b":"林小鹿","shared_structural_base":"unknown","shared_structural_base_raw":"林小鹿对姓陆的保持警惕","pair_summary":"林小鹿根据父亲警告，对姓陆的未知人物保持高度戒备，但关系基础未知。","evidence_summary":"林小鹿根据父亲警告，对姓陆的未知人物保持高度戒备。","evidence_quotes":["林小鹿根据父亲警告，对姓陆的未知人物保持高度戒备"],"pair_analysis":"林小鹿对姓陆的保持高度戒备，但关系基础未知。","shared_intensity_score":50,"confidence":0.7}],"fact_updates":[],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第4章 异能检测：普通人的伪装: 本章暂无内容，仅标题提示林小鹿将进行异能检测并伪装成普通人。
+- 第5章 第一个任务：整理档案: 本章暂无内容，仅标题提示林小鹿将开始第一个任务：整理档案。
+- 第6章 组长宋明远的试探: 本章暂无具体内容，仅标题提示组长宋明远对林小鹿进行试探。
+</recent_summary>
+
+<focus_entities>
+- 叶知秋
+- 姓陆的
+- 宋明远
+- 林小鹿
+- 林小鹿的父亲
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=100 aliases=小鹿 summary=女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，加入天衍组织寻找父亲。
+- 宋明远 tier=active score=79 aliases=宋哥 summary=天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。
+Update: 天衍组织组长，林小鹿的上司，面试并安排林小鹿入职，对林小鹿进行试探。
+- 叶知秋 tier=background score=58 aliases=小叶 summary=天衍的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。
+- 林小鹿的父亲 tier=background score=35 summary=林小鹿的父亲，三个月前失踪，留下笔记本指引女儿加入天衍。笔记本中警告女儿不要相信任何人，尤其是姓陆的。
+- 姓陆的 tier=transient score=0 summary=父亲在笔记本中提到的危险人物，警告林小鹿不要相信。身份未知。
+</known_entities>
+
+<relevant_relation_history>
+[directed_relation_states]
+- 林小鹿 -> 宋明远: 新员工与面试官; 林小鹿作为新员工对上司宋明远保持警惕，怀疑他在调查自己。
+Update: 宋明远面试林小鹿，询问她的背景和动机，林小鹿用准备好的说辞应对，成功入职。
+- 林小鹿 -> 叶知秋: 新员工与前台同事; 林小鹿与叶知秋是同事关系，但林小鹿对叶知秋保持基本礼貌，没有深入互动。
+Update: 叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。
+- 宋明远 -> 林小鹿: 上司对新员工的试探; 宋明远作为组长对林小鹿进行试探，可能不信任她。
+- 林小鹿 -> 林小鹿的父亲: 女儿对失踪父亲的思念与追寻; 林小鹿深爱父亲，因父亲失踪而焦虑，决心按照笔记本指引找到他。
+- 林小鹿 -> 姓陆的: 对未知人物的警惕; 林小鹿根据父亲警告，对姓陆的未知人物保持高度戒备。
+
+[pair_relation_states]
+- 林小鹿 <-> 林小鹿的父亲: kinship_parent_child; 林小鹿与父亲是亲生父女，父亲失踪后林小鹿决心寻找。
+Update: Entity summary projection: 林小鹿的父亲 and 林小鹿 show a kinship_parent_child shared-structure hint.
+- 宋明远 <-> 林小鹿: superior_subordinate; 宋明远面试林小鹿，询问她的背景和动机，林小鹿用准备好的说辞应对，成功入职。
+Update: 林小鹿与宋明远是上下级关系，宋明远是组长，林小鹿是新入职的组员。
+- 叶知秋 <-> 宋明远: unknown; 
+- 叶知秋 <-> 林小鹿: unknown; 叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。
+- 姓陆的 <-> 林小鹿: unknown;
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

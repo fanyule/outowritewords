@@ -1,0 +1,21 @@
+{
+  "novelId": "cmovg42wy001afsv7x8mpa5wq",
+  "enabled": true,
+  "providerConfigured": true,
+  "graphAvailable": true,
+  "status": "succeeded",
+  "trigger": "chapter_drafted",
+  "chapterId": "cmovgcds50039fsv7b3ezow1h",
+  "chapterOrder": 18,
+  "queuedAt": "2026-05-08T11:12:35.886Z",
+  "startedAt": "2026-05-08T11:12:40.546Z",
+  "finishedAt": "2026-05-08T11:14:50.935Z",
+  "updatedAt": "2026-05-08T11:14:50.935Z",
+  "lastSuccessfulAt": "2026-05-08T11:14:50.935Z",
+  "error": null,
+  "workspacePath": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmovg42wy001afsv7x8mpa5wq\\workspace",
+  "exportPath": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmovg42wy001afsv7x8mpa5wq\\workspace\\export\\character_graph.json",
+  "analyzableChapterCount": 18,
+  "currentChapterIndex": 18,
+  "currentChapterTitle": null
+}

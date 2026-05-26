@@ -1,0 +1,66 @@
+<chapter_title>
+第1章 失踪三个月后的笔记本
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第1章 失踪三个月后的笔记本","analyzed_at":"2026-05-08T02:29:20","summary":"林小鹿在咖啡馆打工时，从旧书箱中发现父亲失踪前留下的笔记本，指引她加入天衍组织寻找真相。她前往城南老巷子，以应聘为名进入天衍文化传媒公司，接受外勤组长宋明远的面试和试探，被安排第二天上班。林小鹿意识到组织已在调查她，决心继续深入。","outline":[{"order":0,"text":"林小鹿在咖啡馆仓库的旧书箱中发现父亲林远舟留下的笔记本，笔记本指引她加入天衍组织寻找真相。","involved_names":["林小鹿","林远舟"]},{"order":1,"text":"林小鹿按照笔记本地址前往城南老巷子，找到天衍文化传媒公司，以应聘为名进入组织。","involved_names":["林小鹿"]},{"order":2,"text":"林小鹿接受宋明远的面试，宋明远询问她的背景，安排她明天上班，同时指示叶知秋调查她的背景。","involved_names":["林小鹿","宋明远","叶知秋"]},{"order":3,"text":"林小鹿在资料室中观察环境，试图寻找线索，但未发现异常，同时听到宋明远指示调查她。","involved_names":["林小鹿"]}],"entities":[{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，外院大二英语专业，课余在咖啡馆打工。父亲林远舟失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"},{"name":"林远舟","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"林小鹿的父亲，三个月前失踪，留下笔记本指引女儿加入天衍组织。"},{"name":"宋明远","aliases":["宋哥","宋组长"],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天衍组织外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。面试林小鹿，对她进行试探和背景调查。"},{"name":"叶知秋","aliases":["小叶"],"chapter_role":"supporting","tier":"active","importance_score":40,"summary":"天衍组织前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。"},{"name":"店长","aliases":[],"chapter_role":"background","tier":"active","importance_score":40,"summary":"咖啡馆店长，林小鹿的雇主。"}],"identity_revelations":[],"events":[{"event_id":"ch1_evt1","intra_chapter_order":0,"event_type":"discovery","narrative_weight":"core","narrative_weight_raw":"核心情节起点","enum_reason":"发现笔记本是本章核心事件，驱动后续所有情节。","summary":"林小鹿在咖啡馆仓库的旧书箱中发现父亲林远舟留下的笔记本，笔记本指引她加入天衍组织寻找真相。","location":"咖啡馆仓库","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"林远舟","role":"mentioned","confidence":1.0}],"evidence_summary":"林小鹿搬旧书箱时发现笔记本，翻开看到父亲留言。","evidence_quotes":["小鹿，当你看到这个的时候，我应该已经走了。","加入天衍，找到真相。"],"confidence":1.0},{"event_id":"ch1_evt2","intra_chapter_order":1,"event_type":"arrival","narrative_weight":"mainline","narrative_weight_raw":"主要情节","enum_reason":"林小鹿进入天衍组织是本章主要情节。","summary":"林小鹿按照笔记本地址前往城南老巷子，找到天衍文化传媒公司，以应聘为名进入组织。","location":"城南老巷子，天衍文化传媒公司","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0}],"evidence_summary":"林小鹿坐公交到城南，找到铁门，进入院子，推门进入公司。","evidence_quotes":["她走到巷子尽头，看见一扇铁门，上面挂着一块牌子，写着'天衍文化传媒有限公司'。"],"confidence":1.0},{"event_id":"ch1_evt3","intra_chapter_order":2,"event_type":"interview","narrative_weight":"mainline","narrative_weight_raw":"主要情节","enum_reason":"面试是本章主要情节，建立雇佣关系。","summary":"林小鹿接受宋明远的面试，宋明远询问她的背景，安排她明天上班，同时指示叶知秋调查她的背景。","location":"天衍公司门厅和资料室","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"宋明远","role":"actor","confidence":1.0},{"entity_name":"叶知秋","role":"participant","confidence":1.0}],"evidence_summary":"宋明远面试林小鹿，让她填表，带她到资料室，离开后指示查背景。","evidence_quotes":["你的简历我看过了","明天可以来上班","新来的那个，查一下背景。"],"confidence":1.0},{"event_id":"ch1_evt4","intra_chapter_order":3,"event_type":"observation","narrative_weight":"detail","narrative_weight_raw":"细节","enum_reason":"林小鹿的观察和试探是本章细节。","summary":"林小鹿在资料室中观察环境，试图寻找线索，但未发现异常，同时听到宋明远指示调查她。","location":"天衍公司资料室","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0}],"evidence_summary":"林小鹿翻看文件夹，检查文件柜，听到楼下对话。","evidence_quotes":["她走到窗边，小心地拉开窗帘一条缝","她蹲下来，看了看桌子底下"],"confidence":1.0}],"interactions":[{"from":"林小鹿","to":"叶知秋","interaction_type":"daily_interaction","interaction_type_raw":"填表和引导","impact_level":"low","impact_level_raw":"简单互动","polarity":"neutral","polarity_raw":"礼貌","enum_reason":"日常接待互动，无特殊情感。","summary":"林小鹿填表后由叶知秋带到资料室，叶知秋介绍自己。","evidence_summary":"叶知秋让林小鹿填表，带她到资料室。","evidence_quotes":["填一下","跟我来"],"interaction_analysis":"职业性互动，双方保持礼貌。","confidence":0.9},{"from":"林小鹿","to":"宋明远","interaction_type":"unknown","interaction_type_raw":"面试对话","impact_level":"medium","impact_level_raw":"面试","polarity":"neutral","polarity_raw":"试探性","enum_reason":"面试是正式互动，影响后续关系。","summary":"林小鹿接受宋明远面试，回答背景问题，宋明远安排工作。","evidence_summary":"宋明远询问林小鹿背景，林小鹿回答，宋明远安排明天上班。","evidence_quotes":["为什么想来我们这？","我想找个跟专业相关的兼职。"],"interaction_analysis":"双方都在试探，林小鹿隐瞒真实目的，宋明远怀疑。","confidence":0.9},{"from":"宋明远","to":"叶知秋","interaction_type":"command","interaction_type_raw":"指示调查","impact_level":"medium","impact_level_raw":"指示","polarity":"neutral","polarity_raw":"职业性","enum_reason":"上级对下级的命令。","summary":"宋明远在面试后指示叶知秋调查林小鹿的背景。","evidence_summary":"宋明远对叶知秋说查一下林小鹿背景。","evidence_quotes":["新来的那个，查一下背景。"],"interaction_analysis":"宋明远行使组长职权，叶知秋执行。","confidence":0.9}],"directed_relations":[{"from":"林小鹿","to":"林远舟","raw_label":"寻找失踪父亲","state_summary":"林小鹿因父亲失踪三个月而焦虑，发现父亲留下的笔记本后，决心加入天衍组织寻找父亲。","structural_base":"kinship_parent_child","structural_base_raw":"父亲","dynamic_stance":"protective","dynamic_stance_raw":"决心找到父亲","enum_reason":"明确父女血缘关系，林小鹿主动寻找父亲，表现出保护性动机。","evidence_summary":"林小鹿发现父亲笔记本，按地址前往天衍组织，决心找到父亲。","evidence_quotes":["加入天衍，找到真相"],"relation_analysis":"父女关系明确，林小鹿的行动完全由寻找父亲驱动。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":1.0},{"from":"林小鹿","to":"宋明远","raw_label":"被面试和试探","state_summary":"林小鹿以应聘者身份接受宋明远面试，宋明远对她进行试探和背景调查，林小鹿保持警惕，未完全信任。","structural_base":"employer_employee","structural_base_raw":"应聘者与面试官","dynamic_stance":"wary","dynamic_stance_raw":"保持警惕，不信任","enum_reason":"明确雇佣关系，林小鹿对宋明远保持警惕。","evidence_summary":"宋明远面试林小鹿，询问背景，安排工作，并指示查她背景。","evidence_quotes":["新来的那个，查一下背景"],"relation_analysis":"林小鹿作为新员工，宋明远作为组长，双方处于试探阶段。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.9},{"from":"宋明远","to":"林小鹿","raw_label":"面试和试探","state_summary":"宋明远作为外勤组长，对林小鹿的突然应聘持怀疑态度，面试中试探她的背景，并指示下属调查她。","structural_base":"employer_employee","structural_base_raw":"面试官与应聘者","dynamic_stance":"distrustful","dynamic_stance_raw":"怀疑，调查背景","enum_reason":"宋明远明确指示查背景，表现出不信任。","evidence_summary":"宋明远面试时追问背景，离开后指示叶知秋查林小鹿背景。","evidence_quotes":["新来的那个，查一下背景"],"relation_analysis":"宋明远对林小鹿的动机存疑，采取调查措施。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.9},{"from":"林小鹿","to":"叶知秋","raw_label":"初次接触","state_summary":"林小鹿初次见到叶知秋，叶知秋负责接待和带她熟悉环境，双方保持礼貌但疏离。","structural_base":"colleague","structural_base_raw":"同事","dynamic_stance":"neutral","dynamic_stance_raw":"礼貌互动","enum_reason":"同事关系，但尚未建立信任。","evidence_summary":"叶知秋接待林小鹿，带她到资料室，介绍自己。","evidence_quotes":["我叫叶知秋，你叫我小叶就行"],"relation_analysis":"初次见面，关系浅层。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8},{"from":"叶知秋","to":"林小鹿","raw_label":"接待和引导","state_summary":"叶知秋作为前台，负责接待林小鹿，带她熟悉环境，态度友好但职业化。","structural_base":"colleague","structural_base_raw":"同事","dynamic_stance":"neutral","dynamic_stance_raw":"礼貌接待","enum_reason":"同事关系，职业性互动。","evidence_summary":"叶知秋让林小鹿填表，带她到资料室，介绍自己。","evidence_quotes":["跟我来"],"relation_analysis":"叶知秋执行接待职责，无额外情感投入。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8}],"pair_relations":[{"entity_a":"林小鹿","entity_b":"林远舟","shared_structural_base":"kinship_parent_child","shared_structural_base_raw":"父女","pair_summary":"林小鹿与林远舟是父女关系，林远舟失踪三个月，林小鹿正在寻找他。","evidence_summary":"笔记本中父亲留言，林小鹿回忆父亲失踪前的情景。","evidence_quotes":["爸，周末回不回家吃饭？"],"pair_analysis":"明确血缘关系，驱动本章情节。","shared_intensity_score":50,"confidence":1.0},{"entity_a":"林小鹿","entity_b":"宋明远","shared_structural_base":"employer_employee","shared_structural_base_raw":"应聘者与面试官","pair_summary":"林小鹿以应聘者身份加入天衍，宋明远作为外勤组长面试并雇佣她，双方处于试探阶段。","evidence_summary":"宋明远面试林小鹿，安排工作，指示调查背景。","evidence_quotes":["你的简历我看过了","明天可以来上班"],"pair_analysis":"雇佣关系建立，但信任尚未建立。","shared_intensity_score":50,"confidence":0.9},{"entity_a":"林小鹿","entity_b":"叶知秋","shared_structural_base":"colleague","shared_structural_base_raw":"同事","pair_summary":"林小鹿与叶知秋成为天衍同事，叶知秋负责接待和引导，关系尚浅。","evidence_summary":"叶知秋接待林小鹿，带她熟悉环境。","evidence_quotes":["跟我来"],"pair_analysis":"同事关系，初步接触。","shared_intensity_score":50,"confidence":0.8}],"fact_updates":[{"subject":"林小鹿","predicate":"发现父亲笔记本","object_value":"在咖啡馆仓库旧书箱中发现父亲林远舟留下的笔记本，指引她加入天衍组织","summary":"林小鹿在咖啡馆仓库发现父亲笔记本，得知父亲失踪前留下线索。","is_state":true,"retracted":false,"confidence":1.0},{"subject":"林小鹿","predicate":"加入天衍组织","object_value":"以应聘者身份进入天衍文化传媒公司，被宋明远面试并录用","summary":"林小鹿成功进入天衍组织，开始寻找父亲。","is_state":true,"retracted":false,"confidence":1.0},{"subject":"林小鹿","predicate":"被组织调查","object_value":"宋明远指示叶知秋调查林小鹿的背景","summary":"林小鹿的突然加入引起宋明远怀疑，组织开始调查她。","is_state":true,"retracted":false,"confidence":1.0},{"subject":"林远舟","predicate":"失踪状态","object_value":"失踪三个月，留下笔记本后下落不明","summary":"林远舟三个月前失踪，警察立案无果。","is_state":true,"retracted":false,"confidence":1.0},{"subject":"林远舟","predicate":"留下警告","object_value":"笔记本中警告女儿不要相信任何人，尤其是姓陆的","summary":"林远舟在笔记本中写下警告，暗示组织内有危险人物。","is_state":true,"retracted":false,"confidence":1.0}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第38章 陆沉的橄榄枝: 本章暂无正文内容，仅标题暗示陆沉向林小鹿伸出橄榄枝，可能涉及双方建立联系或合作。
+- 第39章 两难的选择: 本章暂无正文内容，仅标题暗示林小鹿面临两难选择，可能涉及是否接受陆沉的橄榄枝或是否信任叶知秋的警告。
+- 第40章 暗流下的邀约: 本章暂无正文内容，仅标题暗示暗流下的邀约，可能涉及林小鹿收到来自陆沉或叶知秋的邀约，面临新的选择或考验。
+</recent_summary>
+
+<focus_entities>
+- 叶知秋
+- 宋明远
+- 店长
+- 林小鹿
+- 林远舟
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林远舟的女儿 tier=core score=100 aliases=小鹿, 林小鹿 summary=女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中她整理档案时被宋明远试探，谨慎应对，后收到匿名警告，凌晨发现被监视后撤离出租屋。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。本章中她执行组织任务，同时面临考试压力，收到叶知秋的警告后陷入疑虑。
+Update: 女大学生，父亲林远舟失踪三个月，持父亲笔记本加入天衍组织。本章中她凌晨收到叶知秋的加密短信，下午赴约图书馆，得知接头地点被监控、叶知秋哥哥失踪等秘密，内心对父亲失踪的真相更加怀疑。
+Update: 女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中她主动向组长宋明远申请升级任务，获得C级任务外围工作的机会，同时收到叶知秋的警告，内心保持警惕。
+Update: 女大学生，天衍组织新成员，父亲林远舟失踪。本章中她随宋明远执行任务，发现父亲留下的档案，内心震惊但表面镇定，决定次日赴约。
+Update: 女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她成为宋明远关心的对象。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她可能获得任务奖励并面临新的机会。
+Update: 女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中她与叶知秋的信任关系可能进一步巩固，但面临组织内部的暗流。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有异常发现。
+Update: 女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她受到宋明远的试探。
+Update: 女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她主动设计任务组合。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中与叶知秋进行情报交易。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她可能进行伪装下的紧急行动。
+Update: 女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她可能转向主动行动。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她面临考试周与紧急任务的双重压力。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中她正在打工，被老板突然查岗。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲林远舟失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她面临紧急情况，需要三线并行操作。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有意外发现。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她面临宋明远升级的试探。
+Update: 女大学生，外院大二英语专业，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她可能在废弃工厂中发现暗语。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她在战利品中发现另一条线索。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她正被宋明远审视。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她面临暗流下的抉择。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她追踪的代号指向陆沉。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中她面临两难选择。
+Update: 女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她可能收到暗流下的邀约。
+- 叶知秋 tier=core score=85 aliases=叶, 叶姐, 小叶 summary=天衍的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。
+Update: 天衍组织的前台接待员，年轻女性，穿白色衬衫和深灰色长裤，负责林小鹿的接待和初步评估，进行基础异能检测和定向检测。
+Update: 天衍组织工作人员，负责林小鹿的异能检测和任务安排。对林小鹿保持职业性的审视，传递宋明远的警告，暗示背景调查会更严格。
+Update: 天衍组织前台工作人员，年轻女性。本章中她在前台与林小鹿点头示意，没有深入交流。
+Update: 天衍组织的前台工作人员，年轻女性，戴眼镜。本章中她通过短信警告林小鹿接头地点已被监控，语气带有提醒和警告意味。
+Update: 天衍组织档案室工作人员，戴眼
+...(truncated)
+</known_entities>
+
+<relevant_relation_history>
+
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

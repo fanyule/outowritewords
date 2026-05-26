@@ -1,0 +1,442 @@
+{
+  "schema_version": 2,
+  "chapter_title": "第3章 第三章 铁盒与名单",
+  "analyzed_at": "2026-05-07T10:33:39",
+  "summary": "周岚打开铁盒发现一份被水浸过的名单，上面同时出现沈砚父亲和林苒导师的名字。林苒承认早就知道名单存在，但担心沈砚因父亲牵涉而退缩。沈砚与林苒激烈争执，但最终决定继续调查，因为他意识到父亲可能不是纵火者，而是试图阻止真相被埋没的人。",
+  "outline": [
+    {
+      "order": 0,
+      "text": "周岚回到临时住处后打开铁盒，发现里面是一份被水浸过的名单，名单上同时出现了沈砚父亲和林苒导师的名字。",
+      "involved_names": [
+        "周岚"
+      ]
+    },
+    {
+      "order": 1,
+      "text": "林苒承认自己早就知道名单的存在，只是担心沈砚会因为父亲牵涉其中而退缩。",
+      "involved_names": [
+        "林苒",
+        "沈砚",
+        "周岚"
+      ]
+    },
+    {
+      "order": 2,
+      "text": "沈砚因林苒隐瞒名单而与她激烈争执。",
+      "involved_names": [
+        "沈砚",
+        "林苒"
+      ]
+    },
+    {
+      "order": 3,
+      "text": "沈砚决定和周岚一起继续查下去，因为他意识到父亲可能不是纵火者，而是曾经试图阻止真相被埋没的人。",
+      "involved_names": [
+        "沈砚",
+        "周岚"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "name": "林苒",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "tier": "core",
+      "importance_score": 92,
+      "summary": "记者，导师名字出现在名单上，承认早就知道名单存在但隐瞒，担心沈砚退缩，与沈砚争执后继续合作。"
+    },
+    {
+      "name": "周岚",
+      "aliases": [],
+      "chapter_role": "protagonist",
+      "tier": "core",
+      "importance_score": 84,
+      "summary": "调查者，与沈砚、林苒共同调查港区失火案，打开铁盒发现名单，与沈砚分享信息并支持他继续调查。"
+    },
+    {
+      "name": "沈砚",
+      "aliases": [],
+      "chapter_role": "protagonist",
+      "tier": "core",
+      "importance_score": 84,
+      "summary": "共同调查者，父亲名字出现在名单上，与林苒激烈争执后决定继续调查，意识到父亲可能不是纵火者而是试图阻止真相的人。"
+    }
+  ],
+  "identity_revelations": [
+    {
+      "source_name": "沈砚父亲",
+      "target_name": "沈砚父亲",
+      "revelation_type": "true_identity",
+      "evidence": "名单上出现沈砚父亲的名字，沈砚意识到父亲可能不是纵火者，而是试图阻止真相被埋没的人。",
+      "confidence": 0.7
+    },
+    {
+      "source_name": "林苒导师",
+      "target_name": "林苒导师",
+      "revelation_type": "true_identity",
+      "evidence": "名单上出现林苒导师的名字。",
+      "confidence": 0.8
+    }
+  ],
+  "events": [
+    {
+      "event_id": "evt-3-1",
+      "intra_chapter_order": 0,
+      "event_type": "discovery",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心发现：铁盒中的名单",
+      "enum_reason": "名单的发现是本章的核心事件，推动剧情发展。",
+      "summary": "周岚回到临时住处后打开铁盒，发现里面是一份被水浸过的名单，名单上同时出现了沈砚父亲和林苒导师的名字。",
+      "location": "临时住处",
+      "participants": [
+        {
+          "entity_name": "周岚",
+          "role": "actor",
+          "confidence": 1.0
+        }
+      ],
+      "evidence_summary": "周岚打开铁盒，发现被水浸过的名单，上面有沈砚父亲和林苒导师的名字。",
+      "evidence_quotes": [
+        "周岚打开铁盒，发现里面是一份被水浸过的名单，名单上同时出现了沈砚父亲和林苒导师的名字"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt-3-2",
+      "intra_chapter_order": 1,
+      "event_type": "confession",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心冲突：林苒承认隐瞒",
+      "enum_reason": "林苒的坦白是本章的关键冲突点。",
+      "summary": "林苒承认自己早就知道名单的存在，只是担心沈砚会因为父亲牵涉其中而退缩。",
+      "location": "临时住处",
+      "participants": [
+        {
+          "entity_name": "林苒",
+          "role": "actor",
+          "confidence": 1.0
+        },
+        {
+          "entity_name": "沈砚",
+          "role": "target",
+          "confidence": 1.0
+        },
+        {
+          "entity_name": "周岚",
+          "role": "witness",
+          "confidence": 1.0
+        }
+      ],
+      "evidence_summary": "林苒向周岚和沈砚承认早就知道名单存在，但担心沈砚退缩而隐瞒。",
+      "evidence_quotes": [
+        "林苒承认自己早就知道名单的存在，只是担心沈砚会因为父亲牵涉其中而退缩"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt-3-3",
+      "intra_chapter_order": 2,
+      "event_type": "conflict",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心冲突：沈砚与林苒争执",
+      "enum_reason": "争执是本章的主要冲突事件。",
+      "summary": "沈砚因林苒隐瞒名单而与她激烈争执。",
+      "location": "临时住处",
+      "participants": [
+        {
+          "entity_name": "沈砚",
+          "role": "actor",
+          "confidence": 1.0
+        },
+        {
+          "entity_name": "林苒",
+          "role": "target",
+          "confidence": 1.0
+        }
+      ],
+      "evidence_summary": "沈砚与林苒因隐瞒名单发生激烈争执。",
+      "evidence_quotes": [
+        "沈砚因此与林苒激烈争执"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt-3-4",
+      "intra_chapter_order": 3,
+      "event_type": "decision",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "转折点：沈砚决定继续调查",
+      "enum_reason": "沈砚的决定改变了调查方向，是本章的转折点。",
+      "summary": "沈砚决定和周岚一起继续查下去，因为他意识到父亲可能不是纵火者，而是曾经试图阻止真相被埋没的人。",
+      "location": "临时住处",
+      "participants": [
+        {
+          "entity_name": "沈砚",
+          "role": "actor",
+          "confidence": 1.0
+        },
+        {
+          "entity_name": "周岚",
+          "role": "participant",
+          "confidence": 1.0
+        }
+      ],
+      "evidence_summary": "沈砚在争执后决定继续调查，基于对父亲角色的新认识。",
+      "evidence_quotes": [
+        "沈砚……决定和周岚一起继续查下去，因为他意识到父亲可能不是纵火者，而是曾经试图阻止真相被埋没的人"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "沈砚",
+      "to": "林苒",
+      "interaction_type": "conflict",
+      "interaction_type_raw": "激烈争执",
+      "impact_level": "high",
+      "impact_level_raw": "激烈争执",
+      "polarity": "negative",
+      "polarity_raw": "激烈争执",
+      "enum_reason": "双方发生直接冲突，属于争执类型。",
+      "summary": "沈砚因林苒隐瞒名单而与她激烈争执。",
+      "evidence_summary": "沈砚与林苒因隐瞒名单发生激烈争执。",
+      "evidence_quotes": [
+        "沈砚因此与林苒激烈争执"
+      ],
+      "interaction_analysis": "沈砚对林苒的隐瞒行为感到愤怒，导致直接冲突。",
+      "confidence": 1.0
+    },
+    {
+      "from": "林苒",
+      "to": "沈砚",
+      "interaction_type": "confession",
+      "interaction_type_raw": "承认隐瞒",
+      "impact_level": "high",
+      "impact_level_raw": "承认隐瞒",
+      "polarity": "negative",
+      "polarity_raw": "承认隐瞒导致冲突",
+      "enum_reason": "林苒主动坦白隐瞒的事实。",
+      "summary": "林苒向沈砚和周岚承认自己早就知道名单存在，但担心沈砚退缩而隐瞒。",
+      "evidence_summary": "林苒承认早就知道名单存在，但担心沈砚退缩而隐瞒。",
+      "evidence_quotes": [
+        "林苒承认自己早就知道名单的存在，只是担心沈砚会因为父亲牵涉其中而退缩"
+      ],
+      "interaction_analysis": "林苒的坦白虽然诚实，但引发了沈砚的愤怒和冲突。",
+      "confidence": 1.0
+    },
+    {
+      "from": "周岚",
+      "to": "沈砚",
+      "interaction_type": "cooperation",
+      "interaction_type_raw": "分享名单并支持继续调查",
+      "impact_level": "medium",
+      "impact_level_raw": "分享名单并支持继续调查",
+      "polarity": "positive",
+      "polarity_raw": "支持与合作",
+      "enum_reason": "周岚主动分享信息并支持沈砚，属于合作行为。",
+      "summary": "周岚打开铁盒后与沈砚分享名单信息，并支持他继续调查的决定。",
+      "evidence_summary": "周岚打开铁盒，发现名单后与沈砚分享，并支持他继续调查的决定。",
+      "evidence_quotes": [
+        "周岚打开铁盒，发现里面是一份被水浸过的名单",
+        "沈砚……决定和周岚一起继续查下去"
+      ],
+      "interaction_analysis": "周岚与沈砚保持稳定的合作关系，周岚信任并支持沈砚。",
+      "confidence": 0.9
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "周岚",
+      "to": "沈砚",
+      "raw_label": "分享名单并支持继续调查",
+      "state_summary": "周岚打开铁盒后与沈砚分享名单信息，并支持他继续调查的决定，两人是稳定的调查搭档。",
+      "structural_base": "same_faction",
+      "structural_base_raw": "共同调查港区失火案的合作者",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "打开铁盒后与沈砚分享名单信息，并支持他继续调查的决定",
+      "enum_reason": "周岚主动分享关键信息并支持沈砚的决定，表现出信任与合作。",
+      "evidence_summary": "周岚打开铁盒，发现名单后与沈砚分享，并支持他继续调查的决定。",
+      "evidence_quotes": [
+        "周岚打开铁盒，发现里面是一份被水浸过的名单",
+        "沈砚……决定和周岚一起继续查下去"
+      ],
+      "relation_analysis": "周岚与沈砚保持稳定的合作关系，周岚信任沈砚并支持他的决策。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.9
+    },
+    {
+      "from": "周岚",
+      "to": "林苒",
+      "raw_label": "信任因隐瞒受到挑战",
+      "state_summary": "周岚之前因林苒提供关键证据而信任她，但本章发现林苒隐瞒名单存在，信任出现裂痕，但仍在同一调查阵营。",
+      "structural_base": "same_faction",
+      "structural_base_raw": "共同调查港区失火案的合作者",
+      "dynamic_stance": "conflicted",
+      "dynamic_stance_raw": "之前因林苒提供监控截图而信任她，但本章发现林苒隐瞒了名单的存在，信任受到挑战",
+      "enum_reason": "周岚对林苒的隐瞒感到失望，信任受到挑战，但尚未决裂。",
+      "evidence_summary": "林苒承认早就知道名单存在但隐瞒，周岚得知后信任受到挑战。",
+      "evidence_quotes": [
+        "林苒承认自己早就知道名单的存在，只是担心沈砚会因为父亲牵涉其中而退缩"
+      ],
+      "relation_analysis": "周岚对林苒的信任因隐瞒行为而动摇，但两人仍为共同调查者，关系处于矛盾状态。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.8
+    },
+    {
+      "from": "林苒",
+      "to": "沈砚",
+      "raw_label": "隐瞒名单担心退缩",
+      "state_summary": "林苒早就知道名单存在，但担心沈砚因父亲牵涉而退缩，因此隐瞒，导致沈砚激烈争执，但最终仍继续合作。",
+      "structural_base": "same_faction",
+      "structural_base_raw": "共同调查港区失火案的合作者",
+      "dynamic_stance": "conflicted",
+      "dynamic_stance_raw": "担心沈砚退缩而隐瞒，但最终承认",
+      "enum_reason": "林苒出于保护合作和担心沈砚退缩的动机而隐瞒，但最终承认并继续合作，处于矛盾心态。",
+      "evidence_summary": "林苒承认自己早就知道名单的存在，只是担心沈砚会因为父亲牵涉其中而退缩。",
+      "evidence_quotes": [
+        "林苒承认自己早就知道名单的存在，只是担心沈砚会因为父亲牵涉其中而退缩"
+      ],
+      "relation_analysis": "林苒对沈砚有保护意图，但隐瞒行为破坏了信任，导致冲突，最终在承认后维持合作，关系复杂。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.9
+    },
+    {
+      "from": "林苒",
+      "to": "周岚",
+      "raw_label": "隐瞒名单但继续合作",
+      "state_summary": "林苒隐瞒名单存在，但最终向周岚和沈砚承认，并继续合作调查。",
+      "structural_base": "same_faction",
+      "structural_base_raw": "共同调查港区失火案的合作者",
+      "dynamic_stance": "conflicted",
+      "dynamic_stance_raw": "隐瞒名单存在，但最终承认并继续合作",
+      "enum_reason": "林苒的隐瞒行为与继续合作的态度矛盾，处于冲突状态。",
+      "evidence_summary": "林苒承认早就知道名单存在但隐瞒，之后继续与周岚和沈砚合作。",
+      "evidence_quotes": [
+        "林苒承认自己早就知道名单的存在",
+        "沈砚……决定和周岚一起继续查下去"
+      ],
+      "relation_analysis": "林苒对周岚有合作意图，但隐瞒行为破坏了信任，关系复杂。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.8
+    },
+    {
+      "from": "沈砚",
+      "to": "林苒",
+      "raw_label": "因隐瞒名单而激烈争执",
+      "state_summary": "沈砚因林苒隐瞒名单存在而与她激烈争执，但意识到父亲可能不是纵火者后，决定继续与周岚和林苒一起调查，关系从冲突转向勉强合作。",
+      "structural_base": "same_faction",
+      "structural_base_raw": "共同调查港区失火案的合作者",
+      "dynamic_stance": "conflicted",
+      "dynamic_stance_raw": "激烈争执后决定继续合作",
+      "enum_reason": "沈砚对林苒的隐瞒感到愤怒和失望，但最终选择继续合作，处于矛盾状态。",
+      "evidence_summary": "沈砚因林苒隐瞒名单而与她激烈争执，但最后决定继续查下去。",
+      "evidence_quotes": [
+        "沈砚因此与林苒激烈争执，但最后还是决定和周岚一起继续查下去"
+      ],
+      "relation_analysis": "沈砚对林苒的隐瞒行为产生强烈负面反应，但基于对真相的追求和父亲可能清白的认识，选择维持合作关系，关系处于冲突与妥协的混合状态。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.9
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "周岚",
+      "entity_b": "沈砚",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "共同调查港区失火案的合作者",
+      "pair_summary": "两人是稳定的调查搭档，共同面对新发现的名单和冲突，周岚支持沈砚继续调查的决定。",
+      "evidence_summary": "周岚打开铁盒后与沈砚分享名单信息，并支持他继续调查的决定。",
+      "evidence_quotes": [
+        "周岚打开铁盒，发现里面是一份被水浸过的名单",
+        "沈砚……决定和周岚一起继续查下去"
+      ],
+      "pair_analysis": "两人在调查中保持紧密合作，周岚信任沈砚，沈砚依赖周岚的支持，关系稳固。",
+      "shared_intensity_score": 50.0,
+      "confidence": 0.9
+    },
+    {
+      "entity_a": "周岚",
+      "entity_b": "林苒",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "共同调查港区失火案的合作者",
+      "pair_summary": "两人是调查合作者，但林苒的隐瞒导致信任出现裂痕，关系紧张但未破裂。",
+      "evidence_summary": "林苒承认早就知道名单存在但隐瞒，周岚得知后信任受到挑战。",
+      "evidence_quotes": [
+        "林苒承认自己早就知道名单的存在，只是担心沈砚会因为父亲牵涉其中而退缩"
+      ],
+      "pair_analysis": "两人仍为同一调查阵营，但隐瞒行为破坏了信任基础，关系处于不稳定状态。",
+      "shared_intensity_score": 50.0,
+      "confidence": 0.8
+    },
+    {
+      "entity_a": "林苒",
+      "entity_b": "沈砚",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "共同调查港区失火案的合作者",
+      "pair_summary": "两人因林苒隐瞒名单而激烈争执，但沈砚最终决定继续合作，关系从冲突转向勉强合作。",
+      "evidence_summary": "沈砚因林苒隐瞒名单而与她激烈争执，但最后决定继续查下去。",
+      "evidence_quotes": [
+        "沈砚因此与林苒激烈争执，但最后还是决定和周岚一起继续查下去"
+      ],
+      "pair_analysis": "两人虽有共同调查目标，但信任受损，关系紧张，合作基础动摇。",
+      "shared_intensity_score": 50.0,
+      "confidence": 0.9
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "沈砚父亲",
+      "predicate": "出现在名单上",
+      "object_value": "被水浸过的名单上出现沈砚父亲的名字",
+      "summary": "沈砚父亲的名字出现在铁盒中的名单上，沈砚意识到父亲可能不是纵火者，而是试图阻止真相被埋没的人。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 0.8
+    },
+    {
+      "subject": "林苒导师",
+      "predicate": "出现在名单上",
+      "object_value": "被水浸过的名单上出现林苒导师的名字",
+      "summary": "林苒导师的名字出现在铁盒中的名单上。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 0.8
+    },
+    {
+      "subject": "林苒",
+      "predicate": "早就知道名单存在",
+      "object_value": "林苒承认早就知道名单存在，但担心沈砚退缩而隐瞒",
+      "summary": "林苒向周岚和沈砚承认自己早就知道名单的存在，但出于担心沈砚退缩而隐瞒。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 1.0
+    },
+    {
+      "subject": "沈砚",
+      "predicate": "决定继续调查",
+      "object_value": "沈砚决定和周岚一起继续查下去",
+      "summary": "沈砚在争执后决定继续调查，基于对父亲角色的新认识。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 1.0
+    }
+  ],
+  "unresolved": []
+}

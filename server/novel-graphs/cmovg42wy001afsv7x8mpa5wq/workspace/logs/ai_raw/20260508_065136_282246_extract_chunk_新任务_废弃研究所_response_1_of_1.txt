@@ -1,0 +1,259 @@
+{
+  "summary": "林小鹿随宋明远前往废弃研究所执行C级清理任务，在二楼杂物间发现父亲以假名“陈默”留下的档案，内有警告“夜枭已察觉，勿信高层”及指向总部档案室的线索。宋明远在任务中试探林小鹿的青石镇背景，并接到疑似监控接头地点的电话。林小鹿隐藏发现，返回宿舍后决定次日提前观察接头地点。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "外院大二学生，英语专业，天衍组织新成员。父亲失踪半年，她正秘密寻找父亲下落。本章中随宋明远执行C级清理任务，在废弃研究所发现父亲以假名留下的档案和警告。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥", "宋组长"],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织外勤组长，三十来岁。本章亲自带队执行C级任务，途中试探林小鹿的青石镇背景，并接到疑似监控接头地点的电话，对林小鹿保持审视。"
+    },
+    {
+      "name": "林父",
+      "aliases": ["林远舟", "父亲", "陈默"],
+      "chapter_role": "mentioned",
+      "summary": "林小鹿失踪半年的父亲，曾以假名“陈默”在废弃研究所工作，留下警告字条“夜枭已察觉，勿信高层”及指向总部档案室的线索。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["叶姐", "小叶"],
+      "chapter_role": "mentioned",
+      "summary": "天衍组织情报分析员，曾警告林小鹿接头地点被监控。本章中林小鹿考虑联系她但最终未拨出电话。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "监督与试探",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "组长带新人执行任务",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "每隔几分钟就会扫她一眼，追问青石镇背景",
+      "state_summary": "宋明远作为外勤组长，亲自带队执行C级任务，途中多次观察林小鹿，并追问其青石镇居住经历，表现出明显的审视和怀疑。",
+      "enum_reason": "宋明远是林小鹿的上级，且本章中持续观察和试探，符合superior_subordinate和wary。",
+      "evidence_summary": "宋明远亲自带队执行C级任务，途中多次扫视林小鹿，并突然询问青石镇居住经历。",
+      "evidence_quotes": ["他站在门口，看似在翻看墙上的旧公告栏，实际上每隔几分钟就会扫她一眼", "你在青石镇住过？"],
+      "relation_analysis": "宋明远作为组长亲自带队C级任务已属异常，途中持续观察林小鹿并追问其背景，表明他对林小鹿保持高度警惕和怀疑。",
+      "confidence": 0.85
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "高度警惕与防备",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "林小鹿是宋明远的下属",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "心里却在快速盘算，手心全是汗",
+      "state_summary": "林小鹿对宋明远保持高度警惕，意识到他在试探自己，并在发现父亲档案后刻意隐藏情绪，避免露出破绽。",
+      "enum_reason": "林小鹿是宋明远的下属，本章中她内心对宋明远充满不信任和防备，符合distrustful。",
+      "evidence_summary": "林小鹿在宋明远询问青石镇时快速盘算答案，发现档案后隐藏情绪，并因宋明远的电话而紧张。",
+      "evidence_quotes": ["她回答得很快，这个答案她早就准备好了", "她心里一紧，但表面上什么都没表现出来"],
+      "relation_analysis": "林小鹿意识到宋明远在调查自己，且其电话内容暗示监控接头地点，因此对宋明远保持高度警惕和防备。",
+      "confidence": 0.9
+    },
+    {
+      "from": "林小鹿",
+      "to": "林父",
+      "raw_label": "寻找与信任",
+      "structural_base": "kinship_parent_child",
+      "structural_base_raw": "父女关系",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "她认识这个字迹，父亲握她的手教她写字",
+      "state_summary": "林小鹿在废弃研究所发现父亲以假名留下的档案和警告，确认父亲曾在此工作，并决定继续寻找父亲的下落。",
+      "enum_reason": "林小鹿与林父是亲生父女关系，本章中林小鹿通过字迹确认父亲身份，并信任其留下的警告。",
+      "evidence_summary": "林小鹿在档案盒中发现父亲笔迹的档案，内有警告字条，她确认是父亲所写。",
+      "evidence_quotes": ["她认识这个字迹。父亲写'林'字的时候，总是把'木'字旁最后一笔写得特别长", "夜枭已察觉，勿信高层"],
+      "relation_analysis": "林小鹿通过字迹确认父亲身份，并决定继续寻找父亲，表明她对父亲的信任和寻找的决心。",
+      "confidence": 0.95
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "林父",
+      "shared_structural_base": "kinship_parent_child",
+      "shared_structural_base_raw": "父女关系",
+      "pair_summary": "林小鹿与林父是亲生父女，林父失踪半年，林小鹿正在寻找他。本章中林小鹿发现父亲以假名留下的档案和警告。",
+      "evidence_summary": "林小鹿通过字迹确认档案为父亲所写，档案显示父亲曾以假名在废弃研究所工作。",
+      "evidence_quotes": ["她认识这个字迹。父亲写'林'字的时候，总是把'木'字旁最后一笔写得特别长"],
+      "pair_analysis": "林小鹿与林父的父女关系是本章的核心线索，林小鹿通过字迹确认父亲身份，并决定继续寻找。",
+      "confidence": 0.95
+    }
+  ],
+  "identity_revelations": [
+    {
+      "source_name": "陈默",
+      "target_name": "林父",
+      "revelation_type": "alias",
+      "evidence": "林小鹿在废弃研究所发现父亲笔迹的档案，姓名栏写着'陈默'，她确认是父亲的字迹。",
+      "confidence": 0.9
+    }
+  ],
+  "events": [
+    {
+      "event_id": "废弃研究所清理任务",
+      "intra_chapter_order": 0,
+      "event_type": "任务执行",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "本章主要情节",
+      "summary": "林小鹿随宋明远前往城西废弃研究所执行C级清理任务，清点一楼文件，宋明远途中试探林小鹿的青石镇背景。",
+      "location": "城西郊外废弃研究所",
+      "enum_reason": "该事件是本章的核心情节，推动后续发现。",
+      "evidence_summary": "林小鹿和宋明远到达废弃研究所，开始清点一楼文件，宋明远询问林小鹿青石镇居住经历。",
+      "evidence_quotes": ["废弃研究所坐落在城西郊外一片荒废的工业区里", "你在青石镇住过？"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "宋明远", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "发现父亲档案",
+      "intra_chapter_order": 1,
+      "event_type": "发现线索",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "关键转折",
+      "summary": "林小鹿在二楼杂物间发现父亲以假名'陈默'留下的档案，内有警告'夜枭已察觉，勿信高层'及指向总部档案室的线索。",
+      "location": "废弃研究所二楼杂物间",
+      "enum_reason": "该事件是本章的关键转折，林小鹿获得重要线索。",
+      "evidence_summary": "林小鹿在书架底层发现灰色档案盒，内有父亲笔迹的档案，包含警告字条。",
+      "evidence_quotes": ["夜枭已察觉，勿信高层", "档案室B-17号柜，第三层"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "林父", "role": "mentioned", "confidence": 0.9}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "宋明远接电话",
+      "intra_chapter_order": 2,
+      "event_type": "通讯",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "细节",
+      "summary": "宋明远接到电话，压低声音提到'明天下午''监控''确认'，林小鹿怀疑接头地点被监控。",
+      "location": "废弃研究所一楼",
+      "enum_reason": "该事件是细节，但强化了林小鹿的怀疑。",
+      "evidence_summary": "宋明远接电话时压低声音，林小鹿隐约听到几个词。",
+      "evidence_quotes": ["明天下午", "监控", "确认"],
+      "participants": [
+        {"entity_name": "宋明远", "role": "actor", "confidence": 1.0},
+        {"entity_name": "林小鹿", "role": "witness", "confidence": 1.0}
+      ],
+      "confidence": 0.8
+    },
+    {
+      "event_id": "返回宿舍",
+      "intra_chapter_order": 3,
+      "event_type": "日常",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "细节",
+      "summary": "林小鹿返回宿舍，仔细查看父亲档案，拍照加密，决定次日提前观察接头地点。",
+      "location": "林小鹿宿舍",
+      "enum_reason": "该事件是本章收尾，林小鹿做出决定。",
+      "evidence_summary": "林小鹿锁好门，拉上窗帘，仔细查看档案，拍照加密，决定次日提前观察。",
+      "evidence_quotes": ["她拿起手机，拍下三页纸的照片，存进加密文件夹", "她决定明天提前半小时到达，先在周围观察一圈环境"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "interaction_type": "command",
+      "interaction_type_raw": "宋明远安排林小鹿去二楼杂物间",
+      "impact_level": "low",
+      "impact_level_raw": "日常任务指令",
+      "polarity": "neutral",
+      "polarity_raw": "职业化指令",
+      "summary": "宋明远安排林小鹿去二楼杂物间查看旧档案，自己在一楼整理文件。",
+      "enum_reason": "宋明远作为上级向下属下达任务指令。",
+      "evidence_summary": "宋明远说'二楼有个杂物间，里面可能堆着一些旧档案，你去看看。我在一楼整理这些。'",
+      "evidence_quotes": ["二楼有个杂物间，里面可能堆着一些旧档案，你去看看。我在一楼整理这些。"],
+      "interaction_analysis": "宋明远以职业化的方式安排林小鹿工作，表面正常，但结合其试探行为，可能有意支开林小鹿。",
+      "confidence": 0.9
+    },
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "interaction_type": "deception",
+      "interaction_type_raw": "宋明远试探林小鹿的青石镇背景",
+      "impact_level": "medium",
+      "impact_level_raw": "试探性提问",
+      "polarity": "negative",
+      "polarity_raw": "怀疑性试探",
+      "summary": "宋明远突然询问林小鹿是否在青石镇住过，以及搬走年龄，林小鹿谨慎回答。",
+      "enum_reason": "宋明远通过提问试探林小鹿的背景，带有欺骗性目的。",
+      "evidence_summary": "宋明远突然开口问'你在青石镇住过？'，接着问'几岁搬走的？'",
+      "evidence_quotes": ["你在青石镇住过？", "几岁搬走的？"],
+      "interaction_analysis": "宋明远通过看似随意的提问试探林小鹿的背景，林小鹿意识到对方已查过她的户籍信息。",
+      "confidence": 0.85
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "interaction_type": "deception",
+      "interaction_type_raw": "林小鹿隐瞒发现",
+      "impact_level": "high",
+      "impact_level_raw": "隐瞒关键线索",
+      "polarity": "negative",
+      "polarity_raw": "欺骗性隐瞒",
+      "summary": "林小鹿发现父亲档案后，将其藏入内袋，回到一楼时对宋明远谎称只找到一些旧档案，没什么用。",
+      "enum_reason": "林小鹿故意隐瞒发现，欺骗宋明远。",
+      "evidence_summary": "林小鹿把三页纸折好塞进外套内袋，回到一楼时宋明远问'找到了什么？'，她回答'一些旧档案，没什么用'。",
+      "evidence_quotes": ["一些旧档案，没什么用", "都是三年前的离职人员资料，跟实验无关"],
+      "interaction_analysis": "林小鹿在发现关键线索后，刻意对宋明远撒谎，隐瞒真实发现，表现出高度警惕和防备。",
+      "confidence": 0.95
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "林父",
+      "predicate": "曾用假名",
+      "object_value": "陈默",
+      "summary": "林小鹿在废弃研究所发现父亲以假名'陈默'留下的档案，确认父亲曾在此工作。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "林父",
+      "predicate": "留下警告",
+      "object_value": "夜枭已察觉，勿信高层",
+      "summary": "林父在档案中留下字条，警告'夜枭已察觉，勿信高层'，并指向总部档案室B-17号柜第三层。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "林父",
+      "predicate": "工作经历",
+      "object_value": "青石镇研究所，异能材料研究员",
+      "summary": "档案显示林父（陈默）曾在青石镇研究所工作，职位是异能材料研究员。",
+      "is_state": true,
+      "confidence": 0.85
+    },
+    {
+      "subject": "夜枭",
+      "predicate": "身份",
+      "object_value": "未知代号，可能是人或部门",
+      "summary": "林父的离职审批表签字栏写着'夜枭'，林小鹿怀疑这是组织内部的一个代号。",
+      "is_state": true,
+      "confidence": 0.7
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "获得线索",
+      "object_value": "档案室B-17号柜，第三层",
+      "summary": "林小鹿从父亲档案中获得指向总部档案室的线索，但尚未去过总部。",
+      "is_state": true,
+      "confidence": 0.9
+    }
+  ]
+}

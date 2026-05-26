@@ -1,0 +1,60 @@
+{
+  "schema_version": 2,
+  "chapter_title": "第31章 废弃工厂的暗语",
+  "analyzed_at": "2026-05-08T02:23:24",
+  "summary": "本章暂无正文内容，仅标题暗示废弃工厂中存在暗语，可能涉及林小鹿在废弃工厂中发现关键线索或暗号。",
+  "outline": [
+    {
+      "order": 0,
+      "text": "本章暂无正文内容，仅标题暗示废弃工厂的暗语。",
+      "involved_names": []
+    }
+  ],
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": [
+        "小鹿",
+        "林远舟的女儿"
+      ],
+      "chapter_role": "protagonist",
+      "tier": "active",
+      "importance_score": 70,
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她可能在废弃工厂中发现暗语。"
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch31_evt1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "本章暂无正文内容",
+      "enum_reason": "本章无正文，仅标题提供背景信息，故选择detail。",
+      "summary": "本章暂无正文内容，仅标题暗示废弃工厂的暗语。",
+      "location": "废弃工厂",
+      "participants": [],
+      "evidence_summary": "标题为'废弃工厂的暗语'，但正文无内容。",
+      "evidence_quotes": [
+        "第31章 废弃工厂的暗语"
+      ],
+      "confidence": 0.1
+    }
+  ],
+  "interactions": [],
+  "directed_relations": [],
+  "pair_relations": [],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "可能前往废弃工厂",
+      "object_value": "废弃工厂",
+      "summary": "标题暗示林小鹿可能在废弃工厂中发现暗语。",
+      "is_state": false,
+      "retracted": false,
+      "confidence": 0.1
+    }
+  ],
+  "unresolved": []
+}

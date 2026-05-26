@@ -1,0 +1,228 @@
+{
+  "summary": "林小鹿主动向宋明远申请接取城南旧货市场信息采集和西区图书馆档案整理两个任务，宋明远同意。林小鹿到情报室接任务时，叶知秋翻过任务卡指出背面小字，暗示她对比两次清单，林小鹿意识到叶知秋在暗中帮助自己。林小鹿在城南旧货市场执行任务时，发现旧货市场东区的巷子通往旧书店街，而接头地点旧书店街17号就在巷子出口对面，意识到任务组合可能是有人故意安排的，决定必须赴约并设法避开监控。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "外院大二学生，英语专业，天衍组织新成员，父亲失踪三个月，正在暗中调查父亲下落。本章中主动申请任务，发现任务区域与接头地点重合，决定赴约并设法避开监控。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋组长"],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织外勤组长，三十来岁，对林小鹿保持监督与试探。本章中同意林小鹿接取两个任务，但内心怀疑其动机。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["叶姐"],
+      "chapter_role": "supporting",
+      "summary": "天衍组织情报室工作人员，戴眼镜的年轻女人，暗中帮助林小鹿。本章中通过翻任务卡暗示林小鹿注意任务区域重合。"
+    },
+    {
+      "name": "老张",
+      "aliases": [],
+      "chapter_role": "background",
+      "summary": "天衍组织成员，在任务板前翻看任务卡档案夹。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "表面服从，内心警惕",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "宋明远是外勤组长，林小鹿是新成员",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "林小鹿在赌宋明远不会拒绝积极接任务的新人，观察他的反应",
+      "state_summary": "林小鹿作为下属主动申请任务，表面服从组织流程，但内心对宋明远的动机保持高度警惕，认为他可能故意安排任务组合来试探自己。",
+      "enum_reason": "林小鹿是下属，宋明远是上级，存在明确的上下级关系；林小鹿对宋明远保持警惕和怀疑。",
+      "evidence_summary": "林小鹿主动向宋明远申请接两个任务，宋明远同意；林小鹿观察宋明远的反应，认为他可能怀疑自己。",
+      "evidence_quotes": ["她在赌。赌宋明远不会拒绝一个积极接任务的新人", "这个任务组合，是巧合，还是有人故意安排的？"],
+      "relation_analysis": "林小鹿作为下属主动申请任务，宋明远作为上级批准，但林小鹿内心对宋明远的动机保持高度警惕，认为任务组合可能是陷阱。",
+      "confidence": 0.85
+    },
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "监督与试探",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "宋明远是外勤组长，林小鹿是新成员",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "宋明远看着林小鹿，眼神里有一丝不易察觉的变化",
+      "state_summary": "宋明远作为上级，表面上同意林小鹿的申请，但内心对她的积极表现保持怀疑，可能故意安排任务组合来观察她的行为。",
+      "enum_reason": "宋明远是上级，林小鹿是下属，存在明确的上下级关系；宋明远对林小鹿保持怀疑和审视。",
+      "evidence_summary": "宋明远同意林小鹿接两个任务，但观察她的反应；林小鹿认为宋明远可能故意安排任务组合。",
+      "evidence_quotes": ["宋明远看着她，眼神里有一丝不易察觉的变化", "这个任务组合，是巧合，还是有人故意安排的？"],
+      "relation_analysis": "宋明远作为上级，表面上支持林小鹿接任务，但内心对她的动机保持怀疑，可能通过任务组合进行试探。",
+      "confidence": 0.8
+    },
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "暗中帮助",
+      "structural_base": "colleague",
+      "structural_base_raw": "叶知秋是情报室工作人员，林小鹿是新成员",
+      "dynamic_stance": "friendly",
+      "dynamic_stance_raw": "叶知秋主动提供线索，暗示林小鹿注意任务区域的重合",
+      "state_summary": "叶知秋作为情报室同事，在暗中帮助林小鹿，提供有价值的线索，但林小鹿不清楚她的动机。",
+      "enum_reason": "叶知秋和林小鹿是同事关系；叶知秋主动提供帮助，表现出友好态度。",
+      "evidence_summary": "叶知秋翻过任务卡，指出背面小字，暗示林小鹿对比两次清单；林小鹿认为叶知秋知道她在查什么并愿意暗中帮助。",
+      "evidence_quotes": ["叶知秋给的提示很有价值", "叶知秋知道她在查什么，而且愿意在暗中帮她"],
+      "relation_analysis": "叶知秋作为情报室同事，主动提供线索帮助林小鹿，表现出友好和支持的态度。",
+      "confidence": 0.75
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "感激与疑惑",
+      "structural_base": "colleague",
+      "structural_base_raw": "林小鹿是新成员，叶知秋是情报室工作人员",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "林小鹿感谢叶知秋的提示，但内心疑惑她为什么帮助自己",
+      "state_summary": "林小鹿对叶知秋的暗中帮助表示感激，但内心对她的动机感到疑惑，不清楚她为什么愿意帮助自己。",
+      "enum_reason": "林小鹿和叶知秋是同事关系；林小鹿感谢叶知秋的帮助，但内心有疑惑。",
+      "evidence_summary": "林小鹿感谢叶知秋的提示，但内心思考‘但为什么？’",
+      "evidence_quotes": ["谢谢", "但为什么？"],
+      "relation_analysis": "林小鹿对叶知秋的帮助表示感激，但内心对她的动机感到疑惑，表现出信任与疑惑并存的态度。",
+      "confidence": 0.7
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "宋明远",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "宋明远是外勤组长，林小鹿是新成员",
+      "pair_summary": "林小鹿和宋明远之间存在明确的上下级关系，林小鹿作为下属主动申请任务，宋明远作为上级批准，但双方互不信任，处于试探与警惕的状态。",
+      "evidence_summary": "林小鹿主动向宋明远申请接两个任务，宋明远同意；林小鹿观察宋明远的反应，认为他可能怀疑自己。",
+      "evidence_quotes": ["她想多跑几个", "行，给你"],
+      "pair_analysis": "林小鹿和宋明远之间存在明确的上下级关系，但双方互不信任，林小鹿对宋明远的动机保持警惕，宋明远对林小鹿的行为保持怀疑。",
+      "confidence": 0.85
+    },
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "叶知秋",
+      "shared_structural_base": "colleague",
+      "shared_structural_base_raw": "叶知秋是情报室工作人员，林小鹿是新成员",
+      "pair_summary": "林小鹿和叶知秋之间存在同事关系，叶知秋在暗中帮助林小鹿，林小鹿对叶知秋的帮助表示感激但内心疑惑。",
+      "evidence_summary": "林小鹿到情报室接任务，叶知秋主动提供线索，暗示她注意任务区域的重合。",
+      "evidence_quotes": ["叶知秋给的提示很有价值", "但为什么？"],
+      "pair_analysis": "林小鹿和叶知秋之间存在同事关系，叶知秋主动提供帮助，表现出友好和支持的态度，林小鹿对叶知秋的帮助表示感激但内心疑惑。",
+      "confidence": 0.75
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt1",
+      "intra_chapter_order": 0,
+      "event_type": "任务申请",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "林小鹿主动申请接两个任务，宋明远同意",
+      "summary": "林小鹿在任务板前等待宋明远，主动申请接取城南旧货市场信息采集和西区图书馆档案整理两个任务，宋明远同意。",
+      "location": "任务板前",
+      "enum_reason": "该事件是本章的核心事件，推动后续情节发展。",
+      "evidence_summary": "林小鹿主动向宋明远申请接两个任务，宋明远同意。",
+      "evidence_quotes": ["想多跑几个", "行，给你"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "宋明远", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt2",
+      "intra_chapter_order": 1,
+      "event_type": "情报室对话",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "林小鹿到情报室接任务，叶知秋提供线索",
+      "summary": "林小鹿到情报室接任务，叶知秋翻过任务卡指出背面小字，暗示她对比两次清单，林小鹿意识到叶知秋在暗中帮助自己。",
+      "location": "情报室",
+      "enum_reason": "该事件是本章的核心事件，提供关键线索。",
+      "evidence_summary": "林小鹿到情报室接任务，叶知秋主动提供线索。",
+      "evidence_quotes": ["有些信息，需要你自己去找", "你可以对比一下两次的清单"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "叶知秋", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt3",
+      "intra_chapter_order": 2,
+      "event_type": "旧货市场发现",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "林小鹿在旧货市场发现任务区域紧邻接头地点",
+      "summary": "林小鹿在城南旧货市场执行任务时，发现旧货市场东区的巷子通往旧书店街，而接头地点旧书店街17号就在巷子出口对面，意识到任务组合可能是有人故意安排的。",
+      "location": "城南旧货市场",
+      "enum_reason": "该事件是本章的转折点，林小鹿意识到任务组合可能是陷阱。",
+      "evidence_summary": "林小鹿在旧货市场发现任务区域紧邻接头地点。",
+      "evidence_quotes": ["这个任务组合，是巧合，还是有人故意安排的？"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "interaction_type": "cooperation",
+      "interaction_type_raw": "林小鹿主动申请任务，宋明远同意",
+      "impact_level": "medium",
+      "impact_level_raw": "林小鹿申请两个任务，宋明远同意",
+      "polarity": "neutral",
+      "polarity_raw": "表面正常的任务申请流程",
+      "summary": "林小鹿主动向宋明远申请接取两个任务，宋明远同意，但双方内心各有算计。",
+      "enum_reason": "林小鹿和宋明远在任务申请过程中表面合作，但内心互不信任。",
+      "evidence_summary": "林小鹿主动申请任务，宋明远同意。",
+      "evidence_quotes": ["想多跑几个", "行，给你"],
+      "interaction_analysis": "林小鹿和宋明远在任务申请过程中表面合作，但林小鹿内心对宋明远的动机保持警惕，宋明远对林小鹿的行为保持怀疑。",
+      "confidence": 0.85
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "interaction_type": "cooperation",
+      "interaction_type_raw": "林小鹿到情报室接任务，叶知秋提供线索",
+      "impact_level": "high",
+      "impact_level_raw": "叶知秋提供关键线索，影响林小鹿后续行动",
+      "polarity": "positive",
+      "polarity_raw": "叶知秋主动帮助林小鹿",
+      "summary": "林小鹿到情报室接任务，叶知秋主动提供线索，暗示她注意任务区域的重合。",
+      "enum_reason": "叶知秋主动提供帮助，林小鹿接受帮助，表现出合作态度。",
+      "evidence_summary": "林小鹿到情报室接任务，叶知秋主动提供线索。",
+      "evidence_quotes": ["有些信息，需要你自己去找", "你可以对比一下两次的清单"],
+      "interaction_analysis": "叶知秋主动提供线索帮助林小鹿，林小鹿接受帮助并表示感谢，表现出合作态度。",
+      "confidence": 0.85
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "接取任务",
+      "object_value": "城南旧货市场信息采集和西区图书馆档案整理",
+      "summary": "林小鹿主动向宋明远申请并接取了两个任务。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "发现任务区域与接头地点重合",
+      "object_value": "旧货市场东区巷子通往旧书店街，接头地点旧书店街17号就在巷子出口对面",
+      "summary": "林小鹿在旧货市场执行任务时，发现任务区域紧邻明天下午三点的接头地点。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "决定赴约并设法避开监控",
+      "object_value": "必须去接头，且必须想办法避开监控",
+      "summary": "林小鹿意识到任务组合可能是陷阱，但决定必须赴约并设法避开监控。",
+      "is_state": true,
+      "confidence": 1.0
+    }
+  ]
+}

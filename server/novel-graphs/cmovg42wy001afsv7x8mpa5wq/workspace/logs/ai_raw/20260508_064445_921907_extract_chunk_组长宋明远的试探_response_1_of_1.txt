@@ -1,0 +1,265 @@
+{
+  "summary": "林小鹿在档案室整理档案后，被外勤组长宋明远拦住试探。宋明远通过询问档案年份、学校背景、老家桐城及青石镇等问题，试图确认林小鹿是否知道青石镇调查纪要。林小鹿谨慎应对，但宋明远已起疑心，并发现档案被翻动痕迹。他安排人调查林小鹿背景，并监控了接头地点。林小鹿回到出租屋后收到匿名警告短信，凌晨发现楼下有监视车辆，紧急从卫生间窗户撤离，前往大学城。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "天衍组织新入职实习生，外院大二学生，父亲林远舟失踪三个月。她通过父亲笔记本线索加入组织，在档案室发现青石镇调查纪要，正被宋明远怀疑和监视。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋组长"],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织外勤组长，四十岁上下，灰色夹克，短发，声音沙哑。对林小鹿高度怀疑，已发现档案被翻动痕迹，安排人调查林小鹿背景，并监控了接头地点。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["叶姐"],
+      "chapter_role": "supporting",
+      "summary": "天衍组织前台兼行政人员，戴眼镜的年轻女人。本章中仅在一楼大厅与林小鹿点头示意。"
+    },
+    {
+      "name": "林父",
+      "aliases": ["林远舟", "父亲"],
+      "chapter_role": "mentioned",
+      "summary": "林小鹿失踪三个月的父亲，曾是青石镇调查的参与者，留下笔记本指引女儿加入天衍组织。"
+    },
+    {
+      "name": "匿名发信人",
+      "aliases": [],
+      "chapter_role": "transient",
+      "summary": "身份不明，通过未知号码给林小鹿发送警告短信“小心宋明远”。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "怀疑与监视",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "外勤组长与实习生",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "试探、怀疑、安排调查",
+      "state_summary": "宋明远作为外勤组长，对林小鹿高度怀疑，通过询问档案年份、学校背景、老家桐城及青石镇等问题进行试探，发现档案被翻动痕迹后，安排人调查林小鹿背景，并监控了接头地点。",
+      "enum_reason": "宋明远是外勤组长，林小鹿是实习生，存在明确的上下级关系；动态立场为不信任，因为他主动试探并安排调查。",
+      "evidence_summary": "宋明远拦住林小鹿，询问档案年份、学校、老家桐城及青石镇；发现档案封口线绳系法不同和指印；打电话让老周调查林小鹿背景；监控了旧书店街17号。",
+      "evidence_quotes": ["“新来的？”", "“你整理到哪几年的了？”", "“桐城？那地方我路过几次，有个青石镇，听说风景不错，去过吗？”", "“老周，帮我查个人……林小鹿，今天刚入职的实习生，桐城人，父亲叫林远舟。”"],
+      "relation_analysis": "宋明远的每一个问题都在试探林小鹿是否知道青石镇，他的行动（调查背景、监控接头地点）表明他不仅怀疑，而且正在采取实质性监视措施。",
+      "confidence": 0.95
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "警惕与防备",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "实习生与外勤组长",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "内心警惕，故意说档案锁着试探对方",
+      "state_summary": "林小鹿对宋明远高度警惕，意识到对方在试探自己，故意说2018年档案锁着来试探宋明远的了解程度，并在对话中控制自己的反应，避免露出破绽。",
+      "enum_reason": "林小鹿是实习生，宋明远是外勤组长，存在明确的上下级关系；动态立场为警惕，因为她主动试探并保持防备。",
+      "evidence_summary": "林小鹿心里咯噔一下，意识到宋明远的问题太具体；故意说2018年档案锁着；在对话中控制紧张程度；确认宋明远知道青石镇调查纪要。",
+      "evidence_quotes": ["“2018年的柜子锁着，没钥匙。”", "她刚才故意说锁着，就是想试探他对这批档案的了解程度", "宋明远在试探她是否知道青石镇"],
+      "relation_analysis": "林小鹿通过主动撒谎（说档案锁着）来试探宋明远的反应，并在后续对话中保持高度警觉，表明她将宋明远视为潜在威胁。",
+      "confidence": 0.95
+    },
+    {
+      "from": "林小鹿",
+      "to": "林父",
+      "raw_label": "寻找失踪父亲",
+      "structural_base": "kinship_parent_child",
+      "structural_base_raw": "父女关系",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "决心找到父亲，认为父亲的命在自己手里",
+      "state_summary": "林小鹿因父亲失踪三个月而焦虑，通过父亲笔记本线索加入天衍组织，发现父亲参与青石镇调查后，更加坚定寻找父亲的决心，认为父亲的命在自己手里。",
+      "enum_reason": "林小鹿与林父是明确的父女关系；动态立场为保护，因为她决心找到父亲并认为父亲的命在自己手里。",
+      "evidence_summary": "林小鹿对着镜子说“你爸的命，就在你手里了”；她加入组织、翻档案、应对宋明远，都是为了找到父亲。",
+      "evidence_quotes": ["“你爸的命，就在你手里了。”"],
+      "relation_analysis": "林小鹿的所有行动（加入组织、翻档案、应对宋明远）都围绕寻找父亲展开，情感上她将父亲的安全视为自己的责任。",
+      "confidence": 0.9
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "宋明远",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "外勤组长与实习生",
+      "pair_summary": "林小鹿与宋明远是天衍组织内的上下级关系，但双方处于互相试探和警惕的状态。",
+      "evidence_summary": "宋明远作为外勤组长，对林小鹿进行试探并安排调查；林小鹿作为实习生，对宋明远保持警惕并主动撒谎试探。",
+      "evidence_quotes": ["“新来的？”", "“2018年的柜子锁着，没钥匙。”", "“老周，帮我查个人……”"],
+      "pair_analysis": "双方都意识到对方在试探自己，关系表面是上下级，实质是互相怀疑和防备。",
+      "confidence": 0.9
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt_1",
+      "intra_chapter_order": 0,
+      "event_type": "试探",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心冲突",
+      "summary": "林小鹿在档案室走廊被宋明远拦住，宋明远通过询问档案年份、学校背景、老家桐城及青石镇等问题进行试探。林小鹿谨慎应对，故意说2018年档案锁着，宋明远反应证实青石镇调查纪要非普通文件。",
+      "location": "天衍组织大楼档案室走廊",
+      "enum_reason": "这是本章的核心冲突，直接推动情节发展。",
+      "evidence_summary": "宋明远拦住林小鹿，询问档案年份、学校、老家桐城及青石镇；林小鹿故意说2018年档案锁着；宋明远知道档案没上锁。",
+      "evidence_quotes": ["“新来的？”", "“你整理到哪几年的了？”", "“桐城？那地方我路过几次，有个青石镇，听说风景不错，去过吗？”"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.95},
+        {"entity_name": "宋明远", "role": "actor", "confidence": 0.95}
+      ],
+      "confidence": 0.95
+    },
+    {
+      "event_id": "evt_2",
+      "intra_chapter_order": 1,
+      "event_type": "调查",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "重要行动",
+      "summary": "宋明远在林小鹿离开后进入档案室，检查林小鹿翻过的档案柜，发现青石镇调查纪要的封口线绳系法不同，并在最后一页发现指印。他打电话让老周调查林小鹿背景，并提到监控了接头地点。",
+      "location": "天衍组织大楼档案室",
+      "enum_reason": "这是宋明远采取实质性调查行动的关键事件。",
+      "evidence_summary": "宋明远检查档案柜，发现封口线绳系法不同和指印；打电话让老周调查林小鹿背景；提到监控了旧书店街17号。",
+      "evidence_quotes": ["他找到《桐城青石镇地下遗迹初步调查报告》", "封口处的线绳系法和他记忆中不太一样", "“老周，帮我查个人……林小鹿，今天刚入职的实习生，桐城人，父亲叫林远舟。”", "那个接头地点，天衍组织早就监控了。"],
+      "participants": [
+        {"entity_name": "宋明远", "role": "actor", "confidence": 0.95}
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "evt_3",
+      "intra_chapter_order": 2,
+      "event_type": "警告",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "关键细节",
+      "summary": "林小鹿在出租屋即将入睡时，收到一条来自未知号码的短信，内容为“小心宋明远”。她无法确认发信人身份，但将手机放在枕头底下。",
+      "location": "林小鹿出租屋",
+      "enum_reason": "这是一个关键细节，暗示有第三方在关注局势。",
+      "evidence_summary": "林小鹿收到未知号码短信，内容为“小心宋明远”。",
+      "evidence_quotes": ["“小心宋明远。”"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.9},
+        {"entity_name": "匿名发信人", "role": "actor", "confidence": 0.7}
+      ],
+      "confidence": 0.8
+    },
+    {
+      "event_id": "evt_4",
+      "intra_chapter_order": 3,
+      "event_type": "监视",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心冲突升级",
+      "summary": "凌晨两点，林小鹿被引擎声惊醒，发现楼下有一辆黑色轿车停在路灯下，车窗贴深色膜，驾驶座有人抽烟。她判断是宋明远的人，决定紧急撤离。",
+      "location": "林小鹿出租屋楼下街道",
+      "enum_reason": "这是本章冲突的升级点，迫使林小鹿采取行动。",
+      "evidence_summary": "林小鹿被引擎声惊醒，发现楼下黑色轿车，判断是监视车辆。",
+      "evidence_quotes": ["一辆黑色轿车停在路灯下", "驾驶座上有一点红光在明灭——有人在抽烟", "是宋明远的人。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.95},
+        {"entity_name": "宋明远", "role": "actor", "confidence": 0.85}
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "evt_5",
+      "intra_chapter_order": 4,
+      "event_type": "撤离",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "转折点",
+      "summary": "林小鹿判断楼下有监视后，决定紧急撤离。她从卫生间窗户翻出，抓住落水管滑下，翻过隔壁小区围墙时手掌被碎玻璃划伤，最终拦了一辆夜班出租车前往大学城。",
+      "location": "林小鹿出租屋及周边",
+      "enum_reason": "这是本章的转折点，林小鹿从被动应对转为主动撤离。",
+      "evidence_summary": "林小鹿从卫生间窗户翻出，抓住落水管滑下，翻过围墙，手掌被划伤，拦出租车前往大学城。",
+      "evidence_quotes": ["她踩着马桶翻上窗台，小心地探出身子，抓住外墙的落水管", "翻墙时她的手掌被墙头的碎玻璃划了一道口子", "“师傅，去大学城那边。”"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 0.95}
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "interactions": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "interaction_type": "conflict",
+      "interaction_type_raw": "试探与质问",
+      "impact_level": "high",
+      "impact_level_raw": "直接威胁",
+      "polarity": "negative",
+      "polarity_raw": "怀疑与对抗",
+      "summary": "宋明远在走廊拦住林小鹿，通过一系列问题（档案年份、学校、老家、青石镇）进行试探，林小鹿谨慎应对并故意撒谎。",
+      "enum_reason": "这是一场带有对抗性质的试探，宋明远主动施压，林小鹿被动防御。",
+      "evidence_summary": "宋明远询问档案年份、学校、老家桐城及青石镇；林小鹿故意说2018年档案锁着。",
+      "evidence_quotes": ["“新来的？”", "“你整理到哪几年的了？”", "“桐城？那地方我路过几次，有个青石镇，听说风景不错，去过吗？”"],
+      "interaction_analysis": "宋明远的提问具有明显的试探意图，林小鹿的撒谎和反问表明她意识到威胁并试图掩盖。",
+      "confidence": 0.95
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "interaction_type": "deception",
+      "interaction_type_raw": "故意撒谎",
+      "impact_level": "high",
+      "impact_level_raw": "关键应对",
+      "polarity": "negative",
+      "polarity_raw": "对抗性欺骗",
+      "summary": "林小鹿在回答宋明远关于档案年份的问题时，故意说2018年的柜子锁着，以试探宋明远对这批档案的了解程度。",
+      "enum_reason": "林小鹿主动撒谎以获取信息，属于欺骗行为。",
+      "evidence_summary": "林小鹿故意说2018年档案锁着，宋明远反应证实他知道档案没上锁。",
+      "evidence_quotes": ["“2018年的柜子锁着，没钥匙。”", "她刚才故意说锁着，就是想试探他对这批档案的了解程度"],
+      "interaction_analysis": "林小鹿通过主动撒谎来试探宋明远的反应，从而确认他对青石镇调查纪要的了解程度。",
+      "confidence": 0.95
+    },
+    {
+      "from": "匿名发信人",
+      "to": "林小鹿",
+      "interaction_type": "revelation",
+      "interaction_type_raw": "发送警告短信",
+      "impact_level": "high",
+      "impact_level_raw": "关键信息",
+      "polarity": "positive",
+      "polarity_raw": "提供帮助",
+      "summary": "林小鹿在出租屋收到一条来自未知号码的短信，内容为“小心宋明远”。",
+      "enum_reason": "发信人向林小鹿透露了关键信息（宋明远有威胁），属于揭示性互动。",
+      "evidence_summary": "林小鹿收到未知号码短信，内容为“小心宋明远”。",
+      "evidence_quotes": ["“小心宋明远。”"],
+      "interaction_analysis": "这条短信表明有第三方在关注局势，并向林小鹿提供警告，可能来自组织内部或外部。",
+      "confidence": 0.8
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "宋明远",
+      "predicate": "对林小鹿的怀疑程度",
+      "object_value": "高度怀疑，已安排调查并监控接头地点",
+      "summary": "宋明远通过试探确认林小鹿可能知道青石镇，发现档案被翻动痕迹后，安排人调查林小鹿背景，并监控了旧书店街17号。",
+      "is_state": true,
+      "confidence": 0.95
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "撤离状态",
+      "object_value": "已从出租屋紧急撤离，前往大学城",
+      "summary": "林小鹿发现楼下有监视车辆后，从卫生间窗户翻出，翻墙撤离，拦出租车前往大学城。",
+      "is_state": true,
+      "confidence": 0.95
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "收到匿名警告",
+      "object_value": "收到未知号码短信“小心宋明远”",
+      "summary": "林小鹿在出租屋收到一条来自未知号码的短信，内容为“小心宋明远”。",
+      "is_state": true,
+      "confidence": 0.8
+    },
+    {
+      "subject": "宋明远",
+      "predicate": "已知接头地点",
+      "object_value": "旧书店街17号已被天衍组织监控",
+      "summary": "宋明远在电话中提到，旧书店街17号那个接头地点，天衍组织早就监控了。",
+      "is_state": true,
+      "confidence": 0.9
+    }
+  ]
+}

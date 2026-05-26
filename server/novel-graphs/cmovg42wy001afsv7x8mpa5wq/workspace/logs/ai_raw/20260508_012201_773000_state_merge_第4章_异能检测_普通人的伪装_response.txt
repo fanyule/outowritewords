@@ -1,0 +1,371 @@
+{
+  "summary": "林小鹿在天衍组织进行异能检测，结果显示为普通人，被批准成为外围成员。叶知秋告知她宋明远对其接头方式有疑问，背景调查会更严格。林小鹿领取临时证件和初始任务，离开时感到有人注视。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，父亲失踪三个月后加入天衍组织。本章通过异能检测，成为外围成员，领取临时证件和初始任务。对组织保持警惕，内心思念父亲。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织的前台接待员，年轻女性。负责林小鹿的异能检测和后续安排，告知她宋明远对其接头方式有疑问，背景调查会更严格。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋组长"],
+      "chapter_role": "mentioned",
+      "summary": "天衍组织组长，林小鹿的上司。本章被叶知秋提及，对林小鹿的接头方式有疑问，要求更仔细的背景调查。"
+    },
+    {
+      "name": "抽烟的男人",
+      "aliases": [],
+      "chapter_role": "background",
+      "summary": "大厅里一个脸上有疤痕的男人，三十岁左右，靠在墙边抽烟，注意到林小鹿的视线并咧嘴笑。"
+    },
+    {
+      "name": "背对的风衣男人",
+      "aliases": [],
+      "chapter_role": "background",
+      "summary": "大厅角落里与一男一女交谈的人，头发花白，背对着林小鹿。"
+    },
+    {
+      "name": "高大魁梧的男人",
+      "aliases": [],
+      "chapter_role": "background",
+      "summary": "大厅角落里与风衣男人和瘦小精干女人交谈的人。"
+    },
+    {
+      "name": "瘦小精干的女人",
+      "aliases": [],
+      "chapter_role": "background",
+      "summary": "大厅角落里与风衣男人和高大魁梧男人交谈的人。"
+    },
+    {
+      "name": "前台女孩",
+      "aliases": [],
+      "chapter_role": "background",
+      "summary": "戴眼镜的年轻女孩，坐在前台玩手机。"
+    },
+    {
+      "name": "林小鹿的父亲",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "林小鹿失踪三个月的父亲，留下笔记本指引女儿加入天衍组织。本章林小鹿在内心思念他。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "职业化接待与警告",
+      "structural_base": "employer_employee",
+      "structural_base_raw": "叶知秋作为组织人员安排林小鹿的检测和任务",
+      "dynamic_stance": "neutral",
+      "dynamic_stance_raw": "叶知秋语气平淡，职业化态度",
+      "state_summary": "叶知秋作为天衍组织的前台接待员，对林小鹿保持职业化的友好态度，进行异能检测并安排初始任务。同时她主动告知林小鹿宋明远对其接头方式有疑问，背景调查会更严格，带有警告意味。",
+      "enum_reason": "叶知秋与林小鹿是组织内的上下级或同事关系，叶知秋负责安排工作，属于employer_employee关系。叶知秋的态度职业化，没有明显情感偏向，故dynamic_stance为neutral。",
+      "evidence_summary": "叶知秋带林小鹿进行检测，告知检测结果，安排初始任务，并警告背景调查会更严格。",
+      "evidence_quotes": ["“你在旧书店街17号接头的事，我已经报上去了。”", "“宋组长对你的出现方式有些疑问，所以你的背景调查会做得更仔细一些。”"],
+      "relation_analysis": "叶知秋作为组织人员，对林小鹿履行了检测和安排职责，同时传递了上级的怀疑信息，表明她既是执行者也是信息传递者，关系职业化且带有一定警惕。",
+      "confidence": 0.9
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "礼貌配合与内心警惕",
+      "structural_base": "employer_employee",
+      "structural_base_raw": "林小鹿作为新成员接受叶知秋的安排",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "林小鹿对叶知秋的言行保持观察和戒备",
+      "state_summary": "林小鹿作为新成员，对叶知秋保持礼貌配合，但内心高度警惕，观察叶知秋的每一个细微表情和动作，并控制自己的反应以避免暴露。",
+      "enum_reason": "林小鹿对叶知秋的警告和审视保持警惕，内心戒备，故dynamic_stance为wary。",
+      "evidence_summary": "林小鹿观察叶知秋的眉毛微动，控制自己的心跳和表情，对叶知秋的警告保持冷静回应。",
+      "evidence_quotes": ["林小鹿注意到她的眉毛微微动了一下，幅度很小，如果不是一直在观察她的表情，几乎察觉不到。", "林小鹿的心跳在那一瞬间加快了一拍，但她立刻把它压了下去。"],
+      "relation_analysis": "林小鹿对叶知秋表面礼貌配合，但内心保持高度警惕，控制自己的生理反应以避免被看穿，表明她对叶知秋不信任且处于戒备状态。",
+      "confidence": 0.85
+    },
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "怀疑与背景调查",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "宋明远是组长，林小鹿是下属",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "宋明远对林小鹿的接头方式有疑问，要求更仔细的背景调查",
+      "state_summary": "宋明远作为天衍组织组长，对林小鹿的接头方式产生疑问，要求叶知秋进行更仔细的背景调查，表明他对林小鹿持怀疑和不信任态度。",
+      "enum_reason": "宋明远主动要求更仔细的背景调查，表明不信任，故dynamic_stance为distrustful。",
+      "evidence_summary": "叶知秋转述宋明远对林小鹿接头方式的疑问，并告知背景调查会更仔细。",
+      "evidence_quotes": ["“宋组长对你的出现方式有些疑问，所以你的背景调查会做得更仔细一些。”"],
+      "relation_analysis": "宋明远作为上级，对林小鹿的突然出现和接头方式产生怀疑，要求加强背景调查，表明他对林小鹿的信任度低，正在进一步调查她的背景和动机。",
+      "confidence": 0.8
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "被怀疑的警惕",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "林小鹿是下属，宋明远是组长",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "林小鹿对宋明远的怀疑保持警惕",
+      "state_summary": "林小鹿得知宋明远对其接头方式有疑问并会加强背景调查后，内心保持警惕，但表面维持平静，准备应对可能的调查。",
+      "enum_reason": "林小鹿对宋明远的怀疑感到警惕，内心戒备，故dynamic_stance为wary。",
+      "evidence_summary": "林小鹿听到叶知秋的警告后心跳加快但立刻压下，表面露出无奈笑容回应。",
+      "evidence_quotes": ["林小鹿的心跳又快了那么一拍。", "她稳住自己，露出一个略带无奈的笑容：“我一个普通大学生，能有什么见不得光的事。”"],
+      "relation_analysis": "林小鹿对宋明远的怀疑保持高度警惕，控制自己的生理反应和表情，表明她正在谨慎应对上级的审视。",
+      "confidence": 0.8
+    },
+    {
+      "from": "林小鹿",
+      "to": "林小鹿的父亲",
+      "raw_label": "思念与追寻",
+      "structural_base": "kinship_parent_child",
+      "structural_base_raw": "父女关系",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "林小鹿思念父亲，决心追寻他的踪迹",
+      "state_summary": "林小鹿深爱父亲，因父亲失踪三个月而焦虑，决心按照笔记本指引找到他。本章结尾她在内心呼唤父亲，表达思念和追寻的决心。",
+      "enum_reason": "林小鹿对父亲有深厚的感情和追寻的执着，故dynamic_stance为protective。",
+      "evidence_summary": "林小鹿在检测时控制自己不去想父亲，结尾内心独白呼唤父亲。",
+      "evidence_quotes": ["她不去想父亲，不去想那本笔记本，不去想旧书店街17号那个戴眼镜的男人。", "父亲，你到底在这个组织里经历了什么？"],
+      "relation_analysis": "林小鹿对父亲的思念和追寻是本章的情感主线之一，她通过加入组织来寻找父亲，内心充满牵挂和决心。",
+      "confidence": 0.95
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "叶知秋",
+      "shared_structural_base": "employer_employee",
+      "shared_structural_base_raw": "叶知秋作为组织人员安排林小鹿的工作",
+      "pair_summary": "林小鹿和叶知秋是天衍组织内的同事关系，叶知秋负责林小鹿的检测和任务安排，林小鹿作为新成员接受安排。",
+      "evidence_summary": "叶知秋带林小鹿进行检测，告知结果，安排初始任务，并传递上级警告。",
+      "evidence_quotes": ["“出来吧。”", "“这是你的临时证件，”", "“这是你的初始任务。”"],
+      "pair_analysis": "两人在组织内存在明确的上下级或同事关系，叶知秋执行组织职责，林小鹿作为新成员配合，关系职业化。",
+      "confidence": 0.9
+    },
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "宋明远",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "宋明远是组长，林小鹿是下属",
+      "pair_summary": "林小鹿和宋明远是天衍组织内的上下级关系，宋明远作为组长对林小鹿的接头方式产生怀疑，要求加强背景调查。",
+      "evidence_summary": "叶知秋转述宋明远对林小鹿接头方式的疑问，并告知背景调查会更仔细。",
+      "evidence_quotes": ["“宋组长对你的出现方式有些疑问，所以你的背景调查会做得更仔细一些。”"],
+      "pair_analysis": "两人存在明确的上下级关系，宋明远对林小鹿持怀疑态度，林小鹿对此保持警惕，关系紧张。",
+      "confidence": 0.8
+    },
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "林小鹿的父亲",
+      "shared_structural_base": "kinship_parent_child",
+      "shared_structural_base_raw": "父女关系",
+      "pair_summary": "林小鹿和父亲是亲生父女关系，父亲失踪三个月，林小鹿通过加入天衍组织来寻找他。",
+      "evidence_summary": "林小鹿在检测时控制自己不去想父亲，结尾内心独白呼唤父亲。",
+      "evidence_quotes": ["她不去想父亲，不去想那本笔记本，不去想旧书店街17号那个戴眼镜的男人。", "父亲，你到底在这个组织里经历了什么？"],
+      "pair_analysis": "父女关系是林小鹿行动的核心动机，本章通过内心活动强化了这一关系。",
+      "confidence": 0.95
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch4_evt1",
+      "intra_chapter_order": 0,
+      "event_type": "检测",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "异能检测是本章核心情节",
+      "summary": "林小鹿在检测室进行异能检测，将右手放在检测面板上，蓝色光芒闪烁约三十秒后检测完成。",
+      "location": "天衍组织检测室",
+      "enum_reason": "异能检测是本章的核心事件，决定了林小鹿的组织身份。",
+      "evidence_summary": "林小鹿进入检测室，将手放在面板上，蓝色光芒闪烁后检测完成。",
+      "evidence_quotes": ["“请将右手放在检测面板上。”", "蓝色光芒闪烁了大约三十秒，然后慢慢暗了下去。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "ch4_evt2",
+      "intra_chapter_order": 1,
+      "event_type": "结果告知",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "检测结果决定林小鹿的组织身份",
+      "summary": "叶知秋告知林小鹿检测结果显示为普通人，没有异能潜力，但可以成为外围成员。",
+      "location": "叶知秋办公室",
+      "enum_reason": "检测结果告知是本章核心情节，决定了林小鹿的组织身份。",
+      "evidence_summary": "叶知秋在办公室向林小鹿展示检测数据，告知她为普通人，但可以成为外围成员。",
+      "evidence_quotes": ["“你的检测结果显示，”叶知秋抬起头，看着林小鹿，“异能潜力值在正常范围内，没有明显的觉醒迹象。”", "“没有异能潜力的人也可以成为组织的外围成员。”"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "target", "confidence": 1.0},
+        {"entity_name": "叶知秋", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "ch4_evt3",
+      "intra_chapter_order": 2,
+      "event_type": "警告",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "警告推动剧情发展",
+      "summary": "叶知秋警告林小鹿，宋明远对其接头方式有疑问，背景调查会更严格。",
+      "location": "叶知秋办公室",
+      "enum_reason": "警告是本章重要情节，为后续冲突埋下伏笔。",
+      "evidence_summary": "林小鹿准备离开时，叶知秋叫住她，告知宋明远对其接头方式有疑问，背景调查会更严格。",
+      "evidence_quotes": ["“你在旧书店街17号接头的事，我已经报上去了。”", "“宋组长对你的出现方式有些疑问，所以你的背景调查会做得更仔细一些。”"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "target", "confidence": 1.0},
+        {"entity_name": "叶知秋", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "ch4_evt4",
+      "intra_chapter_order": 3,
+      "event_type": "领取证件和任务",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "领取证件和任务是林小鹿成为外围成员的关键步骤",
+      "summary": "叶知秋给林小鹿发放临时证件和初始任务文件，安排她明天到城东联络点报到。",
+      "location": "叶知秋办公室",
+      "enum_reason": "领取证件和任务是林小鹿正式成为外围成员的关键步骤。",
+      "evidence_summary": "叶知秋从抽屉拿出临时证件，从桌上拿起文件夹交给林小鹿，告知初始任务内容。",
+      "evidence_quotes": ["“这是你的临时证件，”", "“这是你的初始任务。”"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "target", "confidence": 1.0},
+        {"entity_name": "叶知秋", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "ch4_evt5",
+      "intra_chapter_order": 4,
+      "event_type": "离开大厅",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "林小鹿离开时观察大厅人物",
+      "summary": "林小鹿离开办公室经过大厅，观察到抽烟的男人、角落交谈的三人和前台女孩，感到有人注视自己。",
+      "location": "天衍组织大厅",
+      "enum_reason": "该事件为细节描写，展示林小鹿的观察力和警惕性。",
+      "evidence_summary": "林小鹿穿过大厅时观察人物，感到有人注视，但未发现来源。",
+      "evidence_quotes": ["她感觉到有一道目光落在自己身上。", "不是那种不经意的扫视，而是带着某种目的性的注视。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "抽烟的男人", "role": "background", "confidence": 0.5},
+        {"entity_name": "背对的风衣男人", "role": "background", "confidence": 0.5},
+        {"entity_name": "高大魁梧的男人", "role": "background", "confidence": 0.5},
+        {"entity_name": "瘦小精干的女人", "role": "background", "confidence": 0.5},
+        {"entity_name": "前台女孩", "role": "background", "confidence": 0.5}
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "ch4_evt6",
+      "intra_chapter_order": 5,
+      "event_type": "内心独白",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "林小鹿思念父亲",
+      "summary": "林小鹿在公交站等车时，内心呼唤父亲，表达思念和追寻的决心。",
+      "location": "公交站",
+      "enum_reason": "内心独白强化了林小鹿的行动动机。",
+      "evidence_summary": "林小鹿在公交站等车时，内心独白呼唤父亲。",
+      "evidence_quotes": ["父亲，你到底在这个组织里经历了什么？"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "林小鹿的父亲", "role": "mentioned", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "interaction_type": "command",
+      "interaction_type_raw": "叶知秋指示林小鹿进行检测和领取任务",
+      "impact_level": "medium",
+      "impact_level_raw": "指示行为影响林小鹿的组织身份",
+      "polarity": "neutral",
+      "polarity_raw": "职业化指示，无情感色彩",
+      "summary": "叶知秋指示林小鹿进行异能检测，告知结果，发放证件和任务，并传递上级警告。",
+      "enum_reason": "叶知秋作为组织人员，对林小鹿发出指令和安排，属于command。",
+      "evidence_summary": "叶知秋说“出来吧”、“这是你的临时证件”、“这是你的初始任务”等。",
+      "evidence_quotes": ["“出来吧。”", "“这是你的临时证件，”", "“这是你的初始任务。”"],
+      "interaction_analysis": "叶知秋对林小鹿的互动以职业指令为主，同时包含警告信息，整体中性。",
+      "confidence": 0.9
+    },
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "interaction_type": "revelation",
+      "interaction_type_raw": "叶知秋透露宋明远的怀疑",
+      "impact_level": "high",
+      "impact_level_raw": "警告对林小鹿的心理和后续行动有重要影响",
+      "polarity": "negative",
+      "polarity_raw": "警告带有威胁和压力",
+      "summary": "叶知秋在林小鹿离开前叫住她，告知宋明远对其接头方式有疑问，背景调查会更严格。",
+      "enum_reason": "叶知秋透露了上级的怀疑信息，属于revelation。",
+      "evidence_summary": "叶知秋说“你在旧书店街17号接头的事，我已经报上去了。”和“宋组长对你的出现方式有些疑问，所以你的背景调查会做得更仔细一些。”",
+      "evidence_quotes": ["“你在旧书店街17号接头的事，我已经报上去了。”", "“宋组长对你的出现方式有些疑问，所以你的背景调查会做得更仔细一些。”"],
+      "interaction_analysis": "叶知秋的警告对林小鹿构成心理压力，表明组织对她的怀疑升级，互动带有负面色彩。",
+      "confidence": 0.95
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "interaction_type": "daily_interaction",
+      "interaction_type_raw": "林小鹿礼貌回应叶知秋",
+      "impact_level": "low",
+      "impact_level_raw": "日常礼貌回应",
+      "polarity": "neutral",
+      "polarity_raw": "表面礼貌，内心警惕",
+      "summary": "林小鹿对叶知秋的指示和警告保持礼貌回应，表面平静，内心警惕。",
+      "enum_reason": "林小鹿的回应是日常礼貌互动，没有特殊行为。",
+      "evidence_summary": "林小鹿回答“没什么感觉”、“那我还能加入吗？”、“就这些？”等。",
+      "evidence_quotes": ["“没什么感觉。”", "“那我还能加入吗？”", "“就这些？”"],
+      "interaction_analysis": "林小鹿对叶知秋的互动保持表面礼貌，但内心高度警惕，控制自己的反应。",
+      "confidence": 0.85
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "异能检测结果",
+      "object_value": "普通人，无觉醒迹象",
+      "summary": "林小鹿的异能检测结果显示为普通人，没有异能潜力。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "组织身份",
+      "object_value": "天衍组织外围成员",
+      "summary": "林小鹿被批准成为天衍组织外围成员，领取临时证件，有效期三个月。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "初始任务",
+      "object_value": "城东联络点值班、整理文件、接听电话",
+      "summary": "林小鹿的初始任务是在城东联络点处理积压工作，明天早上八点报到。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "宋明远",
+      "predicate": "对林小鹿的态度",
+      "object_value": "怀疑，要求加强背景调查",
+      "summary": "宋明远对林小鹿的接头方式有疑问，要求叶知秋进行更仔细的背景调查。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "对组织的警惕",
+      "object_value": "保持高度警惕，控制生理反应",
+      "summary": "林小鹿在检测和互动中刻意控制心率和表情，避免暴露异常。",
+      "is_state": true,
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+You are repairing a JSON response for a novel analysis pipeline.
+
+Return strict JSON only. No markdown. No explanation.
+
+Repair scope:
+Controlled enum discipline:
+- First understand the scene evidence and summarize the nuance in summary/state_summary.
+- Then choose enum fields strictly from the following tables.
+- Do not output Chinese labels, synonyms, free-form relationship words, or near-matches in enum fields.
+- If no enum is clearly supported, use the listed fallback instead of guessing.
+- Preserve nuance only in summary/state_summary/evidence, not in enum fields.
+- During debugging, also return *_raw and enum_reason where the schema provides them:
+  - *_raw: the short source phrase you extracted before choosing the enum.
+  - enum_reason: one short sentence explaining why the enum was chosen from the table.
+  - *_raw and enum_reason are for audit only; enum fields still must use controlled values.
+
+Allowed structural_base values: childhood_friend, classmate, colleague, commander_soldier, contract_bound, employer_employee, friend, guardian_ward, household_family, kinship_adoptive, kinship_clan, kinship_fiance, kinship_parent_child, kinship_sibling, kinship_spouse, lord_vassal, master_disciple, none, oath_bound, opposing_faction, rival_pair, romantic_partner, roommate, same_faction, same_unit, superior_subordinate, teacher_student, temporary_alliance, unknown
+Fallback structural_base: unknown
+
+Allowed dynamic_stance values: admiring, conflicted, dependent, distrustful, dominant, fearful, friendly, hostile, jealous, neutral, obsessive, protective, resentful, romantic_interest, submissive, trusting, unknown, wary
+Fallback dynamic_stance: neutral
+
+Allowed interactions[].interaction_type values: betrayal, command, confession, conflict, contract, cooperation, daily_interaction, deception, duel, family_recognition, gift_or_support, humiliation, mind_control, political_negotiation, possession, promise, protection, reconciliation, rescue, reunion, revelation, sacrifice, separation, shared_battle, teaching, threat, training, unknown
+Fallback interaction_type: unknown
+
+Allowed interactions[].impact_level values: critical, high, low, medium
+Fallback impact_level: medium
+
+Allowed interactions[].polarity values: mixed, negative, neutral, positive
+Fallback polarity: neutral
+
+Allowed events[].narrative_weight values: background, core, detail, mainline, turning_point
+Fallback narrative_weight: mainline
+
+- Fix JSON syntax, field names, and object shapes so the response matches the required schema.
+- Do not add new facts that are not present in the invalid response.
+- Drop rows that cannot be repaired without inventing missing endpoints.
+- Keep all user-facing text values in Simplified Chinese.
+
+Required field repairs:
+- identity_revelations items must use source_name and target_name. If an item only has entity/name without a revealed target, move it to fact_updates or drop it.
+- interactions items must use from and to. If a row has no clear pair, move it to events or drop it.
+- fact_updates items must use subject, predicate, object_value, summary, is_state, confidence. fact_name/content are not valid replacement keys.
+- directed_relations items must use from and to.
+- pair_relations items must use entity_a and entity_b.
+- entities items must have name.
+
+<title>
+第12章 宋明远的突然关心
+</title>
+
+<stage>
+extract_chunk
+</stage>
+
+<validation_error>
+1 validation error for AnalysisResult
+events.0.location
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+</validation_error>
+
+<invalid_response>
+{
+  "summary": "本章暂无正文内容，仅标题暗示宋明远突然对林小鹿表示关心，可能涉及试探或保护。",
+  "entities": [
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥", "宋组长"],
+      "chapter_role": "protagonist",
+      "summary": "天衍组织外勤组长，四十岁上下，灰色夹克，短发，声音沙哑。本章标题暗示他突然关心林小鹿，动机不明。"
+    },
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她成为宋明远关心的对象。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "突然关心",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "宋明远是天衍外勤组长，林小鹿是新成员",
+      "dynamic_stance": "unknown",
+      "dynamic_stance_raw": "标题仅暗示关心，未提供具体态度",
+      "state_summary": "宋明远作为天衍外勤组长，对林小鹿表现出突然的关心，但动机和具体态度尚不明确。",
+      "enum_reason": "宋明远是林小鹿的上司，属于上下级关系；关心态度未明确，故动态立场选unknown。",
+      "evidence_summary": "标题'宋明远的突然关心'暗示宋明远主动关心林小鹿，但无正文内容。",
+      "evidence_quotes": ["宋明远的突然关心"],
+      "relation_analysis": "标题直接点明宋明远对林小鹿的关心，但缺乏具体互动细节，无法判断是善意还是试探。",
+      "confidence": 0.3
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "被关心",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "林小鹿是天衍新成员，宋明远是组长",
+      "dynamic_stance": "unknown",
+      "dynamic_stance_raw": "标题未提供林小鹿的反应",
+      "state_summary": "林小鹿作为天衍新成员，成为宋明远突然关心的对象，但她的态度和反应未知。",
+      "enum_reason": "林小鹿是下属，关系基础为上下级；无证据表明她的立场，故选unknown。",
+      "evidence_summary": "标题暗示宋明远关心林小鹿，但林小鹿的反应未提及。",
+      "evidence_quotes": ["宋明远的突然关心"],
+      "relation_analysis": "标题仅从宋明远角度描述关心，林小鹿的立场完全未知。",
+      "confidence": 0.2
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "宋明远",
+      "entity_b": "林小鹿",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "宋明远是天衍外勤组长，林小鹿是新成员",
+      "pair_summary": "宋明远和林小鹿是天衍组织内的上下级关系，本章标题暗示宋明远突然关心林小鹿。",
+      "evidence_summary": "标题'宋明远的突然关心'暗示两人之间存在互动，但无正文内容。",
+      "evidence_quotes": ["宋明远的突然关心"],
+      "pair_analysis": "标题直接点明宋明远对林小鹿的关心，但缺乏具体互动细节，无法确认关系性质。",
+      "confidence": 0.3
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch12_event_1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "本章暂无正文内容",
+      "summary": "本章暂无正文内容，仅标题暗示宋明远突然关心林小鹿。",
+      "location": null,
+      "enum_reason": "无正文内容，事件类型和权重均为默认值。",
+      "evidence_summary": "标题'宋明远的突然关心'是唯一信息。",
+      "evidence_quotes": ["宋明远的突然关心"],
+      "participants": [
+        {"entity_name": "宋明远", "role": "actor", "confidence": 0.3},
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.3}
+      ],
+      "confidence": 0.2
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "宋明远",
+      "predicate": "对林小鹿的态度",
+      "object_value": "突然关心",
+      "summary": "标题暗示宋明远突然关心林小鹿，但无具体内容。",
+      "is_state": true,
+      "confidence": 0.3
+    }
+  ]
+}
+</invalid_response>
+
+Return the repaired AnalysisResult JSON only.

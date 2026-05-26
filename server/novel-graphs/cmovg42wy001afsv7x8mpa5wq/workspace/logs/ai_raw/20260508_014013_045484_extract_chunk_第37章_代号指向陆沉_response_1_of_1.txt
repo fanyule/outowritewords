@@ -1,0 +1,32 @@
+{
+  "summary": "本章暂无正文内容，仅标题暗示代号指向陆沉，可能涉及林小鹿追踪的代号与陆沉有关。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    },
+    {
+      "name": "陆沉",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "本章标题暗示的代号指向人物，身份不明，可能为关键线索。"
+    }
+  ],
+  "directed_relations": [],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "代号",
+      "predicate": "指向",
+      "object_value": "陆沉",
+      "summary": "本章标题暗示林小鹿追踪的代号指向陆沉。",
+      "is_state": true,
+      "confidence": 0.3
+    }
+  ]
+}

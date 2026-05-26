@@ -1,0 +1,62 @@
+<chapter_title>
+第2章 按照地址找过去
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第2章 按照地址找过去","analyzed_at":"2026-05-08T02:03:19","summary":"林小鹿按照父亲笔记本上的地址找到一家名为“寻鹿咖啡馆”的隐蔽小店，用暗号“寻鹿”与店员接头，获得一张纸条，上面写着明天下午三点去旧书店街17号，并被告知“你父亲的事，别问太多”。离开咖啡馆后，她发现被人跟踪，并在公交车上看到一名灰衣男子注视她。回家后收到陌生号码的短信提醒，她回复“会去的”，决心继续追查父亲的下落。","outline":[{"order":0,"text":"林小鹿按照父亲笔记本上的地址找到寻鹿咖啡馆，用暗号“寻鹿”与店员接头，获得一张纸条，上面写着明天下午三点去旧书店街17号，并被告知“你父亲的事，别问太多”。","involved_names":["林小鹿","咖啡馆店员"]},{"order":1,"text":"林小鹿离开咖啡馆后，发现身后有脚步声跟踪，并在公交车上看到一名灰衣男子在对面街角注视她。","involved_names":["林小鹿","灰衣跟踪者"]},{"order":2,"text":"林小鹿回家后收到陌生号码的短信，提醒她“明天别忘了”，她回复“会去的”。","involved_names":["林小鹿"]}],"entities":[{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，父亲失踪三个月，持有父亲留下的笔记本，按照地址找到寻鹿咖啡馆，用暗号接头，获得下一步指示，并发现被人跟踪。"},{"name":"咖啡馆店员","aliases":[],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"寻鹿咖啡馆的年轻男店员，二十五六岁，穿灰色衬衫，负责接头，递送纸条并警告林小鹿“你父亲的事，别问太多”。"},{"name":"灰衣跟踪者","aliases":[],"chapter_role":"supporting","tier":"active","importance_score":40,"summary":"在公交车站对面街角出现的灰衣男子，三十岁左右，眼神锐利，有压迫感，疑似跟踪林小鹿。"},{"name":"林远舟","aliases":["林小鹿的父亲"],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"林小鹿失踪的父亲，留下笔记本和地址，与组织有接触，可能卷入了危险的事。"}],"identity_revelations":[],"events":[{"event_id":"e1","intra_chapter_order":0,"event_type":"接头","narrative_weight":"core","narrative_weight_raw":"核心事件，推动主线","enum_reason":"该事件是本章的核心，直接推动林小鹿追查父亲下落的剧情。","summary":"林小鹿按照父亲笔记本上的地址找到寻鹿咖啡馆，用暗号“寻鹿”与店员接头，获得一张纸条，上面写着明天下午三点去旧书店街17号，并被告知“你父亲的事，别问太多”。","location":"寻鹿咖啡馆","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"咖啡馆店员","role":"actor","confidence":1.0}],"evidence_summary":"林小鹿进入咖啡馆，用暗号接头，店员递纸条并警告。","evidence_quotes":["请问……这里有‘寻鹿’吗？","你父亲的事，别问太多。"],"confidence":1.0},{"event_id":"e2","intra_chapter_order":1,"event_type":"跟踪","narrative_weight":"mainline","narrative_weight_raw":"重要情节，增加悬疑","enum_reason":"跟踪事件增加了悬疑感和危险氛围，是主线的重要线索。","summary":"林小鹿离开咖啡馆后，发现身后有脚步声跟踪，并在公交车上看到一名灰衣男子在对面街角注视她。","location":"咖啡馆外街道及公交车站","participants":[{"entity_name":"林小鹿","role":"target","confidence":1.0},{"entity_name":"灰衣跟踪者","role":"actor","confidence":0.8}],"evidence_summary":"林小鹿听到脚步声，拐角躲藏后未发现人；在公交车上看到灰衣男子注视她。","evidence_quotes":["身后有脚步声。","对面街角，一个穿着灰色外套的男人正站在那里，看着她的方向。"],"confidence":0.9},{"event_id":"e3","intra_chapter_order":2,"event_type":"短信通知","narrative_weight":"detail","narrative_weight_raw":"细节事件，强化线索","enum_reason":"短信事件是接头后的后续确认，属于细节但重要。","summary":"林小鹿回家后收到陌生号码的短信，提醒她“明天别忘了”，她回复“会去的”。","location":"林小鹿租住的小区","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0}],"evidence_summary":"林小鹿收到短信“明天别忘了”，她回复“会去的”。","evidence_quotes":["明天别忘了。","会去的。"],"confidence":1.0}],"interactions":[{"from":"林小鹿","to":"咖啡馆店员","interaction_type":"cooperation","interaction_type_raw":"接头合作","impact_level":"high","impact_level_raw":"关键信息传递","polarity":"neutral","polarity_raw":"礼貌但疏离","enum_reason":"双方合作完成接头任务，但店员态度冷淡，林小鹿内心紧张。","summary":"林小鹿用暗号与店员接头，店员递纸条并警告，双方完成信息传递。","evidence_summary":"林小鹿用暗号询问，店员递纸条并警告，随后拒绝交谈。","evidence_quotes":["请问……这里有‘寻鹿’吗？","你父亲的事，别问太多。"],"interaction_analysis":"这是一次组织接头，店员传递信息后终止交流，林小鹿接受信息后离开。","confidence":0.9},{"from":"灰衣跟踪者","to":"林小鹿","interaction_type":"threat","interaction_type_raw":"跟踪监视","impact_level":"high","impact_level_raw":"潜在威胁","polarity":"negative","polarity_raw":"敌对监视","enum_reason":"跟踪行为具有威胁性，林小鹿感到不安。","summary":"灰衣男子在公交车站对面注视林小鹿，疑似跟踪，林小鹿感到压迫感。","evidence_summary":"林小鹿在公交车上看到灰衣男子站在对面街角，目光锁定她的窗口。","evidence_quotes":["对面街角，一个穿着灰色外套的男人正站在那里，看着她的方向。"],"interaction_analysis":"灰衣男子的跟踪行为表明他对林小鹿有监视意图，可能来自敌对势力或组织内部。","confidence":0.6}],"directed_relations":[{"from":"咖啡馆店员","to":"林小鹿","raw_label":"接头与警告","state_summary":"咖啡馆店员作为接头人，向林小鹿传递纸条和警告，但拒绝进一步交流，表现出谨慎和疏离。","structural_base":"unknown","structural_base_raw":"接头关系，身份不明","dynamic_stance":"wary","dynamic_stance_raw":"警告别问太多，保持距离","enum_reason":"店员警告林小鹿不要多问，表现出警惕和保留态度。","evidence_summary":"店员递纸条并说“你父亲的事，别问太多”，随后转身清洗咖啡机，拒绝交谈。","evidence_quotes":["你父亲的事，别问太多。"],"relation_analysis":"店员作为组织接头人，对林小鹿保持警惕，只传递必要信息，不透露更多。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8},{"from":"林小鹿","to":"咖啡馆店员","raw_label":"寻求线索","state_summary":"林小鹿按照指示与店员接头，礼貌询问并接受纸条，但内心紧张，对店员保持警惕。","structural_base":"unknown","structural_base_raw":"初次接触，身份不明","dynamic_stance":"neutral","dynamic_stance_raw":"礼貌询问，内心紧张","enum_reason":"林小鹿主动用暗号接头，但店员态度冷淡，她未表现出强烈情绪。","evidence_summary":"林小鹿用暗号“寻鹿”询问，店员递纸条后她未追问，喝完咖啡离开。","evidence_quotes":["请问……这里有‘寻鹿’吗？"],"relation_analysis":"林小鹿将店员视为线索来源，但对方拒绝深入交流，她保持表面平静。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.7},{"from":"灰衣跟踪者","to":"林小鹿","raw_label":"跟踪监视","state_summary":"灰衣男子在公交车站对面注视林小鹿，疑似跟踪，身份和目的不明。","structural_base":"unknown","structural_base_raw":"身份不明，跟踪行为","dynamic_stance":"hostile","dynamic_stance_raw":"跟踪监视，有压迫感","enum_reason":"跟踪行为具有潜在威胁性，林小鹿感到压迫感。","evidence_summary":"林小鹿在公交车上看到灰衣男子站在对面街角，目光锁定她的窗口。","evidence_quotes":["对面街角，一个穿着灰色外套的男人正站在那里，看着她的方向。"],"relation_analysis":"灰衣男子的跟踪行为表明他对林小鹿有监视意图，可能来自敌对势力或组织内部。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.6}],"pair_relations":[{"entity_a":"林小鹿","entity_b":"咖啡馆店员","shared_structural_base":"unknown","shared_structural_base_raw":"接头关系，身份不明","pair_summary":"林小鹿与咖啡馆店员通过暗号接头，店员传递纸条和警告，但双方关系仅限于此，无更深结构。","evidence_summary":"林小鹿用暗号“寻鹿”接头，店员递纸条并警告，随后拒绝交谈。","evidence_quotes":["你父亲的事，别问太多。"],"pair_analysis":"双方是组织接头关系，但店员身份不明，关系仅限于单次信息传递。","shared_intensity_score":50,"confidence":0.7}],"fact_updates":[{"subject":"林小鹿","predicate":"获得新线索","object_value":"明天下午三点去旧书店街17号，带上笔记本","summary":"林小鹿通过接头获得纸条，指示下一步行动。","is_state":false,"retracted":false,"confidence":1.0},{"subject":"林小鹿","predicate":"被跟踪","object_value":"发现身后有脚步声，并在公交车站看到灰衣男子注视她","summary":"林小鹿离开咖啡馆后被人跟踪，感到危险。","is_state":true,"retracted":false,"confidence":0.8},{"subject":"林小鹿","predicate":"收到短信提醒","object_value":"陌生号码发来短信“明天别忘了”","summary":"林小鹿回家后收到陌生号码的短信，提醒她明天的约会。","is_state":false,"retracted":false,"confidence":1.0},{"subject":"林小鹿","predicate":"决心继续追查","object_value":"回复短信“会去的”，决心继续追查父亲下落","summary":"林小鹿决定按照指示前往旧书店街17号。","is_state":true,"retracted":false,"confidence":1.0}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第38章 陆沉的橄榄枝: 本章暂无正文内容，仅标题暗示陆沉向林小鹿伸出橄榄枝，可能涉及合作或招揽。
+- 第39章 两难的选择: 本章暂无正文内容，仅标题暗示林小鹿面临两难选择，可能涉及对叶知秋或宋明远的信任抉择。
+- 第40章 暗流下的邀约: 本章暂无正文内容，仅标题暗示暗流下的邀约，可能涉及林小鹿与陆沉或叶知秋之间的秘密接触。
+</recent_summary>
+
+<focus_entities>
+- 咖啡馆店员
+- 林小鹿
+- 林远舟
+- 灰衣跟踪者
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=100 aliases=小鹿 summary=女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。
+Update: 女大学生，父亲失踪三个月，持有父亲留下的笔记本，正在按线索寻找父亲。
+Update: 女大学生，父亲失踪三个月，持父亲笔记本找到天衍组织入口，正在接受异能检测的新成员。
+Update: 女大学生，父亲失踪三个月，持父亲笔记本加入天衍组织。本章通过异能检测，成为外围成员，领取临时证件和初始任务。内心警惕，控制情绪和生理反应，对组织环境保持戒备。
+Update: 女大学生，父亲失踪三个月，加入天衍组织寻找父亲。本章在档案室整理档案时发现了父亲参与青石镇调查的线索。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲笔记本加入天衍组织，决心寻找父亲。本章中她整理档案时发现青石镇调查纪要并全部记住，被宋明远试探后高度警惕，凌晨发现监视后撤离出租屋。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。本章中她执行紧急任务“灰雀”，取送文件，同时面临考试压力和叶知秋的警告。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。本章中她收到叶知秋的警告，得知接头地点被监控，并了解到叶知秋的哥哥也失踪了。
+Update: 女大学生，父亲失踪后加入天衍组织，目前为外围成员。本章主动向组长宋明远申请升级任务，获得C级任务外围工作机会。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她接到新任务，目标地点为废弃研究所。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在残页上发现暗语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有异常发现。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她成为宋明远试探的对象。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中与叶知秋进行情报交易。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在金属盒背后发现线索。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在伪装下进行紧急行动。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她获得代号并转向主动行动。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在考试周遇到紧急任务。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在打工时被老板突然查岗。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她面临紧急情况，需要同时处理三条任务线。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有意外发现。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中面临宋明远的试探升级。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。对叶知秋保持礼貌配合，但内心高度警惕。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中面临双重压力并做出决断。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在废弃工厂中获取暗语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在目标临终前听到了低语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在战利品中发现另一条线索。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她正在追踪某个代号。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在暗流中面临抉择。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发
+...(truncated)
+</known_entities>
+
+<relevant_relation_history>
+
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

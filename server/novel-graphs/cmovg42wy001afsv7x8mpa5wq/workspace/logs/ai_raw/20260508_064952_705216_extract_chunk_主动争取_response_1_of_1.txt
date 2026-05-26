@@ -1,0 +1,214 @@
+{
+  "summary": "林小鹿主动向宋明远申请参与更高级别的C级任务，宋明远同意她参与南城旧货市场清理任务的外围工作，并给她一把仓库钥匙要求她提交踩点报告。林小鹿成功迈出主动布局的第一步，但宋明远的轻易同意和背景调查让她感到不安。叶知秋发短信确认并警告她宋明远查了她的背景。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "外院大二学生，英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后，决定加入天衍组织寻找父亲。本章中主动向宋明远申请升级任务，获得参与C级任务外围工作的机会。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥", "宋组长"],
+      "chapter_role": "major_actor",
+      "summary": "天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。本章中林小鹿向他申请升级任务，他同意并给了她仓库钥匙，要求她提交踩点报告，同时暗中调查林小鹿的背景。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["叶姐", "小叶"],
+      "chapter_role": "supporting",
+      "summary": "天衍的前台兼行政人员，戴眼镜的年轻女人。本章中通过短信与林小鹿联系，确认她申请任务成功，并警告她宋明远查了她的背景。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "主动申请任务，表面服从但内心警惕",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "宋明远是外勤组长，林小鹿是下属成员",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "林小鹿对宋明远的轻易同意感到不安，怀疑他在试探",
+      "state_summary": "林小鹿作为下属主动向宋明远申请升级任务，表面服从组织流程，但内心对宋明远的动机保持高度警惕，认为他的同意过于容易，可能另有目的。",
+      "enum_reason": "林小鹿是组织成员，宋明远是外勤组长，存在明确的上下级关系；林小鹿对宋明远的不信任和怀疑符合wary。",
+      "evidence_summary": "林小鹿主动申请任务，宋明远同意并给钥匙；林小鹿事后感到不安，认为宋明远答应得太容易；叶知秋警告宋明远查了林小鹿的背景。",
+      "evidence_quotes": ["宋明远答应得太容易了，几乎没有任何为难", "小心。他查了你的背景。"],
+      "relation_analysis": "林小鹿作为下属主动争取机会，但宋明远的轻易同意和背景调查加深了她的不信任，形成表面服从、内心警惕的上下级关系。",
+      "confidence": 0.85
+    },
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "同意申请但暗中调查",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "宋明远是外勤组长，林小鹿是下属成员",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "宋明远查了林小鹿的背景，并试探她的准备程度",
+      "state_summary": "宋明远作为上级，表面上同意林小鹿的申请并给予机会，但暗中调查她的背景，对她的动机保持怀疑和审视。",
+      "enum_reason": "宋明远是外勤组长，林小鹿是下属，存在明确的上下级关系；宋明远查背景并试探，表明他不信任林小鹿。",
+      "evidence_summary": "宋明远同意林小鹿的申请，但叶知秋警告林小鹿宋明远查了她的背景；宋明远在对话中试探林小鹿对任务的了解。",
+      "evidence_quotes": ["他查了你的背景。", "宋明远看着她，手指在桌面上轻轻敲了两下。"],
+      "relation_analysis": "宋明远作为上级，表面给予机会，但暗中调查和试探表明他对林小鹿的动机持怀疑态度，形成监督与试探的关系。",
+      "confidence": 0.8
+    },
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "提供情报和警告",
+      "structural_base": "same_faction",
+      "structural_base_raw": "两人同属天衍组织，叶知秋是前台兼行政人员",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "叶知秋主动发短信确认并警告林小鹿小心宋明远",
+      "state_summary": "叶知秋作为组织内的情报分析员，对林小鹿保持职业化的关注，本章中主动发短信确认申请结果并警告宋明远查了背景，表现出保护倾向。",
+      "enum_reason": "两人同属天衍组织，叶知秋主动提供情报和警告，表现出保护林小鹿的意图。",
+      "evidence_summary": "叶知秋发短信问‘他同意了？’，林小鹿回复后，叶知秋警告‘小心。他查了你的背景。’",
+      "evidence_quotes": ["他同意了？", "小心。他查了你的背景。"],
+      "relation_analysis": "叶知秋通过短信主动提供情报和警告，表明她试图保护林小鹿免于暴露，形成情报支持与保护的关系。",
+      "confidence": 0.75
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "接受情报但保持警惕",
+      "structural_base": "same_faction",
+      "structural_base_raw": "两人同属天衍组织，林小鹿是外围成员",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "林小鹿回复叶知秋的短信并接受其警告",
+      "state_summary": "林小鹿接受叶知秋提供的情报和警告，信任其善意，但内心仍对叶知秋的动机保持一定警惕。",
+      "enum_reason": "林小鹿回复叶知秋的短信并接受警告，表明她信任叶知秋提供的信息。",
+      "evidence_summary": "林小鹿回复‘嗯’确认申请成功，并接受叶知秋的警告。",
+      "evidence_quotes": ["嗯", "林小鹿的脚步顿了一下。"],
+      "relation_analysis": "林小鹿接受叶知秋的情报和警告，表现出信任，但背景调查的警告让她更加谨慎，形成依赖与警惕并存的复杂关系。",
+      "confidence": 0.7
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "宋明远",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "宋明远是外勤组长，林小鹿是下属成员",
+      "pair_summary": "林小鹿和宋明远之间存在明确的上下级关系，林小鹿主动申请任务，宋明远同意并给予机会，但双方互不信任。",
+      "evidence_summary": "林小鹿向宋明远申请升级任务，宋明远同意并给钥匙；叶知秋警告林小鹿宋明远查了她的背景。",
+      "evidence_quotes": ["宋明远答应得太容易了", "他查了你的背景。"],
+      "pair_analysis": "两人在组织内是上下级关系，但林小鹿的主动申请和宋明远的暗中调查表明双方关系紧张，互不信任。",
+      "confidence": 0.85
+    },
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "叶知秋",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "两人同属天衍组织",
+      "pair_summary": "林小鹿和叶知秋同属天衍组织，叶知秋主动提供情报和警告，林小鹿接受并信任，但双方关系仍带有一定警惕。",
+      "evidence_summary": "叶知秋发短信确认申请结果并警告林小鹿小心宋明远；林小鹿回复并接受警告。",
+      "evidence_quotes": ["他同意了？", "小心。他查了你的背景。"],
+      "pair_analysis": "两人在组织内是同事关系，叶知秋主动提供情报表现出保护倾向，林小鹿接受信任，但背景调查的警告让林小鹿保持谨慎。",
+      "confidence": 0.75
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt_1",
+      "intra_chapter_order": 0,
+      "event_type": "申请任务",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "林小鹿主动向宋明远申请升级任务，是本章核心事件",
+      "summary": "林小鹿早上起床后，决定主动向宋明远申请参与更高级别的任务。她前往宋明远办公室，提出申请参与C级任务的外围工作。宋明远同意并给她一把仓库钥匙，要求她提交踩点报告。",
+      "location": "宋明远办公室",
+      "enum_reason": "该事件是本章的核心，林小鹿主动布局的第一步，推动后续情节发展。",
+      "evidence_summary": "林小鹿敲门进入宋明远办公室，申请升级任务，宋明远同意并给钥匙。",
+      "evidence_quotes": ["宋组长，我想跟您申请一件事。", "这把钥匙，是旧货市场外围那栋废弃楼的仓库钥匙。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "宋明远", "role": "target", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt_2",
+      "intra_chapter_order": 1,
+      "event_type": "短信交流",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "叶知秋发短信确认并警告林小鹿",
+      "summary": "林小鹿离开办公室后，收到叶知秋的短信，确认申请成功，并警告她宋明远查了她的背景。",
+      "location": "走廊",
+      "enum_reason": "该事件是细节，但提供了重要情报，加深林小鹿的不安。",
+      "evidence_summary": "林小鹿口袋里的手机震动，叶知秋发来短信。",
+      "evidence_quotes": ["他同意了？", "小心。他查了你的背景。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "target", "confidence": 1.0},
+        {"entity_name": "叶知秋", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "interaction_type": "command",
+      "interaction_type_raw": "林小鹿主动向宋明远申请任务，宋明远下达指令",
+      "impact_level": "high",
+      "impact_level_raw": "该互动决定了林小鹿能否参与更高级别任务",
+      "polarity": "neutral",
+      "polarity_raw": "双方表面礼貌，但内心各有算计",
+      "summary": "林小鹿在宋明远办公室主动申请参与C级任务外围工作，宋明远同意并给钥匙，要求她提交踩点报告。",
+      "enum_reason": "林小鹿提出申请，宋明远作为上级下达指令和条件，符合command。",
+      "evidence_summary": "林小鹿敲门进入办公室，提出申请，宋明远同意并给钥匙，要求提交报告。",
+      "evidence_quotes": ["宋组长，我想跟您申请一件事。", "如果你能准时参加，并且在会上提出有价值的建议，我就让你参与这个任务的外围工作。"],
+      "interaction_analysis": "林小鹿主动申请，宋明远作为上级下达指令和条件，互动表面正式但暗含试探。",
+      "confidence": 0.9
+    },
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "interaction_type": "revelation",
+      "interaction_type_raw": "叶知秋通过短信透露宋明远查了林小鹿的背景",
+      "impact_level": "high",
+      "impact_level_raw": "该信息让林小鹿意识到宋明远的不信任",
+      "polarity": "positive",
+      "polarity_raw": "叶知秋提供情报，对林小鹿有利",
+      "summary": "叶知秋发短信确认林小鹿申请成功，并警告她宋明远查了她的背景。",
+      "enum_reason": "叶知秋透露了宋明远调查背景的事实，属于信息揭露。",
+      "evidence_summary": "林小鹿收到叶知秋的短信，内容为‘他同意了？’和‘小心。他查了你的背景。’",
+      "evidence_quotes": ["小心。他查了你的背景。"],
+      "interaction_analysis": "叶知秋通过短信提供关键情报，帮助林小鹿了解宋明远的动向，表现出保护意图。",
+      "confidence": 0.85
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "申请升级任务",
+      "object_value": "成功获得参与C级任务外围工作的机会",
+      "summary": "林小鹿主动向宋明远申请参与更高级别的任务，宋明远同意她参与南城旧货市场清理任务的外围工作，并给了她仓库钥匙。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "宋明远",
+      "predicate": "调查林小鹿背景",
+      "object_value": "已查过林小鹿的背景",
+      "summary": "叶知秋警告林小鹿，宋明远查了她的背景。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "获得仓库钥匙",
+      "object_value": "钥匙编号B-307",
+      "summary": "宋明远给了林小鹿一把仓库钥匙，用于南城旧货市场外围废弃楼的仓库。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "需要提交踩点报告",
+      "object_value": "后天上午前提交完整的踩点报告",
+      "summary": "宋明远要求林小鹿提前去现场踩点，并在后天上午前提交一份完整的踩点报告。",
+      "is_state": true,
+      "confidence": 1.0
+    }
+  ]
+}

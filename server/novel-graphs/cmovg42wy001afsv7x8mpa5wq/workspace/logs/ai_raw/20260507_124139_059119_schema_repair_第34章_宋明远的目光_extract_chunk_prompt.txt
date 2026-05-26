@@ -1,0 +1,150 @@
+You are repairing a JSON response for a novel analysis pipeline.
+
+Return strict JSON only. No markdown. No explanation.
+
+Repair scope:
+Controlled enum discipline:
+- First understand the scene evidence and summarize the nuance in summary/state_summary.
+- Then choose enum fields strictly from the following tables.
+- Do not output Chinese labels, synonyms, free-form relationship words, or near-matches in enum fields.
+- If no enum is clearly supported, use the listed fallback instead of guessing.
+- Preserve nuance only in summary/state_summary/evidence, not in enum fields.
+- During debugging, also return *_raw and enum_reason where the schema provides them:
+  - *_raw: the short source phrase you extracted before choosing the enum.
+  - enum_reason: one short sentence explaining why the enum was chosen from the table.
+  - *_raw and enum_reason are for audit only; enum fields still must use controlled values.
+
+Allowed structural_base values: childhood_friend, classmate, colleague, commander_soldier, contract_bound, employer_employee, friend, guardian_ward, household_family, kinship_adoptive, kinship_clan, kinship_fiance, kinship_parent_child, kinship_sibling, kinship_spouse, lord_vassal, master_disciple, none, oath_bound, opposing_faction, rival_pair, romantic_partner, roommate, same_faction, same_unit, superior_subordinate, teacher_student, temporary_alliance, unknown
+Fallback structural_base: unknown
+
+Allowed dynamic_stance values: admiring, conflicted, dependent, distrustful, dominant, fearful, friendly, hostile, jealous, neutral, obsessive, protective, resentful, romantic_interest, submissive, trusting, unknown, wary
+Fallback dynamic_stance: neutral
+
+Allowed interactions[].interaction_type values: betrayal, command, confession, conflict, contract, cooperation, daily_interaction, deception, duel, family_recognition, gift_or_support, humiliation, mind_control, political_negotiation, possession, promise, protection, reconciliation, rescue, reunion, revelation, sacrifice, separation, shared_battle, teaching, threat, training, unknown
+Fallback interaction_type: unknown
+
+Allowed interactions[].impact_level values: critical, high, low, medium
+Fallback impact_level: medium
+
+Allowed interactions[].polarity values: mixed, negative, neutral, positive
+Fallback polarity: neutral
+
+Allowed events[].narrative_weight values: background, core, detail, mainline, turning_point
+Fallback narrative_weight: mainline
+
+- Fix JSON syntax, field names, and object shapes so the response matches the required schema.
+- Do not add new facts that are not present in the invalid response.
+- Drop rows that cannot be repaired without inventing missing endpoints.
+- Keep all user-facing text values in Simplified Chinese.
+
+Required field repairs:
+- identity_revelations items must use source_name and target_name. If an item only has entity/name without a revealed target, move it to fact_updates or drop it.
+- interactions items must use from and to. If a row has no clear pair, move it to events or drop it.
+- fact_updates items must use subject, predicate, object_value, summary, is_state, confidence. fact_name/content are not valid replacement keys.
+- directed_relations items must use from and to.
+- pair_relations items must use entity_a and entity_b.
+- entities items must have name.
+
+<title>
+第34章 宋明远的目光
+</title>
+
+<stage>
+extract_chunk
+</stage>
+
+<validation_error>
+1 validation error for AnalysisResult
+events.0.location
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+</validation_error>
+
+<invalid_response>
+{
+  "summary": "本章无正文内容，仅标题暗示宋明远对林小鹿的关注或审视。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥"],
+      "chapter_role": "major_actor",
+      "summary": "天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "审视与关注",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "组长与组员",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "试探与不信任",
+      "state_summary": "宋明远作为组长对林小鹿保持警惕和审视，可能仍在调查她的背景和动机。",
+      "enum_reason": "标题暗示宋明远的目光，结合前文试探行为，选择wary。",
+      "evidence_summary": "标题'宋明远的目光'暗示宋明远对林小鹿的关注或审视。",
+      "evidence_quotes": ["第34章 宋明远的目光"],
+      "relation_analysis": "标题直接指向宋明远对林小鹿的注视，结合前文宋明远的试探行为，表明他仍对林小鹿保持警惕。",
+      "confidence": 0.6
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "被审视的警惕",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "下属与上司",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "被试探的警惕",
+      "state_summary": "林小鹿作为下属对上司宋明远的审视保持警惕，可能正在准备应对策略。",
+      "enum_reason": "标题暗示宋明远的目光，林小鹿作为被审视方，结合前文警惕态度，选择wary。",
+      "evidence_summary": "标题'宋明远的目光'暗示林小鹿被宋明远关注或审视。",
+      "evidence_quotes": ["第34章 宋明远的目光"],
+      "relation_analysis": "标题暗示林小鹿处于被审视的位置，结合前文她对宋明远的警惕，保持wary stance。",
+      "confidence": 0.6
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "宋明远",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "组长与组员",
+      "pair_summary": "林小鹿和宋明远是天衍组织中的上下级关系，宋明远是组长，林小鹿是新入职的组员。",
+      "evidence_summary": "前文已建立上下级关系，本章标题暗示宋明远对林小鹿的关注。",
+      "evidence_quotes": ["第34章 宋明远的目光"],
+      "pair_analysis": "标题强化了上下级关系中的审视动态，但未改变基本结构。",
+      "confidence": 0.7
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch34_01",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "无正文内容",
+      "summary": "本章无正文内容，仅标题暗示宋明远对林小鹿的关注或审视。",
+      "location": null,
+      "enum_reason": "无正文内容，仅标题提供信息，权重较低。",
+      "evidence_summary": "标题'宋明远的目光'。",
+      "evidence_quotes": ["第34章 宋明远的目光"],
+      "participants": [
+        {"entity_name": "宋明远", "role": "actor", "confidence": 0.6},
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.6}
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "interactions": [],
+  "fact_updates": []
+}
+</invalid_response>
+
+Return the repaired AnalysisResult JSON only.

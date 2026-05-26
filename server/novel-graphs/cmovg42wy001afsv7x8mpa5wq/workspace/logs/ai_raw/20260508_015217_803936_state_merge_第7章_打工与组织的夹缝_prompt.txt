@@ -1,0 +1,63 @@
+<chapter_title>
+第7章 打工与组织的夹缝
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第7章 打工与组织的夹缝","analyzed_at":"2026-05-08T01:52:17","summary":"林小鹿在咖啡馆打工时收到紧急任务短信，代号“灰雀”，要求她晚上九点到城东物流园B区7号仓库取文件并送到柳林街24号。她答应店长加班到九点，期间收到一名黑衣男子传递的纸条，确认任务细节。她按时取到灰色文件袋并送达指定地点。回校途中收到叶知秋的短信警告，称接头地点已被监控，让她自己决定是否前往。林小鹿感到疲惫和警惕，怀疑监控来源，并想起之前警告她小心宋明远的未知号码。","outline":[{"order":0,"text":"林小鹿在咖啡馆打工时收到未知号码的短信，要求她晚上九点到城东物流园B区7号仓库取文件并送到指定地址，任务代号“灰雀”。","involved_names":["林小鹿","未知号码发件人"]},{"order":1,"text":"店长请求林小鹿加班到十点，林小鹿以考试为由拒绝，最终协商到九点离开。","involved_names":["林小鹿","店长"]},{"order":2,"text":"一名黑衣男子在咖啡馆通过暗号（敲击三短一长）和杯托下压纸条的方式，向林小鹿传递任务具体指令。","involved_names":["林小鹿","黑衣男子"]},{"order":3,"text":"林小鹿在九点后打车到城东物流园B区7号仓库，按纸条指示找到灰色文件袋，随后送到柳林街24号塞进门缝。","involved_names":["林小鹿"]},{"order":4,"text":"林小鹿回校途中收到叶知秋的短信，警告接头地点已被监控，让她自己决定是否前往。林小鹿感到警惕，怀疑监控来源。","involved_names":["林小鹿","叶知秋"]}],"entities":[{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。本章中她执行紧急任务“灰雀”，取送文件，同时面临考试压力和叶知秋的警告。"},{"name":"叶知秋","aliases":["叶"],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天衍组织的前台工作人员，年轻女性，戴眼镜。本章中她通过短信警告林小鹿接头地点已被监控，语气带有提醒或警告意味。"},{"name":"店长","aliases":[],"chapter_role":"supporting","tier":"active","importance_score":40,"summary":"咖啡馆女店长，四十多岁，疲惫，请求林小鹿加班到十点，最终同意林小鹿九点离开。"},{"name":"黑衣男子","aliases":[],"chapter_role":"transient","tier":"active","importance_score":40,"summary":"年轻男人，黑色外套，帽檐压低，在咖啡馆点冰美式时通过敲击暗号传递纸条给林小鹿，身份不明。"},{"name":"未知号码发件人","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"通过短信向林小鹿发送紧急任务“灰雀”和“注意安全”的人，身份不明，可能是组织上级或其他人。"}],"identity_revelations":[],"events":[{"event_id":"evt1","intra_chapter_order":0,"event_type":"任务接收","narrative_weight":"core","narrative_weight_raw":"核心事件，驱动本章情节","enum_reason":"该事件是本章主线任务的起点，直接推动后续行动。","summary":"林小鹿在咖啡馆打工时收到未知号码的短信，要求她晚上九点到城东物流园B区7号仓库取文件并送到指定地址，任务代号“灰雀”。","location":"咖啡馆","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"未知号码发件人","role":"participant","confidence":0.9}],"evidence_summary":"林小鹿收到短信，内容为紧急任务指令。","evidence_quotes":["紧急任务。今晚九点，城东物流园B区7号仓库。取一份文件，送到指定地址。任务代号：灰雀。"],"confidence":1.0},{"event_id":"evt2","intra_chapter_order":1,"event_type":"加班协商","narrative_weight":"detail","narrative_weight_raw":"次要事件，为任务时间线提供背景","enum_reason":"该事件为任务时间安排提供细节，但非核心冲突。","summary":"店长请求林小鹿加班到十点，林小鹿以考试为由拒绝，最终协商到九点离开。","location":"咖啡馆","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"店长","role":"participant","confidence":1.0}],"evidence_summary":"店长请求加班，林小鹿答应到九点。","evidence_quotes":["小鹿，你今天排班到几点？","好，我顶到九点。"],"confidence":1.0},{"event_id":"evt3","intra_chapter_order":2,"event_type":"暗号传递","narrative_weight":"mainline","narrative_weight_raw":"重要事件，连接任务细节","enum_reason":"该事件是任务执行的关键环节，提供具体地点和文件描述。","summary":"一名黑衣男子在咖啡馆通过暗号（敲击三短一长）和杯托下压纸条的方式，向林小鹿传递任务具体指令。","location":"咖啡馆","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"黑衣男子","role":"actor","confidence":0.9}],"evidence_summary":"黑衣男子点咖啡时敲暗号，留下纸条。","evidence_quotes":["那人在转身离开的时候，把一张对折的纸条压在杯托下面。"],"confidence":0.95},{"event_id":"evt4","intra_chapter_order":3,"event_type":"取送文件","narrative_weight":"core","narrative_weight_raw":"核心事件，完成本章主要任务","enum_reason":"该事件是本章主线任务的执行高潮。","summary":"林小鹿在九点后打车到城东物流园B区7号仓库，按纸条指示找到灰色文件袋，随后送到柳林街24号塞进门缝。","location":"城东物流园B区7号仓库 → 柳林街24号","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0}],"evidence_summary":"林小鹿取到文件袋并送达指定地址。","evidence_quotes":["她把文件袋抽出来，塞进背包里层","她把文件袋塞进去，确认没有露出边角"],"confidence":1.0},{"event_id":"evt5","intra_chapter_order":4,"event_type":"警告接收","narrative_weight":"turning_point","narrative_weight_raw":"转折事件，改变林小鹿对任务的认知","enum_reason":"该事件引入新的危机，改变林小鹿对后续行动的判断。","summary":"林小鹿回校途中收到叶知秋的短信，警告接头地点已被监控，让她自己决定是否前往。林小鹿感到警惕，怀疑监控来源。","location":"回校途中","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"叶知秋","role":"participant","confidence":1.0}],"evidence_summary":"叶知秋发短信警告接头点被监控。","evidence_quotes":["接头地点已经被监控了。你自己决定。"],"confidence":1.0}],"interactions":[{"from":"叶知秋","to":"林小鹿","interaction_type":"revelation","interaction_type_raw":"短信警告","impact_level":"high","impact_level_raw":"关键警告，影响林小鹿后续决策","polarity":"negative","polarity_raw":"警告内容负面，带来危机感","enum_reason":"叶知秋揭示了监控这一关键信息，属于信息揭露。","summary":"叶知秋通过短信告知林小鹿接头地点已被监控，让林小鹿自己决定是否前往。","evidence_summary":"叶知秋发短信说接头地点被监控。","evidence_quotes":["接头地点已经被监控了。你自己决定。"],"interaction_analysis":"叶知秋主动提供危险信息，意图保护林小鹿，但信息本身带来压力和不确定性。","confidence":0.9},{"from":"林小鹿","to":"叶知秋","interaction_type":"unknown","interaction_type_raw":"短信追问","impact_level":"medium","impact_level_raw":"追问细节，但未得到直接回答","polarity":"neutral","polarity_raw":"询问信息，无明显情感倾向","enum_reason":"林小鹿的追问属于信息请求，没有明确互动类型匹配。","summary":"林小鹿回复‘什么意思？’追问叶知秋的警告，但叶知秋未直接回答。","evidence_summary":"林小鹿回复‘什么意思？’","evidence_quotes":["什么意思？"],"interaction_analysis":"林小鹿对警告感到困惑和警惕，试图获取更多信息。","confidence":0.85},{"from":"黑衣男子","to":"林小鹿","interaction_type":"cooperation","interaction_type_raw":"传递任务纸条","impact_level":"high","impact_level_raw":"提供关键任务指令","polarity":"neutral","polarity_raw":"任务协作，无情感色彩","enum_reason":"双方协作完成信息传递，属于合作。","summary":"黑衣男子在咖啡馆通过暗号和纸条向林小鹿传递任务具体指令。","evidence_summary":"黑衣男子敲暗号并留下纸条。","evidence_quotes":["那人在转身离开的时候，把一张对折的纸条压在杯托下面。"],"interaction_analysis":"黑衣男子作为任务联络人，通过隐蔽方式传递信息，林小鹿配合接收。","confidence":0.9},{"from":"林小鹿","to":"店长","interaction_type":"daily_interaction","interaction_type_raw":"加班协商","impact_level":"low","impact_level_raw":"日常排班调整","polarity":"neutral","polarity_raw":"协商性质，无冲突","enum_reason":"日常工作中的排班协商。","summary":"林小鹿与店长协商加班时间，最终同意顶班到九点。","evidence_summary":"店长请求加班，林小鹿答应但限定时间。","evidence_quotes":["好，我顶到九点。"],"interaction_analysis":"林小鹿在雇佣关系下进行常规工作协商。","confidence":0.95}],"directed_relations":[{"from":"叶知秋","to":"林小鹿","raw_label":"警告接头点被监控","state_summary":"叶知秋作为天衍前台同事，对林小鹿保持保护态度，主动冒险警告接头地点已被监控，并提醒小心宋明远。","structural_base":"same_faction","structural_base_raw":"天衍组织同事","dynamic_stance":"protective","dynamic_stance_raw":"提醒注意安全，让林小鹿自己决定","enum_reason":"叶知秋主动提供关键警告，表现出保护意图。","evidence_summary":"叶知秋发短信说“接头地点已经被监控了。你自己决定。”","evidence_quotes":["接头地点已经被监控了。你自己决定。"],"relation_analysis":"叶知秋的警告表明她关心林小鹿的安全，愿意冒险提供情报，属于保护性动态。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.85},{"from":"林小鹿","to":"叶知秋","raw_label":"警惕并追问","state_summary":"林小鹿对叶知秋的警告保持警惕，追问细节，并怀疑叶知秋的动机和处境。","structural_base":"same_faction","structural_base_raw":"天衍组织同事","dynamic_stance":"wary","dynamic_stance_raw":"追问‘什么意思？’，内心怀疑叶知秋是否也在监控名单中","enum_reason":"林小鹿没有完全信任，而是追问并产生怀疑。","evidence_summary":"林小鹿回复‘什么意思？’，并思考‘叶知秋自己也在监控名单里？’","evidence_quotes":["什么意思？","叶知秋自己也在监控名单里？"],"relation_analysis":"林小鹿对叶知秋的警告感到警惕，没有立即信任，而是怀疑背后意图。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8},{"from":"林小鹿","to":"店长","raw_label":"答应加班但限定时间","state_summary":"林小鹿作为店员，对店长的加班请求表示配合，但坚持自己的时间底线。","structural_base":"employer_employee","structural_base_raw":"咖啡馆店员与店长","dynamic_stance":"neutral","dynamic_stance_raw":"答应加班但坚持九点离开","enum_reason":"双方是雇佣关系，互动中性，没有强烈情感。","evidence_summary":"林小鹿答应顶班到九点，店长同意。","evidence_quotes":["好，我顶到九点。","九点我真的有事，最晚九点十分必须走。"],"relation_analysis":"林小鹿在雇佣框架内协商，表现出配合但坚持个人安排。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.9}],"pair_relations":[{"entity_a":"林小鹿","entity_b":"叶知秋","shared_structural_base":"same_faction","shared_structural_base_raw":"天衍组织同事","pair_summary":"两人同属天衍组织，叶知秋是前台同事，林小鹿是新成员，存在信息传递和潜在信任关系。","evidence_summary":"叶知秋通过短信警告林小鹿接头点被监控，林小鹿追问并怀疑。","evidence_quotes":["接头地点已经被监控了。你自己决定。","什么意思？"],"pair_analysis":"两人共享组织身份，叶知秋主动提供情报，林小鹿保持警惕，关系处于动态平衡。","shared_intensity_score":50,"confidence":0.8},{"entity_a":"林小鹿","entity_b":"店长","shared_structural_base":"employer_employee","shared_structural_base_raw":"咖啡馆店员与店长","pair_summary":"林小鹿是咖啡馆店员，店长是雇主，双方存在雇佣关系。","evidence_summary":"店长请求林小鹿加班，林小鹿答应但限定时间。","evidence_quotes":["小鹿，你今天排班到几点？","好，我顶到九点。"],"pair_analysis":"雇佣关系明确，互动围绕排班和加班协商。","shared_intensity_score":50,"confidence":0.95}],"fact_updates":[{"subject":"林小鹿","predicate":"执行任务","object_value":"代号‘灰雀’的取送文件任务","summary":"林小鹿在咖啡馆打工期间收到紧急任务，前往城东物流园取文件并送到柳林街24号。","is_state":false,"retracted":false,"confidence":1.0},{"subject":"林小鹿","predicate":"收到警告","object_value":"叶知秋警告接头地点已被监控","summary":"林小鹿回校途中收到叶知秋短信，称接头地点已被监控。","is_state":false,"retracted":false,"confidence":1.0},{"subject":"林小鹿","predicate":"怀疑监控来源","object_value":"怀疑宋明远或组织高层，甚至叶知秋本人","summary":"林小鹿思考谁监控了接头点，怀疑宋明远、组织高层或叶知秋。","is_state":true,"retracted":false,"confidence":0.8},{"subject":"林小鹿","predicate":"感到疲惫","object_value":"身体和精神上的累，从骨头缝里渗出来","summary":"林小鹿在任务后感到深层疲惫，但坚持复习考试。","is_state":true,"retracted":false,"confidence":0.9}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第38章 陆沉的橄榄枝: 本章暂无正文内容，仅标题暗示陆沉向林小鹿伸出橄榄枝，可能涉及合作或招揽。
+- 第39章 两难的选择: 本章暂无正文内容，仅标题暗示林小鹿面临两难选择，可能涉及对叶知秋或宋明远的信任抉择。
+- 第40章 暗流下的邀约: 本章暂无正文内容，仅标题暗示暗流下的邀约，可能涉及林小鹿与陆沉或叶知秋之间的秘密接触。
+</recent_summary>
+
+<focus_entities>
+- 叶知秋
+- 店长
+- 未知号码发件人
+- 林小鹿
+- 黑衣男子
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=100 aliases=小鹿 summary=女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。
+Update: 女大学生，父亲失踪三个月，持有父亲留下的笔记本，正在按线索寻找父亲。
+Update: 女大学生，父亲失踪三个月，持父亲笔记本找到天衍组织入口，正在接受异能检测的新成员。
+Update: 女大学生，父亲失踪三个月，持父亲笔记本加入天衍组织。本章通过异能检测，成为外围成员，领取临时证件和初始任务。内心警惕，控制情绪和生理反应，对组织环境保持戒备。
+Update: 女大学生，父亲失踪三个月，加入天衍组织寻找父亲。本章在档案室整理档案时发现了父亲参与青石镇调查的线索。
+Update: 女大学生，父亲林远舟失踪三个月，她持父亲笔记本加入天衍组织，决心寻找父亲。本章中她整理档案时发现青石镇调查纪要并全部记住，被宋明远试探后高度警惕，凌晨发现监视后撤离出租屋。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她执行组织任务，同时面临考试压力和组织内部的信任危机。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。本章中接受叶知秋的警告与情报。
+Update: 女大学生，外院大二英语专业，父亲失踪后加入天衍组织，决心寻找父亲。本章中她主动向组长宋明远申请升级任务，获得C级任务外围工作机会。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她接到新任务，目标地点为废弃研究所。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在残页上发现暗语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有异常发现。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她成为宋明远试探的对象。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中与叶知秋进行情报交易。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在金属盒背后发现线索。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在伪装下进行紧急行动。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她获得代号并转向主动行动。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在考试周遇到紧急任务。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在打工时被老板突然查岗。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她面临紧急情况，需要同时处理三条任务线。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有意外发现。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中面临宋明远的试探升级。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。对叶知秋保持礼貌配合，但内心高度警惕。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中面临双重压力并做出决断。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在废弃工厂中获取暗语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在目标临终前听到了低语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在战利品中发现另一条线索。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她正在追踪某个代号。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在暗流中面临抉择。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留
+...(truncated)
+</known_entities>
+
+<relevant_relation_history>
+
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

@@ -1,0 +1,66 @@
+{
+  "summary": "本章标题为“宋明远的突然关心”，但正文无具体内容。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥"],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织组长，林小鹿的上司，面试并安排林小鹿入职。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "突然关心",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "上司与下属",
+      "dynamic_stance": "unknown",
+      "dynamic_stance_raw": "未知",
+      "state_summary": "宋明远作为组长对林小鹿表示突然关心，但具体动机和态度不明。",
+      "enum_reason": "标题暗示宋明远主动关心林小鹿，但无正文内容，故选用unknown。",
+      "evidence_summary": "标题为“宋明远的突然关心”，无正文内容。",
+      "evidence_quotes": ["宋明远的突然关心"],
+      "relation_analysis": "标题暗示宋明远对林小鹿有关心行为，但缺乏具体证据，无法确定其真实态度。",
+      "confidence": 0.2
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "对上司关心的反应",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "下属与上司",
+      "dynamic_stance": "unknown",
+      "dynamic_stance_raw": "未知",
+      "state_summary": "林小鹿作为下属对宋明远的突然关心可能保持警惕或疑惑，但具体反应未知。",
+      "enum_reason": "无正文内容，无法判断林小鹿的态度，故选用unknown。",
+      "evidence_summary": "标题暗示宋明远关心林小鹿，但林小鹿的反应未描述。",
+      "evidence_quotes": ["宋明远的突然关心"],
+      "relation_analysis": "林小鹿对宋明远的关心可能有所反应，但缺乏证据。",
+      "confidence": 0.1
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "宋明远",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "上下级关系",
+      "pair_summary": "林小鹿与宋明远是天衍组织中的上下级关系，宋明远是组长，林小鹿是新入职的组员。",
+      "evidence_summary": "标题暗示宋明远关心林小鹿，但无正文内容。",
+      "evidence_quotes": ["宋明远的突然关心"],
+      "pair_analysis": "基于已知实体信息，两人存在明确的上下级关系，但本章无新证据。",
+      "confidence": 0.8
+    }
+  ],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "fact_updates": []
+}

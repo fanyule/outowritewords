@@ -1,0 +1,78 @@
+{
+  "summary": "本章暂无正文内容，仅标题暗示宋明远正在观察或审视林小鹿。",
+  "entities": [
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥", "宋组长"],
+      "chapter_role": "protagonist",
+      "summary": "天衍组织外勤组长，四十岁上下，灰色夹克，短发，声音沙哑。本章标题暗示他正在观察或审视林小鹿。"
+    },
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿", "林远舟的女儿"],
+      "chapter_role": "major_actor",
+      "summary": "女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她正被宋明远审视。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "审视",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "外勤组长与新人",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "审视",
+      "state_summary": "宋明远作为天衍外勤组长，对林小鹿保持职业性的怀疑和试探，通过询问档案年份、学校背景、老家桐城及青石镇等问题，试图探查她是否知道青石镇调查纪要。",
+      "enum_reason": "宋明远是林小鹿的上司，且本章标题暗示他正在审视她，符合superior_subordinate和wary。",
+      "evidence_summary": "标题'宋明远的目光'暗示宋明远正在观察或审视林小鹿。",
+      "evidence_quotes": ["宋明远的目光"],
+      "relation_analysis": "标题直接指向宋明远对林小鹿的审视，结合已知背景，宋明远作为上司对林小鹿保持警惕。",
+      "confidence": 0.6
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "宋明远",
+      "entity_b": "林小鹿",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "外勤组长与新人",
+      "pair_summary": "宋明远是林小鹿在天衍组织的直接上司，两人存在上下级关系。",
+      "evidence_summary": "标题暗示宋明远正在审视林小鹿，结合已知背景，两人为上下级关系。",
+      "evidence_quotes": ["宋明远的目光"],
+      "pair_analysis": "标题和已知背景均支持两人为上下级关系。",
+      "confidence": 0.6
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt_34_1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "暂无正文",
+      "summary": "本章暂无正文内容，仅标题暗示宋明远正在观察或审视林小鹿。",
+      "location": "未知",
+      "enum_reason": "本章无正文，仅标题提供信息，故为detail。",
+      "evidence_summary": "标题'宋明远的目光'暗示审视。",
+      "evidence_quotes": ["宋明远的目光"],
+      "participants": [
+        {"entity_name": "宋明远", "role": "actor", "confidence": 0.6},
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.6}
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "宋明远",
+      "predicate": "对林小鹿的态度",
+      "object_value": "审视",
+      "summary": "标题暗示宋明远正在审视林小鹿。",
+      "is_state": true,
+      "confidence": 0.5
+    }
+  ]
+}

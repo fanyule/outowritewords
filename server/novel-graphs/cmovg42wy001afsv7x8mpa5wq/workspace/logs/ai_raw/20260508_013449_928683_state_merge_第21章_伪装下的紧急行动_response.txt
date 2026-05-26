@@ -1,0 +1,41 @@
+{
+  "summary": "本章无正文内容，仅标题暗示林小鹿在伪装下进行紧急行动。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在伪装下进行紧急行动。"
+    }
+  ],
+  "directed_relations": [],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch21_0",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "本章暂无内容",
+      "summary": "本章无正文内容，仅标题暗示林小鹿在伪装下进行紧急行动。",
+      "location": "未知",
+      "enum_reason": "本章无正文内容，仅标题提供信息，无法确定具体事件权重。",
+      "evidence_summary": "本章无正文内容。",
+      "evidence_quotes": [],
+      "participants": [],
+      "confidence": 0.0
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "行动状态",
+      "object_value": "伪装下进行紧急行动",
+      "summary": "本章标题暗示林小鹿在伪装下进行紧急行动。",
+      "is_state": true,
+      "confidence": 0.3
+    }
+  ]
+}

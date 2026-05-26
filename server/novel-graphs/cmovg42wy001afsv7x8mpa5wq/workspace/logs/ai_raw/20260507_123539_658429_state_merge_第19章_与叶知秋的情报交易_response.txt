@@ -1,0 +1,119 @@
+{
+  "summary": "本章无正文内容，仅标题提示林小鹿与叶知秋进行情报交易。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中与叶知秋进行情报交易。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["小叶"],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。本章中与林小鹿进行情报交易。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "进行情报交易",
+      "structural_base": "colleague",
+      "structural_base_raw": "同事关系",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "进行情报交易暗示信任",
+      "state_summary": "林小鹿与叶知秋是天衍组织的同事，本章标题暗示林小鹿主动与叶知秋进行情报交易，表明林小鹿对叶知秋有一定信任。",
+      "enum_reason": "标题明确提到情报交易，交易需要一定信任基础。",
+      "evidence_summary": "标题为'与叶知秋的情报交易'，暗示林小鹿主动与叶知秋交换情报。",
+      "evidence_quotes": ["第19章 与叶知秋的情报交易"],
+      "relation_analysis": "标题直接表明林小鹿与叶知秋之间存在情报交易，交易行为通常基于信任或利益交换，林小鹿作为新员工主动与叶知秋交易，显示她对叶知秋的信任。",
+      "confidence": 0.6
+    },
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "进行情报交易",
+      "structural_base": "colleague",
+      "structural_base_raw": "同事关系",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "进行情报交易暗示信任",
+      "state_summary": "叶知秋作为前台同事，与林小鹿进行情报交易，表明叶知秋对林小鹿有一定信任或利益考量。",
+      "enum_reason": "标题明确提到情报交易，交易需要一定信任基础。",
+      "evidence_summary": "标题为'与叶知秋的情报交易'，暗示叶知秋参与情报交易。",
+      "evidence_quotes": ["第19章 与叶知秋的情报交易"],
+      "relation_analysis": "标题直接表明叶知秋与林小鹿之间存在情报交易，交易行为通常基于信任或利益交换，叶知秋作为老员工与新员工交易，显示她对林小鹿的信任。",
+      "confidence": 0.6
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "叶知秋",
+      "shared_structural_base": "colleague",
+      "shared_structural_base_raw": "同事关系",
+      "pair_summary": "林小鹿与叶知秋是天衍组织的同事，本章标题暗示两人进行情报交易，关系从普通同事升级为交易伙伴。",
+      "evidence_summary": "标题为'与叶知秋的情报交易'，暗示两人进行情报交易。",
+      "evidence_quotes": ["第19章 与叶知秋的情报交易"],
+      "pair_analysis": "标题直接表明两人之间存在情报交易，交易行为通常基于信任或利益交换，显示两人关系从普通同事升级为交易伙伴。",
+      "confidence": 0.6
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch19_event_1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "标题暗示核心事件",
+      "enum_reason": "标题直接点明本章核心事件。",
+      "summary": "林小鹿与叶知秋进行情报交易，具体内容未知。",
+      "location": "未知",
+      "enum_reason": "标题直接点明本章核心事件。",
+      "evidence_summary": "标题为'与叶知秋的情报交易'，暗示本章核心事件是情报交易。",
+      "evidence_quotes": ["第19章 与叶知秋的情报交易"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 0.8},
+        {"entity_name": "叶知秋", "role": "actor", "confidence": 0.8}
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "interactions": [
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "interaction_type": "cooperation",
+      "interaction_type_raw": "情报交易",
+      "impact_level": "high",
+      "impact_level_raw": "情报交易可能影响剧情走向",
+      "polarity": "positive",
+      "polarity_raw": "交易通常基于合作",
+      "enum_reason": "情报交易属于合作行为。",
+      "summary": "林小鹿与叶知秋进行情报交易，具体内容未知。",
+      "evidence_summary": "标题为'与叶知秋的情报交易'，暗示两人进行合作性交易。",
+      "evidence_quotes": ["第19章 与叶知秋的情报交易"],
+      "interaction_analysis": "标题直接表明两人进行情报交易，交易通常基于合作，因此归类为合作。",
+      "confidence": 0.6
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "与叶知秋进行情报交易",
+      "object_value": "情报交易",
+      "summary": "林小鹿与叶知秋进行情报交易，具体内容未知。",
+      "is_state": true,
+      "confidence": 0.6
+    },
+    {
+      "subject": "叶知秋",
+      "predicate": "与林小鹿进行情报交易",
+      "object_value": "情报交易",
+      "summary": "叶知秋与林小鹿进行情报交易，具体内容未知。",
+      "is_state": true,
+      "confidence": 0.6
+    }
+  ]
+}

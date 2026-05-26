@@ -1,0 +1,43 @@
+<chapter_title>
+第4章 异能检测：普通人的伪装
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第4章 异能检测：普通人的伪装","analyzed_at":"2026-05-07T12:26:54","summary":"本章暂无内容，仅标题提示林小鹿将进行异能检测并伪装成普通人。","outline":[],"entities":[{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"}],"identity_revelations":[],"events":[],"interactions":[],"directed_relations":[],"pair_relations":[],"fact_updates":[],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第1章 失踪三个月后的笔记本: 女大学生林小鹿在父亲失踪三个月后，偶然发现父亲留下的笔记本，指引她加入一个名为“天衍”的异能组织。她前往地址应聘，成功进入组织，但感到周围充满疑点，决定继续调查父亲失踪的真相。
+- 第2章 按照地址找过去: 本章暂无内容，仅标题提示林小鹿将按照地址找过去。
+- 第3章 天衍的暗号: 本章暂无内容，仅标题提示天衍的暗号。
+</recent_summary>
+
+<focus_entities>
+- 林小鹿
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=35 aliases=小鹿 summary=女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，加入天衍组织寻找父亲。
+</known_entities>
+
+<relevant_relation_history>
+[directed_relation_states]
+- 林小鹿 -> 宋明远: 新员工与面试官; 林小鹿作为新员工对上司宋明远保持警惕，怀疑他在调查自己。
+Update: 宋明远面试林小鹿，询问她的背景和动机，林小鹿用准备好的说辞应对，成功入职。
+- 林小鹿 -> 叶知秋: 新员工与前台同事; 林小鹿与叶知秋是同事关系，但林小鹿对叶知秋保持基本礼貌，没有深入互动。
+Update: 叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。
+- 林小鹿 -> 林小鹿的父亲: 女儿对失踪父亲的思念与追寻; 林小鹿深爱父亲，因父亲失踪而焦虑，决心按照笔记本指引找到他。
+- 林小鹿 -> 姓陆的: 对未知人物的警惕; 林小鹿根据父亲警告，对姓陆的未知人物保持高度戒备。
+
+[pair_relation_states]
+- 宋明远 <-> 林小鹿: unknown; 宋明远面试林小鹿，询问她的背景和动机，林小鹿用准备好的说辞应对，成功入职。
+- 林小鹿 <-> 林小鹿的父亲: kinship_parent_child; 林小鹿与父亲是亲生父女，父亲失踪后林小鹿决心寻找。
+Update: Entity summary projection: 林小鹿的父亲 and 林小鹿 show a kinship_parent_child shared-structure hint.
+- 叶知秋 <-> 林小鹿: unknown; 叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。
+- 姓陆的 <-> 林小鹿: unknown;
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

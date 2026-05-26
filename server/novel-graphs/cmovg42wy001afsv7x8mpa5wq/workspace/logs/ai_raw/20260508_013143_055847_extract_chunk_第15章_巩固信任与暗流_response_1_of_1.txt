@@ -1,0 +1,83 @@
+{
+  "summary": "本章无正文内容，仅标题暗示林小鹿与叶知秋之间巩固信任，同时存在暗流涌动。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["叶", "叶姐", "小叶"],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织的前台接待员，年轻女性，戴眼镜，穿白色衬衫和深色裤子。对林小鹿保持友好态度，曾因哥哥失踪的经历对林小鹿产生保护欲。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "巩固信任与暗流",
+      "structural_base": "colleague",
+      "structural_base_raw": "天衍组织同事",
+      "dynamic_stance": "friendly",
+      "dynamic_stance_raw": "友好",
+      "state_summary": "叶知秋作为天衍前台同事，对林小鹿保持友好和保护态度，曾主动提供情报和警告。本章标题暗示双方信任进一步巩固，但存在暗流。",
+      "enum_reason": "两人同为天衍组织成员，属于同事关系；叶知秋对林小鹿的态度从之前章节看是友好的。",
+      "evidence_summary": "本章无正文内容，仅标题暗示信任巩固与暗流。",
+      "evidence_quotes": ["第15章 巩固信任与暗流"],
+      "relation_analysis": "标题直接点明信任巩固，暗示叶知秋对林小鹿的友好态度得到加强，但暗流一词提示可能存在未明说的风险或矛盾。",
+      "confidence": 0.6
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "巩固信任与暗流",
+      "structural_base": "colleague",
+      "structural_base_raw": "天衍组织同事",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "信任",
+      "state_summary": "林小鹿作为新成员，对叶知秋保持礼貌配合，但内心高度警惕。本章标题暗示她对叶知秋的信任有所巩固，但暗流可能意味着仍有疑虑。",
+      "enum_reason": "两人同为天衍组织成员，属于同事关系；林小鹿之前接受叶知秋的警告和情报，表现出一定信任。",
+      "evidence_summary": "本章无正文内容，仅标题暗示信任巩固与暗流。",
+      "evidence_quotes": ["第15章 巩固信任与暗流"],
+      "relation_analysis": "标题直接点明信任巩固，暗示林小鹿对叶知秋的信任增强，但暗流一词提示可能存在未明说的风险或矛盾。",
+      "confidence": 0.6
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "叶知秋",
+      "shared_structural_base": "colleague",
+      "shared_structural_base_raw": "天衍组织同事",
+      "pair_summary": "两人是天衍组织的同事关系，本章标题暗示信任巩固，但存在暗流。",
+      "evidence_summary": "本章无正文内容，仅标题暗示信任巩固与暗流。",
+      "evidence_quotes": ["第15章 巩固信任与暗流"],
+      "pair_analysis": "标题直接点明信任巩固，暗示双方关系在同事基础上进一步深化，但暗流一词提示可能存在未明说的风险或矛盾。",
+      "confidence": 0.6
+    }
+  ],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "与叶知秋的关系状态",
+      "object_value": "信任巩固，但存在暗流",
+      "summary": "本章标题暗示林小鹿与叶知秋之间的信任得到巩固，同时存在暗流涌动。",
+      "is_state": true,
+      "confidence": 0.6
+    },
+    {
+      "subject": "叶知秋",
+      "predicate": "与林小鹿的关系状态",
+      "object_value": "信任巩固，但存在暗流",
+      "summary": "本章标题暗示叶知秋与林小鹿之间的信任得到巩固，同时存在暗流涌动。",
+      "is_state": true,
+      "confidence": 0.6
+    }
+  ]
+}

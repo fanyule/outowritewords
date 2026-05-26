@@ -1,0 +1,66 @@
+<chapter_title>
+第6章 组长宋明远的试探
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第6章 组长宋明远的试探","analyzed_at":"2026-05-08T01:24:16","summary":"林小鹿在档案室整理档案后，被外勤组长宋明远拦住试探。宋明远通过询问档案年份、学校背景、老家桐城及青石镇等问题，试图探查林小鹿是否知道青石镇调查纪要。林小鹿谨慎应对，但宋明远已起疑心，并发现档案被翻动痕迹。他安排人调查林小鹿背景，并监控了接头地点。林小鹿回到出租屋后收到匿名警告短信，凌晨发现楼下有监视车辆，遂从卫生间窗户撤离，前往大学城。","outline":[{"order":0,"text":"林小鹿整理完档案后，在走廊被宋明远拦住。宋明远通过询问档案年份、学校、老家及青石镇等问题试探她，林小鹿谨慎应对。","involved_names":["林小鹿","宋明远"]},{"order":1,"text":"宋明远在林小鹿离开后进入档案室，检查她翻过的档案，发现青石镇调查纪要的封口线绳系法不同，并找到指印。他随后打电话给老周，要求调查林小鹿的背景和父亲林远舟的活动轨迹。","involved_names":["宋明远","老周"]},{"order":2,"text":"林小鹿回到出租屋后，在睡前收到一条来自未知号码的短信，内容为“小心宋明远”。","involved_names":["林小鹿"]},{"order":3,"text":"凌晨两点，林小鹿被引擎声惊醒，发现楼下有黑色轿车监视。她判断是宋明远的人，遂从卫生间窗户翻出，沿落水管下楼，翻墙穿过隔壁小区，拦出租车前往大学城。","involved_names":["林小鹿"]}],"entities":[{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，外院大二英语专业，父亲失踪三个月，加入天衍组织寻找父亲。本章中她整理档案时发现青石镇调查纪要，被宋明远试探，收到匿名警告，凌晨撤离住处。"},{"name":"宋明远","aliases":["宋组长"],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天衍组织外勤组长，四十岁上下，灰色夹克，短发，声音沙哑。本章中他主动试探林小鹿，怀疑她与青石镇有关，安排人调查其背景，并监控接头地点。"},{"name":"叶知秋","aliases":["叶姐"],"chapter_role":"supporting","tier":"active","importance_score":40,"summary":"天衍组织前台工作人员，年轻女性。本章中她在前台与林小鹿点头示意，未深入互动。"},{"name":"林小鹿的父亲","aliases":["林远舟"],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"林小鹿失踪的父亲，三年前从青石镇回来后失踪，与天衍组织有接触。本章中宋明远提及林远舟的名字，并调查其活动轨迹。"},{"name":"戴眼镜的老头","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"旧书店街17号的接头人，戴眼镜，给了林小鹿纸条约她明天下午三点再见。"},{"name":"老周","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"宋明远联系的人，负责调查林小鹿的背景。"}],"identity_revelations":[{"source_name":"林小鹿的父亲","target_name":"林远舟","revelation_type":"true_identity","evidence":"宋明远在电话中提及林小鹿的父亲叫林远舟，并调查其活动轨迹。","confidence":0.95}],"events":[{"event_id":"evt1","intra_chapter_order":0,"event_type":"试探","narrative_weight":"core","narrative_weight_raw":"核心冲突","enum_reason":"这是本章的核心事件，推动情节发展。","summary":"林小鹿整理完档案后，在走廊被宋明远拦住。宋明远通过询问档案年份、学校、老家及青石镇等问题试探她，林小鹿谨慎应对。","location":"天衍组织大楼走廊","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"宋明远","role":"actor","confidence":1.0}],"evidence_summary":"宋明远拦住林小鹿，询问档案年份、学校、老家桐城及青石镇；林小鹿回答并反问。","evidence_quotes":["新来的？","你整理到哪几年的了？","青石镇？好像听说过，但不记得了"],"confidence":1.0},{"event_id":"evt2","intra_chapter_order":1,"event_type":"调查","narrative_weight":"mainline","narrative_weight_raw":"重要行动","enum_reason":"这是宋明远主动调查的关键行动，推动后续情节。","summary":"宋明远在林小鹿离开后进入档案室，检查她翻过的档案，发现青石镇调查纪要的封口线绳系法不同，并找到指印。他随后打电话给老周，要求调查林小鹿的背景和父亲林远舟的活动轨迹。","location":"天衍组织档案室","participants":[{"entity_name":"宋明远","role":"actor","confidence":1.0},{"entity_name":"老周","role":"participant","confidence":0.9}],"evidence_summary":"宋明远检查档案，发现指印；打电话给老周要求调查林小鹿背景。","evidence_quotes":["他在最后一页的边角发现了一个几乎看不见的指印","老周，帮我查个人。林小鹿，今天刚入职的实习生，桐城人，父亲叫林远舟"],"confidence":0.95},{"event_id":"evt3","intra_chapter_order":2,"event_type":"警告","narrative_weight":"mainline","narrative_weight_raw":"重要事件","enum_reason":"这是关键信息传递事件，影响林小鹿后续行动。","summary":"林小鹿回到出租屋后，在睡前收到一条来自未知号码的短信，内容为“小心宋明远”。","location":"林小鹿出租屋","participants":[{"entity_name":"林小鹿","role":"target","confidence":1.0}],"evidence_summary":"林小鹿收到匿名短信，内容为“小心宋明远”。","evidence_quotes":["小心宋明远"],"confidence":0.9},{"event_id":"evt4","intra_chapter_order":3,"event_type":"撤离","narrative_weight":"turning_point","narrative_weight_raw":"转折点","enum_reason":"这是本章的转折点，林小鹿从被动应对转为主动撤离。","summary":"凌晨两点，林小鹿被引擎声惊醒，发现楼下有黑色轿车监视。她判断是宋明远的人，遂从卫生间窗户翻出，沿落水管下楼，翻墙穿过隔壁小区，拦出租车前往大学城。","location":"林小鹿出租屋及周边","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0}],"evidence_summary":"林小鹿发现楼下有监视车辆，从卫生间窗户撤离，翻墙离开。","evidence_quotes":["楼下街道上，一辆黑色轿车停在路灯下","她踩着马桶翻上窗台，小心地探出身子，抓住外墙的落水管","翻墙时她的手掌被墙头的碎玻璃划了一道口子"],"confidence":0.95}],"interactions":[{"from":"宋明远","to":"林小鹿","interaction_type":"conflict","interaction_type_raw":"试探与质问","impact_level":"high","impact_level_raw":"直接影响林小鹿的安全","polarity":"negative","polarity_raw":"不信任与怀疑","enum_reason":"宋明远主动设陷阱试探，带有冲突性质。","summary":"宋明远在走廊拦住林小鹿，通过一系列问题试探她对青石镇的了解，林小鹿谨慎应对。","evidence_summary":"宋明远询问档案年份、学校、老家及青石镇，林小鹿回答并反问。","evidence_quotes":["你整理到哪几年的了？","青石镇？好像听说过，但不记得了"],"interaction_analysis":"宋明远作为上级，主动对林小鹿进行试探性询问，意图探查她的真实背景，林小鹿则保持警惕并试图反试探。","confidence":0.95},{"from":"林小鹿","to":"宋明远","interaction_type":"deception","interaction_type_raw":"故意误导","impact_level":"high","impact_level_raw":"影响宋明远对她的判断","polarity":"negative","polarity_raw":"对抗性","enum_reason":"林小鹿故意提供虚假信息以试探对方。","summary":"林小鹿故意说2018年档案锁着，以试探宋明远对这批档案的了解程度。","evidence_summary":"林小鹿回答宋明远时故意说2018年档案锁着，实际上她翻过那个柜子。","evidence_quotes":["2018年的柜子锁着，没钥匙","她故意说锁着，就是想试探他对这批档案的了解程度"],"interaction_analysis":"林小鹿通过故意误导来反试探宋明远，属于欺骗性互动。","confidence":0.9},{"from":"林小鹿","to":"叶知秋","interaction_type":"daily_interaction","interaction_type_raw":"点头示意","impact_level":"low","impact_level_raw":"日常礼貌","polarity":"neutral","polarity_raw":"中性","enum_reason":"日常礼貌性互动。","summary":"林小鹿经过大厅时与叶知秋点头示意。","evidence_summary":"两人在走廊相遇，点头示意。","evidence_quotes":["对方正低头看手机，感觉到有人经过，抬头看了一眼，认出是林小鹿，微微点了下头。林小鹿也点头回应"],"interaction_analysis":"简单的日常礼貌互动，无实质内容。","confidence":0.8}],"directed_relations":[{"from":"宋明远","to":"林小鹿","raw_label":"试探与怀疑","state_summary":"宋明远作为外勤组长，对林小鹿的入职动机和背景高度怀疑，通过询问档案年份、学校、老家及青石镇等细节进行试探，并安排人调查其父亲林远舟的活动轨迹。","structural_base":"superior_subordinate","structural_base_raw":"外勤组长与新人实习生","dynamic_stance":"distrustful","dynamic_stance_raw":"太正常了，反而有问题","enum_reason":"宋明远是林小鹿的上司，属于上下级关系；他对林小鹿明显不信任，主动设陷阱试探。","evidence_summary":"宋明远拦住林小鹿，询问档案年份、学校、老家桐城及青石镇；他注意到林小鹿反应过于正常，认为她受过训练；他检查档案发现指印，并安排老周调查林小鹿背景。","evidence_quotes":["太正常了，反而有问题","一个普通的大一学生，在第一天上班就被组长拦住问话，多少会有些紧张或局促。但林小鹿的紧张控制得太精准了","老周，帮我查个人。林小鹿，今天刚入职的实习生，桐城人，父亲叫林远舟"],"relation_analysis":"宋明远作为上级，对下属林小鹿进行系统性试探和背景调查，表现出明显的不信任和怀疑。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.95},{"from":"林小鹿","to":"宋明远","raw_label":"警惕与应对","state_summary":"林小鹿对宋明远的试探保持高度警惕，谨慎回答每一个问题，并故意说2018年档案锁着以试探宋明远的反应。她意识到宋明远已起疑心，并准备撤离方案。","structural_base":"superior_subordinate","structural_base_raw":"新人与外勤组长","dynamic_stance":"wary","dynamic_stance_raw":"她在心里提醒自己：不能太放松，也不能太紧张","enum_reason":"林小鹿是下属，对上司宋明远保持警惕和戒备，属于上下级关系中的谨慎态度。","evidence_summary":"林小鹿在对话中控制紧张程度，故意说2018年档案锁着；她意识到宋明远在试探她，心跳加速但表面平静；她回到住处后规划备用路线，凌晨发现监视后撤离。","evidence_quotes":["她在心里提醒自己：不能太放松，也不能太紧张","她故意说锁着，就是想试探他对这批档案的了解程度","宋明远不会轻易放过她"],"relation_analysis":"林小鹿作为下属，对上司宋明远的试探保持高度警惕和戒备，并采取反制措施。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.9},{"from":"林小鹿","to":"叶知秋","raw_label":"礼貌互动","state_summary":"林小鹿与叶知秋在走廊相遇，仅点头示意，没有深入交流。","structural_base":"colleague","structural_base_raw":"同事","dynamic_stance":"neutral","dynamic_stance_raw":"点头回应","enum_reason":"两人是同事关系，但本章互动极少，态度中性。","evidence_summary":"林小鹿经过大厅时与叶知秋点头示意。","evidence_quotes":["对方正低头看手机，感觉到有人经过，抬头看了一眼，认出是林小鹿，微微点了下头。林小鹿也点头回应"],"relation_analysis":"本章中两人仅有礼貌性点头，无实质互动，关系中性。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8},{"from":"叶知秋","to":"林小鹿","raw_label":"礼貌互动","state_summary":"叶知秋在前台看到林小鹿经过，点头示意，没有其他交流。","structural_base":"colleague","structural_base_raw":"同事","dynamic_stance":"neutral","dynamic_stance_raw":"点头回应","enum_reason":"两人是同事关系，本章互动极少，态度中性。","evidence_summary":"叶知秋在前台低头看手机，抬头认出林小鹿后点头。","evidence_quotes":["对方正低头看手机，感觉到有人经过，抬头看了一眼，认出是林小鹿，微微点了下头"],"relation_analysis":"本章中两人仅有礼貌性点头，无实质互动，关系中性。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8}],"pair_relations":[{"entity_a":"林小鹿","entity_b":"宋明远","shared_structural_base":"superior_subordinate","shared_structural_base_raw":"外勤组长与新人实习生","pair_summary":"林小鹿与宋明远是天衍组织内的上下级关系，但双方互不信任，处于试探与戒备状态。","evidence_summary":"宋明远作为组长主动试探林小鹿，林小鹿则谨慎应对并准备撤离。","evidence_quotes":["宋明远在试探她是否知道青石镇","她在心里提醒自己：不能太放松，也不能太紧张"],"pair_analysis":"两人在组织内是明确的上下级关系，但本章中双方关系紧张，充满试探与戒备。","shared_intensity_score":50,"confidence":0.9},{"entity_a":"林小鹿","entity_b":"叶知秋","shared_structural_base":"colleague","shared_structural_base_raw":"同事","pair_summary":"林小鹿与叶知秋是天衍组织的同事，本章中仅有礼貌性点头互动，关系平淡。","evidence_summary":"两人在走廊相遇，点头示意。","evidence_quotes":["对方正低头看手机，感觉到有人经过，抬头看了一眼，认出是林小鹿，微微点了下头。林小鹿也点头回应"],"pair_analysis":"本章中两人互动极少，关系停留在礼貌层面。","shared_intensity_score":50,"confidence":0.8}],"fact_updates":[{"subject":"林小鹿","predicate":"发现青石镇调查纪要","object_value":"林小鹿在档案室整理时发现了《桐城青石镇地下遗迹初步调查报告》并记住了内容。","summary":"林小鹿在档案室整理时发现了青石镇调查纪要并全部记住。","is_state":true,"retracted":false,"confidence":0.95},{"subject":"宋明远","predicate":"对林小鹿起疑","object_value":"宋明远认为林小鹿反应过于正常，怀疑她受过训练，并发现档案被翻动痕迹。","summary":"宋明远对林小鹿的入职动机产生怀疑，认为她不像普通大学生。","is_state":true,"retracted":false,"confidence":0.95},{"subject":"宋明远","predicate":"调查林小鹿背景","object_value":"宋明远打电话给老周，要求调查林小鹿的背景和父亲林远舟的活动轨迹。","summary":"宋明远安排人调查林小鹿及其父亲。","is_state":true,"retracted":false,"confidence":0.95},{"subject":"林小鹿","predicate":"收到匿名警告","object_value":"林小鹿在睡前收到未知号码短信，内容为“小心宋明远”。","summary":"林小鹿收到匿名警告短信。","is_state":true,"retracted":false,"confidence":0.9},{"subject":"林小鹿","predicate":"撤离住处","object_value":"林小鹿发现楼下有监视车辆后，从卫生间窗户撤离，前往大学城。","summary":"林小鹿因被监视而紧急撤离。","is_state":true,"retracted":false,"confidence":0.95},{"subject":"宋明远","predicate":"监控接头地点","object_value":"宋明远知道林小鹿的接头地点旧书店街17号，并已安排监控。","summary":"宋明远已监控林小鹿的接头地点。","is_state":true,"retracted":false,"confidence":0.9},{"subject":"林小鹿的父亲","predicate":"真名林远舟","object_value":"宋明远在电话中提及林小鹿的父亲叫林远舟。","summary":"林小鹿的父亲真名为林远舟。","is_state":true,"retracted":false,"confidence":0.95}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第32章 目标临终前的低语: 本章无正文内容，仅标题暗示林小鹿在废弃工厂中听到目标临终前的低语，可能获得关键信息。
+- 第33章 战利品中的另一条线索: 本章无正文内容，仅标题暗示林小鹿在战利品中发现另一条线索。
+- 第34章 宋明远的目光: 本章无正文内容，仅标题暗示宋明远对林小鹿的关注或审视。
+</recent_summary>
+
+<focus_entities>
+- 叶知秋
+- 宋明远
+- 戴眼镜的老头
+- 林小鹿
+- 林小鹿的父亲
+- 老周
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=100 aliases=小鹿 summary=女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她按照笔记本地址找到咖啡馆，获得新线索，并发现被跟踪。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，她按照父亲笔记本的指引来到旧书店街17号，通过暗号进入天衍组织基地，接受基础异能检测和定向检测。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月后加入天衍组织。本章通过异能检测，成为外围成员，领取临时证件和初始任务。对组织保持警惕，内心思念父亲。
+Update: 女大学生，外院大二英语专业，父亲失踪后加入天衍组织，决心寻找父亲。本章中她作为新员工被安排整理档案，暗中寻找父亲线索。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她主动争取某事。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她将接受新任务，前往废弃研究所。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中与叶知秋进行情报交易。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她通过金属盒发现线索。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她发现代号并转向主动行动。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在考试周遇到紧急任务。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她面临紧急情况，需要同时处理三条任务线。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有意外发现。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中接受叶知秋的警告与情报。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中面临双重压力并做出决断。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她前往废弃工厂并解读暗语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在废弃工厂中听到目标临终前的低语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在战利品中发现另一条线索。
+- 叶知秋 tier=core score=80 aliases=小叶 summary=天衍的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。
+Update: 天衍组织的前台接待员，负责林小鹿的接待和初步评估，年轻女性，穿白色衬衫和深灰色长裤，扎低马尾，对林小鹿进行基础异能检测并带她进入深层检测室。
+Update: 天衍组织的前台接待员，年轻女性。负责林小鹿的异能检测和后续安排，告知她宋明远对其接头方式有疑问，背景调查会更严格。
+Update: 天衍组织前台同事，戴眼镜的年轻女人，接待林小鹿，带她到资料室，并告知可以随时找她。
+Update: 天衍组织的前台同事，戴眼镜的年轻女人，对林小鹿友好，主动提供帮助。
+Update: 天衍组织的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。
+Update: 天衍组织的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。本章中与林小鹿进行情报交易。
+Update: 天衍组织前台同事，戴眼镜的年轻女人，接待林小鹿，带她到资料室，并告知可以随时找她。本章标题暗示她与林小鹿进行情报交易。
+Update: 天衍组织前台同事，戴眼镜的年轻女人，接待林小鹿，带她到资料室，并告知可以随时找她。本章中主动向林小鹿发出警告并提供情报。
+Update: 天衍的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。本章中向林小鹿发出警告并提供情报。
+- 宋明远 tier=core score=80 aliases=宋哥, 宋组长 summary=天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。
+Update: 天衍组织组长，林小鹿的上司。本章被叶知秋提及，对林小鹿的接头方式有疑问，要求更仔细的背景调查。
+Update: 天衍组织的外勤组长，林小鹿的上司。本章中他在林小鹿整理完档案后突然出现，翻看了青石镇调查纪要，行为可疑。
+Update: 天衍组织组长，林小鹿的上司，面试并安排林小鹿入职，对林小鹿进行试探。
+...(truncated)
+</known_entities>
+
+<relevant_relation_history>
+
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

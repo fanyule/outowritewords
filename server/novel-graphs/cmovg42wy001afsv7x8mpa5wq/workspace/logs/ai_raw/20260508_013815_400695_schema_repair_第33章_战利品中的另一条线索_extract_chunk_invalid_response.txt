@@ -1,0 +1,47 @@
+{
+  "summary": "本章无正文内容，仅标题暗示林小鹿从战利品中发现了另一条线索，可能涉及关键情报或新的调查方向。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    }
+  ],
+  "directed_relations": [],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": null,
+      "intra_chapter_order": 0,
+      "event_type": "线索发现",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "标题暗示核心情节推进",
+      "summary": "林小鹿从战利品中发现了另一条线索，可能涉及关键情报或新的调查方向。",
+      "location": null,
+      "enum_reason": "标题直接指向核心情节推进，属于主线事件",
+      "evidence_summary": "标题为'战利品中的另一条线索'",
+      "evidence_quotes": ["战利品中的另一条线索"],
+      "participants": [
+        {
+          "entity_name": "林小鹿",
+          "role": "actor",
+          "confidence": 0.9
+        }
+      ],
+      "confidence": 0.7
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "获得新线索",
+      "object_value": "从战利品中发现另一条线索",
+      "summary": "林小鹿从战利品中发现了另一条线索，可能涉及关键情报或新的调查方向。",
+      "is_state": false,
+      "confidence": 0.6
+    }
+  ]
+}

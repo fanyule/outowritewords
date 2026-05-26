@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "chapter_title": "第22章 代号浮现，转向主动",
+  "analyzed_at": "2026-05-08T02:21:03",
+  "summary": "本章暂无正文内容，仅标题暗示代号浮现，林小鹿可能转向主动行动。",
+  "outline": [],
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": [
+        "小鹿",
+        "林远舟的女儿"
+      ],
+      "chapter_role": "protagonist",
+      "tier": "active",
+      "importance_score": 70,
+      "summary": "女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她可能转向主动行动。"
+    },
+    {
+      "name": "陆沉",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "tier": "active",
+      "importance_score": 40,
+      "summary": "标题中出现的代号人物，身份不明，可能为关键线索。"
+    }
+  ],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "directed_relations": [],
+  "pair_relations": [],
+  "fact_updates": [],
+  "unresolved": []
+}

@@ -1,0 +1,23 @@
+{
+  "summary": "本章暂无正文内容，仅标题暗示代号浮现，林小鹿可能转向主动行动。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿", "林远舟的女儿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她可能转向主动行动。"
+    },
+    {
+      "name": "陆沉",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "标题中出现的代号人物，身份不明，可能为关键线索。"
+    }
+  ],
+  "directed_relations": [],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "fact_updates": []
+}

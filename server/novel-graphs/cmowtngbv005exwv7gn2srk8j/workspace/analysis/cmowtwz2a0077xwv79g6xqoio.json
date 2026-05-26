@@ -1,0 +1,502 @@
+{
+  "schema_version": 2,
+  "chapter_title": "禁地地图",
+  "analyzed_at": "2026-05-08T12:31:45",
+  "summary": "苏晚在陈默的协助下潜入档案室，通过触碰地图触发能力，看到父亲被囚禁在天枢地下三层X区07号房间的清晰画面。陈默确认该区域需要双重生物认证，自己无法进入。苏晚决定独自行动，陈默提供通风管道图纸并承诺帮忙获取门禁卡，约定明晚八点在设备间见面。苏晚头痛加剧，陈默扶住她并送她回宿舍。苏晚回到宿舍后记录信息，收到苏晴的微信未回复，并注意到方瑶的任务通知与行动时间冲突。",
+  "outline": [
+    {
+      "order": 0,
+      "text": "陈默带领苏晚潜入档案室，找到早期基建档案中的地图。苏晚触碰地图触发能力，看到父亲被囚禁在天枢地下三层X区07号房间的清晰画面。",
+      "involved_names": [
+        "苏晚",
+        "陈默"
+      ]
+    },
+    {
+      "order": 1,
+      "text": "苏晚告诉陈默看到父亲被关押的具体位置。陈默确认地下三层X区需要双重生物认证，只有组织核心层才能通行，自己无法进入。",
+      "involved_names": [
+        "苏晚",
+        "陈默"
+      ]
+    },
+    {
+      "order": 2,
+      "text": "陈默从手机中调出天枢总部地下设施绝密结构图，显示地下三层X区在东北角，紧邻备用发电机房，理论上可以通过通风管道接近。他承诺帮忙获取门禁卡，约定明晚八点在设备间见面。",
+      "involved_names": [
+        "苏晚",
+        "陈默"
+      ]
+    },
+    {
+      "order": 3,
+      "text": "苏晚头痛加剧，出现眩晕和重影。陈默扶住她，将她整个人捞进怀里，一只手托着她的后脑，另一只手环住她的背，直到她恢复。随后陈默送她回宿舍。",
+      "involved_names": [
+        "苏晚",
+        "陈默"
+      ]
+    },
+    {
+      "order": 4,
+      "text": "陈默在离开前对苏晚说“你父亲的事，我不会让你一个人扛”，然后离开。",
+      "involved_names": [
+        "苏晚",
+        "陈默"
+      ]
+    },
+    {
+      "order": 5,
+      "text": "苏晚回到宿舍后，将记住的信息输入手机备忘录。收到苏晴的微信消息约明天吃午饭，她未回复。注意到方瑶的任务通知与行动时间冲突。",
+      "involved_names": [
+        "苏晚",
+        "苏晴"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "name": "苏晚",
+      "aliases": [
+        "晓晓",
+        "晚晚"
+      ],
+      "chapter_role": "protagonist",
+      "tier": "core",
+      "importance_score": 94,
+      "summary": "大学生，父亲林建国失踪三年，母亲改嫁后独自生活。拥有触碰物体读取记忆的能力，决心营救被囚禁的父亲。本章中通过能力看到父亲被关押的具体位置，头痛加剧，但坚持行动。"
+    },
+    {
+      "name": "陈默",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "tier": "active",
+      "importance_score": 76,
+      "summary": "天枢组织外勤组长，受林建国委托引导苏晚。本章中协助苏晚潜入档案室获取地图，确认地下三层X区需要双重生物认证，提供通风管道图纸，承诺帮忙获取门禁卡，约定明晚八点行动。"
+    },
+    {
+      "name": "林建国",
+      "aliases": [
+        "父亲"
+      ],
+      "chapter_role": "mentioned",
+      "tier": "active",
+      "importance_score": 68,
+      "summary": "前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪。被囚禁在天枢地下三层X区07号房间，身体虚弱，手腕脚踝有勒痕，反复说“对不起”。"
+    },
+    {
+      "name": "方瑶",
+      "aliases": [
+        "方姐"
+      ],
+      "chapter_role": "mentioned",
+      "tier": "active",
+      "importance_score": 60,
+      "summary": "天枢科研部主管，表面温和，实则将苏晚视为工具。本章中任务通知与苏晚的行动时间冲突。"
+    },
+    {
+      "name": "苏晴",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "tier": "active",
+      "importance_score": 60,
+      "summary": "苏晚的室友，关心苏晚但被苏晚隐瞒。本章中发微信约苏晚明天吃午饭，苏晚未回复。"
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch6_e1",
+      "intra_chapter_order": 0,
+      "event_type": "潜入档案室",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心事件，苏晚通过能力看到父亲被囚禁的具体位置",
+      "enum_reason": "这是本章的核心事件，苏晚通过能力确认父亲被囚禁的具体位置，推动后续行动。",
+      "summary": "陈默带领苏晚潜入档案室，找到早期基建档案中的地图。苏晚触碰地图触发能力，看到父亲被囚禁在天枢地下三层X区07号房间的清晰画面。",
+      "location": "天枢档案室",
+      "participants": [
+        {
+          "entity_name": "苏晚",
+          "role": "actor",
+          "confidence": 1.0
+        },
+        {
+          "entity_name": "陈默",
+          "role": "actor",
+          "confidence": 1.0
+        }
+      ],
+      "evidence_summary": "陈默带领苏晚潜入档案室，找到地图。苏晚触碰地图触发能力，看到父亲被囚禁在天枢地下三层X区07号房间。",
+      "evidence_quotes": [
+        "“左边第二个柜子。”",
+        "苏晚盯着那张地图，心跳声在耳朵里放大。",
+        "地下三层，X区，07号房间。"
+      ],
+      "confidence": 0.95
+    },
+    {
+      "event_id": "ch6_e2",
+      "intra_chapter_order": 1,
+      "event_type": "确认禁地信息",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "陈默确认地下三层X区需要双重生物认证，自己无法进入",
+      "enum_reason": "这是本章的主要事件，陈默确认禁地信息，为后续行动提供背景。",
+      "summary": "苏晚告诉陈默看到父亲被关押的具体位置。陈默确认地下三层X区需要双重生物认证，只有组织核心层才能通行，自己无法进入。",
+      "location": "天枢休息室",
+      "participants": [
+        {
+          "entity_name": "苏晚",
+          "role": "actor",
+          "confidence": 1.0
+        },
+        {
+          "entity_name": "陈默",
+          "role": "actor",
+          "confidence": 1.0
+        }
+      ],
+      "evidence_summary": "苏晚告诉陈默看到父亲被关押的具体位置。陈默确认地下三层X区需要双重生物认证，自己无法进入。",
+      "evidence_quotes": [
+        "“地下三层，X区，07号房间。”",
+        "“那个区域我没有权限进入，安保等级比我想象的还高。”"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "ch6_e3",
+      "intra_chapter_order": 2,
+      "event_type": "提供通风管道图纸",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "陈默提供通风管道图纸，承诺帮忙获取门禁卡",
+      "enum_reason": "这是本章的主要事件，陈默提供关键信息，推动后续行动。",
+      "summary": "陈默从手机中调出天枢总部地下设施绝密结构图，显示地下三层X区在东北角，紧邻备用发电机房，理论上可以通过通风管道接近。他承诺帮忙获取门禁卡，约定明晚八点在设备间见面。",
+      "location": "天枢休息室",
+      "participants": [
+        {
+          "entity_name": "苏晚",
+          "role": "participant",
+          "confidence": 1.0
+        },
+        {
+          "entity_name": "陈默",
+          "role": "actor",
+          "confidence": 1.0
+        }
+      ],
+      "evidence_summary": "陈默从手机中调出天枢总部地下设施绝密结构图，显示地下三层X区在东北角，紧邻备用发电机房，理论上可以通过通风管道接近。他承诺帮忙获取门禁卡，约定明晚八点在设备间见面。",
+      "evidence_quotes": [
+        "“这是我之前通过一些渠道弄到的。”",
+        "“门禁卡的事我来想办法。”",
+        "“明天晚上八点，设备间门口见。”"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "ch6_e4",
+      "intra_chapter_order": 3,
+      "event_type": "头痛加剧与扶助",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "苏晚头痛加剧，陈默扶住她并送她回宿舍",
+      "enum_reason": "这是本章的细节事件，展示苏晚的能力反噬和陈默的保护行为。",
+      "summary": "苏晚头痛加剧，出现眩晕和重影。陈默扶住她，将她整个人捞进怀里，一只手托着她的后脑，另一只手环住她的背，直到她恢复。随后陈默送她回宿舍。",
+      "location": "天枢休息室",
+      "participants": [
+        {
+          "entity_name": "苏晚",
+          "role": "target",
+          "confidence": 1.0
+        },
+        {
+          "entity_name": "陈默",
+          "role": "actor",
+          "confidence": 1.0
+        }
+      ],
+      "evidence_summary": "苏晚头痛加剧，出现眩晕和重影。陈默扶住她，将她整个人捞进怀里，直到她恢复。随后陈默送她回宿舍。",
+      "evidence_quotes": [
+        "陈默把她整个人捞进怀里，一只手托着她的后脑，另一只手环住她的背",
+        "“我送你回宿舍。”"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "ch6_e5",
+      "intra_chapter_order": 4,
+      "event_type": "陈默的承诺",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "陈默承诺不会让苏晚一个人扛",
+      "enum_reason": "这是本章的细节事件，展示陈默的情感承诺。",
+      "summary": "陈默在离开前对苏晚说“你父亲的事，我不会让你一个人扛”，然后离开。",
+      "location": "天枢宿舍区门口",
+      "participants": [
+        {
+          "entity_name": "苏晚",
+          "role": "target",
+          "confidence": 1.0
+        },
+        {
+          "entity_name": "陈默",
+          "role": "actor",
+          "confidence": 1.0
+        }
+      ],
+      "evidence_summary": "陈默在离开前对苏晚说“你父亲的事，我不会让你一个人扛”，然后离开。",
+      "evidence_quotes": [
+        "“你父亲的事，我不会让你一个人扛。”"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "ch6_e6",
+      "intra_chapter_order": 5,
+      "event_type": "记录信息与未回复消息",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "苏晚记录信息，未回复苏晴的消息",
+      "enum_reason": "这是本章的细节事件，展示苏晚的后续行动和内心状态。",
+      "summary": "苏晚回到宿舍后，将记住的信息输入手机备忘录。收到苏晴的微信消息约明天吃午饭，她未回复。注意到方瑶的任务通知与行动时间冲突。",
+      "location": "苏晚宿舍",
+      "participants": [
+        {
+          "entity_name": "苏晚",
+          "role": "actor",
+          "confidence": 1.0
+        },
+        {
+          "entity_name": "苏晴",
+          "role": "mentioned",
+          "confidence": 0.8
+        }
+      ],
+      "evidence_summary": "苏晚回到宿舍后，将记住的信息输入手机备忘录。收到苏晴的微信消息约明天吃午饭，她未回复。注意到方瑶的任务通知与行动时间冲突。",
+      "evidence_quotes": [
+        "苏晚坐在床边，拿出手机，打开备忘录，把刚才记住的信息一个字一个字打进去。",
+        "苏晚盯着那条消息，拇指悬在屏幕上方，停了几秒，最终没有点开。"
+      ],
+      "confidence": 0.85
+    }
+  ],
+  "interactions": [
+    {
+      "from": "陈默",
+      "to": "苏晚",
+      "interaction_type": "protection",
+      "interaction_type_raw": "陈默扶住眩晕的苏晚，将她整个人捞进怀里",
+      "impact_level": "high",
+      "impact_level_raw": "陈默在苏晚眩晕时及时扶住她，防止她摔倒",
+      "polarity": "positive",
+      "polarity_raw": "陈默的保护行为是善意的",
+      "enum_reason": "陈默在苏晚眩晕时扶住她，防止她摔倒，符合protection。",
+      "summary": "苏晚头痛加剧出现眩晕，陈默及时扶住她，将她整个人捞进怀里，一只手托着她的后脑，另一只手环住她的背，直到她恢复。",
+      "evidence_summary": "苏晚头痛加剧出现眩晕，陈默及时扶住她，将她整个人捞进怀里，直到她恢复。",
+      "evidence_quotes": [
+        "陈默把她整个人捞进怀里，一只手托着她的后脑，另一只手环住她的背"
+      ],
+      "interaction_analysis": "陈默在苏晚身体不适时提供身体支撑，表现出强烈的保护意图。",
+      "confidence": 0.95
+    },
+    {
+      "from": "陈默",
+      "to": "苏晚",
+      "interaction_type": "promise",
+      "interaction_type_raw": "陈默承诺不会让苏晚一个人扛",
+      "impact_level": "high",
+      "impact_level_raw": "陈默的情感承诺对苏晚有重要影响",
+      "polarity": "positive",
+      "polarity_raw": "承诺是善意的",
+      "enum_reason": "陈默做出情感承诺，符合promise。",
+      "summary": "陈默在离开前对苏晚说“你父亲的事，我不会让你一个人扛”，然后离开。",
+      "evidence_summary": "陈默在离开前对苏晚说“你父亲的事，我不会让你一个人扛”。",
+      "evidence_quotes": [
+        "“你父亲的事，我不会让你一个人扛。”"
+      ],
+      "interaction_analysis": "陈默通过口头承诺表达对苏晚的支持，强化了保护关系。",
+      "confidence": 0.9
+    },
+    {
+      "from": "陈默",
+      "to": "苏晚",
+      "interaction_type": "cooperation",
+      "interaction_type_raw": "陈默提供通风管道图纸并承诺获取门禁卡",
+      "impact_level": "high",
+      "impact_level_raw": "陈默提供关键信息，推动后续行动",
+      "polarity": "positive",
+      "polarity_raw": "合作是善意的",
+      "enum_reason": "陈默提供关键信息并承诺协助，符合cooperation。",
+      "summary": "陈默从手机中调出天枢总部地下设施绝密结构图，显示地下三层X区在东北角，紧邻备用发电机房，理论上可以通过通风管道接近。他承诺帮忙获取门禁卡，约定明晚八点在设备间见面。",
+      "evidence_summary": "陈默从手机中调出天枢总部地下设施绝密结构图，显示地下三层X区在东北角，紧邻备用发电机房，理论上可以通过通风管道接近。他承诺帮忙获取门禁卡，约定明晚八点在设备间见面。",
+      "evidence_quotes": [
+        "“这是我之前通过一些渠道弄到的。”",
+        "“门禁卡的事我来想办法。”",
+        "“明天晚上八点，设备间门口见。”"
+      ],
+      "interaction_analysis": "陈默通过提供关键信息和承诺协助，与苏晚形成合作，推动营救行动。",
+      "confidence": 0.9
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "苏晚",
+      "to": "陈默",
+      "raw_label": "依赖与警惕",
+      "state_summary": "苏晚在本章中继续依赖陈默的引导和帮助，接受他提供的扶助、信息和承诺。她跟随他潜入档案室，接受他的扶助，并同意他的行动方案。但她内心仍保持一定警惕，没有完全放松。",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "苏晚是天枢新成员，陈默是外勤组长，她接受他的引导",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "苏晚接受陈默的扶助和承诺，依赖他的信息，但内心保持警惕",
+      "enum_reason": "苏晚接受陈默的扶助和承诺，依赖他的信息，表现出trusting stance。但她内心仍有警惕，不完全放松。",
+      "evidence_summary": "苏晚跟随陈默潜入档案室，接受他的扶助，同意他的行动方案，并接受他送她回宿舍。她内心保持警惕，但行动上依赖他。",
+      "evidence_quotes": [
+        "苏晚点了点头，没说话。她抿紧嘴唇，喉咙发紧，最终只点了点头。",
+        "苏晚没拒绝。她站起来，脚步还有些虚浮，但勉强能走稳。"
+      ],
+      "relation_analysis": "苏晚在本章中继续依赖陈默的引导和帮助，她接受他的扶助、信息和承诺，行动上完全配合。但她内心仍保持一定警惕，没有完全放松。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.8
+    },
+    {
+      "from": "苏晚",
+      "to": "林建国",
+      "raw_label": "女儿寻找父亲",
+      "state_summary": "苏晚深爱父亲，通过能力看到父亲被囚禁在天枢地下三层X区07号房间，身体虚弱，手腕脚踝有勒痕，反复说“对不起”。她决心救他，不顾陈默的警告和自身头痛，坚持行动。",
+      "structural_base": "kinship_parent_child",
+      "structural_base_raw": "苏晚是林建国的女儿",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "苏晚看到父亲被囚禁的惨状后决心救他，不顾自身安危",
+      "enum_reason": "苏晚是林建国的女儿，符合kinship_parent_child。她看到父亲被囚禁的惨状后决心救他，表现出protective stance。",
+      "evidence_summary": "苏晚通过能力看到父亲被囚禁在天枢地下三层X区07号房间，身体虚弱，手腕脚踝有勒痕，反复说“对不起”。她决心救他，不顾陈默的警告和自身头痛。",
+      "evidence_quotes": [
+        "“我爸在里面。”苏晚盯着他，声音不大，但每个字都很用力",
+        "她攥紧了床单。"
+      ],
+      "relation_analysis": "苏晚对父亲的爱和决心在本章中进一步强化，她看到父亲被囚禁的惨状后，不顾自身安危，决心救他。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.95
+    },
+    {
+      "from": "陈默",
+      "to": "苏晚",
+      "raw_label": "引导与保护",
+      "state_summary": "陈默作为天枢外勤组长，继续引导和保护苏晚。他协助她潜入档案室获取地图，确认父亲被关押的位置，提供通风管道图纸，承诺帮忙获取门禁卡，并在她头痛加剧时扶住她，送她回宿舍。他表现出强烈的保护意图，明确表示不会让她一个人扛。",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "陈默是天枢外勤组长，苏晚是新加入成员，他引导她执行任务",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "陈默扶住眩晕的苏晚，警告她不要过度使用能力，承诺不会让她一个人扛",
+      "enum_reason": "陈默是天枢外勤组长，苏晚是新加入成员，他引导她执行任务，符合superior_subordinate。他多次扶住她、警告她、承诺协助，表现出protective stance。",
+      "evidence_summary": "陈默协助苏晚潜入档案室获取地图，确认地下三层X区需要双重生物认证，提供通风管道图纸，承诺帮忙获取门禁卡，约定明晚八点行动。苏晚头痛时他扶住她，送她回宿舍，并说“你父亲的事，我不会让你一个人扛”。",
+      "evidence_quotes": [
+        "“你父亲的事，我不会让你一个人扛。”",
+        "陈默把她整个人捞进怀里，一只手托着她的后脑，另一只手环住她的背",
+        "“门禁卡的事我来想办法。”"
+      ],
+      "relation_analysis": "陈默在本章中继续扮演引导者和保护者的角色，他不仅提供关键信息（地图、通风管道图纸），还承诺获取门禁卡，并在苏晚身体不适时提供身体支撑和情感承诺。他的行为从单纯的引导转向更主动的保护和协助。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.9
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林建国",
+      "entity_b": "苏晚",
+      "shared_structural_base": "kinship_parent_child",
+      "shared_structural_base_raw": "苏晚是林建国的女儿",
+      "pair_summary": "苏晚是林建国的女儿，父亲被囚禁，女儿决心营救。",
+      "evidence_summary": "苏晚通过能力看到父亲被囚禁在天枢地下三层X区07号房间，决心救他。",
+      "evidence_quotes": [
+        "“我爸在里面。”",
+        "她攥紧了床单。"
+      ],
+      "pair_analysis": "苏晚和父亲林建国是父女关系，本章中苏晚通过能力确认父亲被囚禁的具体位置，决心营救。",
+      "shared_intensity_score": 50.0,
+      "confidence": 0.95
+    },
+    {
+      "entity_a": "苏晚",
+      "entity_b": "陈默",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "陈默是天枢外勤组长，苏晚是新加入成员",
+      "pair_summary": "陈默作为天枢外勤组长引导苏晚，苏晚依赖他的帮助，但内心保持警惕。",
+      "evidence_summary": "陈默协助苏晚潜入档案室获取地图，提供通风管道图纸，承诺帮忙获取门禁卡，约定明晚八点行动。苏晚接受他的扶助和承诺。",
+      "evidence_quotes": [
+        "“门禁卡的事我来想办法。”",
+        "苏晚没拒绝。她站起来，脚步还有些虚浮，但勉强能走稳。"
+      ],
+      "pair_analysis": "陈默和苏晚在本章中继续维持引导与被引导的关系，陈默提供关键信息和帮助，苏晚依赖他但保持警惕。",
+      "shared_intensity_score": 50.0,
+      "confidence": 0.85
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "苏晚",
+      "predicate": "确认父亲被囚禁位置",
+      "object_value": "天枢地下三层X区07号房间",
+      "summary": "苏晚通过触碰地图触发能力，看到父亲被囚禁在天枢地下三层X区07号房间的清晰画面。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 0.95
+    },
+    {
+      "subject": "陈默",
+      "predicate": "无法进入地下三层X区",
+      "object_value": "需要双重生物认证，只有组织核心层才能通行",
+      "summary": "陈默确认地下三层X区需要双重生物认证（虹膜加指纹），只有组织核心层才能通行，自己无法进入。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 0.9
+    },
+    {
+      "subject": "陈默",
+      "predicate": "提供通风管道图纸",
+      "object_value": "天枢总部地下设施绝密结构图，显示地下三层X区在东北角，紧邻备用发电机房",
+      "summary": "陈默从手机中调出天枢总部地下设施绝密结构图，显示地下三层X区在东北角，紧邻备用发电机房，理论上可以通过通风管道接近。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 0.9
+    },
+    {
+      "subject": "陈默",
+      "predicate": "承诺获取门禁卡",
+      "object_value": "承诺帮忙获取设备间门禁卡",
+      "summary": "陈默承诺帮忙获取设备间门禁卡，约定明晚八点在设备间见面。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 0.9
+    },
+    {
+      "subject": "苏晚",
+      "predicate": "头痛加剧",
+      "object_value": "能力反噬导致头痛加剧，出现眩晕和重影",
+      "summary": "苏晚使用能力后头痛加剧，出现眩晕和重影，需要陈默扶助。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 0.9
+    },
+    {
+      "subject": "苏晚",
+      "predicate": "未回复苏晴消息",
+      "object_value": "收到苏晴的微信消息约明天吃午饭，未回复",
+      "summary": "苏晚收到苏晴的微信消息约明天吃午饭，她未回复。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 0.85
+    },
+    {
+      "subject": "苏晚",
+      "predicate": "注意到任务冲突",
+      "object_value": "方瑶的任务通知与行动时间冲突",
+      "summary": "苏晚注意到方瑶的任务通知（明天上午十点协助科研部整理档案）与陈默约定的行动时间（明晚八点）冲突。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 0.85
+    }
+  ],
+  "unresolved": []
+}

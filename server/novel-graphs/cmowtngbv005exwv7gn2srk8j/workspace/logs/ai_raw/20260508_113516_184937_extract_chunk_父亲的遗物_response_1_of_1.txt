@@ -1,0 +1,368 @@
+{
+  "summary": "苏晚在父亲失踪三年后整理杂物间，发现父亲的手表，触碰后看到父亲被审讯的幻象，得知父亲被囚禁在天枢生物科技研究院。她不顾警告前往西郊园区，潜入地下室与父亲隔门对话，被灰色西装男子带人追捕，最终逃脱。",
+  "entities": [
+    {
+      "name": "苏晚",
+      "aliases": ["晚晚"],
+      "chapter_role": "protagonist",
+      "summary": "大学生，父亲失踪三年，母亲改嫁后独自生活，勇敢果断，决心寻找父亲。"
+    },
+    {
+      "name": "林建国",
+      "aliases": ["父亲"],
+      "chapter_role": "major_actor",
+      "summary": "前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪，被囚禁在地下室，身体虚弱。"
+    },
+    {
+      "name": "灰色西装男子",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "天枢组织的审讯者，威胁林建国交出核心算法，发现苏晚后组织追捕。"
+    },
+    {
+      "name": "苏晚的母亲",
+      "aliases": ["母亲"],
+      "chapter_role": "mentioned",
+      "summary": "苏晚的母亲，去年改嫁后搬去南方，留下便签提醒苏晚吃饺子。"
+    },
+    {
+      "name": "苏晴",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "苏晚的朋友，发消息约苏晚一起吃麻辣烫，苏晚未回复。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "苏晚",
+      "to": "林建国",
+      "raw_label": "女儿寻找父亲",
+      "structural_base": "kinship_parent_child",
+      "structural_base_raw": "亲生父女",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "不顾危险前往营救",
+      "state_summary": "苏晚深爱父亲，发现父亲被囚禁后不顾危险前往营救，决心坚定。",
+      "enum_reason": "文本明确显示苏晚是林建国的女儿，且本章中苏晚主动营救父亲，动态立场为保护性。",
+      "evidence_summary": "苏晚通过手表看到父亲被审讯的幻象，潜入研究院地下室与父亲隔门对话，父亲劝她离开。",
+      "evidence_quotes": ["我来救你。", "爸，是我。"],
+      "relation_analysis": "苏晚的行动完全出于对父亲的保护欲和亲情，符合protective动态立场。",
+      "confidence": 0.95
+    },
+    {
+      "from": "林建国",
+      "to": "苏晚",
+      "raw_label": "父亲警告女儿",
+      "structural_base": "kinship_parent_child",
+      "structural_base_raw": "亲生父女",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "劝女儿离开，担心女儿安全",
+      "state_summary": "林建国担心女儿安全，通过手表传递警告，并在苏晚到达时劝她离开。",
+      "enum_reason": "文本显示林建国通过手表传递'别来找我'的警告，并在对话中恳求苏晚逃跑，符合protective。",
+      "evidence_summary": "苏晚在公交站听到父亲的声音警告'晚晚，别来找我'；地下室对话中父亲说'你不该来的'和'跑。快跑。'",
+      "evidence_quotes": ["晚晚，别来找我……", "你不该来的。", "跑。快跑。"],
+      "relation_analysis": "林建国多次试图阻止苏晚涉险，表现出强烈的保护欲。",
+      "confidence": 0.95
+    },
+    {
+      "from": "灰色西装男子",
+      "to": "苏晚",
+      "raw_label": "追捕入侵者",
+      "structural_base": "opposing_faction",
+      "structural_base_raw": "天枢组织成员追捕闯入者",
+      "dynamic_stance": "hostile",
+      "dynamic_stance_raw": "组织保安追捕苏晚",
+      "state_summary": "灰色西装男子发现苏晚潜入后，立即组织保安追捕，意图阻止她。",
+      "enum_reason": "灰色西装男子代表天枢组织，与苏晚处于对立阵营，动态立场为敌对。",
+      "evidence_summary": "灰色西装男子带领七八个穿黑色制服的人追捕苏晚，苏晚被迫逃跑。",
+      "evidence_quotes": ["站住！别跑！"],
+      "relation_analysis": "灰色西装男子作为天枢组织的审讯者，对苏晚的闯入采取敌对行动。",
+      "confidence": 0.9
+    },
+    {
+      "from": "灰色西装男子",
+      "to": "林建国",
+      "raw_label": "审讯与威胁",
+      "structural_base": "opposing_faction",
+      "structural_base_raw": "天枢组织审讯被囚禁者",
+      "dynamic_stance": "hostile",
+      "dynamic_stance_raw": "以女儿安全威胁林建国",
+      "state_summary": "灰色西装男子代表天枢组织审讯林建国，以女儿安全威胁他交出核心算法。",
+      "enum_reason": "灰色西装男子与林建国处于对立阵营，动态立场为敌对。",
+      "evidence_summary": "幻象中灰色西装男子对林建国说'你不说，你的女儿就会替你承受代价'。",
+      "evidence_quotes": ["你不说，你的女儿就会替你承受代价。"],
+      "relation_analysis": "灰色西装男子通过威胁林建国的女儿来逼迫他合作，表现出敌对立场。",
+      "confidence": 0.9
+    },
+    {
+      "from": "林建国",
+      "to": "灰色西装男子",
+      "raw_label": "被审讯者",
+      "structural_base": "opposing_faction",
+      "structural_base_raw": "被天枢组织囚禁",
+      "dynamic_stance": "fearful",
+      "dynamic_stance_raw": "身体发抖，声音沙哑疲惫",
+      "state_summary": "林建国被灰色西装男子审讯，身体虚弱，表现出恐惧和疲惫。",
+      "enum_reason": "文本描述林建国在审讯中发抖、声音沙哑，表现出恐惧。",
+      "evidence_summary": "幻象中林建国的手在发抖，声音沙哑疲惫；地下室中咳嗽虚弱。",
+      "evidence_quotes": ["我说过了，我不知道。", "对不起……他们不会让你走的。"],
+      "relation_analysis": "林建国作为被囚禁者，对审讯者表现出恐惧和无力感。",
+      "confidence": 0.85
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "苏晚",
+      "entity_b": "林建国",
+      "shared_structural_base": "kinship_parent_child",
+      "shared_structural_base_raw": "亲生父女",
+      "pair_summary": "苏晚和林建国是亲生父女，关系亲密，彼此关心。",
+      "evidence_summary": "苏晚通过手表看到父亲被审讯的幻象，潜入研究院地下室与父亲隔门对话，父亲劝她离开。",
+      "evidence_quotes": ["我来救你。", "晚晚，你怎么来了？", "你不该来的。"],
+      "pair_analysis": "文本明确显示两人为父女关系，且本章中双方都表现出对彼此的关心和保护。",
+      "confidence": 0.95
+    },
+    {
+      "entity_a": "灰色西装男子",
+      "entity_b": "林建国",
+      "shared_structural_base": "opposing_faction",
+      "shared_structural_base_raw": "审讯者与被囚禁者",
+      "pair_summary": "灰色西装男子代表天枢组织审讯被囚禁的林建国，双方处于对立阵营。",
+      "evidence_summary": "幻象中灰色西装男子审讯林建国，威胁他交出核心算法；地下室中林建国被囚禁。",
+      "evidence_quotes": ["林建国，你还不打算说吗？", "你不说，你的女儿就会替你承受代价。"],
+      "pair_analysis": "文本显示灰色西装男子是审讯者，林建国是被囚禁者，双方处于明确的对立关系。",
+      "confidence": 0.9
+    },
+    {
+      "entity_a": "灰色西装男子",
+      "entity_b": "苏晚",
+      "shared_structural_base": "opposing_faction",
+      "shared_structural_base_raw": "追捕者与闯入者",
+      "pair_summary": "灰色西装男子代表天枢组织追捕闯入的苏晚，双方处于对立阵营。",
+      "evidence_summary": "灰色西装男子带领保安追捕苏晚，苏晚被迫逃跑。",
+      "evidence_quotes": ["站住！别跑！"],
+      "pair_analysis": "文本显示灰色西装男子组织追捕苏晚，苏晚逃跑，双方处于对立关系。",
+      "confidence": 0.9
+    }
+  ],
+  "identity_revelations": [
+    {
+      "source_name": "父亲",
+      "target_name": "林建国",
+      "revelation_type": "true_identity",
+      "evidence": "苏晚在新闻中看到父亲林建国是天枢生物科技研究院首席科学家。",
+      "confidence": 1.0
+    },
+    {
+      "source_name": "灰色西装男子",
+      "target_name": "灰色西装男子",
+      "revelation_type": "alias",
+      "evidence": "幻象中灰色西装男子审讯林建国，本章中再次出现并追捕苏晚。",
+      "confidence": 0.9
+    }
+  ],
+  "events": [
+    {
+      "event_id": "evt1",
+      "intra_chapter_order": 0,
+      "event_type": "discovery",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "发现父亲的手表并触发幻象",
+      "summary": "苏晚在杂物间发现父亲的手表，触碰后看到父亲被灰色西装男子审讯的幻象，得知父亲被囚禁在天枢研究院。",
+      "location": "苏晚家杂物间",
+      "enum_reason": "该事件是本章的核心转折点，触发后续所有行动。",
+      "evidence_summary": "苏晚在抽屉深处找到手表，触碰后眼前出现父亲被审讯的画面。",
+      "evidence_quotes": ["表盘是深蓝色的，表带是磨损的棕色皮革，表镜上有一道细微的裂纹。", "眼前的景象就像碎玻璃一样裂开了。"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "林建国", "role": "target", "confidence": 0.9},
+        {"entity_name": "灰色西装男子", "role": "actor", "confidence": 0.9}
+      ],
+      "confidence": 0.95
+    },
+    {
+      "event_id": "evt2",
+      "intra_chapter_order": 1,
+      "event_type": "investigation",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "搜索天枢研究院信息",
+      "summary": "苏晚用手机搜索'天枢'，发现父亲林建国是三年前天枢生物科技研究院的首席科学家，研究院位于西郊科技园区。",
+      "location": "苏晚家杂物间",
+      "enum_reason": "该事件推动苏晚决定前往研究院。",
+      "evidence_summary": "苏晚在手机浏览器中输入'天枢'，找到一篇三年前的新闻。",
+      "evidence_quotes": ["天枢生物科技研究院正式挂牌成立，前国家科学院院士林建国担任首席科学家……"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "林建国", "role": "mentioned", "confidence": 1.0}
+      ],
+      "confidence": 0.95
+    },
+    {
+      "event_id": "evt3",
+      "intra_chapter_order": 2,
+      "event_type": "journey",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "前往西郊科技园区",
+      "summary": "苏晚决定前往西郊科技园区，在公交站等车时听到父亲通过手表传来的警告声音，但仍坚持前往。",
+      "location": "公交站台",
+      "enum_reason": "该事件是苏晚行动的关键步骤。",
+      "evidence_summary": "苏晚在公交站台等车时，手指划过表扣内侧，听到父亲的声音警告'晚晚，别来找我'。",
+      "evidence_quotes": ["晚晚，别来找我……"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "林建国", "role": "mentioned", "confidence": 0.9}
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "evt4",
+      "intra_chapter_order": 3,
+      "event_type": "infiltration",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "潜入天枢研究院",
+      "summary": "苏晚到达西郊科技园区，翻墙进入园区，从窗户潜入天枢研究院大楼，在地下室B107门外与父亲隔门对话。",
+      "location": "天枢生物科技研究院",
+      "enum_reason": "该事件是本章的高潮，苏晚与父亲直接接触。",
+      "evidence_summary": "苏晚翻墙进入园区，从保洁未关的窗户爬入大楼，在地下室找到B107房间，听到父亲的咳嗽声。",
+      "evidence_quotes": ["爸，是我。", "晚晚……你怎么来了？", "我来救你。"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "林建国", "role": "target", "confidence": 1.0}
+      ],
+      "confidence": 0.95
+    },
+    {
+      "event_id": "evt5",
+      "intra_chapter_order": 4,
+      "event_type": "escape",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "被追捕后逃脱",
+      "summary": "灰色西装男子带领保安追捕苏晚，苏晚在父亲催促下逃跑，从窗户翻出园区，消失在夜色中。",
+      "location": "天枢生物科技研究院",
+      "enum_reason": "该事件是本章的转折点，苏晚被迫离开，但决心未变。",
+      "evidence_summary": "灰色西装男子带领七八个穿黑色制服的人追捕苏晚，苏晚在父亲催促下逃跑。",
+      "evidence_quotes": ["跑。快跑。", "站住！别跑！"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "灰色西装男子", "role": "actor", "confidence": 0.95},
+        {"entity_name": "林建国", "role": "witness", "confidence": 0.9}
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "interactions": [
+    {
+      "from": "苏晚",
+      "to": "林建国",
+      "interaction_type": "reunion",
+      "interaction_type_raw": "隔门对话",
+      "impact_level": "critical",
+      "impact_level_raw": "确认父亲还活着",
+      "polarity": "positive",
+      "polarity_raw": "父女重逢，情感强烈",
+      "summary": "苏晚在地下室B107门外与父亲隔门对话，确认父亲还活着，父亲劝她离开。",
+      "enum_reason": "苏晚与父亲隔门重逢，属于reunion类型。",
+      "evidence_summary": "苏晚听到父亲的咳嗽声，压低声音喊'爸，是我'，父亲回应并劝她离开。",
+      "evidence_quotes": ["爸，是我。", "晚晚……你怎么来了？", "我来救你。"],
+      "interaction_analysis": "父女重逢，情感强烈，父亲担心女儿安全，女儿决心营救。",
+      "confidence": 0.95
+    },
+    {
+      "from": "灰色西装男子",
+      "to": "苏晚",
+      "interaction_type": "conflict",
+      "interaction_type_raw": "追捕",
+      "impact_level": "high",
+      "impact_level_raw": "组织保安追捕",
+      "polarity": "negative",
+      "polarity_raw": "敌对行动",
+      "summary": "灰色西装男子发现苏晚潜入后，立即带领保安追捕苏晚。",
+      "enum_reason": "灰色西装男子组织追捕苏晚，属于conflict类型。",
+      "evidence_summary": "灰色西装男子带领七八个穿黑色制服的人追捕苏晚，苏晚被迫逃跑。",
+      "evidence_quotes": ["站住！别跑！"],
+      "interaction_analysis": "灰色西装男子对苏晚的闯入采取敌对行动，苏晚被迫逃跑。",
+      "confidence": 0.9
+    },
+    {
+      "from": "林建国",
+      "to": "苏晚",
+      "interaction_type": "protection",
+      "interaction_type_raw": "催促女儿逃跑",
+      "impact_level": "critical",
+      "impact_level_raw": "直接决定苏晚的安危",
+      "polarity": "positive",
+      "polarity_raw": "父亲保护女儿",
+      "summary": "林建国在门内听到追捕声，急切地催促苏晚逃跑。",
+      "enum_reason": "林建国催促苏晚逃跑以保护她，属于protection类型。",
+      "evidence_summary": "林建国在门内听到脚步声，急切地说'跑。快跑。'",
+      "evidence_quotes": ["跑。快跑。"],
+      "interaction_analysis": "林建国在危险时刻催促女儿逃跑，表现出强烈的保护欲。",
+      "confidence": 0.95
+    },
+    {
+      "from": "灰色西装男子",
+      "to": "林建国",
+      "interaction_type": "threat",
+      "interaction_type_raw": "以女儿安全威胁",
+      "impact_level": "critical",
+      "impact_level_raw": "直接威胁林建国",
+      "polarity": "negative",
+      "polarity_raw": "威胁行为",
+      "summary": "灰色西装男子在审讯中以苏晚的安全威胁林建国交出核心算法。",
+      "enum_reason": "灰色西装男子以女儿安全威胁林建国，属于threat类型。",
+      "evidence_summary": "幻象中灰色西装男子对林建国说'你不说，你的女儿就会替你承受代价'。",
+      "evidence_quotes": ["你不说，你的女儿就会替你承受代价。"],
+      "interaction_analysis": "灰色西装男子通过威胁林建国的女儿来逼迫他合作。",
+      "confidence": 0.9
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "苏晚",
+      "predicate": "发现父亲的手表",
+      "object_value": "在杂物间抽屉深处找到父亲失踪时佩戴的手表，触碰后触发幻象",
+      "summary": "苏晚在整理杂物间时发现父亲的手表，触碰后看到父亲被审讯的幻象。",
+      "is_state": false,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林建国",
+      "predicate": "被囚禁在天枢研究院地下室",
+      "object_value": "被囚禁在天枢生物科技研究院地下室B107房间，身体虚弱",
+      "summary": "苏晚通过幻象和实地探查确认父亲被囚禁在天枢研究院地下室。",
+      "is_state": true,
+      "confidence": 0.95
+    },
+    {
+      "subject": "林建国",
+      "predicate": "曾担任天枢生物科技研究院首席科学家",
+      "object_value": "三年前担任天枢生物科技研究院首席科学家",
+      "summary": "苏晚在新闻中看到父亲林建国是天枢生物科技研究院的首席科学家。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "灰色西装男子",
+      "predicate": "代表天枢组织审讯林建国",
+      "object_value": "灰色西装男子是天枢组织的审讯者，威胁林建国交出核心算法",
+      "summary": "幻象中灰色西装男子审讯林建国，以女儿安全威胁他。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "苏晚",
+      "predicate": "决定寻找父亲",
+      "object_value": "不顾父亲警告，决心前往天枢研究院营救父亲",
+      "summary": "苏晚在听到父亲警告后仍决定前往研究院。",
+      "is_state": true,
+      "confidence": 0.95
+    },
+    {
+      "subject": "苏晚",
+      "predicate": "成功逃脱追捕",
+      "object_value": "从研究院窗户翻出，消失在夜色中",
+      "summary": "苏晚在父亲催促下逃跑，成功逃脱灰色西装男子的追捕。",
+      "is_state": false,
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+You are repairing a JSON response for a novel analysis pipeline.
+
+Return strict JSON only. No markdown. No explanation.
+
+Repair scope:
+Controlled enum discipline:
+- First understand the scene evidence and summarize the nuance in summary/state_summary.
+- Then choose enum fields strictly from the following tables.
+- Do not output Chinese labels, synonyms, free-form relationship words, or near-matches in enum fields.
+- If no enum is clearly supported, use the listed fallback instead of guessing.
+- Preserve nuance only in summary/state_summary/evidence, not in enum fields.
+- During debugging, also return *_raw and enum_reason where the schema provides them:
+  - *_raw: the short source phrase you extracted before choosing the enum.
+  - enum_reason: one short sentence explaining why the enum was chosen from the table.
+  - *_raw and enum_reason are for audit only; enum fields still must use controlled values.
+
+Allowed structural_base values: childhood_friend, classmate, colleague, commander_soldier, contract_bound, employer_employee, friend, guardian_ward, household_family, kinship_adoptive, kinship_clan, kinship_fiance, kinship_parent_child, kinship_sibling, kinship_spouse, lord_vassal, master_disciple, none, oath_bound, opposing_faction, rival_pair, romantic_partner, roommate, same_faction, same_unit, superior_subordinate, teacher_student, temporary_alliance, unknown
+Fallback structural_base: unknown
+
+Allowed dynamic_stance values: admiring, conflicted, dependent, distrustful, dominant, fearful, friendly, hostile, jealous, neutral, obsessive, protective, resentful, romantic_interest, submissive, trusting, unknown, wary
+Fallback dynamic_stance: neutral
+
+Allowed interactions[].interaction_type values: betrayal, command, confession, conflict, contract, cooperation, daily_interaction, deception, duel, family_recognition, gift_or_support, humiliation, mind_control, political_negotiation, possession, promise, protection, reconciliation, rescue, reunion, revelation, sacrifice, separation, shared_battle, teaching, threat, training, unknown
+Fallback interaction_type: unknown
+
+Allowed interactions[].impact_level values: critical, high, low, medium
+Fallback impact_level: medium
+
+Allowed interactions[].polarity values: mixed, negative, neutral, positive
+Fallback polarity: neutral
+
+Allowed events[].narrative_weight values: background, core, detail, mainline, turning_point
+Fallback narrative_weight: mainline
+
+- Fix JSON syntax, field names, and object shapes so the response matches the required schema.
+- Do not add new facts that are not present in the invalid response.
+- Drop rows that cannot be repaired without inventing missing endpoints.
+- Keep all user-facing text values in Simplified Chinese.
+
+Required field repairs:
+- identity_revelations items must use source_name and target_name. If an item only has entity/name without a revealed target, move it to fact_updates or drop it.
+- interactions items must use from and to. If a row has no clear pair, move it to events or drop it.
+- fact_updates items must use subject, predicate, object_value, summary, is_state, confidence. fact_name/content are not valid replacement keys.
+- directed_relations items must use from and to.
+- pair_relations items must use entity_a and entity_b.
+- entities items must have name.
+
+<title>
+第37章 代号指向陆沉
+</title>
+
+<stage>
+extract_chunk
+</stage>
+
+<validation_error>
+1 validation error for AnalysisResult
+events.0.location
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+</validation_error>
+
+<invalid_response>
+{
+  "summary": "本章暂无正文内容，仅标题暗示代号指向陆沉，可能涉及林小鹿发现陆沉身份或线索。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿", "林远舟的女儿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。"
+    },
+    {
+      "name": "陆沉",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "标题中出现的代号人物，身份不明，可能为关键线索。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "林小鹿",
+      "to": "陆沉",
+      "raw_label": "调查指向",
+      "structural_base": "unknown",
+      "structural_base_raw": "无明确关系描述",
+      "dynamic_stance": "unknown",
+      "dynamic_stance_raw": "无明确态度描述",
+      "state_summary": "本章无正文，仅标题暗示林小鹿的调查或线索指向陆沉，关系状态不明。",
+      "enum_reason": "无正文内容，无法确定结构基础和动态立场。",
+      "evidence_summary": "标题'代号指向陆沉'暗示林小鹿可能发现陆沉身份或线索。",
+      "evidence_quotes": ["代号指向陆沉"],
+      "relation_analysis": "标题暗示林小鹿的调查或线索指向陆沉，但无正文证据支持具体关系。",
+      "confidence": 0.1
+    }
+  ],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt_37_1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "无正文内容",
+      "summary": "本章无正文内容，仅标题暗示代号指向陆沉。",
+      "location": null,
+      "enum_reason": "无正文内容，仅标题信息，权重为细节。",
+      "evidence_summary": "标题'代号指向陆沉'。",
+      "evidence_quotes": ["代号指向陆沉"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 0.1},
+        {"entity_name": "陆沉", "role": "target", "confidence": 0.1}
+      ],
+      "confidence": 0.1
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "陆沉",
+      "predicate": "被代号指向",
+      "object_value": "林小鹿的调查或线索指向陆沉",
+      "summary": "标题暗示林小鹿的调查或线索指向陆沉。",
+      "is_state": false,
+      "confidence": 0.1
+    }
+  ]
+}
+</invalid_response>
+
+Return the repaired AnalysisResult JSON only.

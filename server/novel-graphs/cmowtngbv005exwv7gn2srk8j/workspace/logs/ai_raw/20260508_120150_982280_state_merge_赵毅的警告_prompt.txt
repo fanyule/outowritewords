@@ -1,0 +1,77 @@
+<chapter_title>
+赵毅的警告
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"赵毅的警告","analyzed_at":"2026-05-08T12:01:50","summary":"赵毅在走廊截住苏晚，警告她不要多管闲事。苏晚借机触碰赵毅，通过能力看到父亲被赵毅审讯的画面，得知父亲被囚禁在地下三层。赵毅识破苏晚的能力并发出最后威胁。苏晚回到宿舍后头疼加剧，记忆开始模糊。","outline":[{"order":0,"text":"赵毅在走廊截住苏晚，警告她不要多管闲事，苏晚借机触碰赵毅使用能力。","involved_names":["苏晚","赵毅"]},{"order":1,"text":"苏晚通过能力看到赵毅审讯父亲林建国的记忆画面，得知父亲被囚禁在地下三层。","involved_names":["苏晚","赵毅","林建国"]},{"order":2,"text":"赵毅识破苏晚的能力，发出最后威胁后离开。","involved_names":["苏晚","赵毅"]},{"order":3,"text":"苏晚回到宿舍，头疼加剧，记忆开始模糊。","involved_names":["苏晚"]}],"entities":[{"name":"苏晚","aliases":["晓晓","晚晚"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"大学生，父亲林建国失踪三年，母亲改嫁后独自生活。已加入天枢组织，能力为触觉类记忆读取，使用能力会消耗寿命。决心救出父亲。"},{"name":"赵毅","aliases":[],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天枢行动部副部长，组织里最不好惹的一类人。亲自审讯林建国，以苏晚安全威胁林建国。警惕性极高，识破苏晚的能力。"},{"name":"林建国","aliases":["父亲"],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪。被囚禁在天枢地下三层，被赵毅审讯，以女儿安全被威胁。"},{"name":"陈默","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"天枢组织外勤组长，受林建国委托引导苏晚加入天枢。"},{"name":"方瑶","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"天枢科研部主管，表面温和但暗中评估苏晚的利用价值。"}],"identity_revelations":[],"events":[{"event_id":"evt_1","intra_chapter_order":0,"event_type":"confrontation","narrative_weight":"core","narrative_weight_raw":"核心冲突","enum_reason":"这是本章的核心冲突，赵毅直接威胁苏晚，苏晚使用能力获取关键信息。","summary":"赵毅在走廊截住苏晚，警告她不要多管闲事，苏晚借机触碰赵毅使用能力。","location":"天枢组织走廊","participants":[{"entity_name":"苏晚","role":"actor","confidence":1.0},{"entity_name":"赵毅","role":"target","confidence":1.0}],"evidence_summary":"赵毅截住苏晚，警告她不要多管闲事，苏晚触碰赵毅使用能力。","evidence_quotes":["赵毅从走廊拐角走出来的时候，苏晚正低头看手机。","她的指腹在触碰到布料的那一刻，异能毫无预兆地爆发了。"],"confidence":1.0},{"event_id":"evt_2","intra_chapter_order":1,"event_type":"revelation","narrative_weight":"turning_point","narrative_weight_raw":"关键转折","enum_reason":"这是本章的关键转折，苏晚获得父亲被囚禁位置的关键线索。","summary":"苏晚通过能力看到赵毅审讯父亲林建国的记忆画面，得知父亲被囚禁在地下三层。","location":"苏晚的记忆闪回","participants":[{"entity_name":"苏晚","role":"actor","confidence":1.0},{"entity_name":"赵毅","role":"actor","confidence":1.0},{"entity_name":"林建国","role":"target","confidence":1.0}],"evidence_summary":"苏晚触碰赵毅后，看到赵毅审讯林建国的画面，得知父亲被囚禁在地下三层。","evidence_quotes":["她看到一间狭窄的房间，白炽灯管发出嗡嗡的电流声。父亲坐在一张金属椅子上。","地下三层。"],"confidence":1.0},{"event_id":"evt_3","intra_chapter_order":2,"event_type":"confrontation","narrative_weight":"core","narrative_weight_raw":"核心冲突","enum_reason":"赵毅识破苏晚的能力，威胁升级，是本章的核心冲突。","summary":"赵毅识破苏晚的能力，发出最后威胁后离开。","location":"天枢组织走廊","participants":[{"entity_name":"苏晚","role":"target","confidence":1.0},{"entity_name":"赵毅","role":"actor","confidence":1.0}],"evidence_summary":"赵毅识破苏晚的能力，发出最后威胁后离开。","evidence_quotes":["你的能力，是触觉类的吧？","我再说一遍，也是最后一遍。别多管闲事。"],"confidence":1.0},{"event_id":"evt_4","intra_chapter_order":3,"event_type":"daily_interaction","narrative_weight":"detail","narrative_weight_raw":"细节","enum_reason":"这是本章的细节，展示苏晚使用能力后的代价和副作用。","summary":"苏晚回到宿舍，头疼加剧，记忆开始模糊。","location":"苏晚的宿舍","participants":[{"entity_name":"苏晚","role":"actor","confidence":1.0}],"evidence_summary":"苏晚回到宿舍后头疼加剧，记忆开始模糊。","evidence_quotes":["疼痛来得比前两次都猛。","她忽然想不起来——今天早上出门的时候，她到底有没有锁门？"],"confidence":1.0}],"interactions":[{"from":"赵毅","to":"苏晚","interaction_type":"threat","interaction_type_raw":"威胁","impact_level":"high","impact_level_raw":"高","polarity":"negative","polarity_raw":"负面","enum_reason":"赵毅直接威胁苏晚，警告她不要调查父亲的事。","summary":"赵毅在走廊截住苏晚，警告她不要多管闲事，并发出最后威胁。","evidence_summary":"赵毅截住苏晚，警告她不要多管闲事，并威胁说如果她再查下去会有后果。","evidence_quotes":["小姑娘，我给你一句忠告。天枢不是学校，没人有义务照顾你。","别多管闲事。你父亲的事，不是你能碰的。"],"interaction_analysis":"赵毅作为行动部副部长，对苏晚的越界行为直接进行威胁，表现出敌意和警惕。","confidence":0.95},{"from":"苏晚","to":"赵毅","interaction_type":"deception","interaction_type_raw":"欺骗","impact_level":"high","impact_level_raw":"高","polarity":"negative","polarity_raw":"负面","enum_reason":"苏晚以帮忙掸灰为掩护，实际使用能力探查赵毅的记忆。","summary":"苏晚假装帮赵毅掸灰，实际使用能力探查他的记忆。","evidence_summary":"苏晚伸出手，指尖轻轻拂过赵毅的袖口，假装帮忙掸灰，实际使用能力。","evidence_quotes":["赵部长，您袖口沾了东西。","她的指腹在触碰到布料的那一刻，异能毫无预兆地爆发了。"],"interaction_analysis":"苏晚利用伪装动作使用能力探查赵毅的记忆，属于欺骗行为。","confidence":0.95}],"directed_relations":[{"from":"赵毅","to":"苏晚","raw_label":"威胁与警告","state_summary":"赵毅对苏晚抱有敌意，怀疑她在暗中调查父亲的事，直接截住她并发出最后警告，威胁她不要多管闲事。","structural_base":"superior_subordinate","structural_base_raw":"行动部副部长与普通成员","dynamic_stance":"hostile","dynamic_stance_raw":"威胁、警告、敌意","enum_reason":"赵毅是行动部副部长，苏晚是普通成员，存在组织层级关系；赵毅对苏晚表现出明显的敌意和威胁。","evidence_summary":"赵毅在走廊截住苏晚，警告她不要多管闲事，并威胁说如果她再查下去会有后果。","evidence_quotes":["小姑娘，我给你一句忠告。天枢不是学校，没人有义务照顾你。有些地方不该去，有些事不该问。","别多管闲事。你父亲的事，不是你能碰的。如果你再让我发现你在暗地里查什么东西——"],"relation_analysis":"赵毅作为行动部副部长，对苏晚的越界行为直接进行威胁，表现出敌意和警惕。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.95},{"from":"赵毅","to":"林建国","raw_label":"审讯与威胁","state_summary":"赵毅亲自审讯林建国，以苏晚的安全威胁林建国配合，态度冷酷。","structural_base":"opposing_faction","structural_base_raw":"审讯者与被囚禁者","dynamic_stance":"hostile","dynamic_stance_raw":"审讯、威胁、敌意","enum_reason":"赵毅代表天枢组织审讯林建国，双方处于敌对阵营。","evidence_summary":"苏晚通过能力看到赵毅审讯林建国的画面，赵毅以苏晚的安全威胁林建国。","evidence_quotes":["林建国，你到底说不说？","你女儿现在也在组织里，她的处境取决于你的配合程度。"],"relation_analysis":"赵毅作为审讯者，对林建国使用威胁手段，双方敌对。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.95},{"from":"苏晚","to":"赵毅","raw_label":"警惕与探查","state_summary":"苏晚对赵毅保持高度警惕，知道他在盯着自己，但主动利用触碰机会探查赵毅的记忆。","structural_base":"superior_subordinate","structural_base_raw":"普通成员与行动部副部长","dynamic_stance":"wary","dynamic_stance_raw":"警惕、试探","enum_reason":"苏晚是普通成员，赵毅是上级，存在组织层级；苏晚对赵毅保持警惕并主动探查。","evidence_summary":"苏晚记得方瑶的警告，知道赵毅在盯着她，但主动触碰赵毅以获取记忆。","evidence_quotes":["她记得方瑶的警告——赵毅在盯着她。","她的指腹在触碰到布料的那一刻，异能毫无预兆地爆发了。"],"relation_analysis":"苏晚对赵毅保持警惕，但为了获取信息主动使用能力探查。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.9},{"from":"林建国","to":"苏晚","raw_label":"父亲保护女儿","state_summary":"林建国深爱女儿，在被审讯时因女儿的安全受到威胁而动摇，但眼神中仍有警告。","structural_base":"kinship_parent_child","structural_base_raw":"父女","dynamic_stance":"protective","dynamic_stance_raw":"保护、警告","enum_reason":"林建国和苏晚是亲生父女，林建国在审讯中因女儿安全受到威胁而表现出保护欲。","evidence_summary":"在记忆画面中，赵毅以苏晚的安全威胁林建国时，林建国的瞳孔猛地收缩，表现出担忧。","evidence_quotes":["你们敢动她——","父亲抬起头，眼神里没有恐惧，只有某种近乎嘲讽的平静。"],"relation_analysis":"林建国在审讯中因女儿安全受到威胁而表现出保护欲，但表面保持平静。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.9}],"pair_relations":[{"entity_a":"苏晚","entity_b":"林建国","shared_structural_base":"kinship_parent_child","shared_structural_base_raw":"父女","pair_summary":"苏晚和林建国是亲生父女，关系亲密，彼此关心保护。","evidence_summary":"苏晚为救父亲加入天枢，林建国在审讯中因女儿安全受到威胁而动摇。","evidence_quotes":["父亲被囚禁在地下三层，这是她目前掌握的最确定的线索。","你们敢动她——"],"pair_analysis":"父女关系明确，双方都表现出对彼此的关心和保护。","shared_intensity_score":50,"confidence":0.95},{"entity_a":"苏晚","entity_b":"赵毅","shared_structural_base":"superior_subordinate","shared_structural_base_raw":"行动部副部长与普通成员","pair_summary":"苏晚和赵毅存在组织层级关系，赵毅是行动部副部长，苏晚是普通成员，但双方关系紧张，赵毅对苏晚抱有敌意。","evidence_summary":"赵毅在走廊截住苏晚并威胁她，苏晚对赵毅保持警惕并主动探查。","evidence_quotes":["赵毅从走廊拐角走出来的时候，苏晚正低头看手机。","别多管闲事。你父亲的事，不是你能碰的。"],"pair_analysis":"组织层级关系明确，但双方处于敌对状态。","shared_intensity_score":50,"confidence":0.9}],"fact_updates":[{"subject":"赵毅","predicate":"身份","object_value":"天枢行动部副部长，亲自审讯林建国","summary":"赵毅是天枢行动部副部长，亲自审讯林建国，以苏晚安全威胁林建国。","is_state":true,"retracted":false,"confidence":0.95},{"subject":"林建国","predicate":"被囚禁位置","object_value":"天枢地下三层","summary":"苏晚通过能力看到赵毅审讯林建国的画面，得知父亲被囚禁在天枢地下三层。","is_state":true,"retracted":false,"confidence":0.9},{"subject":"苏晚","predicate":"能力代价","object_value":"使用能力后头疼加剧，记忆开始模糊","summary":"苏晚使用能力后头疼加剧，记忆开始模糊，出现副作用。","is_state":true,"retracted":false,"confidence":0.95},{"subject":"赵毅","predicate":"对苏晚的态度","object_value":"敌意，识破苏晚的能力","summary":"赵毅识破苏晚的能力是触觉类，并发出最后威胁。","is_state":true,"retracted":false,"confidence":0.95}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 父亲的遗物: 苏晚在父亲失踪三年后整理杂物间，发现父亲的手表，触摸后触发记忆片段，看到父亲被灰色西装男子审讯的场景，得知父亲与天枢组织有关。她决定前往西郊科技园区，潜入天枢生物科技研究院，在地下室找到父亲被关押的房间，但被灰色西装男子发现并追捕，最终被迫逃离。
+- 天枢的邀请: 天枢外勤组长陈默突然到访苏晚家，告知她父亲林建国被囚禁在天枢地下二层B107室，并透露苏晚觉醒的能力是找到父亲留下的‘秘法’的关键。陈默以父亲下落为条件邀请苏晚加入天枢，苏晚在目睹父亲受审的记忆片段后同意加入。
+- 能力测试: 苏晚在天枢研究院接受能力测试，触摸手表后感知到工程师的死亡记忆片段，被陈默告知能力代价。随后登记加入天枢，见到科研部主管方瑶，方瑶表面温和但暗中评估苏晚的利用价值，并秘密启动与林建国相关的基因锁计划。苏晚回到宿舍后克制住使用笔记本的冲动，决定先了解组织。
+</recent_summary>
+
+<focus_entities>
+- 方瑶
+- 林建国
+- 苏晚
+- 赵毅
+- 陈默
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 苏晚 tier=core score=100 aliases=晓晓, 晚晚 summary=大学生，父亲林建国失踪三年，母亲改嫁后独自生活。勇敢果断，决心寻找父亲。发现父亲的手表后触发记忆片段，潜入天枢研究院试图营救父亲，但被迫逃跑。
+Update: 大学生，父亲林建国失踪三年，母亲改嫁后独自生活。刚觉醒通过触摸物品获取记忆画面的能力，决心救出父亲。
+Update: 大学生，父亲林建国失踪三年，母亲改嫁后独自生活。觉醒感知类异能，能通过触摸物品读取残留记忆。加入天枢组织，决心寻找父亲。
+- 林建国 tier=active score=90 aliases=父亲 summary=前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪。被囚禁在地下室，身体虚弱，通过手表向苏晚传递警告，劝她离开。
+Update: 前国家科学院院士，天枢首席科学家，三年前失踪。被囚禁在地下二层B107室，曾将‘秘法’编码进苏晚的基因中。
+Update: 前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪。被囚禁在地下室，苏晚的父亲。
+- 陈默 tier=active score=80 summary=天枢生物科技研究院外勤组长，三十出头，表情平静，受林建国委托在苏晚能力觉醒后接触她，并引导她加入天枢。
+Update: 天枢组织外勤组长，走路无声，身份不简单。受林建国委托引导苏晚加入天枢，带苏晚进行能力测试，并给予保护性建议。
+- 方瑶 tier=background score=62 summary=天枢研究院科研部主管，三十岁左右，长发低马尾，戴细框眼镜。表面温和，实则将苏晚视为工具，秘密启动与林建国相关的基因锁计划。
+</known_entities>
+
+<relevant_relation_history>
+[directed_relation_states]
+- 陈默 -> 苏晚: 引导与招募; 陈默受林建国委托，在苏晚能力觉醒后主动接触她，以父亲下落为条件引导她加入天枢，态度平静但带有利用性质。
+Update: 陈默向苏晚透露父亲被囚禁在天枢地下二层，并展示照片和纸片作为证据。
+Update: 陈默作为上级引导苏晚完成测试，给予保护性建议，暗示组织内部有风险，但态度平静且带有利用性质。
+Update: 陈默在测试后告知苏晚能力代价和使用上限，并暗示不要在摄像头下使用能力。
+- 苏晚 -> 林建国: 女儿寻找父亲; 苏晚深爱父亲，发现父亲被囚禁后不顾危险前往营救，决心坚定。
+Update: 苏晚在地下室找到父亲被关押的房间，隔门对话，确认父亲还活着，父亲劝她离开。
+Update: 苏晚深爱父亲，得知父亲被囚禁后决心加入天枢以救出父亲，情感强烈。
+Update: 苏晚深爱父亲，决心查明真相，但克制自己先了解组织，避免冲动使用能力。
+- 白大褂 -> 林建国: 审讯与折磨; 白大褂代表天枢组织对林建国进行审讯，使用注射手段逼问‘秘法’，态度冷酷。
+Update: 在记忆闪回中，白大褂给林建国注射药物，导致林建国剧烈颤抖和痛苦。
+- 灰色西装男子 -> 林建国: 审讯与威胁; 灰色西装男子代表天枢组织审讯林建国，以女儿安全威胁他交出核心算法。
+Update: 灰色西装男子审讯林建国，以女儿安全威胁他交出核心算法。
+- 灰色西装男子 -> 苏晚: 追捕入侵者; 灰色西装男子发现苏晚潜入后，立即组织保安追捕，意图阻止她。
+Update: 灰色西装男子发现苏晚潜入后，立即组织保安追捕，苏晚被迫逃跑。
+- 苏晚 -> 陈默: 警惕与接受; 苏晚对陈默的突然出现和天枢身份保持高度警惕，但为了救父亲，她选择接受陈默的邀请加入天枢。
+Update: 苏晚在权衡后同意加入天枢，以换取救父的机会。
+- 方瑶 -> 苏晚: 评估与利用; 方瑶表面欢迎苏晚，笑容温和，但眼神中带有审视和评估，将苏晚视为工具，秘密启动与林建国相关的基因锁计划。
+Update: 方瑶与苏晚见面，笑容温和，但眼神审视，苏晚感到不适。
+- 林建国 -> 苏晚: 父亲警告女儿; 林建国担心女儿安全，通过手表传递警告，并在苏晚到达时劝她离开。
+Update: 林建国深爱女儿，在被囚禁期间仍通过陈默传递信息，并在记忆片段中劝苏晚不要来找他，以保护她的安全。
+- 方瑶 -> 林建国: 计划关联; 方瑶与林建国之间存在未明确的关联，她正在启动与林建国相关的基因锁计划。
+- 陈默 -> 林建国: 合作与受托; 陈默与林建国之间存在合作约定，陈默受林建国委托在苏晚能力觉醒后接触她，并传递信息。
+
+[pair_relation_states]
+- 苏晚 <-> 陈默: same_faction; 苏晚同意加入天枢后，与陈默成为同一组织成员，但双方关系尚浅，苏晚保持警惕。
+Update: 陈默向苏晚透露父亲被囚禁在天枢地下二层，并展示照片和纸片作为证据。
+Update: 苏晚在权衡后同意加入天枢，以换取救父的机会。
+Update: 苏晚加入天枢后，与陈默成为同一组织成员，但双方关系尚浅，苏晚保持警惕。
+Update: 陈默在测试后告知苏晚能力代价和使用上限，并暗示不要在摄像头下使用能力。
+- 林建国 <-> 白大褂: unknown; 在记忆闪回中，白大褂给林建国注射药物，导致林建国剧烈颤抖和痛苦。
+- 林建国 <-> 灰色西装男子: opposing_faction; 灰色西装男子代表天枢组织审讯林建国，双方处于敌对阵营。
+Update: 灰色西装男子审讯林建国，以女儿安全威胁他交出核心算法。
+- 林建国 <-> 苏晚: kinship_parent_child; 苏晚和林建国是亲生父女，关系亲密，彼此关心。
+Update: 苏晚在地下室找到父亲被关押的房间，隔门对话，确认父亲还活着，父亲劝她离开。
+Update: 苏晚和林建国是亲生父
+...(truncated)
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

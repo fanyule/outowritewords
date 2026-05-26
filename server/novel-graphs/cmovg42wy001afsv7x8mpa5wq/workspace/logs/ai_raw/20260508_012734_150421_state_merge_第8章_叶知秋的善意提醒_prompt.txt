@@ -1,0 +1,65 @@
+<chapter_title>
+第8章 叶知秋的善意提醒
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第8章 叶知秋的善意提醒","analyzed_at":"2026-05-08T01:27:34","summary":"叶知秋通过加密短信约林小鹿在图书馆见面，警告她接头地点被监控，并透露自己哥哥也因组织失踪，提醒她小心宋明远。林小鹿随后收到另一条神秘短信，约她明天下午三点在旧书店街见面。","outline":[{"order":0,"text":"叶知秋通过加密短信约林小鹿在图书馆见面，当面警告她接头地点被监控，并透露自己哥哥失踪的往事。","involved_names":["林小鹿","叶知秋"]},{"order":1,"text":"林小鹿离开图书馆后收到另一条加密短信，约她明天下午三点在旧书店街17号见面，并带上笔记本。","involved_names":["林小鹿"]},{"order":2,"text":"图书馆三楼一个戴眼镜的男人放下书本拿起手机，暗示林小鹿和叶知秋的会面被监视。","involved_names":["戴眼镜的男人"]}],"entities":[{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。"},{"name":"叶知秋","aliases":["叶"],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天衍组织前台工作人员，戴眼镜的年轻女人，哥哥半年前失踪，组织调查结论为‘个人原因离岗’。"},{"name":"宋明远","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"天衍组织外勤组长，林小鹿的上司，叶知秋警告林小鹿要小心他。"},{"name":"叶知秋的哥哥","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"叶知秋的哥哥，半年前失踪，组织调查结论为‘个人原因离岗，去向不明’。"},{"name":"戴眼镜的男人","aliases":[],"chapter_role":"background","tier":"active","importance_score":40,"summary":"图书馆三楼窗边放下书本拿起手机的男人，可能监视林小鹿和叶知秋的会面。"}],"identity_revelations":[{"source_name":"叶知秋提到的‘那个人’","target_name":"叶知秋的哥哥","revelation_type":"true_identity","evidence":"叶知秋承认‘他是我哥’","confidence":1.0}],"events":[{"event_id":"evt1","intra_chapter_order":0,"event_type":"秘密会面","narrative_weight":"core","narrative_weight_raw":"核心情节","enum_reason":"本章核心事件，推动主线。","summary":"叶知秋通过加密短信约林小鹿在图书馆见面，当面警告她接头地点被监控，并透露自己哥哥失踪的往事。","location":"大学城图书馆三楼","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"叶知秋","role":"actor","confidence":1.0}],"evidence_summary":"叶知秋与林小鹿通过手机打字交流，警告接头点被监控，并分享哥哥失踪信息。","evidence_quotes":["你昨天晚上的任务，接头地点被人监控了","他是我哥"],"confidence":1.0},{"event_id":"evt2","intra_chapter_order":1,"event_type":"收到神秘短信","narrative_weight":"turning_point","narrative_weight_raw":"转折点","enum_reason":"引入新线索，推动剧情。","summary":"林小鹿离开图书馆后收到另一条加密短信，约她明天下午三点在旧书店街17号见面，并带上笔记本。","location":"图书馆楼梯口","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0}],"evidence_summary":"林小鹿收到加密短信，发件人乱码，要求明天下午三点见面。","evidence_quotes":["明天下午三点，旧书店街17号。带上笔记本。如果你还想知道真相。"],"confidence":1.0},{"event_id":"evt3","intra_chapter_order":2,"event_type":"监视","narrative_weight":"detail","narrative_weight_raw":"细节","enum_reason":"补充细节，增加悬疑。","summary":"图书馆三楼一个戴眼镜的男人放下书本拿起手机，暗示林小鹿和叶知秋的会面被监视。","location":"图书馆三楼窗边","participants":[{"entity_name":"戴眼镜的男人","role":"actor","confidence":0.6}],"evidence_summary":"描述戴眼镜的男人放下书拿起手机。","evidence_quotes":["一个戴眼镜的男人放下了手中的书，拿起了手机。"],"confidence":0.6}],"interactions":[{"from":"叶知秋","to":"林小鹿","interaction_type":"revelation","interaction_type_raw":"透露秘密","impact_level":"high","impact_level_raw":"高","polarity":"positive","polarity_raw":"正面","enum_reason":"叶知秋向林小鹿透露关键情报和个人秘密。","summary":"叶知秋通过手机打字向林小鹿透露接头地点被监控，并分享自己哥哥失踪的秘密。","evidence_summary":"叶知秋打字告知接头点被监控，并承认哥哥失踪。","evidence_quotes":["你昨天晚上的任务，接头地点被人监控了","他是我哥"],"interaction_analysis":"叶知秋主动分享敏感信息，表明信任和善意。","confidence":0.9},{"from":"林小鹿","to":"叶知秋","interaction_type":"cooperation","interaction_type_raw":"配合询问","impact_level":"medium","impact_level_raw":"中","polarity":"positive","polarity_raw":"正面","enum_reason":"林小鹿积极回应并追问，表现出合作态度。","summary":"林小鹿配合叶知秋的交流方式，通过手机打字追问细节。","evidence_summary":"林小鹿打字询问‘为什么告诉我这些’、‘和组织有关’等问题。","evidence_quotes":["为什么告诉我这些？","和组织有关？"],"interaction_analysis":"林小鹿认真对待叶知秋的警告，并试图获取更多信息。","confidence":0.85}],"directed_relations":[{"from":"叶知秋","to":"林小鹿","raw_label":"善意提醒与警告","state_summary":"叶知秋因自身哥哥失踪的经历，对林小鹿产生保护欲，主动冒险警告她接头地点被监控，并提醒小心宋明远。","structural_base":"colleague","structural_base_raw":"天衍组织同事","dynamic_stance":"protective","dynamic_stance_raw":"不想再看到一个消失的人","enum_reason":"两人是天衍组织同事，叶知秋表现出保护性姿态。","evidence_summary":"叶知秋通过短信约林小鹿见面，当面警告接头地点被监控，并透露自己哥哥失踪的往事。","evidence_quotes":["因为你刚来，不该被卷进这种事","小心宋明远"],"relation_analysis":"叶知秋主动提供关键情报并警告危险，表明她对林小鹿有保护倾向，动机源于自身经历。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.85},{"from":"林小鹿","to":"叶知秋","raw_label":"接受警告并信任","state_summary":"林小鹿接受叶知秋的警告，并追问更多信息，表现出对叶知秋的信任。","structural_base":"colleague","structural_base_raw":"天衍组织同事","dynamic_stance":"trusting","dynamic_stance_raw":"接受警告并追问细节","enum_reason":"林小鹿认真听取叶知秋的警告并追问细节，表明信任。","evidence_summary":"林小鹿与叶知秋进行书面对话，接受警告并追问哥哥失踪等细节。","evidence_quotes":["为什么告诉我这些？","和组织有关？"],"relation_analysis":"林小鹿没有怀疑叶知秋的动机，而是积极追问，显示信任。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8},{"from":"叶知秋","to":"宋明远","raw_label":"警告林小鹿小心","state_summary":"叶知秋对宋明远保持警惕，认为他可能对林小鹿构成威胁。","structural_base":"colleague","structural_base_raw":"天衍组织同事","dynamic_stance":"wary","dynamic_stance_raw":"小心宋明远","enum_reason":"叶知秋主动警告林小鹿小心宋明远，表明她对其不信任。","evidence_summary":"叶知秋离开前低声说‘小心宋明远’。","evidence_quotes":["小心宋明远"],"relation_analysis":"叶知秋的警告表明她对宋明远持怀疑态度。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.7}],"pair_relations":[{"entity_a":"叶知秋","entity_b":"林小鹿","shared_structural_base":"colleague","shared_structural_base_raw":"天衍组织同事","pair_summary":"两人是天衍组织的同事，叶知秋因共同经历对林小鹿产生保护欲。","evidence_summary":"叶知秋主动约见林小鹿并分享哥哥失踪的秘密。","evidence_quotes":["你让我想起一个人","他是我哥"],"pair_analysis":"叶知秋的哥哥失踪与林小鹿父亲失踪相似，形成情感纽带。","shared_intensity_score":50,"confidence":0.8}],"fact_updates":[{"subject":"叶知秋","predicate":"哥哥失踪","object_value":"半年前失踪，组织调查结论为‘个人原因离岗，去向不明’","summary":"叶知秋的哥哥半年前失踪，组织调查未果。","is_state":true,"retracted":false,"confidence":1.0},{"subject":"林小鹿的接头地点","predicate":"被监控","object_value":"昨晚任务的接头地点被人监控","summary":"叶知秋警告林小鹿接头地点已被监控。","is_state":true,"retracted":false,"confidence":0.9},{"subject":"林小鹿","predicate":"收到新线索","object_value":"明天下午三点旧书店街17号见面，带上笔记本","summary":"林小鹿收到神秘短信，约见旧书店街。","is_state":false,"retracted":false,"confidence":1.0},{"subject":"叶知秋","predicate":"对宋明远的态度","object_value":"警告林小鹿小心宋明远","summary":"叶知秋认为宋明远可能对林小鹿构成威胁。","is_state":true,"retracted":false,"confidence":0.7}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第32章 目标临终前的低语: 本章无正文内容，仅标题暗示林小鹿在废弃工厂中听到目标临终前的低语，可能获得关键信息。
+- 第33章 战利品中的另一条线索: 本章无正文内容，仅标题暗示林小鹿在战利品中发现另一条线索。
+- 第34章 宋明远的目光: 本章无正文内容，仅标题暗示宋明远对林小鹿的关注或审视。
+</recent_summary>
+
+<focus_entities>
+- 叶知秋
+- 叶知秋的哥哥
+- 宋明远
+- 戴眼镜的男人
+- 林小鹿
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=100 aliases=小鹿 summary=女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她按照笔记本地址找到咖啡馆，获得新线索，并发现被跟踪。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，她按照父亲笔记本的指引来到旧书店街17号，通过暗号进入天衍组织基地，接受基础异能检测和定向检测。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月后加入天衍组织。本章通过异能检测，成为外围成员，领取临时证件和初始任务。对组织保持警惕，内心思念父亲。
+Update: 女大学生，外院大二英语专业，父亲失踪后加入天衍组织，决心寻找父亲。本章中她作为新员工被安排整理档案，暗中寻找父亲线索。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，加入天衍组织寻找父亲。本章中她整理档案时发现青石镇调查纪要，被宋明远试探，收到匿名警告，凌晨撤离住处。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她执行组织任务，同时面临考试压力和组织内部的信任危机。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她主动争取某事。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她将接受新任务，前往废弃研究所。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中与叶知秋进行情报交易。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她通过金属盒发现线索。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她发现代号并转向主动行动。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在考试周遇到紧急任务。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她面临紧急情况，需要同时处理三条任务线。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有意外发现。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中接受叶知秋的警告与情报。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中面临双重压力并做出决断。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她前往废弃工厂并解读暗语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在废弃工厂中听到目标临终前的低语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在战利品中发现另一条线索。
+- 宋明远 tier=core score=81 aliases=宋哥, 宋组长 summary=天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。
+Update: 天衍组织组长，林小鹿的上司。本章被叶知秋提及，对林小鹿的接头方式有疑问，要求更仔细的背景调查。
+Update: 天衍组织的外勤组长，林小鹿的上司。本章中他在林小鹿整理完档案后突然出现，翻看了青石镇调查纪要，行为可疑。
+Update: 天衍组织外勤组长，四十岁上下，灰色夹克，短发，声音沙哑。本章中他主动试探林小鹿，怀疑她与青石镇有关，安排人调查其背景，并监控接头地点。
+Update: 天衍组织组长，林小鹿的上司，面试并安排林小鹿入职。
+Update: 天衍组织组长，林小鹿的上司，面试并安排林小鹿入职，暗中调查她的背景。
+Update: 天衍组织组长，对林小鹿进行试探。
+Update: 天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。本章中试探升级。
+- 叶知秋 tier=core score=77 aliases=叶姐, 小叶 summary=天衍的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。
+Update: 天衍组织的前台接待员，负责林小鹿的接待和初步评估，年轻女性，穿白色衬衫和深灰色长裤，扎低马尾，对林小鹿进行基础异能检测并带她进入深层检测室。
+Update: 天衍组织的前台接待员，年轻女性。负责林小鹿的异能检测和后续安排，告知她宋明远对其接头方式有疑问，背景调查会更严格。
+Update: 
+...(truncated)
+</known_entities>
+
+<relevant_relation_history>
+
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

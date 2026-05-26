@@ -1,0 +1,147 @@
+{
+  "summary": "本章无正文内容，仅标题暗示林小鹿面临双重压力并做出决断。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥"],
+      "chapter_role": "major_actor",
+      "summary": "天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["小叶"],
+      "chapter_role": "major_actor",
+      "summary": "天衍的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "试探升级",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "组长与组员",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "试探升级",
+      "state_summary": "宋明远作为组长对林小鹿的试探行为在本章中升级，表明他对林小鹿的信任度较低，正在进一步调查她的背景和动机。",
+      "enum_reason": "宋明远是林小鹿的上司，且本章标题明确提到试探升级，表明不信任。",
+      "evidence_summary": "标题暗示宋明远的试探升级。",
+      "evidence_quotes": ["第28章 宋明远的试探升级"],
+      "relation_analysis": "标题直接表明宋明远对林小鹿的试探行为升级，结合之前章节中宋明远对林小鹿背景的调查，可以推断其不信任态度。",
+      "confidence": 0.7
+    },
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "警告与情报",
+      "structural_base": "colleague",
+      "structural_base_raw": "同事",
+      "dynamic_stance": "friendly",
+      "dynamic_stance_raw": "主动提供警告和情报",
+      "state_summary": "叶知秋作为天衍前台同事，主动向林小鹿发出警告并提供情报，表明她对林小鹿有一定信任或善意。",
+      "enum_reason": "叶知秋主动提供警告和情报，显示友好态度。",
+      "evidence_summary": "标题暗示叶知秋向林小鹿发出警告并提供情报。",
+      "evidence_quotes": ["第29章 叶知秋的警告与情报"],
+      "relation_analysis": "标题直接表明叶知秋对林小鹿发出警告并提供情报，结合之前章节中叶知秋对林小鹿的友好态度，可以推断其友好立场。",
+      "confidence": 0.7
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "接受警告与情报",
+      "structural_base": "colleague",
+      "structural_base_raw": "同事",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "接受警告和情报",
+      "state_summary": "林小鹿作为新员工，接受叶知秋的警告和情报，表明她对叶知秋有一定信任。",
+      "enum_reason": "林小鹿接受叶知秋的警告和情报，显示信任。",
+      "evidence_summary": "标题暗示林小鹿接受叶知秋的警告和情报。",
+      "evidence_quotes": ["第29章 叶知秋的警告与情报"],
+      "relation_analysis": "标题表明叶知秋向林小鹿提供警告和情报，林小鹿接受，暗示信任关系。",
+      "confidence": 0.6
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "被试探的警惕",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "下属与组长",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "对试探保持警惕",
+      "state_summary": "林小鹿作为新员工，对上司宋明远的试探行为保持警惕，可能正在准备应对策略。",
+      "enum_reason": "标题暗示宋明远试探升级，林小鹿作为被试探方自然保持警惕。",
+      "evidence_summary": "标题暗示宋明远的试探升级，林小鹿面临压力。",
+      "evidence_quotes": ["第28章 宋明远的试探升级"],
+      "relation_analysis": "标题表明宋明远试探升级，林小鹿作为下属面临压力，推断其警惕态度。",
+      "confidence": 0.6
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "宋明远",
+      "entity_b": "林小鹿",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "组长与组员",
+      "pair_summary": "宋明远和林小鹿是天衍组织中的上下级关系，宋明远是组长，林小鹿是新入职的组员。",
+      "evidence_summary": "之前章节明确宋明远面试并安排林小鹿入职，本章标题暗示试探升级。",
+      "evidence_quotes": ["第28章 宋明远的试探升级"],
+      "pair_analysis": "之前章节已建立上下级关系，本章标题进一步强化了这种关系中的张力。",
+      "confidence": 0.8
+    },
+    {
+      "entity_a": "叶知秋",
+      "entity_b": "林小鹿",
+      "shared_structural_base": "colleague",
+      "shared_structural_base_raw": "同事",
+      "pair_summary": "叶知秋和林小鹿是天衍组织的同事，叶知秋是前台，林小鹿是新入职的组员。",
+      "evidence_summary": "之前章节叶知秋接待林小鹿，本章标题暗示叶知秋提供警告和情报。",
+      "evidence_quotes": ["第29章 叶知秋的警告与情报"],
+      "pair_analysis": "之前章节已建立同事关系，本章标题进一步表明两人之间有情报交流。",
+      "confidence": 0.8
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "e1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "标题暗示核心决断",
+      "summary": "本章无正文内容，仅标题暗示林小鹿面临双重压力并做出决断。",
+      "location": "未知",
+      "enum_reason": "标题暗示本章是核心情节节点。",
+      "evidence_summary": "标题'双重压力下的决断'表明本章是核心情节。",
+      "evidence_quotes": ["第30章 双重压力下的决断"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 0.9}
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "面临双重压力",
+      "object_value": "来自宋明远的试探升级和叶知秋的警告与情报",
+      "summary": "标题暗示林小鹿同时面临来自宋明远和叶知秋的压力。",
+      "is_state": true,
+      "confidence": 0.6
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "做出决断",
+      "object_value": "未知决断",
+      "summary": "标题暗示林小鹿在双重压力下做出决断。",
+      "is_state": true,
+      "confidence": 0.5
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<chapter_title>
+Chapter 5
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"Chapter 5","analyzed_at":"2026-05-08T06:07:04","summary":"本章内容为无意义的字母序列，无实际情节。","outline":[],"entities":[],"identity_revelations":[],"events":[],"interactions":[],"directed_relations":[],"pair_relations":[],"fact_updates":[],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- Chapter 6: 本章内容为无意义的字母序列，无实际情节。
+- Chapter 7: 本章内容为无意义的字母序列，无实际情节。
+- Chapter 8: 本章内容为无意义的字母序列，无实际情节。
+</recent_summary>
+
+<focus_entities>
+
+</focus_entities>
+
+<known_entities>
+
+</known_entities>
+
+<relevant_relation_history>
+
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

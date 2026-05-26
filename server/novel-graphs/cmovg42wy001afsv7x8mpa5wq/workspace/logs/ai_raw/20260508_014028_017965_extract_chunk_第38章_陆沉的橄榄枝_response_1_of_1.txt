@@ -1,0 +1,66 @@
+{
+  "summary": "本章暂无正文内容，仅标题暗示陆沉向林小鹿伸出橄榄枝，可能涉及合作或招揽。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    },
+    {
+      "name": "陆沉",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "标题中的人物，向林小鹿伸出橄榄枝，身份和动机尚不明确。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "陆沉",
+      "to": "林小鹿",
+      "raw_label": "伸出橄榄枝",
+      "structural_base": "unknown",
+      "structural_base_raw": "标题暗示陆沉主动联系林小鹿",
+      "dynamic_stance": "unknown",
+      "dynamic_stance_raw": "标题未明确态度",
+      "state_summary": "陆沉主动向林小鹿伸出橄榄枝，可能涉及合作或招揽，但具体意图和关系状态未知。",
+      "enum_reason": "标题仅暗示主动接触，无具体证据确定结构基础或动态立场",
+      "evidence_summary": "标题'陆沉的橄榄枝'暗示陆沉主动向林小鹿示好或提出合作",
+      "evidence_quotes": ["第38章 陆沉的橄榄枝"],
+      "relation_analysis": "标题直接表明陆沉向林小鹿伸出橄榄枝，但无正文内容，无法判断具体关系性质。",
+      "confidence": 0.3
+    }
+  ],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt_38_1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "标题事件，无正文内容",
+      "summary": "陆沉向林小鹿伸出橄榄枝，具体内容未知。",
+      "location": null,
+      "enum_reason": "标题事件但无正文，仅作为章节标记",
+      "evidence_summary": "标题'陆沉的橄榄枝'",
+      "evidence_quotes": ["第38章 陆沉的橄榄枝"],
+      "participants": [
+        {"entity_name": "陆沉", "role": "actor", "confidence": 0.3},
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.3}
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "陆沉",
+      "predicate": "向林小鹿伸出橄榄枝",
+      "object_value": "主动联系或提出合作",
+      "summary": "标题暗示陆沉主动向林小鹿示好或提出合作，但无具体内容。",
+      "is_state": false,
+      "confidence": 0.3
+    }
+  ]
+}

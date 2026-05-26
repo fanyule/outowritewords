@@ -1,0 +1,104 @@
+{
+  "schema_version": 2,
+  "chapter_title": "第37章 代号指向陆沉",
+  "analyzed_at": "2026-05-08T02:25:59",
+  "summary": "本章暂无正文内容，仅标题暗示林小鹿追踪的代号指向陆沉，可能涉及林小鹿发现陆沉身份或线索。",
+  "outline": [
+    {
+      "order": 0,
+      "text": "本章无正文内容，仅标题暗示代号指向陆沉。",
+      "involved_names": [
+        "林小鹿",
+        "陆沉"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": [
+        "小鹿",
+        "林远舟的女儿"
+      ],
+      "chapter_role": "protagonist",
+      "tier": "core",
+      "importance_score": 78,
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她追踪的代号指向陆沉。"
+    },
+    {
+      "name": "陆沉",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "tier": "active",
+      "importance_score": 68,
+      "summary": "标题中出现的代号人物，身份不明，可能为关键线索。本章标题暗示林小鹿的调查或线索指向陆沉。"
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt_37_1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "无正文内容",
+      "enum_reason": "无正文内容，仅标题信息，权重为细节。",
+      "summary": "本章无正文内容，仅标题暗示代号指向陆沉。",
+      "location": "未知",
+      "participants": [
+        {
+          "entity_name": "林小鹿",
+          "role": "actor",
+          "confidence": 0.1
+        },
+        {
+          "entity_name": "陆沉",
+          "role": "target",
+          "confidence": 0.1
+        }
+      ],
+      "evidence_summary": "标题'代号指向陆沉'。",
+      "evidence_quotes": [
+        "代号指向陆沉"
+      ],
+      "confidence": 0.1
+    }
+  ],
+  "interactions": [],
+  "directed_relations": [
+    {
+      "from": "林小鹿",
+      "to": "陆沉",
+      "raw_label": "调查指向",
+      "state_summary": "本章无正文，仅标题暗示林小鹿的调查或线索指向陆沉，关系状态不明。",
+      "structural_base": "unknown",
+      "structural_base_raw": "无明确关系描述",
+      "dynamic_stance": "unknown",
+      "dynamic_stance_raw": "无明确态度描述",
+      "enum_reason": "无正文内容，无法确定结构基础和动态立场。",
+      "evidence_summary": "标题'代号指向陆沉'暗示林小鹿可能发现陆沉身份或线索。",
+      "evidence_quotes": [
+        "代号指向陆沉"
+      ],
+      "relation_analysis": "标题暗示林小鹿的调查或线索指向陆沉，但无正文证据支持具体关系。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.1
+    }
+  ],
+  "pair_relations": [],
+  "fact_updates": [
+    {
+      "subject": "陆沉",
+      "predicate": "被代号指向",
+      "object_value": "林小鹿的调查或线索指向陆沉",
+      "summary": "标题暗示林小鹿的调查或线索指向陆沉。",
+      "is_state": false,
+      "retracted": false,
+      "confidence": 0.1
+    }
+  ],
+  "unresolved": []
+}

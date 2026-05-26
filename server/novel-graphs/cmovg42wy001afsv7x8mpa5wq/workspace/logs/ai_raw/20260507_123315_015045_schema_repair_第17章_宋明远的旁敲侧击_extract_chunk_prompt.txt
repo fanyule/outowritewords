@@ -1,0 +1,176 @@
+You are repairing a JSON response for a novel analysis pipeline.
+
+Return strict JSON only. No markdown. No explanation.
+
+Repair scope:
+Controlled enum discipline:
+- First understand the scene evidence and summarize the nuance in summary/state_summary.
+- Then choose enum fields strictly from the following tables.
+- Do not output Chinese labels, synonyms, free-form relationship words, or near-matches in enum fields.
+- If no enum is clearly supported, use the listed fallback instead of guessing.
+- Preserve nuance only in summary/state_summary/evidence, not in enum fields.
+- During debugging, also return *_raw and enum_reason where the schema provides them:
+  - *_raw: the short source phrase you extracted before choosing the enum.
+  - enum_reason: one short sentence explaining why the enum was chosen from the table.
+  - *_raw and enum_reason are for audit only; enum fields still must use controlled values.
+
+Allowed structural_base values: childhood_friend, classmate, colleague, commander_soldier, contract_bound, employer_employee, friend, guardian_ward, household_family, kinship_adoptive, kinship_clan, kinship_fiance, kinship_parent_child, kinship_sibling, kinship_spouse, lord_vassal, master_disciple, none, oath_bound, opposing_faction, rival_pair, romantic_partner, roommate, same_faction, same_unit, superior_subordinate, teacher_student, temporary_alliance, unknown
+Fallback structural_base: unknown
+
+Allowed dynamic_stance values: admiring, conflicted, dependent, distrustful, dominant, fearful, friendly, hostile, jealous, neutral, obsessive, protective, resentful, romantic_interest, submissive, trusting, unknown, wary
+Fallback dynamic_stance: neutral
+
+Allowed interactions[].interaction_type values: betrayal, command, confession, conflict, contract, cooperation, daily_interaction, deception, duel, family_recognition, gift_or_support, humiliation, mind_control, political_negotiation, possession, promise, protection, reconciliation, rescue, reunion, revelation, sacrifice, separation, shared_battle, teaching, threat, training, unknown
+Fallback interaction_type: unknown
+
+Allowed interactions[].impact_level values: critical, high, low, medium
+Fallback impact_level: medium
+
+Allowed interactions[].polarity values: mixed, negative, neutral, positive
+Fallback polarity: neutral
+
+Allowed events[].narrative_weight values: background, core, detail, mainline, turning_point
+Fallback narrative_weight: mainline
+
+- Fix JSON syntax, field names, and object shapes so the response matches the required schema.
+- Do not add new facts that are not present in the invalid response.
+- Drop rows that cannot be repaired without inventing missing endpoints.
+- Keep all user-facing text values in Simplified Chinese.
+
+Required field repairs:
+- identity_revelations items must use source_name and target_name. If an item only has entity/name without a revealed target, move it to fact_updates or drop it.
+- interactions items must use from and to. If a row has no clear pair, move it to events or drop it.
+- fact_updates items must use subject, predicate, object_value, summary, is_state, confidence. fact_name/content are not valid replacement keys.
+- directed_relations items must use from and to.
+- pair_relations items must use entity_a and entity_b.
+- entities items must have name.
+
+<title>
+第17章 宋明远的旁敲侧击
+</title>
+
+<stage>
+extract_chunk
+</stage>
+
+<validation_error>
+1 validation error for AnalysisResult
+events.0.location
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+</validation_error>
+
+<invalid_response>
+{
+  "summary": "本章无正文内容，仅标题提示宋明远对林小鹿进行旁敲侧击的试探。",
+  "entities": [
+    {
+      "name": "宋明远",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织组长，对林小鹿进行试探。"
+    },
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "旁敲侧击的试探",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "组长与组员",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "试探",
+      "state_summary": "宋明远作为组长对林小鹿进行旁敲侧击的试探，可能不信任她。",
+      "enum_reason": "宋明远是组长，林小鹿是组员，属于上下级关系；试探行为表明他持警惕态度。",
+      "evidence_summary": "标题提示宋明远对林小鹿进行旁敲侧击。",
+      "evidence_quotes": ["宋明远的旁敲侧击"],
+      "relation_analysis": "标题直接表明宋明远对林小鹿进行试探，结合上下级关系，动态立场为警惕。",
+      "confidence": 0.7
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "被试探的警惕",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "组员与组长",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "警惕",
+      "state_summary": "林小鹿作为新员工对上司宋明远的旁敲侧击保持警惕。",
+      "enum_reason": "林小鹿是组员，宋明远是组长，属于上下级关系；被试探时自然保持警惕。",
+      "evidence_summary": "标题暗示宋明远在试探，林小鹿作为被试探方会保持警惕。",
+      "evidence_quotes": ["宋明远的旁敲侧击"],
+      "relation_analysis": "标题表明宋明远主动试探，林小鹿作为被试探对象会保持警惕。",
+      "confidence": 0.6
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "宋明远",
+      "entity_b": "林小鹿",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "组长与组员",
+      "pair_summary": "宋明远和林小鹿是天衍组织中的上下级关系，宋明远是组长，林小鹿是新入职的组员。",
+      "evidence_summary": "标题暗示宋明远对林小鹿进行试探，结合已知上下级关系。",
+      "evidence_quotes": ["宋明远的旁敲侧击"],
+      "pair_analysis": "标题中的试探行为基于已有的上下级关系，因此共享结构为上下级。",
+      "confidence": 0.8
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "e1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "无正文内容",
+      "summary": "本章无正文内容，仅标题提示宋明远对林小鹿进行旁敲侧击的试探。",
+      "location": null,
+      "enum_reason": "本章无正文，仅标题提供信息，属于细节性提示。",
+      "evidence_summary": "标题为'宋明远的旁敲侧击'。",
+      "evidence_quotes": ["第17章 宋明远的旁敲侧击"],
+      "participants": [
+        {"entity_name": "宋明远", "role": "actor", "confidence": 0.7},
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.7}
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "interactions": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "interaction_type": "unknown",
+      "interaction_type_raw": "旁敲侧击",
+      "impact_level": "medium",
+      "impact_level_raw": "试探",
+      "polarity": "negative",
+      "polarity_raw": "试探",
+      "summary": "宋明远对林小鹿进行旁敲侧击的试探，具体内容未知。",
+      "enum_reason": "试探行为属于未知类型，但具有潜在负面性。",
+      "evidence_summary": "标题提示宋明远对林小鹿进行旁敲侧击。",
+      "evidence_quotes": ["宋明远的旁敲侧击"],
+      "interaction_analysis": "标题直接表明宋明远主动试探林小鹿，属于单向互动。",
+      "confidence": 0.5
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "宋明远",
+      "predicate": "对林小鹿进行试探",
+      "object_value": "旁敲侧击",
+      "summary": "宋明远作为组长对林小鹿进行旁敲侧击的试探。",
+      "is_state": true,
+      "confidence": 0.5
+    }
+  ]
+}
+</invalid_response>
+
+Return the repaired AnalysisResult JSON only.

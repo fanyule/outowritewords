@@ -1,0 +1,230 @@
+{
+  "summary": "女大学生林小鹿在父亲失踪三个月后，偶然发现父亲留下的笔记本，指引她加入一个名为“天衍”的异能组织。她前往地址应聘，成功进入组织，但感到周围充满疑点，决定继续调查父亲失踪的真相。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥"],
+      "chapter_role": "major_actor",
+      "summary": "天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["小叶"],
+      "chapter_role": "supporting",
+      "summary": "天衍的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。"
+    },
+    {
+      "name": "林小鹿的父亲",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "林小鹿的父亲，三个月前失踪，留下笔记本指引女儿加入天衍。笔记本中警告女儿不要相信任何人，尤其是姓陆的。"
+    },
+    {
+      "name": "姓陆的",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "父亲在笔记本中提到的危险人物，警告林小鹿不要相信。身份未知。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "新员工与面试官",
+      "structural_base": "employer_employee",
+      "structural_base_raw": "宋明远是外勤组长，林小鹿来应聘",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "林小鹿觉得宋明远在试探她，心里发毛",
+      "state_summary": "林小鹿作为新员工对上司宋明远保持警惕，怀疑他在调查自己。",
+      "enum_reason": "宋明远是组织外勤组长，林小鹿应聘成为员工，属于雇佣关系；林小鹿对宋明远不信任，保持戒备。",
+      "evidence_summary": "宋明远面试林小鹿并安排入职，但林小鹿听到他让人查自己背景，感到紧张。",
+      "evidence_quotes": ["“新来的那个，查一下背景。”", "林小鹿的呼吸顿了一下"],
+      "relation_analysis": "林小鹿刚加入组织，对宋明远作为上司既依赖又怀疑，符合雇佣关系下的警惕态度。",
+      "confidence": 0.8
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "新员工与前台同事",
+      "structural_base": "colleague",
+      "structural_base_raw": "叶知秋是前台，林小鹿是新员工",
+      "dynamic_stance": "neutral",
+      "dynamic_stance_raw": "林小鹿对叶知秋没有明显情绪",
+      "state_summary": "林小鹿与叶知秋是同事关系，但林小鹿对叶知秋保持基本礼貌，没有深入互动。",
+      "evidence_summary": "叶知秋接待林小鹿，带她熟悉环境，林小鹿表示感谢。",
+      "evidence_quotes": ["“好，谢谢。”"],
+      "relation_analysis": "两人初次见面，关系浅层，属于普通同事互动。",
+      "confidence": 0.6
+    },
+    {
+      "from": "林小鹿",
+      "to": "林小鹿的父亲",
+      "raw_label": "女儿对失踪父亲的思念与追寻",
+      "structural_base": "kinship_parent_child",
+      "structural_base_raw": "父亲是林小鹿的亲生父亲",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "林小鹿决心找到父亲，不放弃",
+      "state_summary": "林小鹿深爱父亲，因父亲失踪而焦虑，决心按照笔记本指引找到他。",
+      "evidence_summary": "林小鹿回忆父亲失踪前的异常，看到笔记本后决定加入组织寻找父亲。",
+      "evidence_quotes": ["她必须去看一眼", "她突然觉得，父亲可能就在这条巷子的某个地方"],
+      "relation_analysis": "父女关系深厚，林小鹿的行动动机源于对父亲的关心和保护欲。",
+      "confidence": 0.9
+    },
+    {
+      "from": "林小鹿",
+      "to": "姓陆的",
+      "raw_label": "对未知人物的警惕",
+      "structural_base": "unknown",
+      "structural_base_raw": "父亲警告不要相信姓陆的，但身份未知",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "林小鹿记住父亲的话，对姓陆的保持警惕",
+      "state_summary": "林小鹿根据父亲警告，对姓陆的未知人物保持高度戒备。",
+      "evidence_summary": "笔记本中写道“别信任何人，尤其是姓陆的”，林小鹿决定记住这个名字。",
+      "evidence_quotes": ["她得记住这个名字。"],
+      "relation_analysis": "目前只有单向警惕，没有实际接触，关系未知但林小鹿已产生戒备。",
+      "confidence": 0.5
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "林小鹿的父亲",
+      "shared_structural_base": "kinship_parent_child",
+      "shared_structural_base_raw": "父女关系",
+      "pair_summary": "林小鹿与父亲是亲生父女，父亲失踪后林小鹿决心寻找。",
+      "evidence_summary": "林小鹿回忆父亲失踪前的互动，笔记本确认父女关系。",
+      "evidence_quotes": ["“爸，周末回不回家吃饭？”", "笔记本上写着‘小鹿’"],
+      "pair_analysis": "父女关系明确，是故事核心驱动。",
+      "confidence": 0.95
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt_1",
+      "intra_chapter_order": 0,
+      "event_type": "发现笔记本",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "林小鹿发现父亲笔记本，决定加入组织",
+      "summary": "林小鹿在咖啡馆仓库搬旧书时，意外发现父亲留下的笔记本，上面写着让她加入天衍组织寻找真相。",
+      "location": "咖啡馆仓库",
+      "enum_reason": "这是故事转折点，直接推动主角行动。",
+      "evidence_summary": "林小鹿搬箱子时看到笔记本，翻开后看到父亲字迹和地址。",
+      "evidence_quotes": ["她愣了一下。那本笔记本，她认得。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt_2",
+      "intra_chapter_order": 1,
+      "event_type": "前往天衍",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "林小鹿按地址找到天衍组织",
+      "summary": "林小鹿根据笔记本地址，前往城南老城区巷子，找到天衍文化传媒有限公司，并成功应聘。",
+      "location": "天衍文化传媒有限公司",
+      "enum_reason": "这是主线推进的关键步骤。",
+      "evidence_summary": "林小鹿坐公交到城南，找到铁门，进入院子，面试并入职。",
+      "evidence_quotes": ["她走到巷子尽头，看见一扇铁门", "“我是来应聘的。”"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "宋明远", "role": "participant", "confidence": 1.0},
+        {"entity_name": "叶知秋", "role": "participant", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt_3",
+      "intra_chapter_order": 2,
+      "event_type": "暗中调查",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "林小鹿在资料室暗中观察，听到宋明远让人查她背景",
+      "summary": "林小鹿在资料室假装看资料，实际观察环境，并偷听到宋明远让叶知秋调查她的背景。",
+      "location": "天衍资料室",
+      "enum_reason": "细节事件，展示主角的谨慎和组织的怀疑。",
+      "evidence_summary": "林小鹿翻看文件柜，拉窗帘看院子，听到楼下对话。",
+      "evidence_quotes": ["“新来的那个，查一下背景。”", "林小鹿的呼吸顿了一下"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "宋明远", "role": "actor", "confidence": 0.9},
+        {"entity_name": "叶知秋", "role": "participant", "confidence": 0.8}
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "interactions": [
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "interaction_type": "interview",
+      "interaction_type_raw": "面试对话",
+      "impact_level": "high",
+      "impact_level_raw": "决定林小鹿能否进入组织",
+      "polarity": "neutral",
+      "polarity_raw": "双方表面礼貌，但暗含试探",
+      "summary": "宋明远面试林小鹿，询问她的背景和动机，林小鹿用准备好的说辞应对，成功入职。",
+      "enum_reason": "这是典型的面试场景，属于正式入职流程。",
+      "evidence_summary": "宋明远问林小鹿为什么来应聘，林小鹿回答想找专业相关兼职。",
+      "evidence_quotes": ["“为什么想来我们这？”", "“我在招聘网站上看到的”"],
+      "interaction_analysis": "面试过程表面正常，但双方都在试探，林小鹿隐瞒真实目的。",
+      "confidence": 0.9
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "interaction_type": "daily_interaction",
+      "interaction_type_raw": "日常接待",
+      "impact_level": "low",
+      "impact_level_raw": "简单的入职引导",
+      "polarity": "positive",
+      "polarity_raw": "叶知秋友好，林小鹿礼貌",
+      "summary": "叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。",
+      "enum_reason": "日常接待和引导，没有特殊事件。",
+      "evidence_summary": "叶知秋让林小鹿填表，带她上二楼，介绍资料室。",
+      "evidence_quotes": ["“跟我来。”", "“有什么不懂的问我就行”"],
+      "interaction_analysis": "叶知秋表现友好，林小鹿保持礼貌，但内心警惕。",
+      "confidence": 0.8
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "加入组织",
+      "object_value": "天衍文化传媒有限公司",
+      "summary": "林小鹿成功应聘进入天衍组织，试用期一个月。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林小鹿的父亲",
+      "predicate": "失踪状态",
+      "object_value": "失踪三个月，留下笔记本",
+      "summary": "父亲三个月前失踪，笔记本指引林小鹿加入天衍。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "天衍组织",
+      "predicate": "存在",
+      "object_value": "隐藏在都市中的异能组织，表面为文化传媒公司",
+      "summary": "天衍组织以文化传媒公司为伪装，实际处理特殊事件。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "姓陆的",
+      "predicate": "被警告",
+      "object_value": "父亲警告林小鹿不要相信姓陆的人",
+      "summary": "笔记本中明确警告不要相信姓陆的，此人可能危险。",
+      "is_state": true,
+      "confidence": 0.8
+    }
+  ]
+}

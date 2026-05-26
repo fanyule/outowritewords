@@ -1,0 +1,72 @@
+<chapter_title>
+第19章 与叶知秋的情报交易
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第19章 与叶知秋的情报交易","analyzed_at":"2026-05-07T12:35:17","summary":"本章无正文内容，仅标题提示林小鹿与叶知秋进行情报交易。","outline":[{"order":0,"text":"林小鹿与叶知秋进行情报交易，具体内容未知。","involved_names":["林小鹿","叶知秋"]}],"entities":[{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"},{"name":"叶知秋","aliases":["小叶"],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天衍组织的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。"}],"identity_revelations":[],"events":[{"event_id":"ch19_event_1","intra_chapter_order":0,"event_type":"unknown","narrative_weight":"core","narrative_weight_raw":"标题暗示核心事件","enum_reason":"标题直接点明本章核心事件。","summary":"林小鹿与叶知秋进行情报交易，具体内容未知。","location":"未知","participants":[{"entity_name":"林小鹿","role":"actor","confidence":0.8},{"entity_name":"叶知秋","role":"actor","confidence":0.8}],"evidence_summary":"标题为'与叶知秋的情报交易'，暗示本章核心事件是情报交易。","evidence_quotes":["第19章 与叶知秋的情报交易"],"confidence":0.6}],"interactions":[{"from":"林小鹿","to":"叶知秋","interaction_type":"cooperation","interaction_type_raw":"情报交易","impact_level":"high","impact_level_raw":"情报交易可能影响剧情走向","polarity":"positive","polarity_raw":"交易通常基于合作","enum_reason":"情报交易属于合作行为。","summary":"林小鹿与叶知秋进行情报交易，具体内容未知。","evidence_summary":"标题为'与叶知秋的情报交易'，暗示两人进行合作性交易。","evidence_quotes":["第19章 与叶知秋的情报交易"],"interaction_analysis":"标题直接表明两人进行情报交易，交易通常基于合作，因此归类为合作。","confidence":0.6}],"directed_relations":[{"from":"林小鹿","to":"叶知秋","raw_label":"进行情报交易","state_summary":"林小鹿与叶知秋是天衍组织的同事，本章标题暗示林小鹿主动与叶知秋进行情报交易，表明林小鹿对叶知秋有一定信任。","structural_base":"colleague","structural_base_raw":"同事关系","dynamic_stance":"trusting","dynamic_stance_raw":"进行情报交易暗示信任","enum_reason":"标题明确提到情报交易，交易需要一定信任基础。","evidence_summary":"标题为'与叶知秋的情报交易'，暗示林小鹿主动与叶知秋交换情报。","evidence_quotes":["第19章 与叶知秋的情报交易"],"relation_analysis":"标题直接表明林小鹿与叶知秋之间存在情报交易，交易行为通常基于信任或利益交换，林小鹿作为新员工主动与叶知秋交易，显示她对叶知秋的信任。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.6},{"from":"叶知秋","to":"林小鹿","raw_label":"进行情报交易","state_summary":"叶知秋作为前台同事，与林小鹿进行情报交易，表明叶知秋对林小鹿有一定信任或利益考量。","structural_base":"colleague","structural_base_raw":"同事关系","dynamic_stance":"trusting","dynamic_stance_raw":"进行情报交易暗示信任","enum_reason":"标题明确提到情报交易，交易需要一定信任基础。","evidence_summary":"标题为'与叶知秋的情报交易'，暗示叶知秋参与情报交易。","evidence_quotes":["第19章 与叶知秋的情报交易"],"relation_analysis":"标题直接表明叶知秋与林小鹿之间存在情报交易，交易行为通常基于信任或利益交换，叶知秋作为老员工与新员工交易，显示她对林小鹿的信任。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.6}],"pair_relations":[{"entity_a":"林小鹿","entity_b":"叶知秋","shared_structural_base":"colleague","shared_structural_base_raw":"同事关系","pair_summary":"林小鹿与叶知秋是天衍组织的同事，本章标题暗示两人进行情报交易，关系从普通同事升级为交易伙伴。","evidence_summary":"标题为'与叶知秋的情报交易'，暗示两人进行情报交易。","evidence_quotes":["第19章 与叶知秋的情报交易"],"pair_analysis":"标题直接表明两人之间存在情报交易，交易行为通常基于信任或利益交换，显示两人关系从普通同事升级为交易伙伴。","shared_intensity_score":50,"confidence":0.6}],"fact_updates":[{"subject":"林小鹿","predicate":"与叶知秋进行情报交易","object_value":"情报交易","summary":"林小鹿与叶知秋进行情报交易，具体内容未知。","is_state":true,"retracted":false,"confidence":0.6},{"subject":"叶知秋","predicate":"与林小鹿进行情报交易","object_value":"情报交易","summary":"叶知秋与林小鹿进行情报交易，具体内容未知。","is_state":true,"retracted":false,"confidence":0.6}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第16章 任务中的异常发现: 本章无正文内容，仅标题提示任务中存在异常发现。
+- 第17章 宋明远的旁敲侧击: 本章无正文内容，仅标题提示宋明远对林小鹿进行旁敲侧击的试探。
+- 第18章 主动设计任务组合: 本章无正文内容，仅标题暗示林小鹿开始主动设计任务组合，可能涉及策略性安排。
+</recent_summary>
+
+<focus_entities>
+- 叶知秋
+- 林小鹿
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=100 aliases=小鹿 summary=女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，加入天衍组织寻找父亲。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她主动争取某事。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她将接受新任务，前往废弃研究所。
+- 叶知秋 tier=active score=50 aliases=小叶 summary=天衍的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。
+Update: 天衍组织前台同事，戴眼镜的年轻女人，接待林小鹿，带她到资料室，并告知可以随时找她。
+Update: 天衍组织的前台同事，戴眼镜的年轻女人，对林小鹿友好，主动提供帮助。
+Update: 天衍组织的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。
+</known_entities>
+
+<relevant_relation_history>
+[directed_relation_states]
+- 林小鹿 -> 宋明远: 被试探的警惕; 林小鹿作为新员工对上司宋明远保持警惕，怀疑他在调查自己。
+Update: 宋明远面试林小鹿，询问她的背景和动机，林小鹿用准备好的说辞应对，成功入职。
+Update: 林小鹿作为下属对宋明远的突然关心可能保持警惕或疑惑，但具体反应未知。
+Update: 林小鹿作为新员工对上司宋明远的旁敲侧击保持警惕。
+- 叶知秋 -> 林小鹿: 暗示; 叶知秋作为前台同事对林小鹿友好，主动提供帮助。
+Update: 叶知秋作为前台同事，对林小鹿保持友好态度，并主动提供善意提醒。
+Update: 叶知秋对林小鹿进行善意提醒，具体内容未知。
+Update: 叶知秋对林小鹿进行暗示，可能提供重要信息或提醒。
+Update: 叶知秋作为前台同事对林小鹿友好，主动提供帮助和暗示。
+- 宋明远 -> 林小鹿: 突然关心; 宋明远作为组长对林小鹿进行试探，可能不信任她。
+Update: 宋明远作为组长对林小鹿表示突然关心，但具体动机和态度不明。
+Update: 宋明远作为组长对林小鹿进行旁敲侧击的试探，可能不信任她。
+Update: 宋明远对林小鹿进行旁敲侧击的试探，具体内容未知。
+- 林小鹿 -> 叶知秋: 接受提醒; 林小鹿与叶知秋是同事关系，但林小鹿对叶知秋保持基本礼貌，没有深入互动。
+Update: 叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。
+Update: 林小鹿作为新员工，对叶知秋的提醒保持基本礼貌，但具体反应未知。
+Update: 林小鹿作为新员工对叶知秋的提醒保持基本礼貌，但具体反应未知。
+- 林小鹿 -> 林小鹿的父亲: 女儿对失踪父亲的思念与追寻; 林小鹿深爱父亲，因父亲失踪而焦虑，决心按照笔记本指引找到他。
+- 林小鹿 -> 姓陆的: 对未知人物的警惕; 林小鹿根据父亲警告，对姓陆的未知人物保持高度戒备。
+
+[pair_relation_states]
+- 叶知秋 <-> 林小鹿: colleague; 叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。
+Update: 叶知秋和林小鹿是同事关系，叶知秋是前台同事。
+Update: 叶知秋和林小鹿是天衍组织的同事，叶知秋是前台，林小鹿是新入职的组员。
+Update: 叶知秋对林小鹿进行善意提醒，具体内容未知。
+Update: 叶知秋对林小鹿进行暗示，可能提供重要信息或提醒。
+- 宋明远 <-> 林小鹿: superior_subordinate; 宋明远面试林小鹿，询问她的背景和动机，林小鹿用准备好的说辞应对，成功入职。
+Update: 林小鹿与宋明远是上下级关系，宋明远是组长，林小鹿是新入职的组员。
+Update: 林小鹿与宋明远是天衍组织中的上下级关系，宋明远是组长，林小鹿是新入职的组员。
+Update: 宋明远和林小鹿是天衍组织中的上下级关系，宋明远是组长，林小鹿是新入职的组员。
+Update: 宋明远对林小鹿进行旁敲侧击的试探，具体内容未知。
+- 林小鹿 <-> 林小鹿的父亲: kinship_parent_child; 林小鹿与父亲是亲生父女，父亲失踪后林小鹿决心寻找。
+Update: Entity summary projection: 林小鹿的父亲 and 林小鹿 show a kinship_parent_child shared-structure hint.
+- 叶知秋 <-> 宋明远: colleague; 叶知秋和宋明远是同事关系，叶知秋是前台，宋明远是组长。
+- 姓陆的 <-> 林小鹿: unknown; 林小鹿根据父亲警告，对姓陆的未知人物保持高度戒备，但关系基础未知。
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

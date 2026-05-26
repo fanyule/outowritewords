@@ -1,0 +1,170 @@
+{
+  "summary": "林小鹿到情报室向叶知秋请教情报整理，叶知秋讲解分类原则，并暗示组织内部存在隐藏任务，任务简报中的目标可能只是掩护。林小鹿发现叶知秋给的索引册有重新装订和被撕毁的痕迹，与父亲档案情况一致，怀疑叶知秋的动机，决定明天接头前不告诉她。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "外院大二学生，英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后，决定加入天衍组织寻找父亲。本章中向叶知秋请教情报整理，发现索引册被撕毁的痕迹，对叶知秋的动机产生怀疑。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["叶姐", "小叶"],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织情报室的分析员，负责情报整理和分类。本章中向林小鹿讲解情报分类原则，暗示组织内部存在隐藏任务，并给了林小鹿一本有撕毁痕迹的索引册。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥", "宋组长"],
+      "chapter_role": "mentioned",
+      "summary": "天衍组织外勤组长，林小鹿的上级。本章中被林小鹿提及，林小鹿怀疑叶知秋可能是宋明远安排的眼线。"
+    },
+    {
+      "name": "林父",
+      "aliases": ["夜枭", "林远舟", "父亲"],
+      "chapter_role": "mentioned",
+      "summary": "林小鹿失踪三个月的父亲，曾以代号“夜枭”参与天衍组织的任务。本章中被林小鹿想起，其档案被撕毁的痕迹与索引册一致。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "请教与怀疑",
+      "structural_base": "colleague",
+      "structural_base_raw": "同一组织的情报室同事关系",
+      "dynamic_stance": "conflicted",
+      "dynamic_stance_raw": "既想信任又怀疑其动机",
+      "state_summary": "林小鹿主动向叶知秋请教情报整理，但叶知秋的暗示过于精准，林小鹿怀疑叶知秋是真心帮助还是受宋明远指使钓鱼。",
+      "enum_reason": "林小鹿对叶知秋既有依赖（请教）又有警惕（怀疑动机），符合conflicted。",
+      "evidence_summary": "林小鹿向叶知秋请教情报整理，叶知秋暗示组织内部存在隐藏任务。林小鹿怀疑叶知秋的动机，认为要么是善意要么是陷阱。",
+      "evidence_quotes": ["叶知秋刚才说的每一句话，都精准地指向了她最需要的信息。这要么是真正的善意，要么是精心设计的陷阱。"],
+      "relation_analysis": "林小鹿主动寻求叶知秋的帮助，但叶知秋的暗示过于直接，导致林小鹿产生怀疑，形成矛盾心理。",
+      "confidence": 0.8
+    },
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "暗示与警告",
+      "structural_base": "colleague",
+      "structural_base_raw": "同一组织的情报室同事关系",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "主动提供关键信息并暗示危险",
+      "state_summary": "叶知秋主动向林小鹿讲解情报分类，暗示组织内部存在隐藏任务，并给了林小鹿一本有撕毁痕迹的索引册，表现出保护倾向。",
+      "enum_reason": "叶知秋主动提供关键信息并暗示危险，符合protective。",
+      "evidence_summary": "叶知秋告诉林小鹿有些任务简报中的目标只是掩护，真正要回收的东西不会写在简报里，并给了她一本有撕毁痕迹的索引册。",
+      "evidence_quotes": ["因为有些任务，真正要回收的东西不会写在任务简报里。"],
+      "relation_analysis": "叶知秋主动向林小鹿透露敏感信息，并给予索引册，表现出保护或引导的意图。",
+      "confidence": 0.7
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "叶知秋",
+      "shared_structural_base": "colleague",
+      "shared_structural_base_raw": "同一组织的情报室同事关系",
+      "pair_summary": "林小鹿和叶知秋是天衍组织情报室的同事，叶知秋是资深分析员，林小鹿是新员工。",
+      "evidence_summary": "林小鹿主动到情报室找叶知秋请教情报整理，叶知秋以同事身份进行指导。",
+      "evidence_quotes": ["想跟您学学情报整理。", "叶知秋坐在最里头的工位上"],
+      "pair_analysis": "两人在同一组织的情报室工作，叶知秋是资深分析员，林小鹿是新员工，存在明确的同事关系。",
+      "confidence": 0.9
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt_1",
+      "intra_chapter_order": 0,
+      "event_type": "teaching",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心情节，推动主线",
+      "enum_reason": "本章核心事件，林小鹿获得关键信息并产生怀疑。",
+      "summary": "林小鹿到情报室向叶知秋请教情报整理，叶知秋讲解分类原则，并暗示组织内部存在隐藏任务。",
+      "location": "情报室",
+      "evidence_summary": "林小鹿向叶知秋请教情报整理，叶知秋讲解分类原则，并暗示有些任务简报中的目标只是掩护。",
+      "evidence_quotes": ["因为有些任务，真正要回收的东西不会写在任务简报里。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "叶知秋", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt_2",
+      "intra_chapter_order": 1,
+      "event_type": "discovery",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心情节，揭示关键线索",
+      "enum_reason": "林小鹿发现关键线索，加深对组织内部隐瞒的怀疑。",
+      "summary": "林小鹿发现叶知秋给的索引册有重新装订和被撕毁的痕迹，与父亲档案情况一致。",
+      "location": "情报室",
+      "evidence_summary": "林小鹿翻开索引册，发现装订线有重新穿过的痕迹，某些页面纸张边缘比其他的短，像是被人裁掉过。翻到第三十七页时，发现相邻一页被撕掉。",
+      "evidence_quotes": ["索引册的装订线有重新穿过的痕迹，而且某些页面的纸张边缘比其他的短了一截，像是被人裁掉过。", "那一页的页码编号是'37'，但纸张的左侧边缘有一道不规则的撕裂痕迹——有人把相邻的一页撕掉了"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt_3",
+      "intra_chapter_order": 2,
+      "event_type": "decision",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "重要决策，影响后续行动",
+      "enum_reason": "林小鹿做出关键决策，决定接头但保留信息。",
+      "summary": "林小鹿决定明天下午三点的接头必须去，但不确定是否告诉叶知秋。",
+      "location": "情报室",
+      "evidence_summary": "林小鹿认为叶知秋的暗示指向明确，但怀疑其动机，决定接头必须去，但不确定是否告诉叶知秋。",
+      "evidence_quotes": ["明天下午三点的接头，必须去。", "但去之前，她得决定一件事——要不要告诉叶知秋。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "interaction_type": "teaching",
+      "interaction_type_raw": "请教情报整理",
+      "impact_level": "high",
+      "impact_level_raw": "获得关键信息，影响后续行动",
+      "polarity": "mixed",
+      "polarity_raw": "既有帮助又有怀疑",
+      "enum_reason": "林小鹿向叶知秋学习情报整理，叶知秋进行指导，符合teaching。",
+      "summary": "林小鹿主动向叶知秋请教情报整理，叶知秋讲解分类原则并暗示隐藏任务，林小鹿对叶知秋的动机产生怀疑。",
+      "evidence_summary": "林小鹿到情报室找叶知秋，叶知秋讲解情报分类原则，并暗示组织内部存在隐藏任务。",
+      "evidence_quotes": ["想跟您学学情报整理。", "因为有些任务，真正要回收的东西不会写在任务简报里。"],
+      "interaction_analysis": "林小鹿主动寻求指导，叶知秋提供信息，但林小鹿对叶知秋的动机产生怀疑，形成混合互动。",
+      "confidence": 0.9
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "叶知秋",
+      "predicate": "暗示隐藏任务",
+      "object_value": "组织内部存在隐藏任务，任务简报中的目标可能只是掩护",
+      "summary": "叶知秋向林小鹿暗示有些任务真正要回收的东西不会写在任务简报里。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "索引册",
+      "predicate": "有撕毁痕迹",
+      "object_value": "叶知秋给的索引册有重新装订和被撕毁的痕迹，与林父档案情况一致",
+      "summary": "林小鹿发现索引册的装订线有重新穿过的痕迹，某些页面被撕掉。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "决定接头",
+      "object_value": "决定明天下午三点的接头必须去，但不确定是否告诉叶知秋",
+      "summary": "林小鹿决定赴约接头，但保留是否告知叶知秋的决定。",
+      "is_state": true,
+      "confidence": 1.0
+    }
+  ]
+}

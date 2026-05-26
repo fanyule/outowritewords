@@ -1,0 +1,223 @@
+{
+  "summary": "林小鹿在早上八点前往宋明远办公室，主动申请参与更高级别的C级任务。宋明远考验她对南城旧货市场任务的了解后，同意她参与外围工作，要求她参加预备会议并提交踩点报告。林小鹿离开办公室后，收到叶知秋的短信，警告她宋明远已调查其背景。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，父亲失踪后加入天衍组织，决心寻找父亲。本章中她主动向组长宋明远申请升级任务，获得C级任务外围工作机会。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥", "宋组长"],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。本章中林小鹿的上司，对林小鹿的申请进行考验，并已暗中调查过她的背景。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["叶", "叶姐", "小叶"],
+      "chapter_role": "supporting",
+      "summary": "天衍组织的前台接待员，年轻女性，戴眼镜。本章中通过短信与林小鹿联系，告知宋明远已调查林小鹿的背景，并提前为林小鹿准备任务信息。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "下属向上司申请任务",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "宋明远是组长，林小鹿是下属",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "林小鹿对宋明远的轻易同意感到不安，怀疑他在试探",
+      "state_summary": "林小鹿作为下属主动向宋明远申请升级任务，表面自信坚定，内心对宋明远的轻易同意和背景调查保持警惕。",
+      "enum_reason": "宋明远是林小鹿的直接上级，组织层级明确；林小鹿对宋明远的信任度有限，保持戒备。",
+      "evidence_summary": "林小鹿主动申请C级任务，宋明远给予考验并透露已调查其背景。",
+      "evidence_quotes": ["宋组长，我想跟您申请一件事", "他查了你的背景"],
+      "relation_analysis": "林小鹿作为下属主动争取机会，但宋明远的背景调查和轻易同意让她感到不安，双方关系存在权力不对等和试探。",
+      "confidence": 0.9
+    },
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "上司考验下属",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "宋明远是组长，林小鹿是下属",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "宋明远已调查林小鹿的背景，并设置考验",
+      "state_summary": "宋明远作为上司对林小鹿保持审视和怀疑，通过任务考验来评估她的能力和忠诚度。",
+      "enum_reason": "宋明远已调查林小鹿的背景，并设置预备会议和踩点报告作为考验，表明他并不完全信任林小鹿。",
+      "evidence_summary": "宋明远答应林小鹿的申请但设置考验条件，且叶知秋告知林小鹿宋明远已调查其背景。",
+      "evidence_quotes": ["他查了你的背景", "如果你能准时参加，并且在会上提出有价值的建议"],
+      "relation_analysis": "宋明远对林小鹿的申请没有立即拒绝，但通过考验和背景调查表明他持怀疑态度，试图验证林小鹿的真实动机。",
+      "confidence": 0.85
+    },
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "同事提供情报和警告",
+      "structural_base": "same_faction",
+      "structural_base_raw": "同属天衍组织",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "叶知秋主动警告林小鹿并提前准备任务信息",
+      "state_summary": "叶知秋作为天衍前台同事，对林小鹿保持友好和保护态度，主动提供情报和警告，帮助林小鹿应对宋明远的考验。",
+      "enum_reason": "叶知秋主动通过短信警告林小鹿，并提前为她准备任务信息，表明她关心林小鹿的安全和进展。",
+      "evidence_summary": "叶知秋发短信询问结果并警告林小鹿宋明远已调查其背景，且提前为林小鹿准备了南城旧货市场的任务信息。",
+      "evidence_quotes": ["小心。他查了你的背景。", "叶知秋知道她会来找宋明远申请任务，提前帮她做了一些准备。"],
+      "relation_analysis": "叶知秋持续向林小鹿提供关键情报和警告，表明她对林小鹿有保护倾向，可能出于共同经历或信任。",
+      "confidence": 0.9
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "同事接受情报并信任",
+      "structural_base": "same_faction",
+      "structural_base_raw": "同属天衍组织",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "林小鹿接受叶知秋的警告和帮助",
+      "state_summary": "林小鹿对叶知秋保持信任，接受其提供的情报和帮助，并据此调整自己的行动。",
+      "enum_reason": "林小鹿依赖叶知秋提供的信息来准备任务申请，并接受其警告，表明她信任叶知秋。",
+      "evidence_summary": "林小鹿回复叶知秋的短信，并利用叶知秋提前准备的任务信息来应对宋明远的提问。",
+      "evidence_quotes": ["嗯。", "真正让她记住这些东西的，是叶知秋昨晚在图书馆里用手机打字告诉她的"],
+      "relation_analysis": "林小鹿信任叶知秋提供的情报，并据此成功获得任务机会，双方形成互助关系。",
+      "confidence": 0.85
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "宋明远",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "宋明远是组长，林小鹿是下属",
+      "pair_summary": "林小鹿和宋明远是天衍组织内的上下级关系，宋明远对林小鹿持怀疑态度，林小鹿则保持警惕。",
+      "evidence_summary": "林小鹿主动向宋明远申请任务，宋明远设置考验并已调查其背景。",
+      "evidence_quotes": ["宋组长，我想跟您申请一件事", "他查了你的背景"],
+      "pair_analysis": "双方关系基于组织层级，但存在不信任和试探，宋明远试图验证林小鹿的忠诚，林小鹿则试图获取更多权限。",
+      "confidence": 0.9
+    },
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "叶知秋",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "同属天衍组织",
+      "pair_summary": "林小鹿和叶知秋是天衍组织内的同事，叶知秋主动提供情报和帮助，林小鹿信任并依赖她。",
+      "evidence_summary": "叶知秋通过短信警告林小鹿并提前准备任务信息，林小鹿接受并利用这些信息。",
+      "evidence_quotes": ["小心。他查了你的背景。", "真正让她记住这些东西的，是叶知秋昨晚在图书馆里用手机打字告诉她的"],
+      "pair_analysis": "双方形成互助关系，叶知秋提供关键情报，林小鹿信任并据此行动，关系较为紧密。",
+      "confidence": 0.85
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "E1",
+      "intra_chapter_order": 0,
+      "event_type": "申请任务",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "林小鹿主动申请升级任务，是本章核心情节",
+      "enum_reason": "该事件是本章主线，林小鹿主动争取机会，推动剧情发展。",
+      "summary": "林小鹿在早上八点前往宋明远办公室，主动申请参与更高级别的C级任务。",
+      "location": "宋明远办公室",
+      "evidence_summary": "林小鹿敲门进入宋明远办公室，提出申请并阐述理由。",
+      "evidence_quotes": ["宋组长，我想跟您申请参与更高级别的任务。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "宋明远", "role": "target", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "E2",
+      "intra_chapter_order": 1,
+      "event_type": "考验与授权",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "宋明远设置考验条件，林小鹿获得任务机会",
+      "enum_reason": "该事件是本章关键转折，林小鹿获得任务机会，但面临考验。",
+      "summary": "宋明远考验林小鹿对南城旧货市场任务的了解，并同意她参与外围工作，要求她参加预备会议并提交踩点报告。",
+      "location": "宋明远办公室",
+      "evidence_summary": "宋明远询问林小鹿对任务的了解，林小鹿回答后，宋明远给予钥匙并设定条件。",
+      "evidence_quotes": ["如果你能准时参加，并且在会上提出有价值的建议，我就让你参与这个任务的外围工作。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "宋明远", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "E3",
+      "intra_chapter_order": 2,
+      "event_type": "收到警告",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "叶知秋发来警告短信，影响林小鹿后续行动",
+      "enum_reason": "该事件提供重要情报，影响林小鹿的心理状态和后续决策。",
+      "summary": "林小鹿离开办公室后，收到叶知秋的短信，警告她宋明远已调查其背景。",
+      "location": "走廊",
+      "evidence_summary": "林小鹿在走廊收到叶知秋短信，内容为“小心。他查了你的背景。”",
+      "evidence_quotes": ["小心。他查了你的背景。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "target", "confidence": 1.0},
+        {"entity_name": "叶知秋", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "interaction_type": "political_negotiation",
+      "interaction_type_raw": "林小鹿主动申请任务，宋明远设置条件",
+      "impact_level": "high",
+      "impact_level_raw": "该互动决定了林小鹿能否获得更高级别任务",
+      "polarity": "neutral",
+      "polarity_raw": "双方表面合作，但存在试探和不信任",
+      "enum_reason": "林小鹿主动争取机会，宋明远进行条件交换，属于组织内的权力协商。",
+      "summary": "林小鹿在宋明远办公室申请升级任务，宋明远考验她的了解程度后同意，但设置预备会议和踩点报告作为条件。",
+      "evidence_summary": "林小鹿提出申请，宋明远提问并最终给予钥匙和条件。",
+      "evidence_quotes": ["宋组长，我想跟您申请参与更高级别的任务。", "如果你能准时参加，并且在会上提出有价值的建议，我就让你参与这个任务的外围工作。"],
+      "interaction_analysis": "林小鹿通过展示准备和自信获得机会，宋明远则通过考验和背景调查保持控制，互动表面合作但暗含试探。",
+      "confidence": 0.95
+    },
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "interaction_type": "revelation",
+      "interaction_type_raw": "叶知秋通过短信透露宋明远已调查林小鹿背景",
+      "impact_level": "high",
+      "impact_level_raw": "该信息让林小鹿意识到宋明远的不信任",
+      "polarity": "positive",
+      "polarity_raw": "叶知秋提供关键情报，对林小鹿有利",
+      "enum_reason": "叶知秋向林小鹿透露关键信息，属于情报揭示。",
+      "summary": "叶知秋在林小鹿申请成功后发短信警告她宋明远已调查其背景。",
+      "evidence_summary": "林小鹿收到叶知秋短信，内容为“小心。他查了你的背景。”",
+      "evidence_quotes": ["小心。他查了你的背景。"],
+      "interaction_analysis": "叶知秋主动提供警告，表明她对林小鹿的保护意图，林小鹿因此调整对宋明远的警惕。",
+      "confidence": 0.95
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "任务级别",
+      "object_value": "获得C级任务外围工作机会",
+      "summary": "林小鹿成功申请到南城旧货市场清理任务的外围工作，需参加预备会议并提交踩点报告。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "宋明远",
+      "predicate": "对林小鹿的态度",
+      "object_value": "已调查林小鹿背景，持怀疑态度",
+      "summary": "叶知秋告知林小鹿，宋明远已调查其背景，表明宋明远并不完全信任林小鹿。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "计划",
+      "object_value": "今天下午去旧货市场踩点，明天下午三点有接头",
+      "summary": "林小鹿计划当天下午前往南城旧货市场踩点，并在明天下午三点进行接头。",
+      "is_state": true,
+      "confidence": 1.0
+    }
+  ]
+}

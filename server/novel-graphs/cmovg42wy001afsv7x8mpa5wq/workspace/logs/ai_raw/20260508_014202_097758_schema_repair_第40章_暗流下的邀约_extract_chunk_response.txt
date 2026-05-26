@@ -1,0 +1,93 @@
+{
+  "summary": "本章暂无正文内容，仅标题暗示暗流下的邀约，可能涉及林小鹿与陆沉或叶知秋之间的秘密接触。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    },
+    {
+      "name": "陆沉",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "标题暗示的代号指向人物，身份不明，可能为关键线索。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["叶", "叶姐", "小叶"],
+      "chapter_role": "mentioned",
+      "summary": "天衍组织的前台接待员，负责林小鹿的接待和初步评估，年轻女性，穿白色衬衫和深色裤子。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥", "宋组长"],
+      "chapter_role": "mentioned",
+      "summary": "天衍组织组长，林小鹿的上司，三十来岁，穿深蓝色衬衫，戴旧表。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "陆沉",
+      "to": "林小鹿",
+      "raw_label": "发出邀约",
+      "structural_base": "unknown",
+      "structural_base_raw": "标题暗示邀约",
+      "dynamic_stance": "unknown",
+      "dynamic_stance_raw": "标题暗示邀约",
+      "state_summary": "标题暗示陆沉向林小鹿发出邀约，但具体内容和动机不明。",
+      "enum_reason": "无正文内容，无法确定关系基础",
+      "evidence_summary": "标题'暗流下的邀约'暗示陆沉向林小鹿发出邀约。",
+      "evidence_quotes": ["暗流下的邀约"],
+      "relation_analysis": "标题暗示陆沉主动向林小鹿发出邀约，但缺乏正文证据，无法确定具体关系。",
+      "confidence": 0.3
+    },
+    {
+      "from": "林小鹿",
+      "to": "陆沉",
+      "raw_label": "收到邀约",
+      "structural_base": "unknown",
+      "structural_base_raw": "标题暗示邀约",
+      "dynamic_stance": "unknown",
+      "dynamic_stance_raw": "标题暗示邀约",
+      "state_summary": "标题暗示林小鹿收到陆沉的邀约，但具体反应和态度不明。",
+      "enum_reason": "无正文内容，无法确定关系基础",
+      "evidence_summary": "标题'暗流下的邀约'暗示林小鹿收到陆沉的邀约。",
+      "evidence_quotes": ["暗流下的邀约"],
+      "relation_analysis": "标题暗示林小鹿是邀约的接收方，但缺乏正文证据，无法确定具体关系。",
+      "confidence": 0.3
+    }
+  ],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt_40_1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "本章暂无内容",
+      "summary": "本章暂无正文内容，仅标题暗示暗流下的邀约。",
+      "location": "",
+      "enum_reason": "无正文内容，仅标题暗示",
+      "evidence_summary": "标题'暗流下的邀约'暗示本章可能涉及邀约事件。",
+      "evidence_quotes": ["暗流下的邀约"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 0.3},
+        {"entity_name": "陆沉", "role": "actor", "confidence": 0.3}
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "陆沉",
+      "predicate": "发出邀约",
+      "object_value": "向林小鹿发出邀约",
+      "summary": "标题暗示陆沉向林小鹿发出邀约，但具体内容不明。",
+      "is_state": false,
+      "confidence": 0.3
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<chapter_title>
+第12章 宋明远的突然关心
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第12章 宋明远的突然关心","analyzed_at":"2026-05-07T12:30:51","summary":"本章标题为“宋明远的突然关心”，但正文无具体内容。","outline":[],"entities":[{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"},{"name":"宋明远","aliases":["宋哥"],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天衍组织组长，林小鹿的上司，面试并安排林小鹿入职。"}],"identity_revelations":[],"events":[],"interactions":[],"directed_relations":[{"from":"宋明远","to":"林小鹿","raw_label":"突然关心","state_summary":"宋明远作为组长对林小鹿表示突然关心，但具体动机和态度不明。","structural_base":"superior_subordinate","structural_base_raw":"上司与下属","dynamic_stance":"unknown","dynamic_stance_raw":"未知","enum_reason":"标题暗示宋明远主动关心林小鹿，但无正文内容，故选用unknown。","evidence_summary":"标题为“宋明远的突然关心”，无正文内容。","evidence_quotes":["宋明远的突然关心"],"relation_analysis":"标题暗示宋明远对林小鹿有关心行为，但缺乏具体证据，无法确定其真实态度。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.2},{"from":"林小鹿","to":"宋明远","raw_label":"对上司关心的反应","state_summary":"林小鹿作为下属对宋明远的突然关心可能保持警惕或疑惑，但具体反应未知。","structural_base":"superior_subordinate","structural_base_raw":"下属与上司","dynamic_stance":"unknown","dynamic_stance_raw":"未知","enum_reason":"无正文内容，无法判断林小鹿的态度，故选用unknown。","evidence_summary":"标题暗示宋明远关心林小鹿，但林小鹿的反应未描述。","evidence_quotes":["宋明远的突然关心"],"relation_analysis":"林小鹿对宋明远的关心可能有所反应，但缺乏证据。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.1}],"pair_relations":[{"entity_a":"林小鹿","entity_b":"宋明远","shared_structural_base":"superior_subordinate","shared_structural_base_raw":"上下级关系","pair_summary":"林小鹿与宋明远是天衍组织中的上下级关系，宋明远是组长，林小鹿是新入职的组员。","evidence_summary":"标题暗示宋明远关心林小鹿，但无正文内容。","evidence_quotes":["宋明远的突然关心"],"pair_analysis":"基于已知实体信息，两人存在明确的上下级关系，但本章无新证据。","shared_intensity_score":50,"confidence":0.8}],"fact_updates":[],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第9章 主动争取: 本章标题为“主动争取”，提示林小鹿主动争取某事，但正文无具体内容。
+- 第10章 新任务：废弃研究所: 本章标题为“新任务：废弃研究所”，但正文无具体内容，仅提示林小鹿将接受新任务，前往废弃研究所。
+- 第11章 残页上的暗语: 本章无正文内容，仅标题提示与残页上的暗语相关。
+</recent_summary>
+
+<focus_entities>
+- 宋明远
+- 林小鹿
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=100 aliases=小鹿 summary=女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，加入天衍组织寻找父亲。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她主动争取某事。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她将接受新任务，前往废弃研究所。
+- 宋明远 tier=active score=72 aliases=宋哥 summary=天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。
+Update: 天衍组织组长，林小鹿的上司，面试并安排林小鹿入职，对林小鹿进行试探。
+Update: 天衍组织外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。
+</known_entities>
+
+<relevant_relation_history>
+[directed_relation_states]
+- 林小鹿 -> 宋明远: 新员工与面试官; 林小鹿作为新员工对上司宋明远保持警惕，怀疑他在调查自己。
+Update: 宋明远面试林小鹿，询问她的背景和动机，林小鹿用准备好的说辞应对，成功入职。
+- 林小鹿 -> 叶知秋: 接受提醒; 林小鹿与叶知秋是同事关系，但林小鹿对叶知秋保持基本礼貌，没有深入互动。
+Update: 叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。
+Update: 林小鹿作为新员工，对叶知秋的提醒保持基本礼貌，但具体反应未知。
+- 叶知秋 -> 林小鹿: 善意提醒; 叶知秋作为前台同事对林小鹿友好，主动提供帮助。
+Update: 叶知秋作为前台同事，对林小鹿保持友好态度，并主动提供善意提醒。
+Update: 叶知秋对林小鹿进行善意提醒，具体内容未知。
+- 林小鹿 -> 林小鹿的父亲: 女儿对失踪父亲的思念与追寻; 林小鹿深爱父亲，因父亲失踪而焦虑，决心按照笔记本指引找到他。
+- 宋明远 -> 林小鹿: 上司对新员工的试探; 宋明远作为组长对林小鹿进行试探，可能不信任她。
+- 林小鹿 -> 姓陆的: 对未知人物的警惕; 林小鹿根据父亲警告，对姓陆的未知人物保持高度戒备。
+
+[pair_relation_states]
+- 林小鹿 <-> 林小鹿的父亲: kinship_parent_child; 林小鹿与父亲是亲生父女，父亲失踪后林小鹿决心寻找。
+Update: Entity summary projection: 林小鹿的父亲 and 林小鹿 show a kinship_parent_child shared-structure hint.
+- 宋明远 <-> 林小鹿: superior_subordinate; 宋明远面试林小鹿，询问她的背景和动机，林小鹿用准备好的说辞应对，成功入职。
+Update: 林小鹿与宋明远是上下级关系，宋明远是组长，林小鹿是新入职的组员。
+- 叶知秋 <-> 林小鹿: colleague; 叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。
+Update: 叶知秋和林小鹿是同事关系，叶知秋是前台同事。
+Update: 叶知秋和林小鹿是天衍组织的同事，叶知秋是前台，林小鹿是新入职的组员。
+Update: 叶知秋对林小鹿进行善意提醒，具体内容未知。
+- 叶知秋 <-> 宋明远: colleague; 叶知秋和宋明远是同事关系，叶知秋是前台，宋明远是组长。
+- 姓陆的 <-> 林小鹿: unknown; 林小鹿根据父亲警告，对姓陆的未知人物保持高度戒备，但关系基础未知。
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

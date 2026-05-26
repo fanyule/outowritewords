@@ -1,0 +1,48 @@
+<chapter_title>
+按照地址找过去
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"按照地址找过去","analyzed_at":"2026-05-08T06:38:16","summary":"林小鹿按照父亲笔记本上的地址找到一家名为“寻鹿咖啡馆”的隐蔽小店，用暗号“寻鹿”接头后，店员递给她一个信封，里面有一张纸条写着明天下午三点去旧书店街17号，并警告她“你父亲的事，别问太多”。离开后她发现被人跟踪，收到陌生号码的提醒短信，决心继续追查。","outline":[{"order":0,"text":"林小鹿按照父亲笔记本上的地址找到寻鹿咖啡馆，用暗号“寻鹿”与店员接头，拿到一个信封，里面有一张纸条写着明天下午三点去旧书店街17号，并带上笔记本。店员警告她“你父亲的事，别问太多”。","involved_names":["林小鹿","店员"]},{"order":1,"text":"林小鹿离开咖啡馆后察觉被人跟踪，听到脚步声，拐角后看到一个灰色外套男人盯着她的公交车窗口。她提前下车绕路回家，收到陌生号码的提醒短信“明天别忘了”。","involved_names":["林小鹿","跟踪者"]},{"order":2,"text":"林小鹿回家后反锁房门，拉上窗帘，内心反复思考今天发生的事，最终下定决心明天去旧书店街17号。","involved_names":["林小鹿"]}],"entities":[{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"外院大二学生，英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后，决心加入天衍组织寻找父亲。本章中她独自前往寻鹿咖啡馆接头，拿到新线索并遭遇跟踪。"},{"name":"店员","aliases":[],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"寻鹿咖啡馆的年轻男店员，二十五六岁，穿灰色衬衫，负责接头。他确认林小鹿身份后递给她信封和纸条，并警告她不要多问父亲的事。"},{"name":"跟踪者","aliases":[],"chapter_role":"supporting","tier":"active","importance_score":40,"summary":"一个穿灰色外套、三十岁左右的男人，在街角盯着林小鹿的公交车窗口，疑似跟踪她。"},{"name":"林父","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"林小鹿失踪三个月的父亲，留下笔记本指引女儿加入组织。本章中店员提及“你父亲的事”，暗示父亲与组织有过接触。"}],"identity_revelations":[],"events":[{"event_id":"evt1","intra_chapter_order":0,"event_type":"接头","narrative_weight":"core","narrative_weight_raw":"核心事件，推动主线","enum_reason":"这是本章的核心情节，直接推进林小鹿的调查。","summary":"林小鹿按照父亲笔记本上的地址找到寻鹿咖啡馆，用暗号“寻鹿”与店员接头，拿到一个信封，里面有一张纸条写着明天下午三点去旧书店街17号，并带上笔记本。店员警告她“你父亲的事，别问太多”。","location":"寻鹿咖啡馆","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"店员","role":"actor","confidence":1.0}],"evidence_summary":"林小鹿进入咖啡馆，用暗号接头，店员递信封并警告。","evidence_quotes":["“请问……这里有‘寻鹿’吗？”","“你父亲的事，别问太多。”"],"confidence":1.0},{"event_id":"evt2","intra_chapter_order":1,"event_type":"跟踪","narrative_weight":"mainline","narrative_weight_raw":"重要情节，增加悬疑","enum_reason":"跟踪事件增加了悬疑和危险感，是主线的重要分支。","summary":"林小鹿离开咖啡馆后察觉被人跟踪，听到脚步声，拐角后看到一个灰色外套男人盯着她的公交车窗口。她提前下车绕路回家，收到陌生号码的提醒短信“明天别忘了”。","location":"街道、公交车上","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"跟踪者","role":"actor","confidence":0.8}],"evidence_summary":"林小鹿听到脚步声，看到灰色外套男人，收到短信。","evidence_quotes":["身后有脚步声。","对面街角，一个穿着灰色外套的男人正站在那里","“明天别忘了。”"],"confidence":0.9},{"event_id":"evt3","intra_chapter_order":2,"event_type":"决心","narrative_weight":"detail","narrative_weight_raw":"内心活动，强化角色动机","enum_reason":"这是角色内心转折，但非外部事件。","summary":"林小鹿回家后反锁房门，拉上窗帘，内心反复思考今天发生的事，最终下定决心明天去旧书店街17号。","location":"林小鹿的出租屋","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0}],"evidence_summary":"林小鹿回家后思考并回复短信。","evidence_quotes":["“会去的。”","不管前面是什么，她都要走下去。"],"confidence":1.0}],"interactions":[{"from":"林小鹿","to":"店员","interaction_type":"revelation","interaction_type_raw":"接头并获取线索","impact_level":"high","impact_level_raw":"获得关键线索和警告","polarity":"neutral","polarity_raw":"信息交换，无情感色彩","enum_reason":"店员揭示了新线索和警告，属于信息揭示。","summary":"林小鹿用暗号接头，店员确认身份后递信封并警告，之后拒绝进一步交谈。","evidence_summary":"林小鹿说出暗号，店员递信封并警告。","evidence_quotes":["“请问……这里有‘寻鹿’吗？”","“你父亲的事，别问太多。”"],"interaction_analysis":"这是典型的接头场景，店员按流程揭示下一步线索，同时给出警告。","confidence":1.0},{"from":"跟踪者","to":"林小鹿","interaction_type":"threat","interaction_type_raw":"跟踪和监视","impact_level":"high","impact_level_raw":"让林小鹿感到恐惧","polarity":"negative","polarity_raw":"威胁性行为","enum_reason":"跟踪行为本身构成潜在威胁。","summary":"林小鹿离开咖啡馆后被人跟踪，对方在街角盯着她的公交车窗口，之后收到陌生短信提醒。","evidence_summary":"林小鹿听到脚步声，看到灰色外套男人，收到短信。","evidence_quotes":["身后有脚步声。","对面街角，一个穿着灰色外套的男人正站在那里"],"interaction_analysis":"跟踪者通过监视和短信施加压力，林小鹿感到被威胁。","confidence":0.7}],"directed_relations":[{"from":"林小鹿","to":"店员","raw_label":"接头人与被接头人","state_summary":"林小鹿与店员是初次见面的接头关系，店员掌握父亲线索但拒绝多谈，林小鹿对他既依赖又警惕。","structural_base":"unknown","structural_base_raw":"第一次见面，仅通过暗号接头","dynamic_stance":"wary","dynamic_stance_raw":"林小鹿对店员保持警惕，对方知道她父亲的事但拒绝解释","enum_reason":"两人无已知稳定结构，仅一次接头互动；林小鹿因对方知道父亲的事而保持警惕。","evidence_summary":"林小鹿用暗号接头，店员递信封并警告“你父亲的事，别问太多”，之后拒绝交谈。","evidence_quotes":["“你父亲的事，别问太多。”"],"relation_analysis":"店员掌握关键信息但刻意保持距离，林小鹿需要从他那里获取线索，但对方态度冷淡且警告意味明显，因此林小鹿对他持警惕态度。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.7},{"from":"店员","to":"林小鹿","raw_label":"接头人与被接头人","state_summary":"店员按组织流程完成接头任务，确认林小鹿身份后递出线索并给出警告，之后不再交流。","structural_base":"unknown","structural_base_raw":"第一次见面，仅通过暗号接头","dynamic_stance":"neutral","dynamic_stance_raw":"店员按流程完成接头，没有额外热情或敌意","enum_reason":"店员行为机械，无情感倾向，仅执行任务。","evidence_summary":"店员确认暗号后递信封，警告一句后转身清洗咖啡机，拒绝进一步交谈。","evidence_quotes":["“你是来找人的？”","“你父亲的事，别问太多。”"],"relation_analysis":"店员是组织的中转节点，对林小鹿没有个人情感，只完成指定动作。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.7},{"from":"林小鹿","to":"跟踪者","raw_label":"被跟踪者与跟踪者","state_summary":"林小鹿离开咖啡馆后察觉被人跟踪，对方身份不明，她感到恐惧并采取躲避措施。","structural_base":"unknown","structural_base_raw":"未知身份，仅通过跟踪行为关联","dynamic_stance":"fearful","dynamic_stance_raw":"林小鹿发现被跟踪后感到害怕和紧张","enum_reason":"林小鹿因被跟踪而恐惧，对方身份未知。","evidence_summary":"林小鹿听到身后脚步声，拐角后看到灰色外套男人盯着她的公交车窗口，收到陌生短信提醒。","evidence_quotes":["身后有脚步声。","对面街角，一个穿着灰色外套的男人正站在那里，看着她的方向。"],"relation_analysis":"跟踪者身份不明，但林小鹿明显感到威胁，因此对她而言是恐惧对象。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.6},{"from":"林小鹿","to":"林父","raw_label":"寻找失踪父亲","state_summary":"林小鹿因父亲失踪而焦虑，通过笔记本线索一步步追查，决心找到父亲。","structural_base":"kinship_parent_child","structural_base_raw":"父女关系","dynamic_stance":"protective","dynamic_stance_raw":"林小鹿决心保护父亲并查明真相","enum_reason":"父女关系明确，林小鹿的行动动机是保护父亲。","evidence_summary":"林小鹿按照父亲笔记本上的地址找到咖啡馆，拿到新线索后决心继续追查。","evidence_quotes":["爸，你到底留下了什么？"],"relation_analysis":"林小鹿对父亲的情感是依赖和保护，她主动寻找父亲并愿意冒险。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.9}],"pair_relations":[{"entity_a":"林小鹿","entity_b":"林父","shared_structural_base":"kinship_parent_child","shared_structural_base_raw":"父女关系","pair_summary":"林小鹿与林父是直系父女关系，父亲失踪后林小鹿主动寻找。","evidence_summary":"林小鹿使用父亲留下的笔记本找到咖啡馆，内心独白提到父亲。","evidence_quotes":["笔记本上的地址就是这里","爸，你到底留下了什么？"],"pair_analysis":"父女关系明确，笔记本是父亲留下的线索，林小鹿的行动完全围绕寻找父亲展开。","shared_intensity_score":50,"confidence":0.9}],"fact_updates":[{"subject":"林小鹿","predicate":"获得新线索","object_value":"明天下午三点去旧书店街17号，带上笔记本","summary":"林小鹿从店员处获得纸条，指示下一步行动。","is_state":false,"retracted":false,"confidence":1.0},{"subject":"林小鹿","predicate":"被跟踪","object_value":"被一个灰色外套男人跟踪，收到陌生号码短信","summary":"林小鹿离开咖啡馆后被人跟踪，收到提醒短信。","is_state":true,"retracted":false,"confidence":0.8},{"subject":"林父","predicate":"与组织有关联","object_value":"店员知道林父的事，暗示父亲与组织有过接触","summary":"店员警告林小鹿不要多问父亲的事，暗示父亲与组织有关。","is_state":true,"retracted":false,"confidence":0.7}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 失踪三个月后的笔记本: 林小鹿在咖啡馆打工时，意外发现父亲失踪前留下的笔记本，指引她加入一个名为“天衍”的组织。她前往城南老巷子的天衍文化传媒公司应聘，见到了外勤组长宋明远和前台叶知秋，成功入职。她意识到自己已被调查，决心找出父亲失踪的真相，并警惕一个姓陆的人。
+</recent_summary>
+
+<focus_entities>
+- 店员
+- 林小鹿
+- 林父
+- 跟踪者
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=100 aliases=小鹿 summary=外院大二学生，英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后，决定加入天衍组织寻找父亲。
+- 林父 tier=background score=48 aliases=父亲 summary=林小鹿的父亲，三个月前失踪。留下笔记本指引女儿加入天衍，并警告她不要相信姓陆的人。
+</known_entities>
+
+<relevant_relation_history>
+[directed_relation_states]
+- 林小鹿 -> 宋明远: unknown; 林小鹿作为新员工对宋明远保持警惕，知道他在试探自己，并暗中调查自己。
+Update: 宋明远面试林小鹿，询问她的背景和动机，最终同意她入职。
+- 林小鹿 -> 叶知秋: 新员工对同事; 林小鹿与叶知秋初次见面，表面友好但内心保持距离，知道叶知秋可能参与调查自己。
+Update: 叶知秋带林小鹿上二楼资料室，并告知有事可以找她。
+- 林小鹿 -> 姓陆的: 警惕未知人物; 林小鹿根据父亲警告，对尚未出现的姓陆人物保持高度不信任和警惕。
+- 林小鹿 -> 林父: 寻找失踪父亲; 林小鹿因父亲失踪三个月而焦虑，发现父亲留下的笔记本后决心寻找他，情感上依赖且保护父亲。
+- 林小鹿 -> 店长: daily_interaction; 林小鹿以身体不适为由向店长请假提前下班。
+
+[pair_relation_states]
+- 林小鹿 <-> 林父: kinship_parent_child; 林小鹿与父亲是直系父女关系，父亲失踪后林小鹿主动寻找。
+Update: Entity summary projection: 林父 and 林小鹿 show a kinship_parent_child shared-structure hint.
+- 叶知秋 <-> 林小鹿: colleague; 林小鹿与叶知秋是同事关系，叶知秋负责带林小鹿熟悉环境。
+Update: 叶知秋带林小鹿上二楼资料室，并告知有事可以找她。
+- 宋明远 <-> 林小鹿: employer_employee; 林小鹿与宋明远是雇佣关系，宋明远作为上级面试并安排林小鹿工作。
+Update: 宋明远面试林小鹿，询问她的背景和动机，最终同意她入职。
+- 姓陆的 <-> 林小鹿: unknown; 
+- 店长 <-> 林小鹿: unknown;
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

@@ -1,0 +1,236 @@
+{
+  "summary": "林小鹿向宋明远提交任务报告，宋明远表面认可但暗中调查她的背景，并安排叶知秋监视她。林小鹿收到未知号码的接头提醒短信，决定回复确认并准备赴约。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "天衍组织新成员，外院大二学生，父亲失踪后加入组织寻找父亲。对宋明远保持高度警惕，暗中准备接头。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋组长", "宋哥"],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。对林小鹿表面认可但暗中调查，安排叶知秋监视她。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["叶姐"],
+      "chapter_role": "supporting",
+      "summary": "天衍组织情报分析员，戴眼镜的年轻女人。受宋明远指示监视林小鹿，但之前曾暗示保护林小鹿。"
+    },
+    {
+      "name": "老周",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "宋明远的调查联系人，负责核查林小鹿的背景，报告其家庭背景干净。"
+    },
+    {
+      "name": "小徐",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "宋明远安排去旧书店街盯梢的年轻男人。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "高度警惕与表面服从",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "宋组长，我来交任务报告",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "但她知道，宋明远没有完全信她",
+      "state_summary": "林小鹿作为下属向宋明远提交报告，表面服从组织流程，但内心对宋明远的试探和暗中调查保持高度警惕，认为他并未完全信任自己。",
+      "enum_reason": "林小鹿是宋明远的下属，存在明确的上下级关系；她对宋明远的不信任和警惕符合distrustful。",
+      "evidence_summary": "林小鹿提交报告后，宋明远突然询问她去情报室的事，林小鹿感到后背有薄汗，意识到宋明远在试探她。",
+      "evidence_quotes": ["但她知道，宋明远没有完全信她"],
+      "relation_analysis": "林小鹿作为新人，对宋明远的试探和暗中调查保持高度警惕，表面服从但内心不信任。",
+      "confidence": 0.9
+    },
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "表面认可与暗中调查",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "宋组长，我来交任务报告",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "不是怀疑，只是谨慎",
+      "state_summary": "宋明远作为组长，表面认可林小鹿的报告质量，但内心对她的表现过于积极产生怀疑，暗中调查她的背景并安排叶知秋监视她。",
+      "enum_reason": "宋明远是林小鹿的上司，存在明确的上下级关系；他对林小鹿的怀疑和不信任符合distrustful。",
+      "evidence_summary": "宋明远打电话给老周调查林小鹿背景，安排小徐去旧书店街盯梢，并让叶知秋监视林小鹿。",
+      "evidence_quotes": ["不是怀疑，只是谨慎。新人来得太积极，有时候不一定是好事"],
+      "relation_analysis": "宋明远对林小鹿的积极表现产生怀疑，表面认可但暗中调查，表现出不信任。",
+      "confidence": 0.9
+    },
+    {
+      "from": "宋明远",
+      "to": "叶知秋",
+      "raw_label": "指示监视",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "你帮我盯着她一点",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "你帮我盯着她一点",
+      "state_summary": "宋明远作为组长，指示叶知秋监视林小鹿，表现出对叶知秋的信任。",
+      "enum_reason": "宋明远是叶知秋的上司，存在明确的上下级关系；他信任叶知秋执行监视任务。",
+      "evidence_summary": "宋明远打电话给叶知秋，询问她与林小鹿的谈话内容，并让她盯着林小鹿。",
+      "evidence_quotes": ["你帮我盯着她一点。不用太明显，就是平时多留意一下她去了哪里、见了谁、做了什么"],
+      "relation_analysis": "宋明远信任叶知秋，指示她监视林小鹿。",
+      "confidence": 0.9
+    },
+    {
+      "from": "叶知秋",
+      "to": "宋明远",
+      "raw_label": "服从与配合",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "明白了",
+      "dynamic_stance": "neutral",
+      "dynamic_stance_raw": "明白了",
+      "state_summary": "叶知秋作为下属，服从宋明远的指示，同意监视林小鹿，但之前曾暗示保护林小鹿，立场可能复杂。",
+      "enum_reason": "叶知秋是宋明远的下属，存在明确的上下级关系；她表面服从但内心可能另有打算，故用neutral。",
+      "evidence_summary": "叶知秋回答宋明远的问题，并同意盯着林小鹿。",
+      "evidence_quotes": ["明白了"],
+      "relation_analysis": "叶知秋表面服从宋明远的指示，但之前曾警告林小鹿小心宋明远，表明其立场可能不单纯。",
+      "confidence": 0.7
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "宋明远",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "宋组长，我来交任务报告",
+      "pair_summary": "林小鹿和宋明远之间存在明确的上下级关系，林小鹿作为新人向宋明远汇报工作，宋明远作为组长管理林小鹿。",
+      "evidence_summary": "林小鹿向宋明远提交任务报告，宋明远接收并给出反馈。",
+      "evidence_quotes": ["宋组长，我来交任务报告"],
+      "pair_analysis": "两人在组织内存在明确的上下级关系，林小鹿服从宋明远的安排，宋明远对林小鹿进行管理和调查。",
+      "confidence": 0.9
+    },
+    {
+      "entity_a": "宋明远",
+      "entity_b": "叶知秋",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "你帮我盯着她一点",
+      "pair_summary": "宋明远和叶知秋之间存在明确的上下级关系，宋明远作为组长指示叶知秋执行监视任务。",
+      "evidence_summary": "宋明远打电话给叶知秋，询问林小鹿的情况并指示她监视。",
+      "evidence_quotes": ["你帮我盯着她一点"],
+      "pair_analysis": "两人在组织内存在明确的上下级关系，叶知秋服从宋明远的指示。",
+      "confidence": 0.9
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt1",
+      "intra_chapter_order": 0,
+      "event_type": "报告提交与试探",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心情节",
+      "summary": "林小鹿向宋明远提交任务报告，宋明远表面认可但突然询问她去情报室的事，林小鹿感到被试探。",
+      "location": "宋明远办公室",
+      "enum_reason": "该事件是本章核心，推动后续调查和监视。",
+      "evidence_summary": "林小鹿提交报告，宋明远翻看后认可，但突然问及她去情报室的事。",
+      "evidence_quotes": ["写得很详细", "你下午去情报室了？"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 0.9},
+        {"entity_name": "宋明远", "role": "actor", "confidence": 0.9}
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "evt2",
+      "intra_chapter_order": 1,
+      "event_type": "背景调查与监视安排",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心情节",
+      "summary": "宋明远打电话给老周调查林小鹿背景，安排小徐去旧书店街盯梢，并让叶知秋监视林小鹿。",
+      "location": "宋明远办公室",
+      "enum_reason": "该事件揭示宋明远对林小鹿的怀疑和行动，是本章核心。",
+      "evidence_summary": "宋明远先后打电话给老周、小徐和叶知秋，安排调查和监视。",
+      "evidence_quotes": ["老周，上次让你查的那个女孩，家庭背景有问题吗？", "小徐，明天下午三点，你替我去旧书店街那边盯一下", "你帮我盯着她一点"],
+      "participants": [
+        {"entity_name": "宋明远", "role": "actor", "confidence": 0.9},
+        {"entity_name": "老周", "role": "participant", "confidence": 0.8},
+        {"entity_name": "小徐", "role": "participant", "confidence": 0.8},
+        {"entity_name": "叶知秋", "role": "participant", "confidence": 0.9}
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "evt3",
+      "intra_chapter_order": 2,
+      "event_type": "收到接头提醒短信",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "转折点",
+      "summary": "林小鹿回到宿舍后收到未知号码的短信，提醒明天下午三点的见面地点可能有变，林小鹿回复确认。",
+      "location": "林小鹿宿舍",
+      "enum_reason": "该事件是本章转折点，林小鹿面临是否回复的决策，影响后续接头。",
+      "evidence_summary": "林小鹿看到短信内容，犹豫后回复‘收到’。",
+      "evidence_quotes": ["明天下午三点的见面地点可能有变，收到请回复", "收到"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 0.9}
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "interactions": [
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "interaction_type": "daily_interaction",
+      "interaction_type_raw": "提交报告",
+      "impact_level": "medium",
+      "impact_level_raw": "中等",
+      "polarity": "neutral",
+      "polarity_raw": "中性",
+      "summary": "林小鹿向宋明远提交任务报告，宋明远认可报告质量但突然询问她去情报室的事，林小鹿感到被试探。",
+      "enum_reason": "这是日常的工作汇报，没有冲突或合作，属于日常互动。",
+      "evidence_summary": "林小鹿提交报告，宋明远翻看后认可，并询问她去情报室的事。",
+      "evidence_quotes": ["宋组长，我来交任务报告", "你下午去情报室了？"],
+      "interaction_analysis": "林小鹿表面服从，但内心警惕宋明远的试探。",
+      "confidence": 0.9
+    },
+    {
+      "from": "宋明远",
+      "to": "叶知秋",
+      "interaction_type": "command",
+      "interaction_type_raw": "指示监视",
+      "impact_level": "high",
+      "impact_level_raw": "高",
+      "polarity": "neutral",
+      "polarity_raw": "中性",
+      "summary": "宋明远打电话给叶知秋，询问她与林小鹿的谈话内容，并指示她监视林小鹿。",
+      "enum_reason": "宋明远作为上级向下属下达命令，符合command。",
+      "evidence_summary": "宋明远打电话给叶知秋，询问林小鹿的情况并让她盯着。",
+      "evidence_quotes": ["你帮我盯着她一点"],
+      "interaction_analysis": "宋明远信任叶知秋，指示她执行监视任务。",
+      "confidence": 0.9
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "宋明远",
+      "predicate": "对林小鹿的背景调查结果",
+      "object_value": "家庭背景干净，父母双亡，跟着外婆长大，无异能觉醒记录，无组织关联",
+      "summary": "宋明远通过老周调查林小鹿背景，结果干净，但宋明远仍怀疑。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "宋明远",
+      "predicate": "安排监视林小鹿",
+      "object_value": "安排小徐去旧书店街盯梢，让叶知秋监视林小鹿",
+      "summary": "宋明远安排小徐和叶知秋分别监视林小鹿的行动。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "收到接头提醒短信",
+      "object_value": "未知号码提醒明天下午三点的见面地点可能有变，林小鹿回复确认",
+      "summary": "林小鹿收到未知号码的短信，提醒接头地点可能有变，她回复‘收到’。",
+      "is_state": false,
+      "confidence": 0.9
+    }
+  ]
+}

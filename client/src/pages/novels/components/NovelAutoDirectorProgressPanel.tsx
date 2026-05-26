@@ -1,0 +1,486 @@
+import type {
+  NovelWorkflowMilestone,
+  NovelWorkflowMilestoneType,
+} from "@ai-novel/shared/types/novelWorkflow";
+import {
+  DIRECTOR_CANDIDATE_SETUP_STEPS,
+  extractDirectorTaskSeedPayloadFromMeta,
+} from "@ai-novel/shared/types/novelDirector";
+import type { UnifiedTaskDetail } from "@ai-novel/shared/types/task";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import AITakeoverContainer, { type AITakeoverMode } from "@/components/workflow/AITakeoverContainer";
+import {
+  isChapterTitleDiversitySummary,
+  resolveChapterTitleWarning,
+} from "@/lib/directorTaskNotice";
+import { extractWorkflowActivityTags } from "@/lib/novelWorkflowActivityTags";
+import { useDirectorChapterTitleRepair } from "@/hooks/useDirectorChapterTitleRepair";
+
+type DirectorExecutionViewMode = "execution_progress" | "execution_failed";
+
+interface NovelAutoDirectorProgressPanelProps {
+  mode: DirectorExecutionViewMode;
+  task: UnifiedTaskDetail | null;
+  taskId: string;
+  titleHint?: string;
+  fallbackError?: string | null;
+  onBackgroundContinue: () => void;
+  onOpenTaskCenter: () => void;
+}
+
+type DirectorStepVisualStatus = "pending" | "running" | "completed" | "failed";
+type DirectorStepDefinition = {
+  key: string;
+  label: string;
+};
+
+const DIRECTOR_EXECUTION_STEPS: DirectorStepDefinition[] = [
+  { key: "novel_create", label: "创建项目" },
+  { key: "book_contract", label: "Book Contract + 故事宏观规划" },
+  { key: "character_setup", label: "角色准备" },
+  { key: "volume_strategy", label: "卷战略 + 卷骨架" },
+  { key: "beat_sheet", label: "第 1 卷节奏板 + 章节列表" },
+  { key: "chapter_detail_bundle", label: "章节批量细化" },
+];
+
+const DIRECTOR_CANDIDATE_SETUP_STEP_KEYS = new Set<string>(
+  DIRECTOR_CANDIDATE_SETUP_STEPS.map((step) => step.key),
+);
+
+const AUTO_DIRECTOR_PLACEHOLDER_TITLES = new Set([
+  "AI 自动导演小说",
+  "小说流程任务",
+]);
+
+function formatDate(value: string | null | undefined): string {
+  if (!value) {
+    return "暂无";
+  }
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return "暂无";
+  }
+  return date.toLocaleString();
+}
+
+function formatTokenCount(value: number | null | undefined): string {
+  return new Intl.NumberFormat("zh-CN").format(Math.max(0, Math.round(value ?? 0)));
+}
+
+function resolveAutoExecutionScopeLabel(task: UnifiedTaskDetail | null): string {
+  const seedPayload = extractDirectorTaskSeedPayloadFromMeta(task?.meta) as {
+    autoExecution?: {
+      scopeLabel?: string | null;
+      totalChapterCount?: number | null;
+    } | null;
+  } | null;
+  const scopeLabel = seedPayload?.autoExecution?.scopeLabel?.trim();
+  if (scopeLabel) {
+    return scopeLabel;
+  }
+  const fallbackCount = Math.max(1, Math.round(seedPayload?.autoExecution?.totalChapterCount ?? 10));
+  return `前 ${fallbackCount} 章`;
+}
+
+function resolveDirectorStyleSeed(task: UnifiedTaskDetail | null): {
+  title: string;
+  summaryLines: string[];
+} | null {
+  const seedPayload = extractDirectorTaskSeedPayloadFromMeta(task?.meta);
+  const styleIntentSummary = seedPayload?.styleIntentSummary;
+  if (styleIntentSummary?.headline?.trim()) {
+    return {
+      title: styleIntentSummary.styleProfileName?.trim() || styleIntentSummary.headline.trim(),
+      summaryLines: styleIntentSummary.stageSummaryLines ?? [],
+    };
+  }
+  const fallbackTone = typeof (seedPayload as { styleTone?: unknown } | null)?.styleTone === "string"
+    ? (((seedPayload as { styleTone?: string }).styleTone ?? "").trim())
+    : "";
+  if (!fallbackTone) {
+    return null;
+  }
+  return {
+    title: fallbackTone,
+    summaryLines: [`文风关键词：${fallbackTone}`],
+  };
+}
+
+function formatCheckpoint(
+  checkpoint: NovelWorkflowMilestoneType | null | undefined,
+  task: UnifiedTaskDetail | null,
+): string {
+  if (checkpoint === "rewrite_snapshot_created") {
+    return "重写前备份已创建";
+  }
+  if (checkpoint === "candidate_selection_required") {
+    return "等待确认书级方向";
+  }
+  if (checkpoint === "book_contract_ready") {
+    return "Book Contract 已就绪";
+  }
+  if (checkpoint === "character_setup_required") {
+    return "角色准备待审核";
+  }
+  if (checkpoint === "volume_strategy_ready") {
+    return "卷战略已就绪";
+  }
+  if (checkpoint === "front10_ready") {
+    return `${resolveAutoExecutionScopeLabel(task)}可开写`;
+  }
+  if (checkpoint === "chapter_batch_ready") {
+    return `${resolveAutoExecutionScopeLabel(task)}自动执行已暂停`;
+  }
+  if (checkpoint === "replan_required") {
+    return "需要重规划";
+  }
+  if (checkpoint === "workflow_completed") {
+    return "主流程完成";
+  }
+  return "暂无";
+}
+
+function isCandidateSetupFlow(task: UnifiedTaskDetail | null): boolean {
+  return DIRECTOR_CANDIDATE_SETUP_STEP_KEYS.has(task?.currentItemKey ?? "");
+}
+
+function resolveDirectorExecutionStepIndex(task: UnifiedTaskDetail | null): number {
+  const itemKey = task?.currentItemKey ?? "";
+  if (
+    task?.checkpointType === "front10_ready"
+    || (task?.status === "running" && task?.checkpointType === "chapter_batch_ready")
+    || itemKey === "chapter_detail_bundle"
+    || itemKey === "chapter_execution"
+  ) {
+    return 5;
+  }
+  if (itemKey === "beat_sheet" || itemKey === "chapter_list" || itemKey === "chapter_sync") {
+    return 4;
+  }
+  if (
+    task?.checkpointType === "character_setup_required"
+    || itemKey === "character_setup"
+    || itemKey === "character_cast_apply"
+  ) {
+    return 2;
+  }
+  if (
+    task?.checkpointType === "volume_strategy_ready"
+    || itemKey === "volume_strategy"
+    || itemKey === "volume_skeleton"
+  ) {
+    return 3;
+  }
+  if (
+    task?.checkpointType === "book_contract_ready"
+    || itemKey === "book_contract"
+    || itemKey === "story_macro"
+    || itemKey === "constraint_engine"
+  ) {
+    return 1;
+  }
+  return 0;
+}
+
+function resolveCandidateSetupStepIndex(task: UnifiedTaskDetail | null): number {
+  const itemKey = task?.currentItemKey ?? "";
+  const foundIndex = DIRECTOR_CANDIDATE_SETUP_STEPS.findIndex((step) => step.key === itemKey);
+  return foundIndex >= 0 ? foundIndex : 0;
+}
+
+function resolveDirectorStepStatuses(
+  task: UnifiedTaskDetail | null,
+  mode: DirectorExecutionViewMode,
+  steps: ReadonlyArray<DirectorStepDefinition>,
+): DirectorStepVisualStatus[] {
+  if (task?.checkpointType === "front10_ready" || task?.status === "succeeded") {
+    return steps.map(() => "completed");
+  }
+
+  const currentIndex = isCandidateSetupFlow(task)
+    ? resolveCandidateSetupStepIndex(task)
+    : resolveDirectorExecutionStepIndex(task);
+  return steps.map((_, index) => {
+    if (index < currentIndex) {
+      return "completed";
+    }
+    if (index === currentIndex) {
+      return mode === "execution_failed" ? "failed" : "running";
+    }
+    return "pending";
+  });
+}
+
+function stepClasses(status: DirectorStepVisualStatus): string {
+  if (status === "completed") {
+    return "border-emerald-400/20 bg-emerald-500/[0.06]";
+  }
+  if (status === "running") {
+    return "border-primary/25 bg-primary/[0.07]";
+  }
+  if (status === "failed") {
+    return "border-destructive/22 bg-destructive/[0.05]";
+  }
+  return "border-border/70 bg-background/65";
+}
+
+function stepBadgeClasses(status: DirectorStepVisualStatus): string {
+  if (status === "completed") {
+    return "border border-emerald-400/24 bg-emerald-500/[0.14] text-foreground";
+  }
+  if (status === "running") {
+    return "border border-primary/24 bg-primary/[0.14] text-foreground";
+  }
+  if (status === "failed") {
+    return "border border-destructive/24 bg-destructive/[0.16] text-foreground";
+  }
+  return "border border-border/70 bg-background/80 text-muted-foreground";
+}
+
+function stepStatusLabel(status: DirectorStepVisualStatus): string {
+  if (status === "completed") {
+    return "已完成";
+  }
+  if (status === "running") {
+    return "进行中";
+  }
+  if (status === "failed") {
+    return "失败";
+  }
+  return "待推进";
+}
+
+export default function NovelAutoDirectorProgressPanel({
+  mode,
+  task,
+  taskId,
+  titleHint,
+  fallbackError,
+  onBackgroundContinue,
+  onOpenTaskCenter,
+}: NovelAutoDirectorProgressPanelProps) {
+  const taskChapterTitleWarning = resolveChapterTitleWarning(task);
+  const chapterTitleRepairMutation = useDirectorChapterTitleRepair();
+  const fallbackChapterTitleWarning = !taskChapterTitleWarning && isChapterTitleDiversitySummary(fallbackError)
+    ? {
+      summary: fallbackError?.trim() ?? "",
+      route: null,
+      label: "快速修复章节标题",
+    }
+    : null;
+  const chapterTitleWarning = taskChapterTitleWarning ?? fallbackChapterTitleWarning;
+  const visualMode: DirectorExecutionViewMode = mode === "execution_failed" && !chapterTitleWarning
+    ? "execution_failed"
+    : "execution_progress";
+  const currentAction = (
+    task?.status === "running"
+    && task?.checkpointType === "chapter_batch_ready"
+    && task.currentItemLabel?.includes("已暂停")
+  )
+    ? `正在继续自动执行${resolveAutoExecutionScopeLabel(task)}`
+    : (
+      task?.currentItemLabel?.trim()
+      || (visualMode === "execution_failed"
+        ? "导演任务执行中断"
+        : (chapterTitleWarning ? "章节列表已生成，等待修复标题结构" : "正在准备导演任务"))
+    );
+  const activityTags = extractWorkflowActivityTags(task?.currentItemLabel);
+  const workflowTitle = task?.title?.trim() || "";
+  const hintedTitle = titleHint?.trim() || "";
+  const taskTitle = (
+    hintedTitle && (!workflowTitle || AUTO_DIRECTOR_PLACEHOLDER_TITLES.has(workflowTitle))
+      ? hintedTitle
+      : workflowTitle || hintedTitle || "新小说项目"
+  );
+  const milestones = Array.isArray(task?.meta.milestones)
+    ? task.meta.milestones as NovelWorkflowMilestone[]
+    : [];
+  const candidateSetupFlow = isCandidateSetupFlow(task);
+  const stepDefinitions = candidateSetupFlow
+    ? DIRECTOR_CANDIDATE_SETUP_STEPS
+    : DIRECTOR_EXECUTION_STEPS;
+  const steps = resolveDirectorStepStatuses(task, visualMode, stepDefinitions);
+  const failureMessage = task?.lastError?.trim() || fallbackError?.trim() || "导演任务执行失败，但没有记录明确错误。";
+  const tokenUsage = task?.tokenUsage ?? null;
+  const styleSeed = resolveDirectorStyleSeed(task);
+  const containerMode: AITakeoverMode = visualMode === "execution_failed"
+    ? "failed"
+    : !task
+      ? "loading"
+      : (task.status === "waiting_approval" || chapterTitleWarning)
+        ? "waiting"
+        : "running";
+  const description = candidateSetupFlow
+    ? (
+      visualMode === "execution_failed"
+        ? "候选方向生成链已中断，你可以先去任务中心查看详情，再决定是否重试。"
+        : "系统会先整理项目设定、对齐书级 framing，再生成两套书级方案和对应标题组。"
+    )
+    : (
+      visualMode === "execution_failed"
+        ? "任务已经停在最近一步，你可以先去任务中心查看详情，再决定是否恢复。"
+        : chapterTitleWarning
+          ? "章节列表已经保留，这是一条可直接处理的结构提醒。你可以快速修复标题，再决定是否继续后续导演流程。"
+          : task?.status === "waiting_approval"
+            ? "当前导演流程已经停在审核点，你可以先检查产物，再决定是否继续自动推进。"
+            : "可离开当前页面，任务会继续运行，并且可以在任务中心恢复查看。"
+    );
+  const actions = [
+    ...(visualMode === "execution_progress" && task?.status !== "waiting_approval" && !chapterTitleWarning
+      ? [{
+        label: "后台继续",
+        onClick: onBackgroundContinue,
+        variant: "outline" as const,
+      }]
+      : []),
+    {
+      label: "去任务中心查看",
+      onClick: onOpenTaskCenter,
+      variant: "default" as const,
+    },
+  ];
+
+  return (
+    <div className="space-y-4">
+      <AITakeoverContainer
+        mode={containerMode}
+        title={visualMode === "execution_failed"
+          ? (candidateSetupFlow ? "候选方案生成失败" : "导演执行失败")
+          : candidateSetupFlow
+            ? "正在生成导演候选方案"
+            : `正在导演《${taskTitle}》`}
+        description={description}
+        progress={task ? task.progress : null}
+        currentAction={currentAction}
+        checkpointLabel={formatCheckpoint(task?.checkpointType, task)}
+        taskId={taskId || task?.id}
+        actions={actions}
+      >
+        <div className={`grid gap-3 ${candidateSetupFlow ? "md:grid-cols-4" : "md:grid-cols-6"}`}>
+          {stepDefinitions.map((step, index) => (
+            <div key={step.key} className={`rounded-xl border p-3 ${stepClasses(steps[index] ?? "pending")}`}>
+              <div className="flex items-center justify-between gap-2">
+                <span className={`inline-flex h-7 w-7 items-center justify-center rounded-full text-xs font-semibold ${stepBadgeClasses(steps[index] ?? "pending")}`}>
+                  {index + 1}
+                </span>
+                <span className="text-[11px] text-muted-foreground">{stepStatusLabel(steps[index] ?? "pending")}</span>
+              </div>
+              <div className="mt-3 text-sm font-medium text-foreground">{step.label}</div>
+            </div>
+          ))}
+        </div>
+
+        {activityTags.length > 0 ? (
+          <div className="app-shell-panel-soft mt-4 rounded-2xl p-3">
+            <div className="text-xs font-medium text-muted-foreground">后台附属分析</div>
+            <div className="mt-2 flex flex-wrap gap-2">
+              {activityTags.map((tag) => (
+                <Badge key={tag} variant="secondary">{tag}</Badge>
+              ))}
+            </div>
+          </div>
+        ) : null}
+
+        {styleSeed ? (
+          <div className="app-shell-panel-soft mt-4 rounded-2xl p-4">
+            <div className="text-sm font-medium text-foreground">当前命中写法</div>
+            <div className="mt-2 text-sm text-foreground">{styleSeed.title}</div>
+            {styleSeed.summaryLines.length > 0 ? (
+              <div className="mt-3 space-y-2">
+                <div className="text-xs font-medium text-muted-foreground">本阶段仅生效的写法摘要</div>
+                {styleSeed.summaryLines.map((line) => (
+                  <div key={line} className="app-shell-panel-soft rounded-xl px-3 py-2 text-xs leading-6 text-muted-foreground">
+                    {line}
+                  </div>
+                ))}
+              </div>
+            ) : null}
+          </div>
+        ) : null}
+
+        {tokenUsage ? (
+          <div className="mt-4 grid gap-3 md:grid-cols-4">
+            <div className="app-shell-panel-soft rounded-2xl p-3">
+              <div className="text-xs text-muted-foreground">累计调用</div>
+              <div className="mt-1 text-sm font-medium text-foreground">{formatTokenCount(tokenUsage.llmCallCount)}</div>
+            </div>
+            <div className="app-shell-panel-soft rounded-2xl p-3">
+              <div className="text-xs text-muted-foreground">输入 Tokens</div>
+              <div className="mt-1 text-sm font-medium text-foreground">{formatTokenCount(tokenUsage.promptTokens)}</div>
+            </div>
+            <div className="app-shell-panel-soft rounded-2xl p-3">
+              <div className="text-xs text-muted-foreground">输出 Tokens</div>
+              <div className="mt-1 text-sm font-medium text-foreground">{formatTokenCount(tokenUsage.completionTokens)}</div>
+            </div>
+            <div className="app-shell-panel-soft rounded-2xl p-3">
+              <div className="text-xs text-muted-foreground">累计总 Tokens</div>
+              <div className="mt-1 text-sm font-medium text-foreground">{formatTokenCount(tokenUsage.totalTokens)}</div>
+              <div className="mt-1 text-[11px] text-muted-foreground">最近记录：{formatDate(tokenUsage.lastRecordedAt)}</div>
+            </div>
+          </div>
+        ) : null}
+
+        {chapterTitleWarning ? (
+          <div className="app-warning-panel mt-4 rounded-2xl p-4 text-sm">
+            <div className="font-medium">当前提醒</div>
+            <div className="mt-1">{chapterTitleWarning.summary}</div>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {task && chapterTitleWarning ? (
+                <Button
+                  size="sm"
+                  variant="outline"
+                  onClick={() => {
+                    chapterTitleRepairMutation.startRepair(task);
+                  }}
+                  disabled={chapterTitleRepairMutation.isPending}
+                >
+                  {chapterTitleRepairMutation.isPending && chapterTitleRepairMutation.pendingTaskId === task.id
+                    ? "AI 修复中..."
+                    : chapterTitleWarning.label}
+                </Button>
+              ) : null}
+              <Button
+                size="sm"
+                variant="outline"
+                onClick={onOpenTaskCenter}
+              >
+                去任务中心查看
+              </Button>
+            </div>
+          </div>
+        ) : visualMode === "execution_failed" ? (
+          <div className="mt-4 rounded-xl border border-destructive/30 bg-destructive/5 p-4 text-sm text-destructive">
+            <div className="font-medium">失败摘要</div>
+            <div className="mt-1">{failureMessage}</div>
+            {task?.recoveryHint ? (
+              <div className="mt-2 text-xs text-destructive/80">恢复建议：{task.recoveryHint}</div>
+            ) : null}
+          </div>
+        ) : null}
+      </AITakeoverContainer>
+
+      <div className="rounded-xl border bg-background/70 p-4">
+        <div className="text-sm font-medium text-foreground">里程碑历史</div>
+        {milestones.length > 0 ? (
+          <div className="mt-3 space-y-3">
+            {milestones
+              .slice()
+              .reverse()
+              .map((item) => (
+                <div key={`${item.checkpointType}:${item.createdAt}`} className="rounded-lg border bg-muted/15 p-3">
+                  <div className="font-medium text-foreground">{formatCheckpoint(item.checkpointType, task)}</div>
+                  <div className="mt-1 text-sm text-muted-foreground">{item.summary}</div>
+                  <div className="mt-1 text-xs text-muted-foreground">记录时间：{formatDate(item.createdAt)}</div>
+                </div>
+              ))}
+          </div>
+        ) : (
+          <div className="mt-3 text-sm text-muted-foreground">
+            任务已创建，正在等待第一个稳定里程碑写入。
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,259 @@
+{
+  "summary": "苏晚在天枢组织接受能力测试，通过触摸手表感知到工程师的死亡记忆，被认定为顶尖感知类异能者。随后她见到科研部主管方瑶，完成登记。陈默暗示她不要在摄像头下使用能力。苏晚回到宿舍，忍住查看父亲笔记本的冲动，决定先了解组织。方瑶则秘密启动与林建国相关的基因锁计划。",
+  "entities": [
+    {
+      "name": "苏晚",
+      "aliases": ["晚晚"],
+      "chapter_role": "protagonist",
+      "summary": "大学生，父亲林建国失踪三年，母亲改嫁后独自生活。刚加入天枢组织，拥有感知物品残留记忆的能力，能力代价是头痛出汗。"
+    },
+    {
+      "name": "陈默",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "天枢组织外勤组长，走路无声，身份不简单。负责带苏晚进行能力测试，并暗示她不要在摄像头下使用能力。"
+    },
+    {
+      "name": "方瑶",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "天枢科研部主管，三十岁左右，长发低马尾，戴细框眼镜。表面温和，实则将苏晚视为工具，秘密启动与林建国相关的基因锁计划。"
+    },
+    {
+      "name": "林建国",
+      "aliases": ["父亲"],
+      "chapter_role": "mentioned",
+      "summary": "前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪，被囚禁在地下室。苏晚的父亲，笔记本上写有“建”字。"
+    },
+    {
+      "name": "苏晴",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "苏晚的同学或朋友，发微信提醒苏晚明天上课要点名。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "陈默",
+      "to": "苏晚",
+      "raw_label": "引导与保护",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "陈默是外勤组长，苏晚是新成员",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "陈默提醒苏晚不要在摄像头下使用能力，并递纸巾",
+      "state_summary": "陈默作为上级，引导苏晚完成测试，并给予保护性建议，暗示组织内部有风险。",
+      "enum_reason": "陈默是外勤组长，苏晚是新成员，属于上下级关系；动态上他表现出保护性。",
+      "evidence_summary": "陈默带苏晚测试，递纸巾，建议她不要在摄像头下使用能力。",
+      "evidence_quotes": ["“组织内部有规定，所有异能者的能力数据都要归档。但有些数据，知道的人越少越好。”"],
+      "relation_analysis": "陈默对苏晚有保护倾向，但保持一定距离，暗示组织内部有秘密。",
+      "confidence": 0.8
+    },
+    {
+      "from": "方瑶",
+      "to": "苏晚",
+      "raw_label": "评估与利用",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "方瑶是科研部主管，苏晚是新登记成员",
+      "dynamic_stance": "conflicted",
+      "dynamic_stance_raw": "方瑶表面温和，但眼神像打量工具，并秘密启动计划",
+      "state_summary": "方瑶作为主管，表面欢迎苏晚，实则将她视为工具，秘密启动与林建国相关的基因锁计划。",
+      "enum_reason": "方瑶是主管，苏晚是下属；动态上她表面友好但内心有利用意图，属于矛盾。",
+      "evidence_summary": "方瑶笑容温和但眼神像打量工具，苏晚离开后她秘密启动计划。",
+      "evidence_quotes": ["“小姑娘，你的能力很有用。但越有用的东西，越容易伤人。”"],
+      "relation_analysis": "方瑶对苏晚有利用意图，但表面维持温和，关系复杂。",
+      "confidence": 0.9
+    },
+    {
+      "from": "苏晚",
+      "to": "林建国",
+      "raw_label": "女儿寻找父亲",
+      "structural_base": "kinship_parent_child",
+      "structural_base_raw": "苏晚是林建国的女儿",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "苏晚忍住查看笔记本的冲动，决定先了解组织再行动",
+      "state_summary": "苏晚深爱父亲，决心查明真相，但克制自己先了解组织。",
+      "enum_reason": "父女关系明确；动态上苏晚保护性地克制自己。",
+      "evidence_summary": "苏晚握着笔记本，想起父亲，决定留到明天。",
+      "evidence_quotes": ["“不是不敢，是不能。”"],
+      "relation_analysis": "苏晚对父亲有强烈的保护欲和寻找决心，但暂时克制。",
+      "confidence": 0.9
+    },
+    {
+      "from": "方瑶",
+      "to": "林建国",
+      "raw_label": "计划关联",
+      "structural_base": "unknown",
+      "structural_base_raw": "方瑶打开与林建国相关的加密文档",
+      "dynamic_stance": "unknown",
+      "dynamic_stance_raw": "方瑶看着林建国的名字，笑容更深",
+      "state_summary": "方瑶与林建国之间存在未明确的关联，她正在启动与林建国相关的基因锁计划。",
+      "enum_reason": "关系性质不明，但方瑶的行动指向林建国。",
+      "evidence_summary": "方瑶打开加密文档“B107室·基因锁开启方案·候选者名单”，上面有林建国的名字。",
+      "evidence_quotes": ["“B107室·基因锁开启方案·候选者名单”", "“林建国。”"],
+      "relation_analysis": "方瑶与林建国之间存在计划性关联，但具体关系未知。",
+      "confidence": 0.7
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "苏晚",
+      "entity_b": "林建国",
+      "shared_structural_base": "kinship_parent_child",
+      "shared_structural_base_raw": "苏晚是林建国的女儿",
+      "pair_summary": "苏晚和林建国是亲生父女，关系亲密，苏晚决心寻找父亲。",
+      "evidence_summary": "苏晚持有父亲的笔记本，想起父亲，决定查明真相。",
+      "evidence_quotes": ["“为了父亲。也为了自己。”"],
+      "pair_analysis": "父女关系明确，苏晚的行动以父亲为中心。",
+      "confidence": 0.95
+    },
+    {
+      "entity_a": "陈默",
+      "entity_b": "方瑶",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "两人都是天枢组织成员",
+      "pair_summary": "陈默和方瑶同属天枢组织，但关系似乎不密切，陈默对方瑶有保留。",
+      "evidence_summary": "陈默在苏晚面前对方瑶的评价是“很负责的人”，但私下暗示组织有风险。",
+      "evidence_quotes": ["“方主管是个很负责的人，对新人很照顾。”"],
+      "pair_analysis": "两人同属一个组织，但陈默对方瑶的态度有所保留，可能不是完全信任。",
+      "confidence": 0.6
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt1",
+      "intra_chapter_order": 0,
+      "event_type": "能力测试",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心事件，展示苏晚的能力和代价",
+      "enum_reason": "这是本章的核心情节，确立苏晚的能力和代价。",
+      "summary": "陈默带苏晚进入测试室，苏晚触摸手表，感知到工程师的死亡记忆，头痛出汗。陈默确认她的能力很强，并告知使用上限。",
+      "location": "天枢组织测试室",
+      "evidence_summary": "苏晚触摸手表后看到记忆片段，头痛出汗，陈默解释能力代价。",
+      "evidence_quotes": ["“你的能力是真的，而且很强。”", "“每天不超过两次。”"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "陈默", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt2",
+      "intra_chapter_order": 1,
+      "event_type": "登记与见面",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "主要情节，引入方瑶并暗示阴谋",
+      "enum_reason": "引入重要角色方瑶，并揭示她的秘密计划。",
+      "summary": "陈默带苏晚去见科研部主管方瑶，苏晚填写登记表，方瑶表面欢迎但眼神像打量工具。苏晚离开后，方瑶秘密启动与林建国相关的计划。",
+      "location": "科研部主管办公室",
+      "evidence_summary": "苏晚填表，方瑶笑容温和但眼神审视，之后打电话启动计划。",
+      "evidence_quotes": ["“这就是苏晚吧？”", "“可以开始第二步计划了。”"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "陈默", "role": "participant", "confidence": 1.0},
+        {"entity_name": "方瑶", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt3",
+      "intra_chapter_order": 2,
+      "event_type": "宿舍与克制",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "细节，展示苏晚的内心挣扎",
+      "enum_reason": "展示苏晚的克制和决心，为后续情节铺垫。",
+      "summary": "苏晚回到宿舍，拿出父亲的笔记本，但克制住没有查看，决定先了解组织。收到苏晴的微信，她没有提及今天的事。",
+      "location": "天枢组织宿舍301室",
+      "evidence_summary": "苏晚握着笔记本，想起陈默的话，决定留到明天。",
+      "evidence_quotes": ["“不是不敢，是不能。”"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt4",
+      "intra_chapter_order": 3,
+      "event_type": "秘密计划",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "转折点，揭示方瑶的阴谋",
+      "enum_reason": "揭示方瑶与林建国的关联，推动主线阴谋。",
+      "summary": "方瑶在办公室查看测试监控，打开加密文档“B107室·基因锁开启方案·候选者名单”，上面有林建国的名字，她打电话通知“第二步计划”开始。",
+      "location": "科研部主管办公室",
+      "evidence_summary": "方瑶看监控，打开文档，打电话。",
+      "evidence_quotes": ["“B107室·基因锁开启方案·候选者名单”", "“可以开始第二步计划了。”"],
+      "participants": [
+        {"entity_name": "方瑶", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "陈默",
+      "to": "苏晚",
+      "interaction_type": "teaching",
+      "interaction_type_raw": "陈默指导苏晚进行测试并告知能力代价",
+      "impact_level": "high",
+      "impact_level_raw": "直接影响苏晚对能力的认知和使用",
+      "polarity": "positive",
+      "polarity_raw": "陈默提供帮助和建议",
+      "summary": "陈默带苏晚测试，递纸巾，告知能力使用上限，并暗示不要在摄像头下使用能力。",
+      "enum_reason": "陈默在教导苏晚如何使用能力及注意事项。",
+      "evidence_summary": "陈默解释能力代价，递纸巾，给出建议。",
+      "evidence_quotes": ["“每天不超过两次。”", "“以后尽量不要在摄像头下使用能力。”"],
+      "interaction_analysis": "陈默对苏晚有指导和保护倾向，但保持一定距离。",
+      "confidence": 0.9
+    },
+    {
+      "from": "方瑶",
+      "to": "苏晚",
+      "interaction_type": "daily_interaction",
+      "interaction_type_raw": "方瑶与苏晚见面登记",
+      "impact_level": "medium",
+      "impact_level_raw": "表面日常，但隐含评估",
+      "polarity": "mixed",
+      "polarity_raw": "表面温和，但眼神像打量工具",
+      "summary": "方瑶与苏晚见面，笑容温和，但眼神审视，苏晚感到不适。",
+      "enum_reason": "表面是日常登记，但方瑶的审视态度暗示评估。",
+      "evidence_summary": "方瑶笑着欢迎苏晚，但苏晚注意到她眼神像打量工具。",
+      "evidence_quotes": ["“这就是苏晚吧？”", "“那太好了。我们科研部最近正好缺人手。”"],
+      "interaction_analysis": "方瑶表面友好，但内心将苏晚视为工具，互动具有双重性。",
+      "confidence": 0.9
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "苏晚",
+      "predicate": "能力类型",
+      "object_value": "感知类异能，能通过触摸物品感知残留记忆",
+      "summary": "苏晚的能力被确认为感知类，能感知物品上的记忆片段。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "苏晚",
+      "predicate": "能力代价",
+      "object_value": "使用能力会导致头痛、出汗，每天使用上限约两次",
+      "summary": "苏晚使用能力后出现头痛出汗，陈默告知每天不超过两次。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "方瑶",
+      "predicate": "秘密计划",
+      "object_value": "启动与林建国相关的基因锁开启方案第二步",
+      "summary": "方瑶打开加密文档，打电话通知开始第二步计划，涉及林建国。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "林建国",
+      "predicate": "关联文档",
+      "object_value": "出现在B107室基因锁开启方案候选者名单上",
+      "summary": "方瑶的加密文档中，林建国的名字出现在候选者名单上。",
+      "is_state": true,
+      "confidence": 0.9
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "cmowi3f1k0000zcv7unm0dhee",
+  "title": "????????-20260508-135456",
+  "language": "zh-CN",
+  "source_txt_path": "source/source.txt",
+  "source_format": "txt",
+  "chapters": [
+    {
+      "id": "cmowi3z2v0002zcv7h6vq4ytr",
+      "title": "Chapter 1",
+      "order": 1,
+      "source_href": "novel:cmowi3f1k0000zcv7unm0dhee/chapter:cmowi3z2v0002zcv7h6vq4ytr",
+      "text_path": "source/chapters/cmowi3z2v0002zcv7h6vq4ytr.txt"
+    },
+    {
+      "id": "cmowi402q000azcv7r3avpf69",
+      "title": "Chapter 2",
+      "order": 2,
+      "source_href": "novel:cmowi3f1k0000zcv7unm0dhee/chapter:cmowi402q000azcv7r3avpf69",
+      "text_path": "source/chapters/cmowi402q000azcv7r3avpf69.txt"
+    },
+    {
+      "id": "cmowi40l2000hzcv7gm71ztbd",
+      "title": "Chapter 3",
+      "order": 3,
+      "source_href": "novel:cmowi3f1k0000zcv7unm0dhee/chapter:cmowi40l2000hzcv7gm71ztbd",
+      "text_path": "source/chapters/cmowi40l2000hzcv7gm71ztbd.txt"
+    },
+    {
+      "id": "cmowi4128000ozcv7wq9zfqwf",
+      "title": "Chapter 4",
+      "order": 4,
+      "source_href": "novel:cmowi3f1k0000zcv7unm0dhee/chapter:cmowi4128000ozcv7wq9zfqwf",
+      "text_path": "source/chapters/cmowi4128000ozcv7wq9zfqwf.txt"
+    },
+    {
+      "id": "cmowi41ws000vzcv7wdcm798l",
+      "title": "Chapter 5",
+      "order": 5,
+      "source_href": "novel:cmowi3f1k0000zcv7unm0dhee/chapter:cmowi41ws000vzcv7wdcm798l",
+      "text_path": "source/chapters/cmowi41ws000vzcv7wdcm798l.txt"
+    },
+    {
+      "id": "cmowi42cq0012zcv7004fq8t2",
+      "title": "Chapter 6",
+      "order": 6,
+      "source_href": "novel:cmowi3f1k0000zcv7unm0dhee/chapter:cmowi42cq0012zcv7004fq8t2",
+      "text_path": "source/chapters/cmowi42cq0012zcv7004fq8t2.txt"
+    },
+    {
+      "id": "cmowi42ui0019zcv7dw366gty",
+      "title": "Chapter 7",
+      "order": 7,
+      "source_href": "novel:cmowi3f1k0000zcv7unm0dhee/chapter:cmowi42ui0019zcv7dw366gty",
+      "text_path": "source/chapters/cmowi42ui0019zcv7dw366gty.txt"
+    },
+    {
+      "id": "cmowi43b9001gzcv7re2hbugy",
+      "title": "Chapter 8",
+      "order": 8,
+      "source_href": "novel:cmowi3f1k0000zcv7unm0dhee/chapter:cmowi43b9001gzcv7re2hbugy",
+      "text_path": "source/chapters/cmowi43b9001gzcv7re2hbugy.txt"
+    },
+    {
+      "id": "cmowi43tq001nzcv7gip7mk9n",
+      "title": "Chapter 9",
+      "order": 9,
+      "source_href": "novel:cmowi3f1k0000zcv7unm0dhee/chapter:cmowi43tq001nzcv7gip7mk9n",
+      "text_path": "source/chapters/cmowi43tq001nzcv7gip7mk9n.txt"
+    }
+  ],
+  "created_at": "2026-05-08T06:06:46.739789",
+  "updated_at": "2026-05-08T06:06:46.739801"
+}

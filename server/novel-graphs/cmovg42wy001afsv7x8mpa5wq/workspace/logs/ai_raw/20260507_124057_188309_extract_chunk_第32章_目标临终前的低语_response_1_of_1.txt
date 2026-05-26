@@ -1,0 +1,34 @@
+{
+  "summary": "本章无正文内容，仅标题暗示林小鹿在废弃工厂中听到目标临终前的低语，可能获得关键信息。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    }
+  ],
+  "directed_relations": [],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "e1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "标题暗示事件发生但无正文",
+      "summary": "标题暗示林小鹿在废弃工厂中听到目标临终前的低语，可能获得关键信息。",
+      "location": "废弃工厂",
+      "enum_reason": "无正文内容，仅标题暗示，无法确定事件核心程度",
+      "evidence_summary": "标题为'目标临终前的低语'，结合前文废弃工厂场景",
+      "evidence_quotes": ["目标临终前的低语"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 0.5}
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "interactions": [],
+  "fact_updates": []
+}

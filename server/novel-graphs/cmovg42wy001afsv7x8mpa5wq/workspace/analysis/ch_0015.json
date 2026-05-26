@@ -1,0 +1,171 @@
+{
+  "schema_version": 2,
+  "chapter_title": "第15章 巩固信任与暗流",
+  "analyzed_at": "2026-05-08T02:18:45",
+  "summary": "本章暂无正文内容，仅标题暗示林小鹿与叶知秋之间的信任进一步巩固，但组织内部暗流涌动，可能涉及宋明远的试探或陆沉的暗中行动。",
+  "outline": [],
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": [
+        "小鹿",
+        "林远舟的女儿"
+      ],
+      "chapter_role": "protagonist",
+      "tier": "core",
+      "importance_score": 100,
+      "summary": "女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中她与叶知秋的信任关系可能进一步巩固，但面临组织内部的暗流。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": [
+        "叶姐",
+        "小叶"
+      ],
+      "chapter_role": "major_actor",
+      "tier": "core",
+      "importance_score": 86,
+      "summary": "天衍组织的前台接待员，年轻女性，对林小鹿保持友好和保护态度，曾主动提供情报和警告。本章标题暗示她与林小鹿的信任关系进一步巩固。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": [
+        "宋哥",
+        "宋组长"
+      ],
+      "chapter_role": "supporting",
+      "tier": "core",
+      "importance_score": 86,
+      "summary": "天衍组织外勤组长，曾试探林小鹿的背景，怀疑她与青石镇调查纪要有关。本章标题暗示他可能构成暗流的一部分。"
+    },
+    {
+      "name": "陆沉",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "tier": "active",
+      "importance_score": 60,
+      "summary": "标题中的人物，身份不明，可能为关键线索，向林小鹿伸出橄榄枝，动机尚不明确。"
+    }
+  ],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "directed_relations": [
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "保护与信任",
+      "state_summary": "叶知秋作为天衍同事，对林小鹿保持友好和保护态度，曾主动提供情报和警告。本章标题暗示双方信任进一步巩固，但存在暗流。",
+      "structural_base": "same_faction",
+      "structural_base_raw": "天衍同事",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "保护态度",
+      "enum_reason": "叶知秋多次主动警告林小鹿，表现出保护性动态。",
+      "evidence_summary": "标题暗示信任巩固，但无正文内容。",
+      "evidence_quotes": [
+        "第15章 巩固信任与暗流"
+      ],
+      "relation_analysis": "叶知秋对林小鹿的保护态度在之前章节已建立，本章标题暗示信任进一步巩固。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.6
+    },
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "试探与怀疑",
+      "state_summary": "宋明远作为天衍外勤组长，曾试探林小鹿的背景，怀疑她与青石镇调查纪要有关。本章标题暗示暗流可能涉及他的行动。",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "组长与新成员",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "怀疑",
+      "enum_reason": "宋明远之前主动试探林小鹿，表现出不信任。",
+      "evidence_summary": "标题暗示暗流，但无正文内容。",
+      "evidence_quotes": [
+        "暗流"
+      ],
+      "relation_analysis": "宋明远对林小鹿的怀疑在之前章节已明确，本章标题暗示暗流可能加剧。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.5
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "信任与依赖",
+      "state_summary": "林小鹿对叶知秋的信任有所巩固，接受其提供的情报和帮助，并据此调整自己的计划和心态。",
+      "structural_base": "same_faction",
+      "structural_base_raw": "天衍同事",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "信任",
+      "enum_reason": "林小鹿之前接受叶知秋的警告并配合交流，本章标题暗示信任巩固。",
+      "evidence_summary": "标题暗示信任巩固，但无正文内容。",
+      "evidence_quotes": [
+        "第15章 巩固信任与暗流"
+      ],
+      "relation_analysis": "林小鹿对叶知秋的信任在之前章节已建立，本章标题暗示进一步巩固。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.6
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "警惕与防备",
+      "state_summary": "林小鹿对宋明远保持高度警惕，怀疑其动机，并接受叶知秋关于小心宋明远的警告。",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "新成员与组长",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "警惕",
+      "enum_reason": "林小鹿之前对宋明远的试探保持谨慎，并接受叶知秋的警告。",
+      "evidence_summary": "标题暗示暗流，但无正文内容。",
+      "evidence_quotes": [
+        "暗流"
+      ],
+      "relation_analysis": "林小鹿对宋明远的警惕在之前章节已建立，本章标题暗示暗流可能涉及宋明远。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.5
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "叶知秋",
+      "entity_b": "林小鹿",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "天衍同事",
+      "pair_summary": "林小鹿与叶知秋同为天衍组织成员，叶知秋对林小鹿保持保护态度，林小鹿对叶知秋逐渐建立信任。",
+      "evidence_summary": "标题暗示信任巩固，但无正文内容。",
+      "evidence_quotes": [
+        "巩固信任"
+      ],
+      "pair_analysis": "两人在之前章节已建立同事关系，本章标题暗示信任进一步巩固。",
+      "shared_intensity_score": 50.0,
+      "confidence": 0.6
+    },
+    {
+      "entity_a": "宋明远",
+      "entity_b": "林小鹿",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "组长与新成员",
+      "pair_summary": "林小鹿与宋明远存在上下级关系，但双方互不信任，宋明远怀疑林小鹿的背景，林小鹿对宋明远保持警惕。",
+      "evidence_summary": "标题暗示暗流，但无正文内容。",
+      "evidence_quotes": [
+        "暗流"
+      ],
+      "pair_analysis": "两人在之前章节已建立上下级关系，本章标题暗示暗流可能涉及宋明远。",
+      "shared_intensity_score": 50.0,
+      "confidence": 0.5
+    }
+  ],
+  "fact_updates": [],
+  "unresolved": []
+}

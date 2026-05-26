@@ -1,0 +1,134 @@
+{
+  "summary": "宋明远在办公室以闲聊方式试探林小鹿是否藏匿了金属盒，林小鹿谨慎应对，意识到对方在钓鱼，决定尽快打开盒子。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "天衍组织新成员，外院大二学生，父亲失踪后加入组织寻找线索。本章中藏匿了金属盒，被宋明远试探，内心高度警惕。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥", "宋组长"],
+      "chapter_role": "major_actor",
+      "summary": "天衍外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。本章中通过照片和对话试探林小鹿是否藏了金属盒，最后留下钩子暗示可以坦白。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "高度警惕，认为对方在钓鱼",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "上下级关系，林小鹿是下属",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "林小鹿认为宋明远在试探和钓鱼",
+      "state_summary": "林小鹿作为下属对宋明远保持高度警惕，认为他已知晓自己藏匿金属盒，并在最后留下钩子引诱自己坦白。",
+      "enum_reason": "林小鹿内心认为宋明远在钓鱼，不信任他的意图。",
+      "evidence_summary": "宋明远通过照片指出林小鹿翻过的箱子，并提及金属盒，最后说‘如果感兴趣可以跟我说’，林小鹿感到被试探。",
+      "evidence_quotes": ["那个金属盒，如果你真的对它感兴趣，可以跟我说。", "他这是在钓鱼。"],
+      "relation_analysis": "林小鹿从宋明远的提问和最后那句话中解读出试探和钓鱼意图，因此动态立场为不信任。",
+      "confidence": 0.9
+    },
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "试探与监督",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "上下级关系，宋明远是组长",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "宋明远通过照片和对话试探林小鹿",
+      "state_summary": "宋明远作为上级，通过照片和对话试探林小鹿是否藏匿了金属盒，最后留下钩子，表明他怀疑但未直接揭穿。",
+      "enum_reason": "宋明远没有直接质问，而是旁敲侧击，表现出谨慎的怀疑。",
+      "evidence_summary": "宋明远拿出仓库清理照片，指出林小鹿翻过的箱子，并提及金属盒，最后说‘如果感兴趣可以跟我说’。",
+      "evidence_quotes": ["我还以为你会对那个金属盒子感兴趣。", "那个金属盒，如果你真的对它感兴趣，可以跟我说。"],
+      "relation_analysis": "宋明远通过间接方式试探林小鹿，表明他保持警惕和怀疑。",
+      "confidence": 0.85
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "宋明远",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "上下级关系",
+      "pair_summary": "林小鹿是宋明远的下属，两人之间存在明确的上下级关系。",
+      "evidence_summary": "林小鹿向宋明远汇报任务情况，宋明远安排任务并试探她。",
+      "evidence_quotes": ["进来，坐。", "明天的任务安排，我发你手机上了。"],
+      "pair_analysis": "本章中林小鹿进入宋明远办公室汇报，宋明远以组长身份安排任务，上下级关系明确。",
+      "confidence": 0.95
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt_1",
+      "intra_chapter_order": 0,
+      "event_type": "试探对话",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心事件，推动情节发展",
+      "summary": "林小鹿进入宋明远办公室汇报任务，宋明远通过仓库清理照片试探她是否藏匿了金属盒，最后留下钩子暗示可以坦白。",
+      "location": "宋明远办公室",
+      "enum_reason": "该事件是本章核心，直接展现两人之间的试探与警惕。",
+      "evidence_summary": "宋明远拿出照片指出林小鹿翻过的箱子，提及金属盒，林小鹿谨慎应对。",
+      "evidence_quotes": ["我还以为你会对那个金属盒子感兴趣。", "那个金属盒，如果你真的对它感兴趣，可以跟我说。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "宋明远", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "interaction_type": "deception",
+      "interaction_type_raw": "旁敲侧击，假装闲聊",
+      "impact_level": "high",
+      "impact_level_raw": "试探行为对林小鹿造成很大心理压力",
+      "polarity": "negative",
+      "polarity_raw": "试探带有不信任和威胁意味",
+      "summary": "宋明远以闲聊方式提及金属盒，暗示知道林小鹿藏了东西，最后留下钩子。",
+      "enum_reason": "宋明远没有直接质问，而是通过假装随意的方式试探，属于欺骗性互动。",
+      "evidence_summary": "宋明远拿出照片，说‘我还以为你会对那个金属盒子感兴趣’，最后说‘如果感兴趣可以跟我说’。",
+      "evidence_quotes": ["我还以为你会对那个金属盒子感兴趣。", "那个金属盒，如果你真的对它感兴趣，可以跟我说。"],
+      "interaction_analysis": "宋明远通过假装闲聊和留下钩子来试探林小鹿，属于欺骗性互动。",
+      "confidence": 0.9
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "interaction_type": "deception",
+      "interaction_type_raw": "假装不知情",
+      "impact_level": "high",
+      "impact_level_raw": "林小鹿需要控制反应避免暴露",
+      "polarity": "negative",
+      "polarity_raw": "林小鹿对宋明远撒谎",
+      "summary": "林小鹿假装对金属盒不感兴趣，谎称怕弄脏衣服，并否认知道金属盒的存在。",
+      "enum_reason": "林小鹿故意隐瞒自己藏匿金属盒的事实，属于欺骗。",
+      "evidence_summary": "林小鹿说‘什么金属盒？’‘我看到了，但是觉得那盒子有点旧，不太像有什么用的样子’。",
+      "evidence_quotes": ["什么金属盒？", "我看到了，但是觉得那盒子有点旧，不太像有什么用的样子。"],
+      "interaction_analysis": "林小鹿通过假装不知情来掩盖自己藏匿金属盒的行为，属于欺骗性互动。",
+      "confidence": 0.9
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "藏匿金属盒被宋明远察觉",
+      "object_value": "宋明远通过照片和对话暗示知道林小鹿藏了金属盒",
+      "summary": "宋明远在办公室试探林小鹿，提及金属盒，林小鹿意识到对方已知晓。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "宋明远",
+      "predicate": "对林小鹿保持怀疑",
+      "object_value": "宋明远通过试探确认林小鹿藏匿了金属盒，但未直接揭穿",
+      "summary": "宋明远最后留下钩子，暗示林小鹿可以坦白，表明他怀疑但未行动。",
+      "is_state": true,
+      "confidence": 0.85
+    }
+  ]
+}

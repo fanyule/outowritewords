@@ -1,0 +1,84 @@
+{
+  "summary": "本章无正文内容，仅标题暗示宋明远对林小鹿的关注或审视。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥"],
+      "chapter_role": "major_actor",
+      "summary": "天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "审视与关注",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "组长与组员",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "试探与不信任",
+      "state_summary": "宋明远作为组长对林小鹿保持警惕和审视，可能仍在调查她的背景和动机。",
+      "enum_reason": "标题暗示宋明远的目光，结合前文试探行为，选择wary。",
+      "evidence_summary": "标题'宋明远的目光'暗示宋明远对林小鹿的关注或审视。",
+      "evidence_quotes": ["第34章 宋明远的目光"],
+      "relation_analysis": "标题直接指向宋明远对林小鹿的注视，结合前文宋明远的试探行为，表明他仍对林小鹿保持警惕。",
+      "confidence": 0.6
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "被审视的警惕",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "下属与上司",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "被试探的警惕",
+      "state_summary": "林小鹿作为下属对上司宋明远的审视保持警惕，可能正在准备应对策略。",
+      "enum_reason": "标题暗示宋明远的目光，林小鹿作为被审视方，结合前文警惕态度，选择wary。",
+      "evidence_summary": "标题'宋明远的目光'暗示林小鹿被宋明远关注或审视。",
+      "evidence_quotes": ["第34章 宋明远的目光"],
+      "relation_analysis": "标题暗示林小鹿处于被审视的位置，结合前文她对宋明远的警惕，保持wary stance。",
+      "confidence": 0.6
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "宋明远",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "组长与组员",
+      "pair_summary": "林小鹿和宋明远是天衍组织中的上下级关系，宋明远是组长，林小鹿是新入职的组员。",
+      "evidence_summary": "前文已建立上下级关系，本章标题暗示宋明远对林小鹿的关注。",
+      "evidence_quotes": ["第34章 宋明远的目光"],
+      "pair_analysis": "标题强化了上下级关系中的审视动态，但未改变基本结构。",
+      "confidence": 0.7
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch34_01",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "无正文内容",
+      "summary": "本章无正文内容，仅标题暗示宋明远对林小鹿的关注或审视。",
+      "location": "未知",
+      "enum_reason": "无正文内容，仅标题提供信息，权重较低。",
+      "evidence_summary": "标题'宋明远的目光'。",
+      "evidence_quotes": ["第34章 宋明远的目光"],
+      "participants": [
+        {"entity_name": "宋明远", "role": "actor", "confidence": 0.6},
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.6}
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "interactions": [],
+  "fact_updates": []
+}

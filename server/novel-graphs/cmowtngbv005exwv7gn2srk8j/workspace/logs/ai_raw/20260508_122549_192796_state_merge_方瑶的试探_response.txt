@@ -1,0 +1,184 @@
+{
+  "summary": "方瑶以送汤为名上门试探苏晚，借关心头痛之机递出玫瑰胸针，试图验证苏晚的触摸读取记忆能力。苏晚触碰胸针后读取到方瑶与赵毅的通话记忆，得知方瑶视她为工具、赵毅在幕后操纵。苏晚掩饰能力反噬的异常，方瑶离开前仍保持怀疑。",
+  "entities": [
+    {
+      "name": "苏晚",
+      "aliases": ["晓晓", "晚晚"],
+      "chapter_role": "protagonist",
+      "summary": "大学生，父亲林建国失踪三年，能力觉醒后加入天枢组织。本章中她刚探访废弃实验室归来，头痛未消，面对方瑶的试探，通过触碰胸针读取到方瑶与赵毅的密谋，意识到自己被利用，决心在被用完前找到笔记本。"
+    },
+    {
+      "name": "方瑶",
+      "aliases": ["方姐"],
+      "chapter_role": "major_actor",
+      "summary": "天枢科研部主管，表面温和关心，实则将苏晚视为工具。本章中她以送汤和关心头痛为名上门，借递胸针试探苏晚的能力，离开前仍保持怀疑。"
+    },
+    {
+      "name": "陈默",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "天枢外勤组长，受林建国委托引导苏晚。本章中仅被方瑶提及，称他告知了方瑶苏晚去废弃实验室的事。"
+    },
+    {
+      "name": "赵毅",
+      "aliases": ["赵部长"],
+      "chapter_role": "mentioned",
+      "summary": "天枢行动部副部长，幕后操纵方瑶。本章中出现在苏晚读取的记忆里，与方瑶通话，指示她让苏晚接触笔记，并暗示用完即弃。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "方瑶",
+      "to": "苏晚",
+      "raw_label": "表面关心，实际利用与试探",
+      "structural_base": "same_faction",
+      "structural_base_raw": "同属天枢组织",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "方瑶离开前回头打量，眼神冷静，像判断工具是否合用",
+      "state_summary": "方瑶表面上以学姐身份关心苏晚，实则受赵毅指使，通过递胸针试探苏晚的能力是否真实，并计划利用她读取笔记后处理掉。方瑶对苏晚保持高度警惕和利用心态。",
+      "enum_reason": "同属天枢组织，但方瑶对苏晚的利用和试探表明她并不信任苏晚，而是将其视为可消耗的工具。",
+      "evidence_summary": "方瑶以送汤和关心头痛为名上门，借递胸针试探苏晚的能力；苏晚读取到方瑶与赵毅的通话，方瑶称苏晚为工具，用完就处理；方瑶离开前回头打量，眼神冷静。",
+      "evidence_quotes": ["她只是个工具，用完就——", "方瑶的眼神里没有笑意，只有一种冷静的打量，像在判断一件工具是否还合用。"],
+      "relation_analysis": "方瑶对苏晚的关心是伪装，实际目的是验证能力并利用她获取笔记内容，同时保持随时可以抛弃的态度，因此动态立场为不信任。",
+      "confidence": 0.95
+    },
+    {
+      "from": "苏晚",
+      "to": "方瑶",
+      "raw_label": "警惕与伪装",
+      "structural_base": "same_faction",
+      "structural_base_raw": "同属天枢组织",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "苏晚注意到方瑶来得太巧，对递胸针的举动保持警觉，并在读取记忆后意识到自己被利用",
+      "state_summary": "苏晚对方瑶的突然来访和递胸针行为保持高度警惕，意识到方瑶在试探她的能力。读取记忆后确认方瑶与赵毅合谋利用自己，决心在被用完前找到笔记本。",
+      "enum_reason": "苏晚对方瑶的动机和行动保持警觉，但为了维持新人设，她选择伪装接受试探，内心已确认方瑶的敌意。",
+      "evidence_summary": "苏晚注意到方瑶来得太巧，对递胸针的举动保持警觉；读取记忆后确认方瑶与赵毅的密谋；她伪装头痛掩饰异常，但内心已决定加快行动。",
+      "evidence_quotes": ["方瑶来得太巧了，她刚从废弃实验室回来不到半天，这人就拎着汤上门了。", "她只是个工具，用完就——"],
+      "relation_analysis": "苏晚通过能力确认了方瑶的真实意图，因此对她保持高度警惕和戒备，但为了计划继续伪装。",
+      "confidence": 0.95
+    },
+    {
+      "from": "方瑶",
+      "to": "赵毅",
+      "raw_label": "受命执行",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "方瑶向赵毅汇报并接受指令",
+      "dynamic_stance": "submissive",
+      "dynamic_stance_raw": "方瑶在电话中向赵毅汇报情况，并接受他的指示",
+      "state_summary": "方瑶受赵毅指使，负责试探和利用苏晚，并向赵毅汇报进展。她服从赵毅的命令，计划让苏晚接触笔记后处理掉。",
+      "enum_reason": "方瑶向赵毅汇报并接受指令，表明赵毅是上级，方瑶是执行者。",
+      "evidence_summary": "苏晚读取的记忆中，方瑶与赵毅通话，赵毅指示她让苏晚接触笔记，方瑶表示知道该怎么做。",
+      "evidence_quotes": ["让她继续接触那本笔记。", "我知道。"],
+      "relation_analysis": "方瑶对赵毅的指令表示服从，并计划执行用完即弃的方案，表明她处于下属地位。",
+      "confidence": 0.9
+    },
+    {
+      "from": "赵毅",
+      "to": "方瑶",
+      "raw_label": "指挥与利用",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "赵毅向方瑶下达指令",
+      "dynamic_stance": "dominant",
+      "dynamic_stance_raw": "赵毅语气冷下来，指示方瑶让苏晚接触笔记，并暗示用完即弃",
+      "state_summary": "赵毅作为上级，指挥方瑶利用苏晚的能力读取笔记，并暗示在利用完毕后处理掉苏晚。他对苏晚持工具化态度。",
+      "enum_reason": "赵毅下达指令，方瑶服从，表明赵毅处于支配地位。",
+      "evidence_summary": "苏晚读取的记忆中，赵毅指示方瑶让苏晚接触笔记，并说如果她读到了，你知道该怎么做。",
+      "evidence_quotes": ["让她继续接触那本笔记。", "如果她读到了，你知道该怎么做。"],
+      "relation_analysis": "赵毅对方瑶下达明确指令，语气冷硬，表明他掌握主导权。",
+      "confidence": 0.9
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "方瑶",
+      "entity_b": "赵毅",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "方瑶向赵毅汇报并接受指令",
+      "pair_summary": "方瑶与赵毅是上下级关系，赵毅指挥方瑶利用苏晚的能力，方瑶服从并执行。",
+      "evidence_summary": "苏晚读取的记忆中，方瑶与赵毅通话，赵毅指示她让苏晚接触笔记，方瑶表示知道该怎么做。",
+      "evidence_quotes": ["让她继续接触那本笔记。", "我知道。"],
+      "pair_analysis": "双方在通话中明确表现出指令与服从的关系，赵毅是上级，方瑶是执行者。",
+      "confidence": 0.9
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt_1",
+      "intra_chapter_order": 0,
+      "event_type": "试探与读取",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心冲突：方瑶试探苏晚能力，苏晚读取到关键密谋",
+      "summary": "方瑶以送汤和关心头痛为名上门，借递玫瑰胸针试探苏晚的触摸读取能力。苏晚触碰胸针后读取到方瑶与赵毅的通话记忆，得知方瑶视她为工具、赵毅在幕后操纵。苏晚掩饰能力反噬的异常，方瑶离开前仍保持怀疑。",
+      "location": "苏晚的宿舍",
+      "enum_reason": "本章的核心事件，直接揭示方瑶的真实意图和赵毅的操纵，推动苏晚决心加快行动。",
+      "evidence_summary": "方瑶递胸针，苏晚触碰后读取记忆，看到方瑶与赵毅通话；苏晚掩饰头痛，方瑶离开前回头打量。",
+      "evidence_quotes": ["她只是个工具，用完就——", "方瑶的眼神里没有笑意，只有一种冷静的打量，像在判断一件工具是否还合用。"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "方瑶", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "方瑶",
+      "to": "苏晚",
+      "interaction_type": "deception",
+      "interaction_type_raw": "方瑶以关心为名，实际试探苏晚的能力",
+      "impact_level": "high",
+      "impact_level_raw": "直接威胁苏晚的安全和计划",
+      "polarity": "negative",
+      "polarity_raw": "表面关心，实则利用和试探",
+      "summary": "方瑶以送汤和关心头痛为名上门，借递胸针试探苏晚的触摸读取能力。苏晚触碰后读取到方瑶与赵毅的密谋，意识到自己被利用。方瑶离开前仍保持怀疑。",
+      "enum_reason": "方瑶的行为表面是关心，实际是欺骗性的试探，目的是验证苏晚的能力并利用她。",
+      "evidence_summary": "方瑶递胸针，苏晚触碰后读取记忆；方瑶离开前回头打量，眼神冷静。",
+      "evidence_quotes": ["她只是个工具，用完就——", "方瑶的眼神里没有笑意，只有一种冷静的打量，像在判断一件工具是否还合用。"],
+      "interaction_analysis": "方瑶的关心是伪装，实际是欺骗性的试探，苏晚通过能力识破，但双方都维持表面和平。",
+      "confidence": 0.95
+    },
+    {
+      "from": "苏晚",
+      "to": "方瑶",
+      "interaction_type": "deception",
+      "interaction_type_raw": "苏晚伪装头痛，掩饰能力反噬的异常",
+      "impact_level": "high",
+      "impact_level_raw": "苏晚的伪装成功与否直接影响她的安全",
+      "polarity": "negative",
+      "polarity_raw": "苏晚被迫伪装，内心警惕",
+      "summary": "苏晚在触碰胸针后读取到关键记忆，但能力反噬导致头痛加剧。她伪装成普通头痛，转移话题，避免方瑶起疑。",
+      "enum_reason": "苏晚为了自保和继续计划，故意掩饰能力反噬的异常，伪装成普通头痛。",
+      "evidence_summary": "苏晚闭眼镇定，扯出笑容，转移话题说胸针好看；方瑶离开后她手心全是汗。",
+      "evidence_quotes": ["没。", "就是头突然更疼了，可能刚才用脑过度。这胸针挺好看的，你戴了很久吧？"],
+      "interaction_analysis": "苏晚通过伪装头痛和转移话题，成功暂时蒙混过关，但方瑶离开前的眼神表明她并未完全相信。",
+      "confidence": 0.9
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "方瑶",
+      "predicate": "真实意图",
+      "object_value": "受赵毅指使，利用苏晚的能力读取笔记，并计划用完即弃",
+      "summary": "苏晚通过触碰胸针读取到方瑶与赵毅的通话，确认方瑶视她为工具，赵毅在幕后操纵。",
+      "is_state": true,
+      "confidence": 0.95
+    },
+    {
+      "subject": "赵毅",
+      "predicate": "幕后操纵",
+      "object_value": "指示方瑶让苏晚接触笔记，并暗示在利用完毕后处理掉苏晚",
+      "summary": "苏晚读取的记忆中，赵毅与方瑶通话，指示她让苏晚接触笔记，并说如果她读到了，你知道该怎么做。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "苏晚",
+      "predicate": "决心",
+      "object_value": "必须在被用完之前找到笔记本",
+      "summary": "苏晚确认方瑶和赵毅的利用计划后，决心加快行动，在被处理前找到笔记本。",
+      "is_state": true,
+      "confidence": 0.95
+    }
+  ]
+}

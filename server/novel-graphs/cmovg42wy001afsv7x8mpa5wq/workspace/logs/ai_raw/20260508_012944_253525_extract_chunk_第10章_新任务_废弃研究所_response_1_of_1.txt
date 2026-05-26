@@ -1,0 +1,43 @@
+{
+  "summary": "本章无正文内容，仅标题提示林小鹿接到新任务，前往废弃研究所。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    }
+  ],
+  "directed_relations": [],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch10_evt1",
+      "intra_chapter_order": 0,
+      "event_type": "mission_assignment",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "标题暗示新任务",
+      "summary": "林小鹿接到新任务，目标地点为废弃研究所。",
+      "location": "废弃研究所",
+      "enum_reason": "标题明确指示新任务，属于主线推进",
+      "evidence_summary": "标题为'新任务：废弃研究所'",
+      "evidence_quotes": ["新任务：废弃研究所"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 0.9}
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "接到新任务",
+      "object_value": "废弃研究所",
+      "summary": "林小鹿接到新任务，目标地点为废弃研究所。",
+      "is_state": false,
+      "confidence": 0.9
+    }
+  ]
+}

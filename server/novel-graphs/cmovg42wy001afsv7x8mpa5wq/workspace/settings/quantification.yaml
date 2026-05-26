@@ -1,0 +1,28 @@
+# Quantification settings are experimental. Defaults are graph-quality oriented.
+quantification:
+  weights:
+    centrality: 0.26
+    recent_presence: 0.12
+    event_participation: 0.22
+    relation_intensity: 0.2
+    pair_structure: 0.1
+    chapter_role: 0.1
+  score_mix:
+    value: 0.7
+    rank: 0.3
+  recent_window:
+    ratio: 0.08
+    min: 6
+    max: 30
+    decay_steepness: 3.0
+  tiers:
+    core_ratio: 0.05
+    core_min: 3
+    core_max: 10
+    active_ratio: 0.2
+    small_cast_active_ratio: 0.3
+  transient:
+    importance_max: 15
+    recent_presence_max: 10.0
+    event_participation_max: 10.0
+    appearance_max: 1

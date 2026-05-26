@@ -1,0 +1,259 @@
+{
+  "summary": "周岚执意前往旧码头查看火灾痕迹，沈砚陪同。林苒提前赶到并交出偷拍的监控截图，截图显示一名戴帽男子将铁盒交给陌生司机。周岚因此更信任林苒，但沈砚开始怀疑林苒隐瞒消息来源，三人合作出现裂缝。",
+  "entities": [
+    {
+      "name": "周岚",
+      "aliases": [],
+      "chapter_role": "protagonist",
+      "summary": "调查者，执意前往旧码头查看火灾痕迹，对林苒的信任加深。"
+    },
+    {
+      "name": "沈砚",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "陪同周岚冒雨查看仓库，开始怀疑林苒隐瞒消息来源。"
+    },
+    {
+      "name": "林苒",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "记者，提前赶到旧码头并交出偷拍的监控截图，但被沈砚怀疑隐瞒来源。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "周岚",
+      "to": "林苒",
+      "raw_label": "信任加深",
+      "structural_base": "same_faction",
+      "structural_base_raw": "三人共同调查港区失火案",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "周岚因此更加信任林苒",
+      "state_summary": "周岚因林苒提供关键监控截图而更加信任她，认为林苒是可靠的合作者。",
+      "enum_reason": "林苒主动提供证据，周岚明确表示信任，符合trusting。",
+      "evidence_summary": "周岚看到监控截图后更加信任林苒。",
+      "evidence_quotes": ["周岚因此更加信任林苒"],
+      "relation_analysis": "林苒通过提供关键证据巩固了周岚的信任，周岚对林苒的信任度上升。",
+      "confidence": 0.8
+    },
+    {
+      "from": "沈砚",
+      "to": "林苒",
+      "raw_label": "怀疑隐瞒来源",
+      "structural_base": "same_faction",
+      "structural_base_raw": "三人共同调查港区失火案",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "沈砚开始怀疑林苒隐瞒了消息来源",
+      "state_summary": "沈砚对林苒提供监控截图的来源产生怀疑，认为她可能有所隐瞒。",
+      "enum_reason": "沈砚明确怀疑林苒隐瞒消息来源，符合distrustful。",
+      "evidence_summary": "沈砚开始怀疑林苒隐瞒了消息来源。",
+      "evidence_quotes": ["沈砚开始怀疑林苒隐瞒了消息来源"],
+      "relation_analysis": "林苒提供证据的方式引发沈砚的警惕，沈砚对林苒的信任度下降。",
+      "confidence": 0.8
+    },
+    {
+      "from": "沈砚",
+      "to": "周岚",
+      "raw_label": "陪同并怀疑",
+      "structural_base": "same_faction",
+      "structural_base_raw": "两人共同调查港区失火案",
+      "dynamic_stance": "conflicted",
+      "dynamic_stance_raw": "沈砚只能跟着她一起冒雨查看仓库残留的火灾痕迹",
+      "state_summary": "沈砚虽陪同周岚前往旧码头，但内心对周岚的执意行动和林苒的可信度存在矛盾。",
+      "enum_reason": "沈砚陪同但内心有怀疑，表现出矛盾态度，符合conflicted。",
+      "evidence_summary": "沈砚只能跟着周岚一起冒雨查看仓库。",
+      "evidence_quotes": ["沈砚只能跟着她一起冒雨查看仓库残留的火灾痕迹"],
+      "relation_analysis": "沈砚对周岚的行动持保留态度，但出于合作仍陪同，关系处于矛盾状态。",
+      "confidence": 0.7
+    },
+    {
+      "from": "林苒",
+      "to": "周岚",
+      "raw_label": "提供证据",
+      "structural_base": "same_faction",
+      "structural_base_raw": "三人共同调查港区失火案",
+      "dynamic_stance": "friendly",
+      "dynamic_stance_raw": "林苒比他们先一步赶到，并把自己偷拍到的监控截图递给周岚",
+      "state_summary": "林苒主动向周岚提供关键监控截图，表现出合作与支持态度。",
+      "enum_reason": "林苒主动提供证据，行为友好，符合friendly。",
+      "evidence_summary": "林苒提前赶到并交出偷拍的监控截图。",
+      "evidence_quotes": ["林苒比他们先一步赶到，并把自己偷拍到的监控截图递给周岚"],
+      "relation_analysis": "林苒通过提供证据巩固了与周岚的合作关系，态度积极。",
+      "confidence": 0.8
+    },
+    {
+      "from": "林苒",
+      "to": "沈砚",
+      "raw_label": "提供证据但被怀疑",
+      "structural_base": "same_faction",
+      "structural_base_raw": "三人共同调查港区失火案",
+      "dynamic_stance": "neutral",
+      "dynamic_stance_raw": "林苒比他们先一步赶到，并把自己偷拍到的监控截图递给周岚",
+      "state_summary": "林苒向周岚提供证据，但未直接与沈砚互动，沈砚的怀疑尚未影响林苒对沈砚的态度。",
+      "enum_reason": "林苒未表现出对沈砚的明显态度，保持中性，符合neutral。",
+      "evidence_summary": "林苒提供证据给周岚，沈砚在场但未直接互动。",
+      "evidence_quotes": ["林苒比他们先一步赶到，并把自己偷拍到的监控截图递给周岚"],
+      "relation_analysis": "林苒的行为未直接针对沈砚，沈砚的怀疑尚未被林苒察觉或回应。",
+      "confidence": 0.6
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "周岚",
+      "entity_b": "沈砚",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "两人共同调查港区失火案",
+      "pair_summary": "两人是共同调查港区失火案的合作者，但沈砚对周岚的执意行动和林苒的可信度存在矛盾。",
+      "evidence_summary": "沈砚陪同周岚前往旧码头查看火灾痕迹。",
+      "evidence_quotes": ["沈砚只能跟着她一起冒雨查看仓库残留的火灾痕迹"],
+      "pair_analysis": "两人有明确的合作基础，但沈砚的怀疑态度使关系出现裂痕。",
+      "confidence": 0.8
+    },
+    {
+      "entity_a": "周岚",
+      "entity_b": "林苒",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "三人共同调查港区失火案",
+      "pair_summary": "两人是共同调查港区失火案的合作者，周岚因林苒提供关键证据而更加信任她。",
+      "evidence_summary": "林苒提前赶到并交出监控截图，周岚因此更加信任林苒。",
+      "evidence_quotes": ["周岚因此更加信任林苒"],
+      "pair_analysis": "林苒通过提供证据巩固了与周岚的合作关系，信任度上升。",
+      "confidence": 0.8
+    },
+    {
+      "entity_a": "沈砚",
+      "entity_b": "林苒",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "三人共同调查港区失火案",
+      "pair_summary": "两人是共同调查港区失火案的合作者，但沈砚开始怀疑林苒隐瞒消息来源，关系出现裂缝。",
+      "evidence_summary": "沈砚开始怀疑林苒隐瞒了消息来源。",
+      "evidence_quotes": ["沈砚开始怀疑林苒隐瞒了消息来源"],
+      "pair_analysis": "林苒提供证据的方式引发沈砚的怀疑，合作基础受到动摇。",
+      "confidence": 0.8
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch2_ev1",
+      "intra_chapter_order": 0,
+      "event_type": "investigation",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "周岚执意前往旧码头查看火灾痕迹",
+      "summary": "周岚执意前往旧码头查看仓库残留的火灾痕迹，沈砚陪同冒雨前往。",
+      "location": "旧码头仓库",
+      "enum_reason": "该事件是本章核心行动，推动情节发展。",
+      "evidence_summary": "周岚执意去旧码头，沈砚陪同。",
+      "evidence_quotes": ["第二天凌晨，周岚还是执意去了旧码头，沈砚只能跟着她一起冒雨查看仓库残留的火灾痕迹"],
+      "participants": [
+        {"entity_name": "周岚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "沈砚", "role": "participant", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "ch2_ev2",
+      "intra_chapter_order": 1,
+      "event_type": "information_sharing",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "林苒交出监控截图",
+      "summary": "林苒提前赶到旧码头，将偷拍的监控截图交给周岚，截图显示一名戴帽男子将铁盒交给陌生司机。",
+      "location": "旧码头仓库",
+      "enum_reason": "该事件提供关键证据，推动信任变化和关系裂缝。",
+      "evidence_summary": "林苒比他们先一步赶到，并把自己偷拍到的监控截图递给周岚。",
+      "evidence_quotes": ["林苒比他们先一步赶到，并把自己偷拍到的监控截图递给周岚。截图里，一个戴帽子的男人正把一只铁盒交给陌生司机"],
+      "participants": [
+        {"entity_name": "林苒", "role": "actor", "confidence": 1.0},
+        {"entity_name": "周岚", "role": "target", "confidence": 1.0},
+        {"entity_name": "沈砚", "role": "witness", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "ch2_ev3",
+      "intra_chapter_order": 2,
+      "event_type": "trust_shift",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "三人之间的合作第一次出现裂缝",
+      "summary": "周岚因监控截图更加信任林苒，但沈砚开始怀疑林苒隐瞒消息来源，三人合作出现裂缝。",
+      "location": "旧码头仓库",
+      "enum_reason": "该事件改变三人关系动态，是本章转折点。",
+      "evidence_summary": "周岚因此更加信任林苒，但沈砚开始怀疑林苒隐瞒了消息来源。三人之间的合作第一次出现裂缝。",
+      "evidence_quotes": ["周岚因此更加信任林苒，但沈砚开始怀疑林苒隐瞒了消息来源。三人之间的合作第一次出现裂缝"],
+      "participants": [
+        {"entity_name": "周岚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "沈砚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "林苒", "role": "target", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "林苒",
+      "to": "周岚",
+      "interaction_type": "gift_or_support",
+      "interaction_type_raw": "把自己偷拍到的监控截图递给周岚",
+      "impact_level": "high",
+      "impact_level_raw": "提供关键证据",
+      "polarity": "positive",
+      "polarity_raw": "周岚因此更加信任林苒",
+      "summary": "林苒提前赶到旧码头，将偷拍的监控截图交给周岚，周岚因此更加信任她。",
+      "enum_reason": "林苒主动提供证据支持周岚的调查，符合gift_or_support。",
+      "evidence_summary": "林苒交出监控截图，周岚信任加深。",
+      "evidence_quotes": ["林苒比他们先一步赶到，并把自己偷拍到的监控截图递给周岚"],
+      "interaction_analysis": "林苒通过提供关键证据巩固了与周岚的合作关系，互动积极。",
+      "confidence": 0.9
+    },
+    {
+      "from": "沈砚",
+      "to": "林苒",
+      "interaction_type": "conflict",
+      "interaction_type_raw": "开始怀疑林苒隐瞒了消息来源",
+      "impact_level": "high",
+      "impact_level_raw": "导致合作出现裂缝",
+      "polarity": "negative",
+      "polarity_raw": "怀疑隐瞒",
+      "summary": "沈砚开始怀疑林苒隐瞒了监控截图的来源，三人合作出现裂缝。",
+      "enum_reason": "沈砚的怀疑引发内部矛盾，符合conflict。",
+      "evidence_summary": "沈砚开始怀疑林苒隐瞒了消息来源。",
+      "evidence_quotes": ["沈砚开始怀疑林苒隐瞒了消息来源"],
+      "interaction_analysis": "沈砚的怀疑态度导致三人合作出现裂缝，互动负面。",
+      "confidence": 0.8
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "周岚",
+      "predicate": "信任林苒",
+      "object_value": "更加信任",
+      "summary": "周岚因林苒提供监控截图而更加信任她。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "沈砚",
+      "predicate": "怀疑林苒",
+      "object_value": "开始怀疑林苒隐瞒消息来源",
+      "summary": "沈砚开始怀疑林苒隐瞒了监控截图的来源。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "三人合作",
+      "predicate": "出现裂缝",
+      "object_value": "第一次出现裂缝",
+      "summary": "周岚更信任林苒，沈砚怀疑林苒，三人合作出现裂缝。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "监控截图",
+      "predicate": "内容",
+      "object_value": "一名戴帽男子将铁盒交给陌生司机",
+      "summary": "林苒提供的监控截图显示一名戴帽男子将铁盒交给陌生司机。",
+      "is_state": false,
+      "confidence": 0.9
+    }
+  ]
+}

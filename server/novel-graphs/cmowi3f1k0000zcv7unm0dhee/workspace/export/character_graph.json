@@ -1,0 +1,79 @@
+{
+  "schema": "novel-graph-character-graph",
+  "schema_version": 1,
+  "project": {
+    "id": "cmowi3f1k0000zcv7unm0dhee",
+    "title": "????????-20260508-135456",
+    "language": "zh-CN",
+    "schema_version": 2,
+    "created_at": "2026-05-08T06:06:46.739789"
+  },
+  "nodes": [],
+  "directed_edges": [],
+  "pair_edges": [],
+  "profile_digest_status": {
+    "fresh": true,
+    "entity_count": 0,
+    "digest_count": 0,
+    "dirty_count": 0,
+    "dirty_names": [],
+    "refreshed_count": 0,
+    "skipped_reason": "provider_not_configured",
+    "latest_updated_at": "",
+    "refresh_mode": "export",
+    "provider_configured": false
+  },
+  "relation_summary_digest_status": {
+    "fresh": true,
+    "relation_count": 0,
+    "digest_count": 0,
+    "dirty_count": 0,
+    "dirty_keys": [],
+    "refreshed_count": 0,
+    "skipped_reason": "provider_not_configured",
+    "latest_updated_at": "",
+    "refresh_mode": "export",
+    "provider_configured": false
+  },
+  "profile_relation_projection_status": {
+    "fresh": false,
+    "provider_configured": false,
+    "entity_count": 0,
+    "processed_count": 0,
+    "projected_directed_count": 0,
+    "projected_pair_count": 0,
+    "skipped_count": 0,
+    "reason": "provider_not_configured",
+    "directed_merge_status": {
+      "projected_directed_count": 0,
+      "included_directed_count": 0,
+      "added_directed_count": 0,
+      "upgraded_directed_count": 0,
+      "skipped_directed_count": 0,
+      "details": []
+    },
+    "pair_merge_status": {
+      "projected_pair_count": 0,
+      "included_pair_count": 0,
+      "added_pair_count": 0,
+      "upgraded_pair_count": 0,
+      "skipped_pair_count": 0,
+      "details": []
+    }
+  },
+  "stable_graph_eligibility_status": {
+    "rules_version": "stable_graph_eligibility_v1",
+    "total_directed_edges": 0,
+    "eligible_directed_edges": 0,
+    "filtered_directed_edges": 0,
+    "eligible_unknown_edges": 0,
+    "filtered_unknown_edges": 0,
+    "filtered_directed_edges_detail": [],
+    "total_pair_edges": 0,
+    "eligible_pair_edges": 0,
+    "filtered_pair_edges": 0,
+    "eligible_unknown_pair_edges": 0,
+    "filtered_unknown_pair_edges": 0,
+    "filtered_pair_edges_detail": []
+  }
+}

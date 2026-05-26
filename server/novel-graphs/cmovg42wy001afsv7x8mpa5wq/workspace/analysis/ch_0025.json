@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "chapter_title": "第25章 任务简报里的异常信息",
+  "analyzed_at": "2026-05-08T02:21:31",
+  "summary": "本章暂无正文内容，仅标题暗示任务简报中存在异常信息，可能涉及林小鹿发现关键线索或组织内部异常。",
+  "outline": [],
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": [
+        "小鹿",
+        "林远舟的女儿"
+      ],
+      "chapter_role": "protagonist",
+      "tier": "active",
+      "importance_score": 70,
+      "summary": "女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。"
+    }
+  ],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "directed_relations": [],
+  "pair_relations": [],
+  "fact_updates": [],
+  "unresolved": []
+}

@@ -1,0 +1,113 @@
+{
+  "summary": "本章暂无正文内容，仅标题暗示暗流下的邀约，可能涉及林小鹿收到来自陆沉或叶知秋的邀约，面临新的选择或考验。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿", "林远舟的女儿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她可能收到暗流下的邀约。"
+    },
+    {
+      "name": "陆沉",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "标题中出现的代号人物，身份不明，可能为关键线索，向林小鹿伸出橄榄枝，动机尚不明确。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["叶姐", "小叶"],
+      "chapter_role": "mentioned",
+      "summary": "天衍组织的前台接待员，年轻女性，对林小鹿保持友好和保护态度，曾主动提供情报和警告。本章标题暗示她可能再次向林小鹿发出暗示或警告。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥", "宋组长", "天衍外勤组长"],
+      "chapter_role": "mentioned",
+      "summary": "天衍组织外勤组长，四十岁上下，对林小鹿保持审视和试探态度，通过背景调查和任务考验来评估她的可信度和能力。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "保护与警告",
+      "structural_base": "colleague",
+      "structural_base_raw": "天衍同事",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "保护态度",
+      "state_summary": "叶知秋作为天衍同事，对林小鹿保持友好和保护态度，曾主动提供情报和警告。本章标题暗示双方信任可能面临考验。",
+      "enum_reason": "叶知秋与林小鹿同为天衍组织成员，属于同事关系；叶知秋多次主动保护林小鹿，动态立场为保护性。",
+      "evidence_summary": "本章无正文，但标题暗示暗流下的邀约，可能涉及叶知秋向林小鹿发出邀约或警告。",
+      "evidence_quotes": [],
+      "relation_analysis": "基于前几章叶知秋对林小鹿的保护行为，本章标题暗示双方关系可能进一步发展，但存在暗流。",
+      "confidence": 0.6
+    },
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "审视与试探",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "上司与下属",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "警惕",
+      "state_summary": "宋明远作为天衍外勤组长，对林小鹿保持审视和试探态度，通过背景调查和任务考验来评估她的可信度和能力。",
+      "enum_reason": "宋明远是林小鹿的上司，属于上下级关系；他对林小鹿保持警惕和试探，动态立场为警惕。",
+      "evidence_summary": "本章无正文，但标题暗示暗流，可能涉及宋明远对林小鹿的进一步试探或监控。",
+      "evidence_quotes": [],
+      "relation_analysis": "基于前几章宋明远对林小鹿的试探行为，本章标题暗示双方关系可能面临新的考验。",
+      "confidence": 0.6
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "叶知秋",
+      "entity_b": "林小鹿",
+      "shared_structural_base": "colleague",
+      "shared_structural_base_raw": "天衍同事",
+      "pair_summary": "叶知秋与林小鹿同为天衍组织成员，叶知秋对林小鹿保持友好和保护态度。",
+      "evidence_summary": "本章无正文，但标题暗示暗流下的邀约，可能涉及双方关系进一步发展。",
+      "evidence_quotes": [],
+      "pair_analysis": "基于前几章叶知秋对林小鹿的保护行为，本章标题暗示双方关系可能面临考验。",
+      "confidence": 0.6
+    },
+    {
+      "entity_a": "宋明远",
+      "entity_b": "林小鹿",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "上司与下属",
+      "pair_summary": "宋明远作为林小鹿的上司，对她保持审视和试探态度。",
+      "evidence_summary": "本章无正文，但标题暗示暗流，可能涉及宋明远对林小鹿的进一步试探。",
+      "evidence_quotes": [],
+      "pair_analysis": "基于前几章宋明远对林小鹿的试探行为，本章标题暗示双方关系可能面临新的考验。",
+      "confidence": 0.6
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "E40-1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "本章暂无正文内容",
+      "summary": "本章暂无正文内容，仅标题暗示暗流下的邀约。",
+      "location": "未知",
+      "enum_reason": "本章无正文，仅标题提供信息，属于细节性内容。",
+      "evidence_summary": "标题为'暗流下的邀约'，暗示可能发生邀约事件。",
+      "evidence_quotes": [],
+      "participants": [],
+      "confidence": 0.3
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "面临暗流下的邀约",
+      "object_value": "可能收到来自陆沉或叶知秋的邀约",
+      "summary": "本章标题暗示林小鹿可能面临暗流下的邀约，涉及新的选择或考验。",
+      "is_state": true,
+      "confidence": 0.3
+    }
+  ]
+}

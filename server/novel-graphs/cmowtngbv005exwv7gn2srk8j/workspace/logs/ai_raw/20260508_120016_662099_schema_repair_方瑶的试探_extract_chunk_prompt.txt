@@ -1,0 +1,297 @@
+You are repairing a JSON response for a novel analysis pipeline.
+
+Return strict JSON only. No markdown. No explanation.
+
+Repair scope:
+Controlled enum discipline:
+- First understand the scene evidence and summarize the nuance in summary/state_summary.
+- Then choose enum fields strictly from the following tables.
+- Do not output Chinese labels, synonyms, free-form relationship words, or near-matches in enum fields.
+- If no enum is clearly supported, use the listed fallback instead of guessing.
+- Preserve nuance only in summary/state_summary/evidence, not in enum fields.
+- During debugging, also return *_raw and enum_reason where the schema provides them:
+  - *_raw: the short source phrase you extracted before choosing the enum.
+  - enum_reason: one short sentence explaining why the enum was chosen from the table.
+  - *_raw and enum_reason are for audit only; enum fields still must use controlled values.
+
+Allowed structural_base values: childhood_friend, classmate, colleague, commander_soldier, contract_bound, employer_employee, friend, guardian_ward, household_family, kinship_adoptive, kinship_clan, kinship_fiance, kinship_parent_child, kinship_sibling, kinship_spouse, lord_vassal, master_disciple, none, oath_bound, opposing_faction, rival_pair, romantic_partner, roommate, same_faction, same_unit, superior_subordinate, teacher_student, temporary_alliance, unknown
+Fallback structural_base: unknown
+
+Allowed dynamic_stance values: admiring, conflicted, dependent, distrustful, dominant, fearful, friendly, hostile, jealous, neutral, obsessive, protective, resentful, romantic_interest, submissive, trusting, unknown, wary
+Fallback dynamic_stance: neutral
+
+Allowed interactions[].interaction_type values: betrayal, command, confession, conflict, contract, cooperation, daily_interaction, deception, duel, family_recognition, gift_or_support, humiliation, mind_control, political_negotiation, possession, promise, protection, reconciliation, rescue, reunion, revelation, sacrifice, separation, shared_battle, teaching, threat, training, unknown
+Fallback interaction_type: unknown
+
+Allowed interactions[].impact_level values: critical, high, low, medium
+Fallback impact_level: medium
+
+Allowed interactions[].polarity values: mixed, negative, neutral, positive
+Fallback polarity: neutral
+
+Allowed events[].narrative_weight values: background, core, detail, mainline, turning_point
+Fallback narrative_weight: mainline
+
+- Fix JSON syntax, field names, and object shapes so the response matches the required schema.
+- Do not add new facts that are not present in the invalid response.
+- Drop rows that cannot be repaired without inventing missing endpoints.
+- Keep all user-facing text values in Simplified Chinese.
+
+Required field repairs:
+- identity_revelations items must use source_name and target_name. If an item only has entity/name without a revealed target, move it to fact_updates or drop it.
+- interactions items must use from and to. If a row has no clear pair, move it to events or drop it.
+- fact_updates items must use subject, predicate, object_value, summary, is_state, confidence. fact_name/content are not valid replacement keys.
+- directed_relations items must use from and to.
+- pair_relations items must use entity_a and entity_b.
+- entities items must have name.
+
+<title>
+方瑶的试探
+</title>
+
+<stage>
+extract_chunk
+</stage>
+
+<validation_error>
+3 validation errors for AnalysisResult
+events.0.event_id
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+events.1.event_id
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+events.2.event_id
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+</validation_error>
+
+<invalid_response>
+{
+  "summary": "方瑶以送汤为名上门探望苏晚，借关心头痛之名用一枚银色玫瑰胸针试探苏晚的触摸读取记忆能力。苏晚触碰胸针后读取到方瑶与赵毅的通话记忆，得知方瑶视她为工具、赵毅在幕后操纵，并提到一本笔记本。苏晚强忍头痛掩饰异常，方瑶离开前回头观察，表明并未完全相信苏晚。苏晚意识到自己处境危险，决定在被利用完之前找到那本笔记本。",
+  "entities": [
+    {
+      "name": "苏晚",
+      "aliases": [],
+      "chapter_role": "protagonist",
+      "summary": "大学生，父亲林建国失踪三年，刚加入天枢组织，觉醒触摸读取记忆的能力。对方瑶的试探保持高度警惕，成功掩饰读取记忆后的异常反应，但意识到自己被利用，决心找到笔记本。"
+    },
+    {
+      "name": "方瑶",
+      "aliases": ["方姐"],
+      "chapter_role": "major_actor",
+      "summary": "天枢科研部主管，表面温和关心，实则视苏晚为工具，与赵毅合谋利用苏晚的能力读取笔记本内容。通过送汤和胸针试探苏晚的能力，离开前回头观察，对苏晚的表演存疑。"
+    },
+    {
+      "name": "陈默",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "天枢外勤组长，向方瑶透露苏晚去过废弃实验室，被方瑶提及但未出场。"
+    },
+    {
+      "name": "赵毅",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "与方瑶通话的神秘男子，声音低沉沙哑，在幕后操纵方瑶利用苏晚，命令方瑶让苏晚接触笔记本，并暗示必要时处理掉苏晚。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "方瑶",
+      "to": "苏晚",
+      "raw_label": "利用与试探",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "方瑶是天枢科研部主管，苏晚是新加入成员",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "方瑶离开前回头观察，眼神冷静打量，判断工具是否合用",
+      "state_summary": "方瑶表面以学姐身份关心苏晚，实则视其为工具，通过送汤和胸针试探苏晚的能力，并计划利用苏晚读取笔记本内容。她对苏晚的表演存疑，保持警惕。",
+      "enum_reason": "方瑶是天枢科研部主管，苏晚是新加入成员，存在明确的上下级关系；方瑶对苏晚不信任，持续试探和评估。",
+      "evidence_summary": "方瑶送汤上门，用胸针试探苏晚能力；读取的记忆显示方瑶称苏晚为工具，计划利用她读取笔记本；离开前回头观察，眼神冷静打量。",
+      "evidence_quotes": ["她只是个工具，用完就——", "方瑶的眼神里没有笑意，只有一种冷静的打量，像在判断一件工具是否还合用。"],
+      "relation_analysis": "方瑶作为上级，对苏晚的能力有明确利用意图，同时因苏晚的聪明和陈默的监视而保持不信任，持续试探。",
+      "confidence": 0.95
+    },
+    {
+      "from": "苏晚",
+      "to": "方瑶",
+      "raw_label": "警惕与伪装",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "苏晚是新加入成员，方瑶是科研部主管",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "苏晚对方瑶的试探保持高度警惕，刻意伪装以维持新人形象",
+      "state_summary": "苏晚对方瑶的突然来访和试探保持高度警惕，通过伪装头痛和转移话题成功掩饰读取记忆后的异常，但意识到自己被利用，决心加快行动。",
+      "enum_reason": "苏晚是新加入成员，方瑶是科研部主管，存在明确的上下级关系；苏晚对方瑶不信任，保持警惕和伪装。",
+      "evidence_summary": "苏晚注意到方瑶来得太巧，对胸针试探保持警觉；读取记忆后强忍头痛伪装正常；意识到方瑶在利用她。",
+      "evidence_quotes": ["方瑶来得太巧了，她刚从废弃实验室回来不到半天", "她需要维持这个人设，一个刚刚觉醒能力、对组织充满好奇又有些依赖的新人。"],
+      "relation_analysis": "苏晚作为下属，对方瑶的利用意图有清晰认知，通过伪装应对试探，同时保持高度警惕。",
+      "confidence": 0.95
+    },
+    {
+      "from": "赵毅",
+      "to": "方瑶",
+      "raw_label": "幕后操纵与命令",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "赵毅在电话中命令方瑶，语气冷下来",
+      "dynamic_stance": "dominant",
+      "dynamic_stance_raw": "赵毅命令方瑶让苏晚接触笔记本，语气冷下来",
+      "state_summary": "赵毅在幕后操纵方瑶，命令她让苏晚接触笔记本，并暗示必要时处理掉苏晚。方瑶服从赵毅的指令。",
+      "enum_reason": "赵毅在电话中命令方瑶，语气冷下来，方瑶服从，表明赵毅是上级或主导方。",
+      "evidence_summary": "苏晚读取的记忆中，赵毅命令方瑶让苏晚接触笔记本，语气冷下来，方瑶表示知道该怎么做。",
+      "evidence_quotes": ["让她继续接触那本笔记。", "如果她读到了，你知道该怎么做。"],
+      "relation_analysis": "赵毅以命令口吻指示方瑶，方瑶服从，表明赵毅在两人关系中处于主导地位。",
+      "confidence": 0.9
+    },
+    {
+      "from": "方瑶",
+      "to": "赵毅",
+      "raw_label": "服从与汇报",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "方瑶向赵毅汇报苏晚的能力确认情况，并服从命令",
+      "dynamic_stance": "submissive",
+      "dynamic_stance_raw": "方瑶向赵毅汇报，表示知道该怎么做",
+      "state_summary": "方瑶向赵毅汇报苏晚的能力确认情况，服从赵毅的命令让苏晚接触笔记本，并接受必要时处理苏晚的指示。",
+      "enum_reason": "方瑶向赵毅汇报并服从命令，表明方瑶在关系中处于服从地位。",
+      "evidence_summary": "苏晚读取的记忆中，方瑶向赵毅汇报苏晚的能力很强，赵毅命令她让苏晚接触笔记本，方瑶表示知道该怎么做。",
+      "evidence_quotes": ["确认了，很强。", "我当然知道。"],
+      "relation_analysis": "方瑶向赵毅汇报并服从命令，表明方瑶在关系中处于服从地位。",
+      "confidence": 0.9
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "方瑶",
+      "entity_b": "赵毅",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "赵毅命令方瑶，方瑶服从",
+      "pair_summary": "赵毅是方瑶的上级或幕后操纵者，方瑶服从赵毅的命令，两人合谋利用苏晚的能力读取笔记本内容。",
+      "evidence_summary": "苏晚读取的记忆中，赵毅命令方瑶让苏晚接触笔记本，方瑶表示知道该怎么做。",
+      "evidence_quotes": ["让她继续接触那本笔记。", "我当然知道。"],
+      "pair_analysis": "赵毅以命令口吻指示方瑶，方瑶服从，表明两人之间存在明确的上下级或主从关系。",
+      "confidence": 0.9
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": null,
+      "intra_chapter_order": 0,
+      "event_type": "试探与读取记忆",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心事件，推动剧情发展",
+      "summary": "方瑶以送汤为名上门，借关心头痛之名用银色玫瑰胸针试探苏晚的触摸读取记忆能力。苏晚触碰胸针后读取到方瑶与赵毅的通话记忆，得知方瑶视她为工具、赵毅在幕后操纵，并提到一本笔记本。苏晚强忍头痛掩饰异常。",
+      "location": "苏晚的宿舍",
+      "enum_reason": "该事件是本章的核心，直接揭示方瑶的真实意图和赵毅的存在，推动苏晚决定寻找笔记本。",
+      "evidence_summary": "方瑶送汤上门，用胸针试探；苏晚触碰后读取记忆，看到方瑶与赵毅通话；苏晚掩饰异常。",
+      "evidence_quotes": ["她只是个工具，用完就——", "让她继续接触那本笔记。"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "方瑶", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": null,
+      "intra_chapter_order": 1,
+      "event_type": "试探后的观察",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "细节事件，补充方瑶的态度",
+      "summary": "方瑶离开前回头观察苏晚所在的楼栋，表明她并未完全相信苏晚的表演，仍保持警惕。",
+      "location": "苏晚宿舍门口及小区拐角",
+      "enum_reason": "该事件是核心事件的后续细节，进一步揭示方瑶的不信任。",
+      "evidence_summary": "方瑶离开前回头看了一眼苏晚所在的楼栋，动作自然但苏晚知道那不是。",
+      "evidence_quotes": ["临走前，方瑶又回头看了一眼她所在的这栋楼，那个动作很自然，像是习惯性回头，但苏晚知道那不是。"],
+      "participants": [
+        {"entity_name": "方瑶", "role": "actor", "confidence": 1.0},
+        {"entity_name": "苏晚", "role": "witness", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": null,
+      "intra_chapter_order": 2,
+      "event_type": "决定寻找笔记本",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "转折点，苏晚决定主动行动",
+      "summary": "苏晚意识到自己被方瑶和赵毅利用，决定在被用完之前找到那本笔记本。",
+      "location": "苏晚的宿舍",
+      "enum_reason": "该事件是本章的转折点，苏晚从被动应对转为主动寻找笔记本。",
+      "evidence_summary": "苏晚放下窗帘，回到沙发上，决定找到笔记本。",
+      "evidence_quotes": ["她需要找到那本笔记本。", "在她被用完之前。"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "方瑶",
+      "to": "苏晚",
+      "interaction_type": "deception",
+      "interaction_type_raw": "方瑶以关心为名送汤和胸针，实则试探苏晚的能力",
+      "impact_level": "high",
+      "impact_level_raw": "试探直接涉及苏晚的核心能力，影响后续行动",
+      "polarity": "negative",
+      "polarity_raw": "方瑶表面关心，实则利用和试探",
+      "summary": "方瑶以送汤和关心头痛为名，用银色玫瑰胸针试探苏晚的触摸读取记忆能力。苏晚触碰后读取到方瑶的真实意图，但强忍头痛伪装正常。",
+      "enum_reason": "方瑶表面关心，实则隐藏利用意图，属于欺骗行为。",
+      "evidence_summary": "方瑶送汤上门，用胸针试探；苏晚读取记忆后意识到被利用。",
+      "evidence_quotes": ["她只是个工具，用完就——", "方瑶这个举动，表面上是关心她的头痛，实际上是想验证她到底能不能通过触摸读取记忆。"],
+      "interaction_analysis": "方瑶以关心为伪装，实际目的是试探苏晚的能力，属于欺骗性互动。",
+      "confidence": 1.0
+    },
+    {
+      "from": "苏晚",
+      "to": "方瑶",
+      "interaction_type": "deception",
+      "interaction_type_raw": "苏晚伪装头痛和转移话题，掩饰读取记忆后的异常",
+      "impact_level": "high",
+      "impact_level_raw": "苏晚的伪装成功与否直接影响她的安全",
+      "polarity": "negative",
+      "polarity_raw": "苏晚被迫伪装以应对方瑶的试探",
+      "summary": "苏晚在读取记忆后强忍头痛，通过揉太阳穴、转移话题等方式伪装正常，维持新人形象。",
+      "enum_reason": "苏晚隐藏真实反应，伪装正常，属于欺骗行为。",
+      "evidence_summary": "苏晚闭眼镇定，扯出笑容，转移话题说胸针好看。",
+      "evidence_quotes": ["她需要维持这个人设，一个刚刚觉醒能力、对组织充满好奇又有些依赖的新人。", "没。苏晚扯出一个笑容，揉了揉太阳穴，就是头突然更疼了。"],
+      "interaction_analysis": "苏晚为保护自己，被迫伪装正常，属于欺骗性互动。",
+      "confidence": 1.0
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "方瑶",
+      "predicate": "真实意图",
+      "object_value": "视苏晚为工具，与赵毅合谋利用苏晚的能力读取笔记本内容，并准备在必要时处理掉苏晚",
+      "summary": "苏晚通过读取胸针记忆，确认方瑶表面关心实则利用，与赵毅合谋。",
+      "is_state": true,
+      "confidence": 0.95
+    },
+    {
+      "subject": "赵毅",
+      "predicate": "存在与角色",
+      "object_value": "幕后操纵者，命令方瑶利用苏晚读取笔记本，暗示必要时处理苏晚",
+      "summary": "苏晚读取的记忆中，赵毅与方瑶通话，命令方瑶让苏晚接触笔记本。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "笔记本",
+      "predicate": "重要性",
+      "object_value": "赵毅和方瑶计划让苏晚通过能力读取笔记本内容，笔记本是关键物品",
+      "summary": "赵毅命令方瑶让苏晚继续接触那本笔记，暗示笔记本包含重要信息。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "苏晚",
+      "predicate": "当前目标",
+      "object_value": "在被利用完之前找到那本笔记本",
+      "summary": "苏晚意识到自己被利用，决定主动寻找笔记本。",
+      "is_state": true,
+      "confidence": 1.0
+    }
+  ]
+}
+</invalid_response>
+
+Return the repaired AnalysisResult JSON only.

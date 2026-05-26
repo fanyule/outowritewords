@@ -1,0 +1,256 @@
+{
+  "schema_version": 2,
+  "chapter_title": "第5章 第一个任务：整理档案",
+  "analyzed_at": "2026-05-08T02:07:50",
+  "summary": "林小鹿被分配到档案室整理旧档案，在整理过程中意外发现一份关于青石镇调查的纪要，其中提到地下遗迹、符文刻痕，以及她父亲林远舟作为外部顾问参与调查的记录。她默记关键信息后，宋明远突然出现，翻看了那份档案，但未当场质问。",
+  "outline": [
+    {
+      "order": 0,
+      "text": "林小鹿被分配到档案室整理旧档案，在整理过程中发现一份青石镇调查纪要，其中提到地下遗迹、符文刻痕，以及她父亲林远舟作为外部顾问参与调查。",
+      "involved_names": [
+        "林小鹿",
+        "林远舟"
+      ]
+    },
+    {
+      "order": 1,
+      "text": "林小鹿整理完档案后，宋明远突然出现在档案室门口，走进来翻看了青石镇调查纪要，但未当场质问。",
+      "involved_names": [
+        "林小鹿",
+        "宋明远"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "name": "宋明远",
+      "aliases": [
+        "宋哥",
+        "宋组长"
+      ],
+      "chapter_role": "major_actor",
+      "tier": "core",
+      "importance_score": 86,
+      "summary": "天衍组织组长，林小鹿的上司。本章在档案室门口出现，翻看了青石镇调查纪要，但未当场质问林小鹿。"
+    },
+    {
+      "name": "林小鹿",
+      "aliases": [
+        "小鹿"
+      ],
+      "chapter_role": "protagonist",
+      "tier": "active",
+      "importance_score": 76,
+      "summary": "女大学生，父亲失踪三个月，加入天衍组织寻找父亲。本章在档案室整理档案时发现父亲参与青石镇调查的线索。"
+    },
+    {
+      "name": "林远舟",
+      "aliases": [
+        "林小鹿的父亲"
+      ],
+      "chapter_role": "mentioned",
+      "tier": "active",
+      "importance_score": 60,
+      "summary": "林小鹿失踪的父亲，三个月前失踪。本章被提及在青石镇调查纪要中作为外部顾问出现，日期为三年前六月十七日。"
+    },
+    {
+      "name": "眼镜女人",
+      "aliases": [],
+      "chapter_role": "transient",
+      "tier": "active",
+      "importance_score": 40,
+      "summary": "天衍组织工作人员，戴眼镜的年轻女人，负责带林小鹿到档案室并交代任务，未透露姓名。"
+    }
+  ],
+  "identity_revelations": [
+    {
+      "source_name": "林远舟",
+      "target_name": "林远舟",
+      "revelation_type": "true_identity",
+      "evidence": "青石镇调查纪要中人员名单显示林远舟作为外部顾问参与调查，日期为三年前六月十七日。",
+      "confidence": 1.0
+    }
+  ],
+  "events": [
+    {
+      "event_id": "ch5_event1",
+      "intra_chapter_order": 0,
+      "event_type": "任务执行",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "林小鹿整理档案并发现关键线索",
+      "enum_reason": "本章核心事件，推动主线剧情发展。",
+      "summary": "林小鹿被分配到档案室整理旧档案，在整理过程中发现一份青石镇调查纪要，其中提到地下遗迹、符文刻痕，以及她父亲林远舟作为外部顾问参与调查。",
+      "location": "组织大楼地下二层档案室",
+      "participants": [
+        {
+          "entity_name": "林小鹿",
+          "role": "actor",
+          "confidence": 1.0
+        },
+        {
+          "entity_name": "林远舟",
+          "role": "mentioned",
+          "confidence": 1.0
+        }
+      ],
+      "evidence_summary": "林小鹿在整理三年前的档案时发现青石镇调查纪要，看到父亲名字。",
+      "evidence_quotes": [
+        "一份档案的封面上，写着“青石镇调查纪要”七个字。",
+        "她一行行扫过去，在倒数第三行看到了一个名字。林远舟。"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "ch5_event2",
+      "intra_chapter_order": 1,
+      "event_type": "检查",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "宋明远突然出现并翻看档案",
+      "enum_reason": "重要情节转折，宋明远的出现和动作暗示他对林小鹿有所怀疑。",
+      "summary": "林小鹿整理完档案后，宋明远突然出现在档案室门口，走进来翻看了青石镇调查纪要，但未当场质问。",
+      "location": "组织大楼地下二层档案室门口",
+      "participants": [
+        {
+          "entity_name": "林小鹿",
+          "role": "target",
+          "confidence": 1.0
+        },
+        {
+          "entity_name": "宋明远",
+          "role": "actor",
+          "confidence": 1.0
+        }
+      ],
+      "evidence_summary": "宋明远在门口出现，走进档案室拿起青石镇调查纪要翻看，手指在封面上停了两秒。",
+      "evidence_quotes": [
+        "宋明远站在门口。",
+        "他伸手拿起来，翻开看了看，然后合上，放回原位。",
+        "手指在封面上停了两秒才翻开。"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "眼镜女人",
+      "to": "林小鹿",
+      "interaction_type": "command",
+      "interaction_type_raw": "交代任务",
+      "impact_level": "low",
+      "impact_level_raw": "日常任务交代",
+      "polarity": "neutral",
+      "polarity_raw": "职业化交代",
+      "enum_reason": "眼镜女人作为工作人员，向林小鹿下达工作任务。",
+      "summary": "眼镜女人带林小鹿到档案室，交代整理档案的任务后离开。",
+      "evidence_summary": "眼镜女人指了指靠墙的那排柜子，说‘你今天的任务是把这些旧档案按年份重新编号归档。’",
+      "evidence_quotes": [
+        "“这就是档案室。”眼镜女人指了指靠墙的那排柜子，“你今天的任务是把这些旧档案按年份重新编号归档。”"
+      ],
+      "interaction_analysis": "眼镜女人作为组织工作人员，向林小鹿交代日常任务，属于职业化的命令式互动。",
+      "confidence": 0.9
+    },
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "interaction_type": "daily_interaction",
+      "interaction_type_raw": "询问工作进展并带她去食堂",
+      "impact_level": "medium",
+      "impact_level_raw": "突然出现并翻看档案，带有检查意味",
+      "polarity": "neutral",
+      "polarity_raw": "表面平静，但隐含审视",
+      "enum_reason": "宋明远作为上司，进行日常的工作检查和互动。",
+      "summary": "宋明远在档案室门口出现，询问林小鹿是否整理完档案，然后翻看青石镇调查纪要，最后带她去食堂。",
+      "evidence_summary": "宋明远问‘整理完了？’，走进档案室翻看档案，然后说‘走吧，我带你去食堂。’",
+      "evidence_quotes": [
+        "“整理完了？”他问。",
+        "“走吧，我带你去食堂。午饭时间到了。”"
+      ],
+      "interaction_analysis": "宋明远以日常互动为名，对林小鹿的工作进行检查，并特意翻看青石镇调查纪要，暗示他可能有所怀疑。",
+      "confidence": 0.8
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "上司对下属的例行检查，可能有所怀疑",
+      "state_summary": "宋明远作为组长，对林小鹿进行例行检查，但翻看青石镇调查纪要的动作暗示他可能对林小鹿有所怀疑或警惕。",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "宋明远是组长，林小鹿是新员工",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "宋明远翻看青石镇调查纪要，手指在封面上停了两秒，可能对林小鹿有所怀疑",
+      "enum_reason": "宋明远作为上级，对林小鹿的行为保持观察和警惕，翻看档案的动作暗示怀疑。",
+      "evidence_summary": "宋明远走进档案室，拿起青石镇调查纪要翻看，手指在封面上停了两秒才放下。",
+      "evidence_quotes": [
+        "他伸手拿起来，翻开看了看，然后合上，放回原位。",
+        "但林小鹿注意到，他刚才翻看那份档案的动作，手指在封面上停了两秒才翻开。"
+      ],
+      "relation_analysis": "宋明远作为上司，对林小鹿的档案整理工作进行例行检查，但特意翻看青石镇调查纪要并停顿，暗示他可能对林小鹿有所怀疑或关注。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.7
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "上下级关系，表面服从但内心警惕",
+      "state_summary": "林小鹿作为新员工，对上司宋明远保持表面服从和礼貌，但内心高度警惕，担心他发现自己的秘密。",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "宋明远是组长，林小鹿是新员工",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "林小鹿对宋明远突然出现并翻看档案感到紧张，但表面保持平静",
+      "enum_reason": "宋明远是林小鹿的直接上级，林小鹿对其保持警惕和戒备。",
+      "evidence_summary": "宋明远突然出现在档案室门口，翻看青石镇调查纪要，林小鹿心跳加速但未露声色。",
+      "evidence_quotes": [
+        "林小鹿的心跳猛地加速，但脸上没有露出任何表情。",
+        "她站在门口，看着宋明远的动作，等他说话。"
+      ],
+      "relation_analysis": "林小鹿作为下属，对上司宋明远的突然出现和翻看档案的行为感到紧张，但努力掩饰，表现出警惕和戒备。",
+      "affinity_score": 0.0,
+      "intensity_score": 50.0,
+      "stability_score": 50.0,
+      "strength_score": 50,
+      "confidence": 0.8
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "宋明远",
+      "entity_b": "林小鹿",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "宋明远是组长，林小鹿是新员工",
+      "pair_summary": "林小鹿和宋明远是明确的上下级关系，宋明远负责安排林小鹿的任务并进行检查。",
+      "evidence_summary": "宋明远作为组长，安排林小鹿整理档案，并在结束后出现检查。",
+      "evidence_quotes": [
+        "“整理完了？”他问。",
+        "宋明远没说话，走进档案室，在桌前停了一下，目光落在最上面那份“青石镇调查纪要”上。"
+      ],
+      "pair_analysis": "本章明确显示宋明远是林小鹿的上司，负责监督她的工作，双方存在稳定的上下级关系。",
+      "shared_intensity_score": 50.0,
+      "confidence": 0.9
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "林远舟",
+      "predicate": "参与青石镇调查",
+      "object_value": "作为外部顾问参与青石镇调查，日期为三年前六月十七日",
+      "summary": "林小鹿在青石镇调查纪要中发现父亲林远舟的名字，职务为外部顾问，日期为三年前六月十七日，距离父亲失踪还有两个月。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 1.0
+    },
+    {
+      "subject": "青石镇",
+      "predicate": "存在地下遗迹",
+      "object_value": "青石镇西北约三公里处发现地下遗迹入口，内有符文刻痕，与已知异能体系存在差异",
+      "summary": "青石镇调查纪要记载，调查组在青石镇西北约三公里处发现一处地下遗迹入口，内部有符文刻痕，与已知异能体系存在差异。",
+      "is_state": true,
+      "retracted": false,
+      "confidence": 1.0
+    }
+  ],
+  "unresolved": []
+}

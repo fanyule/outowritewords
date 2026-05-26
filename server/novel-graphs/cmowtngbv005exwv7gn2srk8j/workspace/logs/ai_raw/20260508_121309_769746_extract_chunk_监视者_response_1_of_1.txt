@@ -1,0 +1,399 @@
+{
+  "summary": "苏晚察觉到赵毅派来的棒球帽和黑夹克在跟踪她。陈默发来通风管道图纸，约定明晚八点行动。棒球帽当面警告她不要靠近核心区域。傍晚两人再次堵住她，要求她跟他们走。苏晚用方瑶给的钢笔触发能力，棒球帽陷入恐惧并喊出方瑶的名字，两人退走。苏晚打电话给陈默要求见面，随后离开宿舍。",
+  "entities": [
+    {
+      "name": "苏晚",
+      "aliases": ["晓晓", "晚晚"],
+      "chapter_role": "protagonist",
+      "summary": "大学生，父亲林建国失踪三年，母亲改嫁后独自生活。勇敢果断，决心寻找父亲。发现父亲的手表后触发记忆片段，潜入天枢研究院试图营救父亲，但被迫逃跑。"
+    },
+    {
+      "name": "陈默",
+      "aliases": [],
+      "chapter_role": "supporting",
+      "summary": "天枢组织外勤组长，三十出头，表情平静，受林建国委托在苏晚能力觉醒后接触她，并引导她加入天枢。"
+    },
+    {
+      "name": "赵毅",
+      "aliases": ["赵部长"],
+      "chapter_role": "major_actor",
+      "summary": "天枢组织部长，对苏晚抱有敌意，怀疑她在暗中调查父亲的事，直接截住她并发出最后警告，威胁她不要多管闲事。"
+    },
+    {
+      "name": "棒球帽",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "赵毅手下的异能者，负责跟踪和警告苏晚。"
+    },
+    {
+      "name": "黑夹克",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "赵毅手下的异能者，负责跟踪和威胁苏晚。"
+    },
+    {
+      "name": "方瑶",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "天枢组织成员，曾给苏晚一支钢笔，态度温和，但苏晚怀疑她和赵毅是一伙的。"
+    },
+    {
+      "name": "苏晴",
+      "aliases": [],
+      "chapter_role": "supporting",
+      "summary": "苏晚的室友，关心苏晚但被苏晚隐瞒。"
+    },
+    {
+      "name": "林建国",
+      "aliases": ["父亲"],
+      "chapter_role": "mentioned",
+      "summary": "前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪。被囚禁在地下三层X区07号房间。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "赵毅",
+      "to": "苏晚",
+      "raw_label": "威胁与警告",
+      "structural_base": "opposing_faction",
+      "structural_base_raw": "赵毅派手下跟踪和警告苏晚",
+      "dynamic_stance": "hostile",
+      "dynamic_stance_raw": "赵毅派手下威胁苏晚，警告她不要靠近核心区域",
+      "state_summary": "赵毅对苏晚抱有敌意，派手下跟踪、警告并试图强行带走她，以阻止她调查父亲的事。",
+      "enum_reason": "赵毅与苏晚处于对立阵营，赵毅主动采取敌对行动。",
+      "evidence_summary": "棒球帽当面警告苏晚不要靠近核心区域；黑夹克和棒球帽晚上堵住苏晚，要求她跟他们走。",
+      "evidence_quotes": ["赵部长说了，组织核心区域不是闲人该去的地方。", "赵部长说，让你今晚跟我们走一趟。有些事，得当面问清楚。"],
+      "relation_analysis": "赵毅通过手下持续施压，从警告升级到试图强行带走，表明他对苏晚的敌意和威胁意图明确。",
+      "confidence": 0.95
+    },
+    {
+      "from": "苏晚",
+      "to": "赵毅",
+      "raw_label": "警惕与反抗",
+      "structural_base": "opposing_faction",
+      "structural_base_raw": "苏晚知道赵毅在盯着她，并准备反抗",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "苏晚对赵毅保持警惕，并准备反抗",
+      "state_summary": "苏晚知道赵毅在派人跟踪她，她保持警惕并准备反抗，决心继续营救父亲。",
+      "enum_reason": "苏晚对赵毅的威胁保持高度警惕，并准备采取行动反抗。",
+      "evidence_summary": "苏晚察觉到跟踪，收到陈默的警告，面对棒球帽的警告时表面顺从但内心坚定，晚上用钢笔能力逼退两人。",
+      "evidence_quotes": ["她当然知道是谁派来的。赵毅。", "她必须去。但前提是，她得先甩掉门口那两条尾巴。", "她没时间犹豫了。"],
+      "relation_analysis": "苏晚意识到赵毅的威胁，但并未退缩，而是准备继续行动，表明她处于警惕和反抗状态。",
+      "confidence": 0.9
+    },
+    {
+      "from": "陈默",
+      "to": "苏晚",
+      "raw_label": "引导与保护",
+      "structural_base": "same_faction",
+      "structural_base_raw": "陈默作为天枢外勤组长，引导苏晚并保护她",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "陈默警告苏晚小心，并约定行动时间",
+      "state_summary": "陈默继续引导苏晚，提供通风管道图纸，警告她小心跟踪者，并约定明晚八点行动。",
+      "enum_reason": "陈默主动提供帮助和保护性建议，表明他对苏晚的保护态度。",
+      "evidence_summary": "陈默发消息警告苏晚小心跟踪者，提供通风管道图纸，约定明晚八点行动，并同意苏晚的见面请求。",
+      "evidence_quotes": ["别回头看。他们不会在学校里动手，但晚上你回宿舍那段路，小心点。", "明晚八点，我在通风口等你。", "好。明晚八点，通风口见。别迟到。"],
+      "relation_analysis": "陈默持续提供关键信息和保护性建议，表明他对苏晚的引导和保护态度。",
+      "confidence": 0.9
+    },
+    {
+      "from": "苏晚",
+      "to": "陈默",
+      "raw_label": "依赖与信任",
+      "structural_base": "same_faction",
+      "structural_base_raw": "苏晚加入天枢后与陈默同属一个组织",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "苏晚在遇到威胁后主动联系陈默，要求见面",
+      "state_summary": "苏晚在遇到威胁后主动联系陈默，要求见面，表明她开始依赖和信任陈默。",
+      "enum_reason": "苏晚在危险时刻主动寻求陈默的帮助，表明信任。",
+      "evidence_summary": "苏晚在棒球帽和黑夹克退走后，打电话给陈默要求见面。",
+      "evidence_quotes": ["陈默，我想见你。现在。", "她别无选择。"],
+      "relation_analysis": "苏晚在孤立无援时主动联系陈默，表明她开始信任并依赖陈默。",
+      "confidence": 0.85
+    },
+    {
+      "from": "方瑶",
+      "to": "苏晚",
+      "raw_label": "暗中保护或利用",
+      "structural_base": "unknown",
+      "structural_base_raw": "方瑶给苏晚钢笔，但动机不明",
+      "dynamic_stance": "unknown",
+      "dynamic_stance_raw": "棒球帽对钢笔表现出恐惧，喊出方瑶的名字",
+      "state_summary": "方瑶给苏晚的钢笔在关键时刻发挥作用，棒球帽表现出对方瑶的恐惧，但方瑶的动机尚不明确。",
+      "enum_reason": "方瑶的立场和态度尚不明确，既有保护迹象也可能有利用意图。",
+      "evidence_summary": "苏晚用钢笔触发能力，棒球帽陷入恐惧并喊出方瑶的名字。",
+      "evidence_quotes": ["方瑶……", "那两个人怕的不是她，是方瑶。"],
+      "relation_analysis": "钢笔的能力和棒球帽的反应表明方瑶在暗中发挥作用，但她的真实意图尚不明确。",
+      "confidence": 0.7
+    },
+    {
+      "from": "苏晚",
+      "to": "方瑶",
+      "raw_label": "怀疑与困惑",
+      "structural_base": "unknown",
+      "structural_base_raw": "苏晚对方瑶的动机感到困惑",
+      "dynamic_stance": "conflicted",
+      "dynamic_stance_raw": "苏晚对方瑶的动机感到困惑",
+      "state_summary": "苏晚对方瑶的动机感到困惑，既怀疑她和赵毅是一伙的，又发现钢笔在关键时刻保护了她。",
+      "enum_reason": "苏晚对方瑶的立场感到矛盾，既有怀疑也有感激。",
+      "evidence_summary": "苏晚内心思考方瑶的角色，意识到那两个人怕的是方瑶。",
+      "evidence_quotes": ["方瑶到底在这件事里扮演什么角色？", "那两个人怕的不是她，是方瑶。"],
+      "relation_analysis": "苏晚对方瑶的动机感到困惑，内心矛盾。",
+      "confidence": 0.8
+    },
+    {
+      "from": "苏晚",
+      "to": "林建国",
+      "raw_label": "女儿寻找父亲",
+      "structural_base": "kinship_parent_child",
+      "structural_base_raw": "苏晚是林建国的女儿",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "苏晚决心救父亲",
+      "state_summary": "苏晚深爱父亲，决心救他，不顾赵毅的威胁。",
+      "enum_reason": "苏晚是林建国的女儿，决心救父亲。",
+      "evidence_summary": "苏晚决心继续营救父亲，不顾赵毅的警告。",
+      "evidence_quotes": ["但我不去，我爸就一直在那下面待着。你能等，我不能。", "她必须去。"],
+      "relation_analysis": "苏晚对父亲的保护决心坚定，不顾个人危险。",
+      "confidence": 0.95
+    },
+    {
+      "from": "苏晚",
+      "to": "苏晴",
+      "raw_label": "隐瞒与疏远",
+      "structural_base": "roommate",
+      "structural_base_raw": "苏晚和苏晴是室友",
+      "dynamic_stance": "neutral",
+      "dynamic_stance_raw": "苏晚对苏晴隐瞒真相",
+      "state_summary": "苏晚对苏晴隐瞒自己的行动，但苏晴表现出关心。",
+      "enum_reason": "苏晚选择隐瞒，但苏晴的关心表明关系尚可。",
+      "evidence_summary": "苏晴问苏晚是否有事瞒着她，苏晚否认。",
+      "evidence_quotes": ["你是不是有什么事瞒着我？", "没有。"],
+      "relation_analysis": "苏晚选择对苏晴隐瞒，但苏晴的关心表明两人关系正常。",
+      "confidence": 0.8
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "苏晚",
+      "entity_b": "陈默",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "苏晚加入天枢后与陈默同属一个组织",
+      "pair_summary": "苏晚和陈默同属天枢组织，陈默作为外勤组长引导苏晚，苏晚开始信任他。",
+      "evidence_summary": "陈默提供通风管道图纸，约定明晚八点行动，苏晚主动联系他要求见面。",
+      "evidence_quotes": ["明晚八点，我在通风口等你。", "陈默，我想见你。现在。"],
+      "pair_analysis": "两人同属天枢组织，陈默持续提供帮助，苏晚开始依赖他。",
+      "confidence": 0.85
+    },
+    {
+      "entity_a": "苏晚",
+      "entity_b": "林建国",
+      "shared_structural_base": "kinship_parent_child",
+      "shared_structural_base_raw": "苏晚是林建国的女儿",
+      "pair_summary": "苏晚是林建国的女儿，深爱父亲，决心救他。",
+      "evidence_summary": "苏晚决心继续营救父亲，不顾赵毅的威胁。",
+      "evidence_quotes": ["但我不去，我爸就一直在那下面待着。你能等，我不能。"],
+      "pair_analysis": "父女关系明确，苏晚对父亲的保护决心坚定。",
+      "confidence": 0.95
+    },
+    {
+      "entity_a": "苏晚",
+      "entity_b": "苏晴",
+      "shared_structural_base": "roommate",
+      "shared_structural_base_raw": "苏晚和苏晴是室友",
+      "pair_summary": "苏晚和苏晴是室友，苏晴关心苏晚，但苏晚选择隐瞒。",
+      "evidence_summary": "苏晴问苏晚是否有事瞒着她，苏晚否认。",
+      "evidence_quotes": ["你是不是有什么事瞒着我？", "没有。"],
+      "pair_analysis": "两人是室友关系，苏晴表现出关心，但苏晚选择隐瞒。",
+      "confidence": 0.8
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt1",
+      "intra_chapter_order": 0,
+      "event_type": "跟踪察觉",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "苏晚察觉到赵毅派来的跟踪者",
+      "summary": "苏晚在食堂察觉到棒球帽和黑夹克在跟踪她，确认是赵毅派来的人。",
+      "location": "食堂",
+      "enum_reason": "事件推动剧情发展，揭示跟踪威胁。",
+      "evidence_summary": "苏晚注意到黑夹克和棒球帽的异常行为，确认被跟踪。",
+      "evidence_quotes": ["苏晚是在第三天早上察觉到那两个人的。", "换班盯梢。"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "棒球帽", "role": "actor", "confidence": 0.9},
+        {"entity_name": "黑夹克", "role": "actor", "confidence": 0.9}
+      ],
+      "confidence": 0.95
+    },
+    {
+      "event_id": "evt2",
+      "intra_chapter_order": 1,
+      "event_type": "警告",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "棒球帽当面警告苏晚",
+      "summary": "棒球帽在校园里堵住苏晚，当面警告她不要靠近核心区域。",
+      "location": "校园小路",
+      "enum_reason": "事件升级威胁，推动剧情。",
+      "evidence_summary": "棒球帽展示照片，警告苏晚不要靠近核心区域。",
+      "evidence_quotes": ["赵部长说了，组织核心区域不是闲人该去的地方。", "这次就算了，再有下次，就不是传话这么客气了。"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "target", "confidence": 1.0},
+        {"entity_name": "棒球帽", "role": "actor", "confidence": 0.95}
+      ],
+      "confidence": 0.95
+    },
+    {
+      "event_id": "evt3",
+      "intra_chapter_order": 2,
+      "event_type": "威胁",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "棒球帽和黑夹克试图强行带走苏晚",
+      "summary": "晚上棒球帽和黑夹克在宿舍楼下堵住苏晚，要求她跟他们走。苏晚用钢笔触发能力，棒球帽陷入恐惧并喊出方瑶的名字，两人退走。",
+      "location": "宿舍楼下",
+      "enum_reason": "事件是本章转折点，苏晚使用钢笔能力逼退跟踪者。",
+      "evidence_summary": "两人堵住苏晚，要求她跟他们走。苏晚拔开钢笔笔帽，棒球帽陷入恐惧，喊出方瑶的名字，两人退走。",
+      "evidence_quotes": ["赵部长说，让你今晚跟我们走一趟。", "方瑶……"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "棒球帽", "role": "target", "confidence": 0.95},
+        {"entity_name": "黑夹克", "role": "actor", "confidence": 0.95}
+      ],
+      "confidence": 0.95
+    },
+    {
+      "event_id": "evt4",
+      "intra_chapter_order": 3,
+      "event_type": "联系",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "苏晚打电话给陈默要求见面",
+      "summary": "苏晚在逼退跟踪者后，打电话给陈默要求见面。",
+      "location": "电话亭",
+      "enum_reason": "事件推动剧情，苏晚主动寻求陈默帮助。",
+      "evidence_summary": "苏晚在电话亭打电话给陈默，要求见面。",
+      "evidence_quotes": ["陈默，我想见你。现在。", "我在你们学校西门外的咖啡店。你过来吧。"],
+      "participants": [
+        {"entity_name": "苏晚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "陈默", "role": "target", "confidence": 0.95}
+      ],
+      "confidence": 0.95
+    }
+  ],
+  "interactions": [
+    {
+      "from": "棒球帽",
+      "to": "苏晚",
+      "interaction_type": "threat",
+      "interaction_type_raw": "棒球帽当面警告苏晚",
+      "impact_level": "high",
+      "impact_level_raw": "警告带有威胁性质",
+      "polarity": "negative",
+      "polarity_raw": "威胁",
+      "summary": "棒球帽在校园里堵住苏晚，展示照片并警告她不要靠近核心区域。",
+      "enum_reason": "棒球帽明确威胁苏晚，禁止她靠近核心区域。",
+      "evidence_summary": "棒球帽展示照片，警告苏晚不要靠近核心区域。",
+      "evidence_quotes": ["赵部长说了，组织核心区域不是闲人该去的地方。", "这次就算了，再有下次，就不是传话这么客气了。"],
+      "interaction_analysis": "棒球帽代表赵毅发出明确威胁，意图阻止苏晚继续调查。",
+      "confidence": 0.95
+    },
+    {
+      "from": "黑夹克",
+      "to": "苏晚",
+      "interaction_type": "threat",
+      "interaction_type_raw": "黑夹克要求苏晚跟他们走",
+      "impact_level": "high",
+      "impact_level_raw": "要求强行带走",
+      "polarity": "negative",
+      "polarity_raw": "威胁",
+      "summary": "黑夹克和棒球帽晚上在宿舍楼下堵住苏晚，要求她跟他们走。",
+      "enum_reason": "黑夹克明确要求苏晚跟他们走，带有强制性质。",
+      "evidence_summary": "黑夹克开口要求苏晚跟他们走，并警告她不要耍花样。",
+      "evidence_quotes": ["赵部长说，让你今晚跟我们走一趟。有些事，得当面问清楚。", "别耍花样。跟我们走，对大家都好。"],
+      "interaction_analysis": "黑夹克代表赵毅试图强行带走苏晚，威胁升级。",
+      "confidence": 0.95
+    },
+    {
+      "from": "苏晚",
+      "to": "棒球帽",
+      "interaction_type": "defense",
+      "interaction_type_raw": "苏晚用钢笔能力逼退棒球帽",
+      "impact_level": "high",
+      "impact_level_raw": "能力使用导致棒球帽恐惧",
+      "polarity": "negative",
+      "polarity_raw": "对抗",
+      "summary": "苏晚拔开钢笔笔帽，触发能力，棒球帽陷入恐惧并喊出方瑶的名字，两人退走。",
+      "enum_reason": "苏晚使用能力进行防御，逼退跟踪者。",
+      "evidence_summary": "苏晚拔开钢笔笔帽，棒球帽陷入恐惧，喊出方瑶的名字，两人退走。",
+      "evidence_quotes": ["拔开笔帽的瞬间，她感觉到一股温热的气流从笔尖涌出", "方瑶……"],
+      "interaction_analysis": "苏晚使用钢笔能力进行防御，成功逼退跟踪者。",
+      "confidence": 0.95
+    },
+    {
+      "from": "苏晚",
+      "to": "陈默",
+      "interaction_type": "cooperation",
+      "interaction_type_raw": "苏晚打电话给陈默要求见面",
+      "impact_level": "medium",
+      "impact_level_raw": "主动联系",
+      "polarity": "positive",
+      "polarity_raw": "合作",
+      "summary": "苏晚在逼退跟踪者后，打电话给陈默要求见面。",
+      "enum_reason": "苏晚主动联系陈默，寻求合作。",
+      "evidence_summary": "苏晚在电话亭打电话给陈默，要求见面。",
+      "evidence_quotes": ["陈默，我想见你。现在。", "我在你们学校西门外的咖啡店。你过来吧。"],
+      "interaction_analysis": "苏晚在危险时刻主动寻求陈默的帮助，表明合作意愿。",
+      "confidence": 0.95
+    },
+    {
+      "from": "苏晚",
+      "to": "苏晴",
+      "interaction_type": "daily_interaction",
+      "interaction_type_raw": "苏晚与苏晴简短对话",
+      "impact_level": "low",
+      "impact_level_raw": "日常对话",
+      "polarity": "neutral",
+      "polarity_raw": "隐瞒",
+      "summary": "苏晴问苏晚是否有事瞒着她，苏晚否认。",
+      "enum_reason": "日常对话，苏晚选择隐瞒。",
+      "evidence_summary": "苏晴问苏晚是否有事瞒着她，苏晚否认。",
+      "evidence_quotes": ["你是不是有什么事瞒着我？", "没有。"],
+      "interaction_analysis": "苏晚选择对苏晴隐瞒，但苏晴表现出关心。",
+      "confidence": 0.9
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "苏晚",
+      "predicate": "拥有方瑶给的钢笔",
+      "object_value": "钢笔具有能力，能触发记忆片段并让棒球帽恐惧",
+      "summary": "苏晚用方瑶给的钢笔触发能力，棒球帽陷入恐惧并喊出方瑶的名字。",
+      "is_state": true,
+      "confidence": 0.95
+    },
+    {
+      "subject": "棒球帽",
+      "predicate": "对方瑶感到恐惧",
+      "object_value": "棒球帽对钢笔表现出恐惧，喊出方瑶的名字",
+      "summary": "棒球帽在苏晚使用钢笔后陷入恐惧，喊出方瑶的名字。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "苏晚",
+      "predicate": "决定继续营救父亲",
+      "object_value": "不顾赵毅的威胁，决心明晚八点行动",
+      "summary": "苏晚在逼退跟踪者后，决定继续营救父亲，并联系陈默。",
+      "is_state": true,
+      "confidence": 0.95
+    },
+    {
+      "subject": "陈默",
+      "predicate": "提供通风管道图纸",
+      "object_value": "图纸标有入口和路线，约定明晚八点行动",
+      "summary": "陈默发来通风管道图纸，约定明晚八点在通风口见面。",
+      "is_state": true,
+      "confidence": 0.95
+    }
+  ]
+}

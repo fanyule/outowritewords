@@ -1,0 +1,259 @@
+{
+  "summary": "临海城雨夜，周岚出站时被沈砚接走。沈砚怀疑她带回的旧档案与港区失火案有关。记者林苒发消息警告他们不要回旧码头，说现场已被人清理。",
+  "entities": [
+    {
+      "name": "周岚",
+      "aliases": [],
+      "chapter_role": "protagonist",
+      "summary": "调查者，拖着旧行李箱从车站出来，被沈砚接站。"
+    },
+    {
+      "name": "沈砚",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "共同调查者，在路灯下举黑伞接周岚，怀疑她带回的旧档案与港区失火案有关。"
+    },
+    {
+      "name": "林苒",
+      "aliases": [],
+      "chapter_role": "supporting",
+      "summary": "记者，发消息警告周岚和沈砚不要回旧码头。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "沈砚",
+      "to": "周岚",
+      "raw_label": "接站并怀疑",
+      "structural_base": "same_faction",
+      "structural_base_raw": "共同调查者",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "怀疑她带回来的旧档案会牵出港区失火案的真相",
+      "state_summary": "沈砚在雨夜接站周岚，表面冷静但内心怀疑她带回的档案与案件有关。",
+      "enum_reason": "两人是共同调查港区失火案的合作者，沈砚对周岚带回的档案持怀疑态度。",
+      "evidence_summary": "沈砚在路灯下举黑伞接周岚，表面冷静但一直在观察她的反应，怀疑她带回的旧档案会牵出港区失火案的真相。",
+      "evidence_quotes": ["沈砚表面冷静，其实一直在观察周岚的反应，因为他怀疑她带回来的旧档案会牵出港区失火案的真相。"],
+      "relation_analysis": "沈砚与周岚是共同调查者，但沈砚对周岚带回的档案持怀疑态度，表现出警惕。",
+      "confidence": 0.9
+    },
+    {
+      "from": "周岚",
+      "to": "沈砚",
+      "raw_label": "共同调查并支持",
+      "structural_base": "same_faction",
+      "structural_base_raw": "共同调查者",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "被沈砚接站，共同调查",
+      "state_summary": "周岚与沈砚是共同调查者，周岚信任沈砚并与他合作。",
+      "enum_reason": "两人是稳定的调查搭档，周岚被沈砚接站，显示合作基础。",
+      "evidence_summary": "周岚拖着旧行李箱走出车站时，看见沈砚站在路灯下举着一把黑伞。",
+      "evidence_quotes": ["周岚拖着旧行李箱走出车站时，看见沈砚站在路灯下举着一把黑伞。"],
+      "relation_analysis": "周岚与沈砚是共同调查者，周岚信任沈砚并与他合作。",
+      "confidence": 0.8
+    },
+    {
+      "from": "林苒",
+      "to": "周岚",
+      "raw_label": "发消息警告",
+      "structural_base": "same_faction",
+      "structural_base_raw": "共同调查者",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "提醒他们今晚不要回旧码头",
+      "state_summary": "林苒主动发消息警告周岚和沈砚，表现出保护意图。",
+      "enum_reason": "林苒发消息警告周岚不要回旧码头，显示保护意图。",
+      "evidence_summary": "记者林苒发来消息，提醒他们今晚不要回旧码头，说那里有人提前清理过现场。",
+      "evidence_quotes": ["记者林苒就发来消息，提醒他们今晚不要回旧码头，说那里有人提前清理过现场。"],
+      "relation_analysis": "林苒主动警告周岚，显示两人有信息共享关系，林苒表现出保护意图。",
+      "confidence": 0.9
+    },
+    {
+      "from": "林苒",
+      "to": "沈砚",
+      "raw_label": "发消息警告",
+      "structural_base": "same_faction",
+      "structural_base_raw": "共同调查者",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "提醒他们今晚不要回旧码头",
+      "state_summary": "林苒同样警告沈砚，显示三人有共同调查关系。",
+      "enum_reason": "林苒发消息警告沈砚不要回旧码头，显示保护意图。",
+      "evidence_summary": "记者林苒发来消息，提醒他们今晚不要回旧码头，说那里有人提前清理过现场。",
+      "evidence_quotes": ["记者林苒就发来消息，提醒他们今晚不要回旧码头，说那里有人提前清理过现场。"],
+      "relation_analysis": "林苒主动警告沈砚，显示三人信息互通，林苒表现出保护意图。",
+      "confidence": 0.9
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "周岚",
+      "entity_b": "沈砚",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "共同调查者",
+      "pair_summary": "两人是共同调查港区失火案的合作者，有合作基础。",
+      "evidence_summary": "沈砚在雨夜接站周岚，两人共同调查港区失火案。",
+      "evidence_quotes": ["周岚拖着旧行李箱走出车站时，看见沈砚站在路灯下举着一把黑伞。"],
+      "pair_analysis": "两人是稳定的调查搭档，共同面对新发现的线索。",
+      "confidence": 0.9
+    },
+    {
+      "entity_a": "林苒",
+      "entity_b": "周岚",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "共同调查者",
+      "pair_summary": "两人是共同调查港区失火案的合作者，林苒主动警告周岚。",
+      "evidence_summary": "林苒发消息警告周岚不要回旧码头。",
+      "evidence_quotes": ["记者林苒就发来消息，提醒他们今晚不要回旧码头，说那里有人提前清理过现场。"],
+      "pair_analysis": "两人是调查合作者，林苒表现出保护意图。",
+      "confidence": 0.9
+    },
+    {
+      "entity_a": "林苒",
+      "entity_b": "沈砚",
+      "shared_structural_base": "same_faction",
+      "shared_structural_base_raw": "共同调查者",
+      "pair_summary": "两人是共同调查港区失火案的合作者，林苒同样警告沈砚。",
+      "evidence_summary": "林苒发消息警告沈砚不要回旧码头。",
+      "evidence_quotes": ["记者林苒就发来消息，提醒他们今晚不要回旧码头，说那里有人提前清理过现场。"],
+      "pair_analysis": "两人是调查合作者，林苒表现出保护意图。",
+      "confidence": 0.9
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch1_e1",
+      "intra_chapter_order": 0,
+      "event_type": "reunion",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "雨夜接站，开启调查",
+      "summary": "周岚在雨夜出站，沈砚在路灯下举黑伞接她。",
+      "location": "临海城车站",
+      "enum_reason": "核心事件，奠定本章基调。",
+      "evidence_summary": "周岚拖着旧行李箱走出车站时，看见沈砚站在路灯下举着一把黑伞。",
+      "evidence_quotes": ["周岚拖着旧行李箱走出车站时，看见沈砚站在路灯下举着一把黑伞。"],
+      "participants": [
+        {"entity_name": "周岚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "沈砚", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "ch1_e2",
+      "intra_chapter_order": 1,
+      "event_type": "revelation",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "沈砚内心怀疑",
+      "summary": "沈砚表面冷静，但内心怀疑周岚带回的旧档案会牵出港区失火案的真相。",
+      "location": "临海城车站",
+      "enum_reason": "主要情节推进，揭示沈砚的动机。",
+      "evidence_summary": "沈砚表面冷静，其实一直在观察周岚的反应，因为他怀疑她带回来的旧档案会牵出港区失火案的真相。",
+      "evidence_quotes": ["沈砚表面冷静，其实一直在观察周岚的反应，因为他怀疑她带回来的旧档案会牵出港区失火案的真相。"],
+      "participants": [
+        {"entity_name": "沈砚", "role": "actor", "confidence": 1.0},
+        {"entity_name": "周岚", "role": "target", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "ch1_e3",
+      "intra_chapter_order": 2,
+      "event_type": "communication",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "林苒发消息警告",
+      "summary": "两人刚上车，记者林苒发来消息，提醒他们今晚不要回旧码头，说那里有人提前清理过现场。",
+      "location": "临海城车站附近的车内",
+      "enum_reason": "主要情节推进，引入新线索和威胁。",
+      "evidence_summary": "两人刚上车，记者林苒就发来消息，提醒他们今晚不要回旧码头，说那里有人提前清理过现场。",
+      "evidence_quotes": ["两人刚上车，记者林苒就发来消息，提醒他们今晚不要回旧码头，说那里有人提前清理过现场。"],
+      "participants": [
+        {"entity_name": "林苒", "role": "actor", "confidence": 1.0},
+        {"entity_name": "周岚", "role": "target", "confidence": 1.0},
+        {"entity_name": "沈砚", "role": "target", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "沈砚",
+      "to": "周岚",
+      "interaction_type": "daily_interaction",
+      "interaction_type_raw": "接站",
+      "impact_level": "medium",
+      "impact_level_raw": "接站行为",
+      "polarity": "neutral",
+      "polarity_raw": "表面冷静",
+      "summary": "沈砚在雨夜接站周岚，表面冷静但内心怀疑。",
+      "enum_reason": "日常接站行为，但带有怀疑动机。",
+      "evidence_summary": "沈砚在路灯下举黑伞接周岚，表面冷静但内心怀疑她带回的档案。",
+      "evidence_quotes": ["沈砚表面冷静，其实一直在观察周岚的反应，因为他怀疑她带回来的旧档案会牵出港区失火案的真相。"],
+      "interaction_analysis": "沈砚与周岚的日常接站互动，但沈砚内心有怀疑。",
+      "confidence": 0.9
+    },
+    {
+      "from": "林苒",
+      "to": "周岚",
+      "interaction_type": "communication",
+      "interaction_type_raw": "发消息警告",
+      "impact_level": "high",
+      "impact_level_raw": "警告不要回旧码头",
+      "polarity": "positive",
+      "polarity_raw": "保护意图",
+      "summary": "林苒发消息警告周岚不要回旧码头，说现场已被人清理。",
+      "enum_reason": "林苒主动发消息警告，表现出保护意图。",
+      "evidence_summary": "记者林苒发来消息，提醒他们今晚不要回旧码头，说那里有人提前清理过现场。",
+      "evidence_quotes": ["记者林苒就发来消息，提醒他们今晚不要回旧码头，说那里有人提前清理过现场。"],
+      "interaction_analysis": "林苒主动警告周岚，显示保护意图。",
+      "confidence": 0.9
+    },
+    {
+      "from": "林苒",
+      "to": "沈砚",
+      "interaction_type": "communication",
+      "interaction_type_raw": "发消息警告",
+      "impact_level": "high",
+      "impact_level_raw": "警告不要回旧码头",
+      "polarity": "positive",
+      "polarity_raw": "保护意图",
+      "summary": "林苒发消息警告沈砚不要回旧码头，说现场已被人清理。",
+      "enum_reason": "林苒主动发消息警告，表现出保护意图。",
+      "evidence_summary": "记者林苒发来消息，提醒他们今晚不要回旧码头，说那里有人提前清理过现场。",
+      "evidence_quotes": ["记者林苒就发来消息，提醒他们今晚不要回旧码头，说那里有人提前清理过现场。"],
+      "interaction_analysis": "林苒主动警告沈砚，显示保护意图。",
+      "confidence": 0.9
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "周岚",
+      "predicate": "带回旧档案",
+      "object_value": "旧档案与港区失火案有关",
+      "summary": "周岚带回的旧档案可能牵出港区失火案的真相。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "沈砚",
+      "predicate": "怀疑周岚带回的档案",
+      "object_value": "怀疑旧档案会牵出港区失火案的真相",
+      "summary": "沈砚怀疑周岚带回的旧档案与港区失火案有关。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "林苒",
+      "predicate": "发消息警告",
+      "object_value": "提醒周岚和沈砚不要回旧码头，现场已被人清理",
+      "summary": "林苒发消息警告周岚和沈砚不要回旧码头，说现场已被人清理。",
+      "is_state": false,
+      "confidence": 1.0
+    },
+    {
+      "subject": "旧码头",
+      "predicate": "现场被清理",
+      "object_value": "有人提前清理过现场",
+      "summary": "旧码头现场已被人提前清理。",
+      "is_state": true,
+      "confidence": 0.9
+    }
+  ]
+}

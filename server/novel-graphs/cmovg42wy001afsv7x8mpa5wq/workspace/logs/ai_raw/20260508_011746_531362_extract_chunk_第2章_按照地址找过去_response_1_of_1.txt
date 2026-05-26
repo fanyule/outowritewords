@@ -1,0 +1,225 @@
+{
+  "summary": "林小鹿按照父亲笔记本上的地址找到一家名为“寻鹿咖啡馆”的隐蔽小店，用暗号“寻鹿”与店员接头，获得一张纸条，上面写着明天下午三点去旧书店街17号并带上笔记本。店员警告她“你父亲的事，别问太多”。离开后她发现被跟踪，并在公交车上看到一个穿灰色外套的男人盯着她。回家后收到陌生号码的短信提醒，她回复“会去的”。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她按照笔记本地址找到咖啡馆，获得新线索，并发现被跟踪。"
+    },
+    {
+      "name": "咖啡馆店员",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "寻鹿咖啡馆的年轻男店员，二十五六岁，穿灰色衬衫，负责擦杯子。他确认林小鹿的身份后递给她一个牛皮纸信封，并警告她“你父亲的事，别问太多”。"
+    },
+    {
+      "name": "灰色外套男人",
+      "aliases": [],
+      "chapter_role": "supporting",
+      "summary": "跟踪林小鹿的陌生男人，三十岁左右，穿灰色外套，站在街角盯着林小鹿的公交车窗口，身上有压迫感。"
+    },
+    {
+      "name": "林小鹿的父亲",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "林小鹿失踪的父亲，留下笔记本和地址，与组织有接触，可能卷入了危险的事。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "咖啡馆店员",
+      "to": "林小鹿",
+      "raw_label": "接头与警告",
+      "structural_base": "unknown",
+      "structural_base_raw": "接头关系，但具体结构不明",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "店员警告林小鹿别问太多，态度谨慎",
+      "state_summary": "咖啡馆店员作为接头人，确认林小鹿身份后递给她纸条，并警告她不要追问父亲的事，表现出谨慎和戒备。",
+      "enum_reason": "店员主动警告，态度谨慎，符合wary",
+      "evidence_summary": "店员递信封后压低声音说“你父亲的事，别问太多”，然后转身拒绝交谈。",
+      "evidence_quotes": ["你父亲的事，别问太多"],
+      "relation_analysis": "店员知道林小鹿父亲的事，但不愿多谈，表现出戒备和警告态度。",
+      "confidence": 0.8
+    },
+    {
+      "from": "林小鹿",
+      "to": "咖啡馆店员",
+      "raw_label": "寻求线索",
+      "structural_base": "unknown",
+      "structural_base_raw": "接头关系，但具体结构不明",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "林小鹿按照笔记本指示使用暗号，信任接头流程",
+      "state_summary": "林小鹿按照父亲笔记本的指示，使用暗号“寻鹿”与店员接头，信任对方会提供下一步线索。",
+      "enum_reason": "林小鹿主动使用暗号并接受纸条，表现出信任",
+      "evidence_summary": "林小鹿压低声音问“这里有‘寻鹿’吗？”，然后按照指示说“我是来认路的”。",
+      "evidence_quotes": ["请问……这里有‘寻鹿’吗？", "我是来认路的"],
+      "relation_analysis": "林小鹿信任父亲留下的指示，主动与店员接头。",
+      "confidence": 0.7
+    },
+    {
+      "from": "灰色外套男人",
+      "to": "林小鹿",
+      "raw_label": "跟踪监视",
+      "structural_base": "unknown",
+      "structural_base_raw": "跟踪关系，结构不明",
+      "dynamic_stance": "hostile",
+      "dynamic_stance_raw": "跟踪行为具有威胁性",
+      "state_summary": "灰色外套男人跟踪林小鹿，站在街角盯着她的公交车窗口，表现出监视和威胁意图。",
+      "enum_reason": "跟踪行为具有敌意和威胁性",
+      "evidence_summary": "林小鹿在公交车上看到对面街角一个穿灰色外套的男人盯着她的窗口，之后提前下车绕路回家。",
+      "evidence_quotes": ["对面街角，一个穿着灰色外套的男人正站在那里，看着她的方向"],
+      "relation_analysis": "跟踪行为表明灰色外套男人对林小鹿有敌意或监视意图。",
+      "confidence": 0.6
+    },
+    {
+      "from": "林小鹿",
+      "to": "灰色外套男人",
+      "raw_label": "被跟踪的警惕",
+      "structural_base": "unknown",
+      "structural_base_raw": "被跟踪关系，结构不明",
+      "dynamic_stance": "fearful",
+      "dynamic_stance_raw": "林小鹿感到害怕并采取躲避措施",
+      "state_summary": "林小鹿发现被跟踪后感到恐惧，提前下车并绕路回家，反锁房门拉上窗帘。",
+      "enum_reason": "林小鹿表现出恐惧并采取躲避行为",
+      "evidence_summary": "林小鹿提前下车，故意绕了两条街，确认没人跟上后才回家，并反锁房门拉上窗帘。",
+      "evidence_quotes": ["她故意绕了两条街，确认没有人跟上来之后，才走进自己租住的小区"],
+      "relation_analysis": "林小鹿对跟踪者感到恐惧并采取防御措施。",
+      "confidence": 0.7
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "咖啡馆店员",
+      "shared_structural_base": "unknown",
+      "shared_structural_base_raw": "接头关系，但具体结构不明",
+      "pair_summary": "林小鹿与咖啡馆店员通过暗号接头，店员递给她纸条并警告她，但双方没有建立长期稳定的关系。",
+      "evidence_summary": "林小鹿使用暗号“寻鹿”，店员确认后递信封并警告。",
+      "evidence_quotes": ["请问……这里有‘寻鹿’吗？", "你父亲的事，别问太多"],
+      "pair_analysis": "双方是单次接头关系，没有明确的结构基础。",
+      "confidence": 0.5
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "e1",
+      "intra_chapter_order": 0,
+      "event_type": "接头",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心事件，推动主线",
+      "summary": "林小鹿按照父亲笔记本上的地址找到寻鹿咖啡馆，用暗号“寻鹿”与店员接头，获得一张纸条，上面写着明天下午三点去旧书店街17号并带上笔记本。店员警告她“你父亲的事，别问太多”。",
+      "location": "寻鹿咖啡馆",
+      "enum_reason": "核心事件，直接推动剧情发展",
+      "evidence_summary": "林小鹿使用暗号，店员递信封并警告。",
+      "evidence_quotes": ["请问……这里有‘寻鹿’吗？", "你父亲的事，别问太多"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "咖啡馆店员", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "e2",
+      "intra_chapter_order": 1,
+      "event_type": "跟踪",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "重要情节，增加悬疑",
+      "summary": "林小鹿离开咖啡馆后感觉被跟踪，在公交车上看到一个穿灰色外套的男人盯着她，她提前下车绕路回家。",
+      "location": "街道、公交车上",
+      "enum_reason": "重要情节，增加悬疑和紧张感",
+      "evidence_summary": "林小鹿听到脚步声，在公交车上看到灰色外套男人盯着她。",
+      "evidence_quotes": ["对面街角，一个穿着灰色外套的男人正站在那里，看着她的方向"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "灰色外套男人", "role": "actor", "confidence": 0.8}
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "e3",
+      "intra_chapter_order": 2,
+      "event_type": "收到短信",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "细节，但提供线索",
+      "summary": "林小鹿回家后收到陌生号码短信“明天别忘了”，她回复“会去的”。",
+      "location": "林小鹿家中",
+      "enum_reason": "细节事件，但提供后续线索",
+      "evidence_summary": "手机震了一下，显示陌生号码短信。",
+      "evidence_quotes": ["明天别忘了", "会去的"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "林小鹿",
+      "to": "咖啡馆店员",
+      "interaction_type": "cooperation",
+      "interaction_type_raw": "接头合作",
+      "impact_level": "high",
+      "impact_level_raw": "关键接头",
+      "polarity": "neutral",
+      "polarity_raw": "中性，但带有警告",
+      "summary": "林小鹿使用暗号与店员接头，店员递给她纸条并警告她不要追问父亲的事。",
+      "enum_reason": "双方合作完成接头流程",
+      "evidence_summary": "林小鹿说暗号，店员递信封并警告。",
+      "evidence_quotes": ["请问……这里有‘寻鹿’吗？", "你父亲的事，别问太多"],
+      "interaction_analysis": "双方按照约定完成接头，但店员态度谨慎，带有警告。",
+      "confidence": 0.9
+    },
+    {
+      "from": "灰色外套男人",
+      "to": "林小鹿",
+      "interaction_type": "threat",
+      "interaction_type_raw": "跟踪监视",
+      "impact_level": "high",
+      "impact_level_raw": "跟踪行为具有威胁性",
+      "polarity": "negative",
+      "polarity_raw": "负面",
+      "summary": "灰色外套男人跟踪林小鹿，站在街角盯着她的公交车窗口。",
+      "enum_reason": "跟踪行为构成威胁",
+      "evidence_summary": "林小鹿在公交车上看到灰色外套男人盯着她。",
+      "evidence_quotes": ["对面街角，一个穿着灰色外套的男人正站在那里，看着她的方向"],
+      "interaction_analysis": "跟踪行为具有明显的威胁和监视意图。",
+      "confidence": 0.7
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "获得新线索",
+      "object_value": "明天下午三点去旧书店街17号，带上笔记本",
+      "summary": "林小鹿从咖啡馆店员处获得纸条，上面写着明天下午三点去旧书店街17号并带上笔记本。",
+      "is_state": false,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "被跟踪",
+      "object_value": "被一个穿灰色外套的男人跟踪",
+      "summary": "林小鹿离开咖啡馆后感觉被跟踪，并在公交车上看到灰色外套男人盯着她。",
+      "is_state": true,
+      "confidence": 0.8
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "收到陌生短信",
+      "object_value": "陌生号码发来短信“明天别忘了”",
+      "summary": "林小鹿回家后收到陌生号码短信提醒，她回复“会去的”。",
+      "is_state": false,
+      "confidence": 1.0
+    },
+    {
+      "subject": "咖啡馆店员",
+      "predicate": "知道林小鹿父亲的事",
+      "object_value": "店员警告林小鹿“你父亲的事，别问太多”",
+      "summary": "咖啡馆店员知道林小鹿父亲的事，但拒绝透露更多。",
+      "is_state": true,
+      "confidence": 0.9
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "chapter_title": "第21章 伪装下的紧急行动",
+  "analyzed_at": "2026-05-08T02:20:56",
+  "summary": "本章暂无正文内容，仅标题暗示林小鹿在伪装下进行紧急行动，可能涉及伪装身份或秘密任务。",
+  "outline": [
+    {
+      "order": 0,
+      "text": "本章无正文内容，仅标题暗示伪装下的紧急行动。",
+      "involved_names": []
+    }
+  ],
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": [
+        "小鹿",
+        "林远舟的女儿"
+      ],
+      "chapter_role": "protagonist",
+      "tier": "active",
+      "importance_score": 70,
+      "summary": "女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她可能进行伪装下的紧急行动。"
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch21_no_content",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "background",
+      "narrative_weight_raw": "本章暂无内容",
+      "enum_reason": "无正文内容，仅标题存在，无法确定叙事权重。",
+      "summary": "本章无正文内容，仅标题暗示伪装下的紧急行动。",
+      "location": "未知",
+      "participants": [],
+      "evidence_summary": "本章标题为'伪装下的紧急行动'，但正文为空。",
+      "evidence_quotes": [
+        "第21章 伪装下的紧急行动",
+        "（本章暂无内容）"
+      ],
+      "confidence": 0.0
+    }
+  ],
+  "interactions": [],
+  "directed_relations": [],
+  "pair_relations": [],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "可能进行伪装下的紧急行动",
+      "object_value": "伪装下的紧急行动",
+      "summary": "标题暗示林小鹿可能进行伪装或紧急行动，但无正文内容。",
+      "is_state": false,
+      "retracted": false,
+      "confidence": 0.0
+    }
+  ],
+  "unresolved": []
+}

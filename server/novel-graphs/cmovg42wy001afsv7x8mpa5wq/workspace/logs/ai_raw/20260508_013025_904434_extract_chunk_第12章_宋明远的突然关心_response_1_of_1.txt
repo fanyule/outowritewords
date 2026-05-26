@@ -1,0 +1,75 @@
+{
+  "summary": "本章无正文内容，仅标题暗示宋明远对林小鹿表现出突然的关心，可能涉及上级对下属的关注或试探。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥", "宋组长"],
+      "chapter_role": "major_actor",
+      "summary": "天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "突然关心",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "天衍的外勤组长与组员",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "突然关心可能带有试探或警惕",
+      "state_summary": "宋明远作为林小鹿的上司，本章标题暗示他突然对林小鹿表现出关心，可能出于上级对下属的例行关注或对林小鹿背景的试探。",
+      "enum_reason": "宋明远是天衍组长，林小鹿是组员，属于明确的上下级关系；动态立场选择'wary'因为突然关心可能隐含警惕或试探。",
+      "evidence_summary": "标题'宋明远的突然关心'暗示宋明远主动关注林小鹿，但无正文内容。",
+      "evidence_quotes": ["宋明远的突然关心"],
+      "relation_analysis": "标题直接点明宋明远对林小鹿的关心行为，但无具体内容，因此关系状态基于已知上下级身份和标题暗示的突然性。",
+      "confidence": 0.3
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "被上级关注",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "天衍的组员与组长",
+      "dynamic_stance": "neutral",
+      "dynamic_stance_raw": "无具体反应描述",
+      "state_summary": "林小鹿作为下属，被宋明远突然关心，但本章无正文内容，无法判断她的具体态度。",
+      "enum_reason": "林小鹿是组员，宋明远是组长，属于明确的上下级关系；动态立场选择'neutral'因为无具体反应证据。",
+      "evidence_summary": "标题暗示宋明远关心林小鹿，但无林小鹿的反应。",
+      "evidence_quotes": [],
+      "relation_analysis": "基于上下级身份和标题暗示，但缺乏林小鹿的回应证据。",
+      "confidence": 0.2
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "宋明远",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "天衍组织内组长与组员",
+      "pair_summary": "林小鹿和宋明远是天衍组织内的上下级关系，宋明远是组长，林小鹿是组员。",
+      "evidence_summary": "已知林小鹿加入天衍组织，宋明远是她的面试官和组长。",
+      "evidence_quotes": [],
+      "pair_analysis": "基于已知组织结构和角色设定，双方存在明确的上下级关系。",
+      "confidence": 0.8
+    }
+  ],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "宋明远",
+      "predicate": "对林小鹿表现出突然关心",
+      "object_value": "标题暗示宋明远主动关心林小鹿，但无具体内容",
+      "summary": "本章标题'宋明远的突然关心'表明宋明远对林小鹿有关心行为。",
+      "is_state": true,
+      "confidence": 0.3
+    }
+  ]
+}

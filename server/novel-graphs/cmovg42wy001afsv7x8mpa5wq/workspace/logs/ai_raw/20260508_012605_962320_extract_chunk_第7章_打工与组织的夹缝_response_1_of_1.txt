@@ -1,0 +1,313 @@
+{
+  "summary": "林小鹿在咖啡馆打工时接到组织紧急任务，前往城东物流园取文件并送至柳林街。期间她加班到九点，收到未知号码的提醒，并在咖啡馆内通过暗号接收纸条。完成任务后，叶知秋发短信警告接头地点已被监控，林小鹿陷入对组织内部信任的疑虑。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她执行组织任务，同时面临考试压力和组织内部的信任危机。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["叶姐", "小叶"],
+      "chapter_role": "supporting",
+      "summary": "天衍组织的前台接待员，年轻女性，戴眼镜。本章中她通过短信警告林小鹿接头地点已被监控，表明她对林小鹿有一定信任或善意。"
+    },
+    {
+      "name": "店长",
+      "aliases": [],
+      "chapter_role": "supporting",
+      "summary": "咖啡馆店长，四十多岁女性，因晚班员工请假请求林小鹿加班。"
+    },
+    {
+      "name": "未知号码发件人",
+      "aliases": [],
+      "chapter_role": "supporting",
+      "summary": "身份不明的组织成员，通过短信向林小鹿发送任务指令和提醒，包括“注意安全”的警告。"
+    },
+    {
+      "name": "黑衣男子",
+      "aliases": [],
+      "chapter_role": "transient",
+      "summary": "在咖啡馆内通过暗号传递纸条给林小鹿的年轻男人，黑色外套，帽檐压低，身份不明。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "警告与情报提供",
+      "structural_base": "colleague",
+      "structural_base_raw": "天衍组织同事",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "主动警告接头地点被监控",
+      "state_summary": "叶知秋作为天衍前台同事，主动向林小鹿发出警告并提供情报，表明她对林小鹿有一定信任或善意，但动机不明。",
+      "enum_reason": "叶知秋主动警告林小鹿，表现出保护性意图。",
+      "evidence_summary": "叶知秋发短信警告林小鹿接头地点已被监控，并让林小鹿自己决定是否前往。",
+      "evidence_quotes": ["接头地点已经被监控了。你自己决定。"],
+      "relation_analysis": "叶知秋的警告行为表明她关心林小鹿的安全，可能出于善意或自身利益考量。",
+      "confidence": 0.7
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "警惕与不信任",
+      "structural_base": "colleague",
+      "structural_base_raw": "天衍组织同事",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "对叶知秋的警告产生怀疑",
+      "state_summary": "林小鹿对叶知秋的警告感到警惕，怀疑叶知秋是否也在监控名单中，或警告背后有其他意图。",
+      "enum_reason": "林小鹿对叶知秋的动机产生怀疑，表现出不信任。",
+      "evidence_summary": "林小鹿收到叶知秋的警告后，思考谁监控了接头点，并怀疑叶知秋自己也在监控名单里。",
+      "evidence_quotes": ["谁监控的？宋明远？还是组织高层？或者说——叶知秋自己也在监控名单里？"],
+      "relation_analysis": "林小鹿对叶知秋的信任度较低，认为其警告可能带有隐藏目的。",
+      "confidence": 0.6
+    },
+    {
+      "from": "未知号码发件人",
+      "to": "林小鹿",
+      "raw_label": "任务指令与提醒",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "组织任务下达者",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "发送注意安全提醒",
+      "state_summary": "未知号码发件人作为组织成员，向林小鹿下达紧急任务并提醒注意安全，表明其对林小鹿有一定关心或责任。",
+      "enum_reason": "发件人下达任务并提醒安全，表现出上级对下级的保护性。",
+      "evidence_summary": "未知号码发件人发送任务短信，包括任务代号“灰雀”和地点，随后又发送“注意安全”的提醒。",
+      "evidence_quotes": ["紧急任务。今晚九点，城东物流园B区7号仓库。取一份文件，送到指定地址。任务代号：灰雀。", "注意安全。"],
+      "relation_analysis": "发件人通过短信下达任务并关心安全，表明其与林小鹿存在组织内的上下级或协作关系。",
+      "confidence": 0.5
+    },
+    {
+      "from": "林小鹿",
+      "to": "未知号码发件人",
+      "raw_label": "服从与执行",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "组织任务执行者",
+      "dynamic_stance": "neutral",
+      "dynamic_stance_raw": "执行任务但未表达情感",
+      "state_summary": "林小鹿按照指令执行任务，但内心对发件人身份和任务背景保持警惕。",
+      "enum_reason": "林小鹿执行任务但未表现出信任或敌意，保持中立。",
+      "evidence_summary": "林小鹿按照短信和纸条指示完成取件和送件任务，但内心对组织内部信任问题感到疑虑。",
+      "evidence_quotes": ["林小鹿把文件袋塞进去，确认没有露出边角，然后转身快步离开。"],
+      "relation_analysis": "林小鹿服从指令，但缺乏对发件人的信任，仅出于任务需要。",
+      "confidence": 0.5
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "叶知秋",
+      "shared_structural_base": "colleague",
+      "shared_structural_base_raw": "天衍组织同事",
+      "pair_summary": "林小鹿和叶知秋是天衍组织的同事，但信任关系脆弱，叶知秋主动提供警告，林小鹿则保持警惕。",
+      "evidence_summary": "叶知秋发短信警告林小鹿接头地点被监控，林小鹿怀疑叶知秋的动机。",
+      "evidence_quotes": ["接头地点已经被监控了。你自己决定。", "谁监控的？宋明远？还是组织高层？或者说——叶知秋自己也在监控名单里？"],
+      "pair_analysis": "两人存在同事关系，但缺乏互信，叶知秋的警告可能出于善意或自身利益，林小鹿则对组织内部信任问题高度敏感。",
+      "confidence": 0.6
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt1",
+      "intra_chapter_order": 0,
+      "event_type": "任务接收",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心事件，推动情节",
+      "summary": "林小鹿在咖啡馆打工时收到未知号码发来的紧急任务短信，要求她晚上九点到城东物流园取文件并送至指定地址。",
+      "location": "咖啡馆",
+      "enum_reason": "该事件是本章情节的起点，直接驱动后续行动。",
+      "evidence_summary": "林小鹿在吧台后查看手机，收到任务短信。",
+      "evidence_quotes": ["紧急任务。今晚九点，城东物流园B区7号仓库。取一份文件，送到指定地址。任务代号：灰雀。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "未知号码发件人", "role": "participant", "confidence": 0.5}
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "evt2",
+      "intra_chapter_order": 1,
+      "event_type": "加班协商",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "细节事件，展示林小鹿的处境",
+      "summary": "店长请求林小鹿加班到十点，林小鹿以考试为由协商到九点，最终同意加班。",
+      "location": "咖啡馆",
+      "enum_reason": "该事件为后续任务时间安排提供背景。",
+      "evidence_summary": "店长请求加班，林小鹿以考试为由协商到九点。",
+      "evidence_quotes": ["店长，我明天有考试。", "好，我顶到九点。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "店长", "role": "participant", "confidence": 1.0}
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "evt3",
+      "intra_chapter_order": 2,
+      "event_type": "暗号传递",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心事件，展示组织运作方式",
+      "summary": "一名黑衣男子在咖啡馆通过暗号（三短一长敲击）和杯托下的纸条向林小鹿传递任务细节。",
+      "location": "咖啡馆",
+      "enum_reason": "该事件是任务执行的关键环节。",
+      "evidence_summary": "黑衣男子点咖啡时敲击台面三短一长，离开时留下纸条。",
+      "evidence_quotes": ["那人在转身离开的时候，把一张对折的纸条压在杯托下面。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "黑衣男子", "role": "participant", "confidence": 0.8}
+      ],
+      "confidence": 0.8
+    },
+    {
+      "event_id": "evt4",
+      "intra_chapter_order": 3,
+      "event_type": "取件任务",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心事件，任务主体",
+      "summary": "林小鹿在九点后前往城东物流园B区7号仓库，按照纸条指示找到灰色文件袋并取出。",
+      "location": "城东物流园B区7号仓库",
+      "enum_reason": "该事件是本章任务的核心行动。",
+      "evidence_summary": "林小鹿进入仓库，在左手第三个货架底层找到灰色文件袋。",
+      "evidence_quotes": ["她蹲下来，在最底层看到一个灰色的文件袋，很薄，像是只装了几张纸。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "evt5",
+      "intra_chapter_order": 4,
+      "event_type": "送件任务",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心事件，任务完成",
+      "summary": "林小鹿将文件袋送至柳林街24号，塞进门缝后离开。",
+      "location": "柳林街24号",
+      "enum_reason": "该事件是任务的完成环节。",
+      "evidence_summary": "林小鹿将文件袋塞进老式信报箱缝隙。",
+      "evidence_quotes": ["她把文件袋塞进去，确认没有露出边角，然后转身快步离开。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "evt6",
+      "intra_chapter_order": 5,
+      "event_type": "警告接收",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "转折点，改变林小鹿对组织的信任",
+      "summary": "林小鹿在回学校途中收到叶知秋的短信，警告接头地点已被监控，林小鹿陷入对组织内部信任的疑虑。",
+      "location": "回学校的路上",
+      "enum_reason": "该事件改变了林小鹿对任务和组织的认知，是本章的转折点。",
+      "evidence_summary": "叶知秋发短信警告接头地点被监控，林小鹿思考谁在监控。",
+      "evidence_quotes": ["接头地点已经被监控了。你自己决定。", "谁监控的？宋明远？还是组织高层？或者说——叶知秋自己也在监控名单里？"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "叶知秋", "role": "participant", "confidence": 0.9}
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "interactions": [
+    {
+      "from": "未知号码发件人",
+      "to": "林小鹿",
+      "interaction_type": "command",
+      "interaction_type_raw": "发送任务指令",
+      "impact_level": "high",
+      "impact_level_raw": "直接影响林小鹿的行动",
+      "polarity": "neutral",
+      "polarity_raw": "指令性信息，无情感色彩",
+      "summary": "未知号码发件人通过短信向林小鹿下达紧急任务指令，包括时间、地点和任务代号。",
+      "enum_reason": "发件人明确下达任务指令，属于命令行为。",
+      "evidence_summary": "短信内容为任务指令。",
+      "evidence_quotes": ["紧急任务。今晚九点，城东物流园B区7号仓库。取一份文件，送到指定地址。任务代号：灰雀。"],
+      "interaction_analysis": "发件人通过短信直接命令林小鹿执行任务，林小鹿服从。",
+      "confidence": 0.8
+    },
+    {
+      "from": "未知号码发件人",
+      "to": "林小鹿",
+      "interaction_type": "protection",
+      "interaction_type_raw": "发送安全提醒",
+      "impact_level": "medium",
+      "impact_level_raw": "提醒注意安全",
+      "polarity": "positive",
+      "polarity_raw": "关心安全",
+      "summary": "未知号码发件人在任务指令后再次发送短信提醒林小鹿注意安全。",
+      "enum_reason": "发件人主动提醒安全，表现出保护意图。",
+      "evidence_summary": "短信内容为“注意安全”。",
+      "evidence_quotes": ["注意安全。"],
+      "interaction_analysis": "发件人关心林小鹿的安全，可能出于责任或善意。",
+      "confidence": 0.6
+    },
+    {
+      "from": "黑衣男子",
+      "to": "林小鹿",
+      "interaction_type": "cooperation",
+      "interaction_type_raw": "通过暗号传递纸条",
+      "impact_level": "high",
+      "impact_level_raw": "传递关键任务信息",
+      "polarity": "neutral",
+      "polarity_raw": "任务协作，无情感色彩",
+      "summary": "黑衣男子在咖啡馆通过暗号（三短一长敲击）和杯托下的纸条向林小鹿传递任务细节。",
+      "enum_reason": "两人通过暗号协作完成信息传递。",
+      "evidence_summary": "黑衣男子敲击台面三短一长，留下纸条。",
+      "evidence_quotes": ["那人在转身离开的时候，把一张对折的纸条压在杯托下面。"],
+      "interaction_analysis": "黑衣男子与林小鹿通过预设暗号协作，表明两人属于同一组织或任务链。",
+      "confidence": 0.7
+    },
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "interaction_type": "revelation",
+      "interaction_type_raw": "警告接头地点被监控",
+      "impact_level": "critical",
+      "impact_level_raw": "改变林小鹿对任务的认知",
+      "polarity": "mixed",
+      "polarity_raw": "警告带有善意但引发疑虑",
+      "summary": "叶知秋通过短信警告林小鹿接头地点已被监控，让林小鹿自己决定是否前往。",
+      "enum_reason": "叶知秋揭示了关键信息（监控），属于揭露行为。",
+      "evidence_summary": "短信内容为警告。",
+      "evidence_quotes": ["接头地点已经被监控了。你自己决定。"],
+      "interaction_analysis": "叶知秋的警告既可能是善意提醒，也可能带有其他目的，林小鹿对此产生怀疑。",
+      "confidence": 0.8
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "执行了组织任务",
+      "object_value": "在城东物流园取文件并送至柳林街24号",
+      "summary": "林小鹿按照组织指令完成了取件和送件任务。",
+      "is_state": false,
+      "confidence": 0.9
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "收到叶知秋的警告",
+      "object_value": "接头地点已被监控",
+      "summary": "叶知秋发短信告知林小鹿接头地点已被监控，林小鹿对组织内部信任产生疑虑。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "对组织内部信任产生疑虑",
+      "object_value": "怀疑监控者身份，包括宋明远、组织高层或叶知秋",
+      "summary": "林小鹿在收到警告后思考谁在监控接头点，对组织内部信任度降低。",
+      "is_state": true,
+      "confidence": 0.8
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "明天有专业课考试",
+      "object_value": "上午八点半考试，计划复习但时间紧张",
+      "summary": "林小鹿因考试压力，在加班和任务后时间紧张。",
+      "is_state": true,
+      "confidence": 0.9
+    }
+  ]
+}

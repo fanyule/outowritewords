@@ -1,0 +1,47 @@
+{
+  "summary": "本章暂无正文内容，仅标题暗示林小鹿在打工时被老板突然查岗，可能涉及身份暴露或危机。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿", "林远舟的女儿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中她正在打工，被老板突然查岗。"
+    }
+  ],
+  "directed_relations": [],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "e1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "本章暂无正文内容",
+      "summary": "本章暂无正文内容，仅标题暗示林小鹿在打工时被老板突然查岗。",
+      "location": "未知",
+      "enum_reason": "本章无正文内容，仅标题提供信息，故选择detail。",
+      "evidence_summary": "本章暂无正文内容。",
+      "evidence_quotes": ["本章暂无正文内容"],
+      "participants": [
+        {
+          "entity_name": "林小鹿",
+          "role": "actor",
+          "confidence": 0.5
+        }
+      ],
+      "confidence": 0.1
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "打工时被老板查岗",
+      "object_value": "老板突然查岗，可能涉及身份暴露或危机",
+      "summary": "本章标题暗示林小鹿在打工时被老板突然查岗，但无正文内容。",
+      "is_state": false,
+      "confidence": 0.1
+    }
+  ]
+}

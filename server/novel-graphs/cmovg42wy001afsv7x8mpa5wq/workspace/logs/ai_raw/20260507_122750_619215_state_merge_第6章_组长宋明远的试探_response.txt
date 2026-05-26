@@ -1,0 +1,93 @@
+{
+  "summary": "本章暂无具体内容，仅标题提示组长宋明远对林小鹿进行试探。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织组长，林小鹿的上司，面试并安排林小鹿入职，对林小鹿进行试探。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "新员工对上司的警惕",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "组长与组员",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "警惕",
+      "state_summary": "林小鹿作为新员工对上司宋明远保持警惕，怀疑他在调查自己。",
+      "enum_reason": "宋明远是组长，林小鹿是组员，属于上下级关系；林小鹿对宋明远保持警惕，符合wary。",
+      "evidence_summary": "标题提示宋明远对林小鹿进行试探，林小鹿保持警惕。",
+      "evidence_quotes": ["组长宋明远的试探"],
+      "relation_analysis": "从标题可知宋明远主动试探，林小鹿作为新员工自然保持警惕。",
+      "confidence": 0.6
+    },
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "上司对新员工的试探",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "组长与组员",
+      "dynamic_stance": "distrustful",
+      "dynamic_stance_raw": "试探",
+      "state_summary": "宋明远作为组长对林小鹿进行试探，可能不信任她。",
+      "enum_reason": "标题明确提到试探，表明宋明远对林小鹿持怀疑态度，符合distrustful。",
+      "evidence_summary": "标题提示宋明远对林小鹿进行试探。",
+      "evidence_quotes": ["组长宋明远的试探"],
+      "relation_analysis": "试探行为暗示宋明远对林小鹿的背景或动机存疑。",
+      "confidence": 0.6
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "宋明远",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "组长与组员",
+      "pair_summary": "林小鹿与宋明远是上下级关系，宋明远是组长，林小鹿是新入职的组员。",
+      "evidence_summary": "标题暗示宋明远作为组长对林小鹿进行试探。",
+      "evidence_quotes": ["组长宋明远的试探"],
+      "pair_analysis": "从标题可知宋明远是组长，林小鹿是组员，构成明确的上下级关系。",
+      "confidence": 0.6
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch6_evt1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "本章暂无内容",
+      "summary": "本章暂无具体内容，仅标题提示组长宋明远对林小鹿进行试探。",
+      "location": "未知",
+      "enum_reason": "本章无具体情节，仅标题提示，故为detail。",
+      "evidence_summary": "标题为'组长宋明远的试探'，但内容为空。",
+      "evidence_quotes": ["第6章 组长宋明远的试探"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.5},
+        {"entity_name": "宋明远", "role": "actor", "confidence": 0.5}
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "宋明远",
+      "predicate": "角色身份",
+      "object_value": "天衍组织组长，林小鹿的上司",
+      "summary": "从标题可知宋明远是组长，对林小鹿进行试探。",
+      "is_state": true,
+      "confidence": 0.6
+    }
+  ]
+}

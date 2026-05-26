@@ -1,0 +1,110 @@
+{
+  "summary": "本章无正文内容，仅标题提示叶知秋对林小鹿有所暗示。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["小叶"],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "暗示",
+      "structural_base": "colleague",
+      "structural_base_raw": "同事",
+      "dynamic_stance": "friendly",
+      "dynamic_stance_raw": "善意",
+      "state_summary": "叶知秋作为前台同事，对林小鹿保持友好态度，并主动提供善意提醒。",
+      "enum_reason": "叶知秋与林小鹿是天衍组织的同事关系，叶知秋是前台，林小鹿是新入职的组员。",
+      "evidence_summary": "标题提示叶知秋对林小鹿有所暗示，但具体内容未知。",
+      "evidence_quotes": ["叶知秋的暗示"],
+      "relation_analysis": "标题直接表明叶知秋对林小鹿有暗示行为，结合之前章节中叶知秋的友好态度，推断为善意提醒。",
+      "confidence": 0.6
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "接受暗示",
+      "structural_base": "colleague",
+      "structural_base_raw": "同事",
+      "dynamic_stance": "neutral",
+      "dynamic_stance_raw": "未知",
+      "state_summary": "林小鹿作为新员工，对叶知秋的提醒保持基本礼貌，但具体反应未知。",
+      "enum_reason": "林小鹿与叶知秋是天衍组织的同事关系，林小鹿是新入职的组员，叶知秋是前台。",
+      "evidence_summary": "标题提示叶知秋对林小鹿有所暗示，但林小鹿的具体反应未知。",
+      "evidence_quotes": ["叶知秋的暗示"],
+      "relation_analysis": "标题暗示叶知秋主动对林小鹿进行暗示，但林小鹿的接受程度和态度未明确。",
+      "confidence": 0.5
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "叶知秋",
+      "entity_b": "林小鹿",
+      "shared_structural_base": "colleague",
+      "shared_structural_base_raw": "同事",
+      "pair_summary": "叶知秋和林小鹿是天衍组织的同事，叶知秋是前台，林小鹿是新入职的组员。",
+      "evidence_summary": "标题提示叶知秋对林小鹿有所暗示，结合之前章节中两人为同事关系。",
+      "evidence_quotes": ["叶知秋的暗示"],
+      "pair_analysis": "标题暗示两人之间有互动，且之前章节已明确两人为同事关系。",
+      "confidence": 0.7
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch14_e1",
+      "intra_chapter_order": 0,
+      "event_type": "revelation",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "标题暗示",
+      "summary": "叶知秋对林小鹿进行暗示，具体内容未知。",
+      "location": "",
+      "enum_reason": "本章无正文内容，仅标题提示叶知秋的暗示，属于细节性事件。",
+      "evidence_summary": "标题为'叶知秋的暗示'。",
+      "evidence_quotes": ["叶知秋的暗示"],
+      "participants": [
+        {"entity_name": "叶知秋", "role": "actor", "confidence": 0.6},
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.6}
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "interactions": [
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "interaction_type": "revelation",
+      "interaction_type_raw": "暗示",
+      "impact_level": "medium",
+      "impact_level_raw": "暗示",
+      "polarity": "positive",
+      "polarity_raw": "善意",
+      "summary": "叶知秋对林小鹿进行暗示，可能提供重要信息或提醒。",
+      "enum_reason": "标题明确为'暗示'，属于揭示或提醒类互动。",
+      "evidence_summary": "标题为'叶知秋的暗示'。",
+      "evidence_quotes": ["叶知秋的暗示"],
+      "interaction_analysis": "标题直接表明叶知秋主动对林小鹿进行暗示，结合之前章节中叶知秋的友好态度，推断为善意提醒。",
+      "confidence": 0.5
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "叶知秋",
+      "predicate": "对林小鹿进行暗示",
+      "object_value": "暗示",
+      "summary": "标题提示叶知秋对林小鹿有所暗示，但具体内容未知。",
+      "is_state": false,
+      "confidence": 0.5
+    }
+  ]
+}

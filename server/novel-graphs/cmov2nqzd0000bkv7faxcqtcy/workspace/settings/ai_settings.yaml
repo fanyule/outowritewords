@@ -1,0 +1,19 @@
+# API key is stored separately in settings/.secrets/ai_api_key.
+# Do not commit workspace/settings/.secrets.
+ai:
+  provider: openai-compatible
+  base_url: https://api.deepseek.com
+  api_key: ''
+  model: deepseek-chat
+  relation_adjudicator_enabled: false
+  relation_adjudicator_backend: remote
+  relation_adjudicator_provider: openai-compatible
+  relation_adjudicator_base_url: ''
+  relation_adjudicator_api_key: ''
+  relation_adjudicator_model: ''
+  temperature: 0.0
+  max_request_chars: 60000
+  max_response_tokens: 15000
+  extraction_system_prompt: ''
+  merge_system_prompt: ''
+  state_merge_system_prompt: ''

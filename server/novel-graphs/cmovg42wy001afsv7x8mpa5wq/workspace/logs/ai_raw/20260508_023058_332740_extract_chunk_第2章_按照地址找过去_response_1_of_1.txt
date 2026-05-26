@@ -1,0 +1,187 @@
+{
+  "summary": "林小鹿按照父亲笔记本上的地址找到一家名为“寻鹿咖啡馆”的隐蔽小店，用暗号“寻鹿”与店员接头，获得一张纸条，上面写着明天下午三点去旧书店街17号，并带上笔记本。店员警告她“你父亲的事，别问太多”。离开后，林小鹿发现被人跟踪，并在公交车上看到一名灰衣男子注视她。回家后收到陌生号码短信提醒“明天别忘了”。她决定继续追查。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中她独自前往寻鹿咖啡馆接头，获得新线索，并发现被跟踪。"
+    },
+    {
+      "name": "咖啡馆店员",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "寻鹿咖啡馆的年轻男店员，二十五六岁，穿灰色衬衫，负责接头。他确认林小鹿的暗号后递给她一个信封，并警告她“你父亲的事，别问太多”。"
+    },
+    {
+      "name": "灰衣跟踪者",
+      "aliases": [],
+      "chapter_role": "supporting",
+      "summary": "在公交车站对面街角出现的灰衣男子，三十岁左右，眼神锐利，有压迫感，疑似跟踪林小鹿。"
+    },
+    {
+      "name": "林远舟",
+      "aliases": ["林小鹿的父亲"],
+      "chapter_role": "mentioned",
+      "summary": "林小鹿失踪的父亲，留下笔记本和地址，与组织有接触，可能卷入了危险的事。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "咖啡馆店员",
+      "to": "林小鹿",
+      "raw_label": "接头人与寻路者",
+      "structural_base": "temporary_alliance",
+      "structural_base_raw": "接头关系，传递线索",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "警告‘别问太多’，保持距离",
+      "state_summary": "咖啡馆店员作为接头人，按照组织流程确认林小鹿身份并传递线索，但对她保持警惕和距离，不愿多谈。",
+      "enum_reason": "双方因组织任务临时接触，店员态度谨慎，符合temporary_alliance和wary。",
+      "evidence_summary": "店员确认暗号后递信封，警告‘你父亲的事，别问太多’，然后转身拒绝交谈。",
+      "evidence_quotes": ["‘你父亲的事，别问太多。’"],
+      "relation_analysis": "店员执行组织任务，但刻意保持距离和警告，表明他对林小鹿的介入持谨慎态度。",
+      "confidence": 0.8
+    },
+    {
+      "from": "灰衣跟踪者",
+      "to": "林小鹿",
+      "raw_label": "跟踪者与目标",
+      "structural_base": "unknown",
+      "structural_base_raw": "跟踪关系，身份不明",
+      "dynamic_stance": "hostile",
+      "dynamic_stance_raw": "跟踪行为具有威胁性",
+      "state_summary": "灰衣男子在公交车站对面注视林小鹿，疑似跟踪，身份和动机不明，但行为具有压迫感。",
+      "enum_reason": "跟踪行为暗示敌意或监视，但关系基础未知。",
+      "evidence_summary": "林小鹿在公交车上看到灰衣男子站在对面街角，目光锁定她的窗口。",
+      "evidence_quotes": ["对面街角，一个穿着灰色外套的男人正站在那里，看着她的方向。"],
+      "relation_analysis": "灰衣男子的跟踪行为表明他对林小鹿有监视或威胁意图，但具体关系不明。",
+      "confidence": 0.6
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "咖啡馆店员",
+      "shared_structural_base": "temporary_alliance",
+      "shared_structural_base_raw": "接头关系，传递线索",
+      "pair_summary": "林小鹿与咖啡馆店员因组织接头任务临时合作，店员传递线索后保持距离。",
+      "evidence_summary": "林小鹿用暗号‘寻鹿’接头，店员确认后递信封并警告。",
+      "evidence_quotes": ["‘请问……这里有“寻鹿”吗？’", "‘你父亲的事，别问太多。’"],
+      "pair_analysis": "双方因组织任务产生临时联系，但店员刻意保持距离，关系短暂且有限。",
+      "confidence": 0.8
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "e1",
+      "intra_chapter_order": 0,
+      "event_type": "revelation",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心事件：接头获得新线索",
+      "summary": "林小鹿找到寻鹿咖啡馆，用暗号‘寻鹿’与店员接头，获得一张纸条，上面写着明天下午三点去旧书店街17号，并带上笔记本。店员警告她‘你父亲的事，别问太多’。",
+      "location": "寻鹿咖啡馆",
+      "enum_reason": "这是本章的核心情节，推动主线发展。",
+      "evidence_summary": "林小鹿进入咖啡馆，用暗号接头，店员递信封并警告。",
+      "evidence_quotes": ["‘请问……这里有“寻鹿”吗？’", "‘你父亲的事，别问太多。’"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "咖啡馆店员", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "e2",
+      "intra_chapter_order": 1,
+      "event_type": "threat",
+      "narrative_weight": "mainline",
+      "narrative_weight_raw": "主要事件：发现被跟踪",
+      "summary": "林小鹿离开咖啡馆后，发现身后有脚步声跟踪，并在公交车站看到一名灰衣男子注视她，确认被跟踪。",
+      "location": "城西路老街区及公交车站",
+      "enum_reason": "这是本章的重要悬念，增加紧张感。",
+      "evidence_summary": "林小鹿听到脚步声，拐角躲藏后未见人影；在公交车上看到灰衣男子注视她。",
+      "evidence_quotes": ["身后有脚步声。", "对面街角，一个穿着灰色外套的男人正站在那里，看着她的方向。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "灰衣跟踪者", "role": "actor", "confidence": 0.7}
+      ],
+      "confidence": 0.9
+    },
+    {
+      "event_id": "e3",
+      "intra_chapter_order": 2,
+      "event_type": "revelation",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "细节事件：收到提醒短信",
+      "summary": "林小鹿回家后收到陌生号码短信‘明天别忘了’，她回复‘会去的’。",
+      "location": "林小鹿租住的小区",
+      "enum_reason": "这是本章的收尾细节，强化悬念。",
+      "evidence_summary": "林小鹿收到短信并回复。",
+      "evidence_quotes": ["‘明天别忘了。’", "‘会去的。’"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "林小鹿",
+      "to": "咖啡馆店员",
+      "interaction_type": "cooperation",
+      "interaction_type_raw": "接头合作",
+      "impact_level": "high",
+      "impact_level_raw": "获得关键线索",
+      "polarity": "neutral",
+      "polarity_raw": "正式接头，无情感色彩",
+      "summary": "林小鹿用暗号‘寻鹿’与店员接头，店员确认后递信封并警告，林小鹿接受线索后离开。",
+      "enum_reason": "双方按组织流程合作传递信息，态度正式。",
+      "evidence_summary": "林小鹿说出暗号，店员递信封并警告。",
+      "evidence_quotes": ["‘请问……这里有“寻鹿”吗？’", "‘你父亲的事，别问太多。’"],
+      "interaction_analysis": "这是一次标准的组织接头，双方按规则行事，店员保持距离，林小鹿接受线索。",
+      "confidence": 0.9
+    },
+    {
+      "from": "灰衣跟踪者",
+      "to": "林小鹿",
+      "interaction_type": "threat",
+      "interaction_type_raw": "跟踪监视",
+      "impact_level": "high",
+      "impact_level_raw": "引起林小鹿警觉",
+      "polarity": "negative",
+      "polarity_raw": "跟踪行为具有威胁性",
+      "summary": "灰衣男子在公交车站对面注视林小鹿，疑似跟踪，林小鹿感到被监视。",
+      "enum_reason": "跟踪行为构成潜在威胁。",
+      "evidence_summary": "林小鹿在公交车上看到灰衣男子注视她。",
+      "evidence_quotes": ["对面街角，一个穿着灰色外套的男人正站在那里，看着她的方向。"],
+      "interaction_analysis": "灰衣男子的注视和跟踪行为对林小鹿构成心理威胁，增加紧张感。",
+      "confidence": 0.7
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "获得新线索",
+      "object_value": "明天下午三点去旧书店街17号，带上笔记本",
+      "summary": "林小鹿在寻鹿咖啡馆接头后获得纸条，指示下一步行动。",
+      "is_state": false,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "被跟踪",
+      "object_value": "发现灰衣男子跟踪",
+      "summary": "林小鹿离开咖啡馆后确认被跟踪，对方身份不明。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "林远舟",
+      "predicate": "与组织有接触",
+      "object_value": "咖啡馆店员知道林远舟的事",
+      "summary": "店员警告‘你父亲的事，别问太多’，表明林远舟与组织有过接触。",
+      "is_state": true,
+      "confidence": 0.8
+    }
+  ]
+}

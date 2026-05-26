@@ -1,0 +1,223 @@
+{
+  "summary": "叶知秋通过加密短信约林小鹿在图书馆见面，警告她接头地点被监控，并透露自己哥哥也因组织失踪，提醒她小心宋明远。林小鹿随后收到另一条神秘短信，约她明天下午三点在旧书店街见面。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["叶"],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织前台工作人员，戴眼镜的年轻女人，哥哥半年前失踪，组织调查结论为‘个人原因离岗’。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "天衍组织外勤组长，林小鹿的上司，叶知秋警告林小鹿要小心他。"
+    },
+    {
+      "name": "叶知秋的哥哥",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "summary": "叶知秋的哥哥，半年前失踪，组织调查结论为‘个人原因离岗，去向不明’。"
+    },
+    {
+      "name": "戴眼镜的男人",
+      "aliases": [],
+      "chapter_role": "background",
+      "summary": "图书馆三楼窗边放下书本拿起手机的男人，可能监视林小鹿和叶知秋的会面。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "善意提醒与警告",
+      "structural_base": "colleague",
+      "structural_base_raw": "天衍组织同事",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "不想再看到一个消失的人",
+      "state_summary": "叶知秋因自身哥哥失踪的经历，对林小鹿产生保护欲，主动冒险警告她接头地点被监控，并提醒小心宋明远。",
+      "enum_reason": "两人是天衍组织同事，叶知秋表现出保护性姿态。",
+      "evidence_summary": "叶知秋通过短信约林小鹿见面，当面警告接头地点被监控，并透露自己哥哥失踪的往事。",
+      "evidence_quotes": ["因为你刚来，不该被卷进这种事", "小心宋明远"],
+      "relation_analysis": "叶知秋主动提供关键情报并警告危险，表明她对林小鹿有保护倾向，动机源于自身经历。",
+      "confidence": 0.85
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "接受警告并信任",
+      "structural_base": "colleague",
+      "structural_base_raw": "天衍组织同事",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "接受警告并追问细节",
+      "state_summary": "林小鹿接受叶知秋的警告，并追问更多信息，表现出对叶知秋的信任。",
+      "enum_reason": "林小鹿认真听取叶知秋的警告并追问细节，表明信任。",
+      "evidence_summary": "林小鹿与叶知秋进行书面对话，接受警告并追问哥哥失踪等细节。",
+      "evidence_quotes": ["为什么告诉我这些？", "和组织有关？"],
+      "relation_analysis": "林小鹿没有怀疑叶知秋的动机，而是积极追问，显示信任。",
+      "confidence": 0.8
+    },
+    {
+      "from": "叶知秋",
+      "to": "宋明远",
+      "raw_label": "警告林小鹿小心",
+      "structural_base": "colleague",
+      "structural_base_raw": "天衍组织同事",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "小心宋明远",
+      "state_summary": "叶知秋对宋明远保持警惕，认为他可能对林小鹿构成威胁。",
+      "enum_reason": "叶知秋主动警告林小鹿小心宋明远，表明她对其不信任。",
+      "evidence_summary": "叶知秋离开前低声说‘小心宋明远’。",
+      "evidence_quotes": ["小心宋明远"],
+      "relation_analysis": "叶知秋的警告表明她对宋明远持怀疑态度。",
+      "confidence": 0.7
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "叶知秋",
+      "entity_b": "林小鹿",
+      "shared_structural_base": "colleague",
+      "shared_structural_base_raw": "天衍组织同事",
+      "pair_summary": "两人是天衍组织的同事，叶知秋因共同经历对林小鹿产生保护欲。",
+      "evidence_summary": "叶知秋主动约见林小鹿并分享哥哥失踪的秘密。",
+      "evidence_quotes": ["你让我想起一个人", "他是我哥"],
+      "pair_analysis": "叶知秋的哥哥失踪与林小鹿父亲失踪相似，形成情感纽带。",
+      "confidence": 0.8
+    }
+  ],
+  "identity_revelations": [
+    {
+      "source_name": "叶知秋提到的‘那个人’",
+      "target_name": "叶知秋的哥哥",
+      "revelation_type": "true_identity",
+      "evidence": "叶知秋承认‘他是我哥’",
+      "confidence": 1.0
+    }
+  ],
+  "events": [
+    {
+      "event_id": "evt1",
+      "intra_chapter_order": 0,
+      "event_type": "秘密会面",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心情节",
+      "summary": "叶知秋通过加密短信约林小鹿在图书馆见面，当面警告她接头地点被监控，并透露自己哥哥失踪的往事。",
+      "location": "大学城图书馆三楼",
+      "enum_reason": "本章核心事件，推动主线。",
+      "evidence_summary": "叶知秋与林小鹿通过手机打字交流，警告接头点被监控，并分享哥哥失踪信息。",
+      "evidence_quotes": ["你昨天晚上的任务，接头地点被人监控了", "他是我哥"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "叶知秋", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt2",
+      "intra_chapter_order": 1,
+      "event_type": "收到神秘短信",
+      "narrative_weight": "turning_point",
+      "narrative_weight_raw": "转折点",
+      "summary": "林小鹿离开图书馆后收到另一条加密短信，约她明天下午三点在旧书店街17号见面，并带上笔记本。",
+      "location": "图书馆楼梯口",
+      "enum_reason": "引入新线索，推动剧情。",
+      "evidence_summary": "林小鹿收到加密短信，发件人乱码，要求明天下午三点见面。",
+      "evidence_quotes": ["明天下午三点，旧书店街17号。带上笔记本。如果你还想知道真相。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt3",
+      "intra_chapter_order": 2,
+      "event_type": "监视",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "细节",
+      "summary": "图书馆三楼一个戴眼镜的男人放下书本拿起手机，暗示林小鹿和叶知秋的会面被监视。",
+      "location": "图书馆三楼窗边",
+      "enum_reason": "补充细节，增加悬疑。",
+      "evidence_summary": "描述戴眼镜的男人放下书拿起手机。",
+      "evidence_quotes": ["一个戴眼镜的男人放下了手中的书，拿起了手机。"],
+      "participants": [
+        {"entity_name": "戴眼镜的男人", "role": "actor", "confidence": 0.6}
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "interactions": [
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "interaction_type": "revelation",
+      "interaction_type_raw": "透露秘密",
+      "impact_level": "high",
+      "impact_level_raw": "高",
+      "polarity": "positive",
+      "polarity_raw": "正面",
+      "summary": "叶知秋通过手机打字向林小鹿透露接头地点被监控，并分享自己哥哥失踪的秘密。",
+      "enum_reason": "叶知秋向林小鹿透露关键情报和个人秘密。",
+      "evidence_summary": "叶知秋打字告知接头点被监控，并承认哥哥失踪。",
+      "evidence_quotes": ["你昨天晚上的任务，接头地点被人监控了", "他是我哥"],
+      "interaction_analysis": "叶知秋主动分享敏感信息，表明信任和善意。",
+      "confidence": 0.9
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "interaction_type": "cooperation",
+      "interaction_type_raw": "配合询问",
+      "impact_level": "medium",
+      "impact_level_raw": "中",
+      "polarity": "positive",
+      "polarity_raw": "正面",
+      "summary": "林小鹿配合叶知秋的交流方式，通过手机打字追问细节。",
+      "enum_reason": "林小鹿积极回应并追问，表现出合作态度。",
+      "evidence_summary": "林小鹿打字询问‘为什么告诉我这些’、‘和组织有关’等问题。",
+      "evidence_quotes": ["为什么告诉我这些？", "和组织有关？"],
+      "interaction_analysis": "林小鹿认真对待叶知秋的警告，并试图获取更多信息。",
+      "confidence": 0.85
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "叶知秋",
+      "predicate": "哥哥失踪",
+      "object_value": "半年前失踪，组织调查结论为‘个人原因离岗，去向不明’",
+      "summary": "叶知秋的哥哥半年前失踪，组织调查未果。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林小鹿的接头地点",
+      "predicate": "被监控",
+      "object_value": "昨晚任务的接头地点被人监控",
+      "summary": "叶知秋警告林小鹿接头地点已被监控。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "收到新线索",
+      "object_value": "明天下午三点旧书店街17号见面，带上笔记本",
+      "summary": "林小鹿收到神秘短信，约见旧书店街。",
+      "is_state": false,
+      "confidence": 1.0
+    },
+    {
+      "subject": "叶知秋",
+      "predicate": "对宋明远的态度",
+      "object_value": "警告林小鹿小心宋明远",
+      "summary": "叶知秋认为宋明远可能对林小鹿构成威胁。",
+      "is_state": true,
+      "confidence": 0.7
+    }
+  ]
+}

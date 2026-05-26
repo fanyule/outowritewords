@@ -1,0 +1,70 @@
+<chapter_title>
+第3章 天衍的暗号
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第3章 天衍的暗号","analyzed_at":"2026-05-08T01:19:02","summary":"林小鹿按照父亲笔记本的指引，来到旧书店街17号的文澜旧书店，通过暗号接头后，被书店老板引入隐藏的金属门，进入天衍组织基地。接待员叶知秋为她进行基础异能检测，结果显示她有觉醒潜质。随后叶知秋带她进入深层检测室进行定向检测，检测开始后房间陷入黑暗。","outline":[{"order":0,"text":"林小鹿来到旧书店街17号的文澜旧书店，与书店老板通过暗号接头，老板确认暗号后拉下卷帘门，开启隐藏的金属门，将林小鹿引入天衍组织基地。","involved_names":["林小鹿","书店老板"]},{"order":1,"text":"林小鹿进入天衍组织基地后，由叶知秋接待并进行基础异能检测，结果显示她有觉醒潜质。随后叶知秋带她进入深层检测室进行定向检测，检测开始后房间陷入黑暗。","involved_names":["林小鹿","叶知秋"]}],"entities":[{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，外院大二英语专业，父亲失踪三个月，她按照父亲笔记本的指引来到旧书店街17号，通过暗号进入天衍组织基地，接受基础异能检测和定向检测。"},{"name":"叶知秋","aliases":[],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天衍组织的前台接待员，负责林小鹿的接待和初步评估，年轻女性，穿白色衬衫和深灰色长裤，扎低马尾，对林小鹿进行基础异能检测并带她进入深层检测室。"},{"name":"书店老板","aliases":["老头"],"chapter_role":"supporting","tier":"active","importance_score":40,"summary":"文澜旧书店的老板，戴老花镜，负责验证暗号并开启隐藏的金属门，将林小鹿引入天衍组织基地。"}],"identity_revelations":[],"events":[{"event_id":"evt-3-1","intra_chapter_order":0,"event_type":"接头","narrative_weight":"core","narrative_weight_raw":"核心事件","enum_reason":"这是林小鹿进入天衍组织的关键入口事件。","summary":"林小鹿来到旧书店街17号的文澜旧书店，与书店老板通过暗号接头，老板确认暗号后拉下卷帘门，开启隐藏的金属门，将林小鹿引入天衍组织基地。","location":"文澜旧书店","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"书店老板","role":"actor","confidence":1.0}],"evidence_summary":"林小鹿按照父亲笔记本的暗号与老板对话；老板拉下卷帘门，开启隐藏金属门。","evidence_quotes":["老板，有没有《天工开物》的民国版本？","跟我来。","书架发出一声轻微的机械响动，然后整面书架向内缩了进去，露出后面一扇银灰色的金属门。"],"confidence":1.0},{"event_id":"evt-3-2","intra_chapter_order":1,"event_type":"检测","narrative_weight":"core","narrative_weight_raw":"核心事件","enum_reason":"这是林小鹿加入组织后的首次检测，揭示她的异能潜质。","summary":"林小鹿进入天衍组织基地后，由叶知秋接待并进行基础异能检测，结果显示她有觉醒潜质。随后叶知秋带她进入深层检测室进行定向检测，检测开始后房间陷入黑暗。","location":"天衍组织基地","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"叶知秋","role":"actor","confidence":1.0}],"evidence_summary":"叶知秋为林小鹿进行基础检测，显示精神阈值偏高；随后带她进入深层检测室，启动定向检测。","evidence_quotes":["你的基础检测结果显示，你的精神阈值偏高，能量波动也处在活跃区间。","检测开始。"],"confidence":1.0}],"interactions":[{"from":"林小鹿","to":"书店老板","interaction_type":"cooperation","interaction_type_raw":"暗号接头","impact_level":"high","impact_level_raw":"关键接头","polarity":"neutral","polarity_raw":"中性","enum_reason":"双方通过暗号合作完成接头。","summary":"林小鹿按照父亲笔记本的暗号与书店老板对话，老板确认暗号后开启隐藏门，将林小鹿引入组织。","evidence_summary":"林小鹿说出暗号，老板回应并开启隐藏门。","evidence_quotes":["老板，有没有《天工开物》的民国版本？","民国版本没有，光绪年间的倒有一本，不过缺了卷七。","跟我来。"],"interaction_analysis":"林小鹿与书店老板通过预设暗号完成接头，老板协助她进入组织。","confidence":1.0},{"from":"叶知秋","to":"林小鹿","interaction_type":"teaching","interaction_type_raw":"指导检测","impact_level":"medium","impact_level_raw":"中等影响","polarity":"neutral","polarity_raw":"中性","enum_reason":"叶知秋向林小鹿解释检测流程并指导她操作。","summary":"叶知秋指导林小鹿进行基础异能检测和定向检测，告知她检测流程和注意事项。","evidence_summary":"叶知秋让林小鹿坐下，指导她放轻松，并解释检测内容。","evidence_quotes":["坐吧。","放轻松，这个检测不会痛，也对你没有伤害。","站在设备中央，闭上眼睛，什么都不要想。"],"interaction_analysis":"叶知秋作为接待员，指导林小鹿完成检测流程。","confidence":0.9},{"from":"叶知秋","to":"林小鹿","interaction_type":"revelation","interaction_type_raw":"提及父亲","impact_level":"medium","impact_level_raw":"中等影响","polarity":"neutral","polarity_raw":"中性","enum_reason":"叶知秋向林小鹿透露关于她父亲的信息。","summary":"叶知秋主动提及林小鹿父亲的事，但未透露细节，表示自己知道的不多。","evidence_summary":"叶知秋压低声音说林小鹿父亲的事她也听说了，但表示不该她来说。","evidence_quotes":["你父亲的事，我也听说了。","他确实在这里待过一段时间，后来……出了点事。"],"interaction_analysis":"叶知秋主动提及林小鹿父亲，但保持谨慎，未透露关键信息。","confidence":0.8}],"directed_relations":[{"from":"叶知秋","to":"林小鹿","raw_label":"接待与评估","state_summary":"叶知秋作为天衍组织的接待员，对林小鹿保持职业化的友好态度，进行基础检测并带她进入深层检测室，同时提及林小鹿父亲的事，但未透露细节。","structural_base":"colleague","structural_base_raw":"组织同事","dynamic_stance":"friendly","dynamic_stance_raw":"职业化的微笑，随和的表情","enum_reason":"叶知秋与林小鹿同属天衍组织，叶知秋负责接待，态度友好但保持职业距离。","evidence_summary":"叶知秋站起来，脸上带着职业化的微笑；她转身往走廊深处走，边走边说；叶知秋的声音压低了一些。","evidence_quotes":["我是叶知秋，负责你的接待和初步评估。","你父亲的事，我也听说了。","我只是个接待员，不该说的我不会说。"],"relation_analysis":"叶知秋作为接待员，对林小鹿表现出职业化的友好，但保持一定距离，未透露关键信息。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8},{"from":"林小鹿","to":"叶知秋","raw_label":"礼貌跟随与警惕","state_summary":"林小鹿作为新成员，对叶知秋保持礼貌跟随，但内心紧张警惕，对组织环境和叶知秋的言行保持戒备。","structural_base":"colleague","structural_base_raw":"组织同事","dynamic_stance":"wary","dynamic_stance_raw":"攥紧包带，指节发白，犹豫了两秒","enum_reason":"林小鹿刚进入组织，对叶知秋的言行保持警惕，但未表现出敌意。","evidence_summary":"林小鹿攥紧包带，指节发白；她犹豫了两秒，走过去坐下；林小鹿没接话，只是跟着她往前走。","evidence_quotes":["林小鹿攥紧包带，指节发白，走廊里只有她自己的脚步声。","林小鹿犹豫了两秒，走过去坐下。","林小鹿没接话，只是跟着她往前走。"],"relation_analysis":"林小鹿对叶知秋保持基本礼貌，但内心紧张警惕，未完全信任。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.7},{"from":"林小鹿","to":"林小鹿的父亲","raw_label":"女儿对失踪父亲的思念与追寻","state_summary":"林小鹿深爱父亲，因父亲失踪三个月而焦虑，决心按照笔记本指引找到他，进入天衍组织。","structural_base":"kinship_parent_child","structural_base_raw":"父女关系","dynamic_stance":"protective","dynamic_stance_raw":"决心找到父亲","enum_reason":"林小鹿与父亲是明确的父女关系，林小鹿主动追寻父亲。","evidence_summary":"林小鹿按照父亲笔记本上的暗号接头；她想着父亲失踪三个月，终于找到了一个入口。","evidence_quotes":["她按照父亲笔记本上记录的那段话，清了清嗓子。","父亲失踪三个月，她终于找到了一个入口。"],"relation_analysis":"林小鹿对父亲的思念和追寻驱动了她的行动。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.9}],"pair_relations":[{"entity_a":"林小鹿","entity_b":"叶知秋","shared_structural_base":"colleague","shared_structural_base_raw":"同属天衍组织","pair_summary":"林小鹿和叶知秋同属天衍组织，叶知秋负责接待林小鹿，两人处于初步接触阶段。","evidence_summary":"叶知秋自称负责林小鹿的接待和初步评估；林小鹿跟随叶知秋进行检测。","evidence_quotes":["我是叶知秋，负责你的接待和初步评估。","跟我来吧，先做个基础检测。"],"pair_analysis":"两人同属天衍组织，叶知秋是接待员，林小鹿是新成员，关系为组织同事。","shared_intensity_score":50,"confidence":0.8},{"entity_a":"林小鹿","entity_b":"林小鹿的父亲","shared_structural_base":"kinship_parent_child","shared_structural_base_raw":"父女关系","pair_summary":"林小鹿与父亲是明确的父女关系，父亲失踪三个月，林小鹿正在追寻他。","evidence_summary":"林小鹿按照父亲笔记本的暗号进入组织；她想着父亲失踪三个月。","evidence_quotes":["她按照父亲笔记本上记录的那段话。","父亲失踪三个月，她终于找到了一个入口。"],"pair_analysis":"父女关系明确，林小鹿的行动由追寻父亲驱动。","shared_intensity_score":50,"confidence":0.9}],"fact_updates":[{"subject":"林小鹿","predicate":"进入天衍组织基地","object_value":"通过旧书店暗号进入隐藏基地","summary":"林小鹿通过父亲笔记本的暗号，在文澜旧书店与老板接头，进入天衍组织基地。","is_state":true,"retracted":false,"confidence":1.0},{"subject":"林小鹿","predicate":"基础异能检测结果","object_value":"精神阈值偏高，能量波动活跃，有觉醒潜质","summary":"林小鹿的基础检测显示她有觉醒异能的潜质，需要进一步定向检测。","is_state":true,"retracted":false,"confidence":0.9},{"subject":"林小鹿的父亲","predicate":"在天衍组织待过","object_value":"叶知秋确认林小鹿的父亲在天衍组织待过一段时间，后来出了事","summary":"叶知秋透露林小鹿的父亲确实在天衍组织待过，后来出了事。","is_state":true,"retracted":false,"confidence":0.8}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第32章 目标临终前的低语: 本章无正文内容，仅标题暗示林小鹿在废弃工厂中听到目标临终前的低语，可能获得关键信息。
+- 第33章 战利品中的另一条线索: 本章无正文内容，仅标题暗示林小鹿在战利品中发现另一条线索。
+- 第34章 宋明远的目光: 本章无正文内容，仅标题暗示宋明远对林小鹿的关注或审视。
+</recent_summary>
+
+<focus_entities>
+- 书店老板
+- 叶知秋
+- 林小鹿
+- 林小鹿的父亲
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=100 aliases=小鹿 summary=女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她按照笔记本地址找到咖啡馆，获得新线索，并发现被跟踪。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她主动争取某事。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她将接受新任务，前往废弃研究所。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中与叶知秋进行情报交易。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她通过金属盒发现线索。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她发现代号并转向主动行动。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在考试周遇到紧急任务。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她面临紧急情况，需要同时处理三条任务线。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有意外发现。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中接受叶知秋的警告与情报。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中面临双重压力并做出决断。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她前往废弃工厂并解读暗语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在废弃工厂中听到目标临终前的低语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在战利品中发现另一条线索。
+- 叶知秋 tier=active score=70 aliases=小叶 summary=天衍的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。
+Update: 天衍组织前台同事，戴眼镜的年轻女人，接待林小鹿，带她到资料室，并告知可以随时找她。
+Update: 天衍组织的前台同事，戴眼镜的年轻女人，对林小鹿友好，主动提供帮助。
+Update: 天衍组织的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。
+Update: 天衍组织的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。本章中与林小鹿进行情报交易。
+Update: 天衍组织前台同事，戴眼镜的年轻女人，接待林小鹿，带她到资料室，并告知可以随时找她。本章标题暗示她与林小鹿进行情报交易。
+Update: 天衍组织前台同事，戴眼镜的年轻女人，接待林小鹿，带她到资料室，并告知可以随时找她。本章中主动向林小鹿发出警告并提供情报。
+Update: 天衍的前台工作人员，戴眼镜的年轻女人，负责接待林小鹿并带她熟悉环境。本章中向林小鹿发出警告并提供情报。
+- 林小鹿的父亲 tier=active score=35 summary=林小鹿的父亲，三个月前失踪，留下笔记本指引女儿加入天衍组织。
+Update: 林小鹿失踪的父亲，留下笔记本和地址，与组织有接触，可能卷入了危险的事。
+Update: 林小鹿的亲生父亲，已失踪三个月，林小鹿根据他留下的笔记本加入天衍组织寻找他。
+</known_entities>
+
+<relevant_relation_history>
+[directed_relation_states]
+- 叶知秋 -> 林小鹿: 暗示; 叶知秋作为前台同事对林小鹿友好，主动提供帮助。
+Update: 叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。
+Update: 叶知秋作为前台同事，对林小鹿保持友好态度，并主动提供善意提醒。
+Update: 叶知秋对林小鹿进行善意提醒，具体内容未知。
+Update: 叶知秋对林小鹿进行暗示，可能提供重要信息或提醒。
+Update: 叶知秋作为前台同事对林小鹿友好，主动提供帮助和暗示。
+Update: 叶知秋作为前台同事，与林小鹿进行情报交易，表明叶知秋对林小鹿有一定信任或利益考量。
+Update: 叶知秋作为天衍前台同事，主动向林小鹿发出警告并提供情报，表明她对林小鹿有一定信任或善意。
+Update: 叶知秋主动向林小鹿发出警告并提供情报。
+- 宋明远 -> 林小鹿: 突然关心; 宋明远作为组长对林小鹿进行试探，可能不信任她。
+Update: 宋明远在面试后私下让叶知秋调查林小鹿的背景。
+Update: 宋明远作为组长对林小鹿表示
+...(truncated)
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

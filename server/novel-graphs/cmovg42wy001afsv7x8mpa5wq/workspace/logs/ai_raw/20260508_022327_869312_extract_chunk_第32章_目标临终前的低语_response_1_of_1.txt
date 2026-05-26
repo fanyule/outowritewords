@@ -1,0 +1,10 @@
+{
+  "summary": "本章暂无正文内容，仅标题暗示目标临终前的低语，可能涉及关键人物临终前透露重要信息。",
+  "entities": [],
+  "directed_relations": [],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "fact_updates": []
+}

@@ -1,0 +1,186 @@
+{
+  "summary": "林小鹿根据父亲笔记本上的地址来到旧书店街17号的文澜旧书店，通过暗号接头后，被书店老板引入隐藏的金属门，进入天衍组织基地。接待员叶知秋为她进行基础异能检测，结果显示她有觉醒潜质。随后叶知秋带她进入深层检测室进行定向检测，检测开始前房间陷入黑暗。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，父亲失踪三个月，持父亲笔记本找到天衍组织入口，正在接受异能检测。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": [],
+      "chapter_role": "major_actor",
+      "summary": "天衍组织的前台接待员，年轻女性，穿白色衬衫和深灰色长裤，负责林小鹿的接待和初步评估，进行基础异能检测和定向检测。"
+    },
+    {
+      "name": "书店老板",
+      "aliases": [],
+      "chapter_role": "supporting",
+      "summary": "文澜旧书店的老板，戴老花镜，负责验证暗号并开启隐藏入口。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "接待与检测",
+      "structural_base": "employer_employee",
+      "structural_base_raw": "负责你的接待和初步评估",
+      "dynamic_stance": "neutral",
+      "dynamic_stance_raw": "职业化的微笑",
+      "state_summary": "叶知秋作为天衍组织的前台接待员，对林小鹿保持职业化的友好态度，进行基础异能检测和定向检测，并提及林小鹿父亲的事但未透露细节。",
+      "enum_reason": "叶知秋是组织工作人员，林小鹿是新成员，属于雇佣关系下的上下级接待。",
+      "evidence_summary": "叶知秋在接待台迎接林小鹿，带她进行检测，并提及她父亲的事。",
+      "evidence_quotes": ["我是叶知秋，负责你的接待和初步评估。", "你父亲的事，我也听说了。"],
+      "relation_analysis": "叶知秋作为组织工作人员，对林小鹿进行标准接待和检测流程，态度职业化，但提及父亲话题时带有试探意味。",
+      "confidence": 0.9
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "礼貌跟随与警惕",
+      "structural_base": "employer_employee",
+      "structural_base_raw": "跟着她往前走",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "攥紧包带，指节发白",
+      "state_summary": "林小鹿作为新成员，对叶知秋保持礼貌跟随，但内心紧张警惕，对组织环境和叶知秋的言行保持戒备。",
+      "enum_reason": "林小鹿是新人，叶知秋是接待员，属于雇佣关系下的下属对上级，但林小鹿内心紧张警惕。",
+      "evidence_summary": "林小鹿攥紧包带，指节发白，犹豫后坐下，对检测感到紧张。",
+      "evidence_quotes": ["林小鹿攥紧包带，指节发白", "林小鹿犹豫了两秒，走过去坐下。"],
+      "relation_analysis": "林小鹿对叶知秋保持表面礼貌，但内心高度警惕，观察叶知秋的每一个细微表情和动作。",
+      "confidence": 0.85
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "叶知秋",
+      "entity_b": "林小鹿",
+      "shared_structural_base": "employer_employee",
+      "shared_structural_base_raw": "负责你的接待和初步评估",
+      "pair_summary": "叶知秋作为天衍组织工作人员，林小鹿作为新成员，双方存在明确的雇佣关系。",
+      "evidence_summary": "叶知秋在接待台迎接林小鹿，带她进行检测，并提及她父亲的事。",
+      "evidence_quotes": ["我是叶知秋，负责你的接待和初步评估。"],
+      "pair_analysis": "双方关系基于组织雇佣框架，叶知秋是接待员，林小鹿是新成员，关系明确。",
+      "confidence": 0.9
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "evt-3-1",
+      "intra_chapter_order": 0,
+      "event_type": "接头",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心情节推进",
+      "enum_reason": "这是本章的核心事件，推动林小鹿进入组织。",
+      "summary": "林小鹿根据父亲笔记本上的地址来到文澜旧书店，通过暗号与书店老板接头，老板验证暗号后开启隐藏金属门，林小鹿进入天衍组织基地。",
+      "location": "文澜旧书店",
+      "enum_reason": "核心情节推进",
+      "evidence_summary": "林小鹿说出暗号，老板回应并开启隐藏门。",
+      "evidence_quotes": ["老板，有没有《天工开物》的民国版本？", "民国版本没有，光绪年间的倒有一本，不过缺了卷七。", "卷七没关系，我只要卷九到卷十二。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "书店老板", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    },
+    {
+      "event_id": "evt-3-2",
+      "intra_chapter_order": 1,
+      "event_type": "检测",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "核心情节推进",
+      "enum_reason": "这是本章的核心事件，揭示林小鹿的异能潜质并推进剧情。",
+      "summary": "叶知秋带林小鹿进行基础异能检测，结果显示林小鹿精神阈值偏高，有觉醒潜质。随后叶知秋带她进入深层检测室进行定向检测，检测开始前房间陷入黑暗。",
+      "location": "天衍组织基地检测室",
+      "enum_reason": "核心情节推进",
+      "evidence_summary": "叶知秋进行基础检测，结果显示有觉醒潜质，随后进入深层检测室。",
+      "evidence_quotes": ["你的基础检测结果显示，你的精神阈值偏高，能量波动也处在活跃区间。", "简单来说，你有觉醒异能的潜质。"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 1.0},
+        {"entity_name": "叶知秋", "role": "actor", "confidence": 1.0}
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "interactions": [
+    {
+      "from": "林小鹿",
+      "to": "书店老板",
+      "interaction_type": "cooperation",
+      "interaction_type_raw": "暗号接头",
+      "impact_level": "high",
+      "impact_level_raw": "关键接头",
+      "polarity": "neutral",
+      "polarity_raw": "职业化对话",
+      "enum_reason": "双方通过预设暗号合作完成接头。",
+      "summary": "林小鹿按照父亲笔记本上的暗号与书店老板对话，老板验证后开启隐藏门。",
+      "enum_reason": "双方通过预设暗号合作完成接头。",
+      "evidence_summary": "林小鹿说出暗号，老板回应并开启隐藏门。",
+      "evidence_quotes": ["老板，有没有《天工开物》的民国版本？", "民国版本没有，光绪年间的倒有一本，不过缺了卷七。"],
+      "interaction_analysis": "这是预设的接头流程，双方按规则完成，没有额外情感色彩。",
+      "confidence": 1.0
+    },
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "interaction_type": "teaching",
+      "interaction_type_raw": "指导检测",
+      "impact_level": "high",
+      "impact_level_raw": "关键检测指导",
+      "polarity": "neutral",
+      "polarity_raw": "职业化指导",
+      "enum_reason": "叶知秋向林小鹿解释检测流程和结果，属于指导性互动。",
+      "summary": "叶知秋指导林小鹿进行基础异能检测和定向检测，告知检测流程和注意事项。",
+      "enum_reason": "叶知秋向林小鹿解释检测流程和结果，属于指导性互动。",
+      "evidence_summary": "叶知秋让林小鹿坐下，放轻松，并解释检测不会痛。",
+      "evidence_quotes": ["放轻松，这个检测不会痛，也对你没有伤害。", "基础异能检测，主要是测试你的精神阈值和能量波动频率，看看有没有觉醒的迹象。"],
+      "interaction_analysis": "叶知秋以职业化态度指导林小鹿完成检测流程。",
+      "confidence": 1.0
+    },
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "interaction_type": "revelation",
+      "interaction_type_raw": "提及父亲",
+      "impact_level": "medium",
+      "impact_level_raw": "提及关键信息",
+      "polarity": "neutral",
+      "polarity_raw": "试探性提及",
+      "enum_reason": "叶知秋透露了关于林小鹿父亲的部分信息，属于信息揭示。",
+      "summary": "叶知秋在检测过程中主动提及林小鹿父亲的事，但表示自己知道的不多，暗示父亲在组织待过一段时间后出了事。",
+      "enum_reason": "叶知秋透露了关于林小鹿父亲的部分信息，属于信息揭示。",
+      "evidence_summary": "叶知秋说‘你父亲的事，我也听说了’，并说‘但他确实在这里待过一段时间，后来……出了点事’。",
+      "evidence_quotes": ["你父亲的事，我也听说了。", "但他确实在这里待过一段时间，后来……出了点事。"],
+      "interaction_analysis": "叶知秋主动提及林小鹿父亲，但未透露细节，带有试探和提醒意味。",
+      "confidence": 0.9
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "进入天衍组织基地",
+      "object_value": "通过暗号接头进入文澜旧书店隐藏的金属门后基地",
+      "summary": "林小鹿通过父亲笔记本上的地址和暗号，成功进入天衍组织基地。",
+      "is_state": true,
+      "confidence": 1.0
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "有觉醒异能的潜质",
+      "object_value": "基础检测显示精神阈值偏高，能量波动活跃",
+      "summary": "基础异能检测结果显示林小鹿有觉醒异能的潜质，但类型未知。",
+      "is_state": true,
+      "confidence": 0.9
+    },
+    {
+      "subject": "林远舟",
+      "predicate": "在天衍组织待过一段时间后出事",
+      "object_value": "叶知秋暗示林远舟在组织待过一段时间后出了事",
+      "summary": "叶知秋提及林小鹿的父亲在组织待过一段时间后出了事，但未说明具体细节。",
+      "is_state": true,
+      "confidence": 0.7
+    }
+  ]
+}

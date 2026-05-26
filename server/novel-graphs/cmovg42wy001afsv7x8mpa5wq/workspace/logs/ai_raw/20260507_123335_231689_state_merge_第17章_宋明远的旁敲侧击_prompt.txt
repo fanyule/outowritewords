@@ -1,0 +1,68 @@
+<chapter_title>
+第17章 宋明远的旁敲侧击
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第17章 宋明远的旁敲侧击","analyzed_at":"2026-05-07T12:33:35","summary":"本章无正文内容，仅标题提示宋明远对林小鹿进行旁敲侧击的试探。","outline":[{"order":0,"text":"本章无正文内容，仅标题提示宋明远对林小鹿进行旁敲侧击的试探。","involved_names":["宋明远","林小鹿"]}],"entities":[{"name":"宋明远","aliases":[],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天衍组织组长，对林小鹿进行试探。"},{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。"}],"identity_revelations":[],"events":[{"event_id":"e1","intra_chapter_order":0,"event_type":"unknown","narrative_weight":"detail","narrative_weight_raw":"无正文内容","enum_reason":"本章无正文，仅标题提供信息，属于细节性提示。","summary":"本章无正文内容，仅标题提示宋明远对林小鹿进行旁敲侧击的试探。","location":"未知","participants":[{"entity_name":"宋明远","role":"actor","confidence":0.7},{"entity_name":"林小鹿","role":"target","confidence":0.7}],"evidence_summary":"标题为'宋明远的旁敲侧击'。","evidence_quotes":["第17章 宋明远的旁敲侧击"],"confidence":0.5}],"interactions":[{"from":"宋明远","to":"林小鹿","interaction_type":"unknown","interaction_type_raw":"旁敲侧击","impact_level":"medium","impact_level_raw":"试探","polarity":"negative","polarity_raw":"试探","enum_reason":"试探行为属于未知类型，但具有潜在负面性。","summary":"宋明远对林小鹿进行旁敲侧击的试探，具体内容未知。","evidence_summary":"标题提示宋明远对林小鹿进行旁敲侧击。","evidence_quotes":["宋明远的旁敲侧击"],"interaction_analysis":"标题直接表明宋明远主动试探林小鹿，属于单向互动。","confidence":0.5}],"directed_relations":[{"from":"宋明远","to":"林小鹿","raw_label":"旁敲侧击的试探","state_summary":"宋明远作为组长对林小鹿进行旁敲侧击的试探，可能不信任她。","structural_base":"superior_subordinate","structural_base_raw":"组长与组员","dynamic_stance":"wary","dynamic_stance_raw":"试探","enum_reason":"宋明远是组长，林小鹿是组员，属于上下级关系；试探行为表明他持警惕态度。","evidence_summary":"标题提示宋明远对林小鹿进行旁敲侧击。","evidence_quotes":["宋明远的旁敲侧击"],"relation_analysis":"标题直接表明宋明远对林小鹿进行试探，结合上下级关系，动态立场为警惕。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.7},{"from":"林小鹿","to":"宋明远","raw_label":"被试探的警惕","state_summary":"林小鹿作为新员工对上司宋明远的旁敲侧击保持警惕。","structural_base":"superior_subordinate","structural_base_raw":"组员与组长","dynamic_stance":"wary","dynamic_stance_raw":"警惕","enum_reason":"林小鹿是组员，宋明远是组长，属于上下级关系；被试探时自然保持警惕。","evidence_summary":"标题暗示宋明远在试探，林小鹿作为被试探方会保持警惕。","evidence_quotes":["宋明远的旁敲侧击"],"relation_analysis":"标题表明宋明远主动试探，林小鹿作为被试探对象会保持警惕。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.6}],"pair_relations":[{"entity_a":"宋明远","entity_b":"林小鹿","shared_structural_base":"superior_subordinate","shared_structural_base_raw":"组长与组员","pair_summary":"宋明远和林小鹿是天衍组织中的上下级关系，宋明远是组长，林小鹿是新入职的组员。","evidence_summary":"标题暗示宋明远对林小鹿进行试探，结合已知上下级关系。","evidence_quotes":["宋明远的旁敲侧击"],"pair_analysis":"标题中的试探行为基于已有的上下级关系，因此共享结构为上下级。","shared_intensity_score":50,"confidence":0.8}],"fact_updates":[{"subject":"宋明远","predicate":"对林小鹿进行试探","object_value":"旁敲侧击","summary":"宋明远作为组长对林小鹿进行旁敲侧击的试探。","is_state":true,"retracted":false,"confidence":0.5}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第14章 叶知秋的暗示: 本章无正文内容，仅标题提示叶知秋对林小鹿有所暗示，具体内容未知。
+- 第15章 巩固信任与暗流: 本章无正文内容，仅标题暗示信任巩固与暗流涌动。
+- 第16章 任务中的异常发现: 本章无正文内容，仅标题提示任务中存在异常发现。
+</recent_summary>
+
+<focus_entities>
+- 宋明远
+- 林小鹿
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=100 aliases=小鹿 summary=女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，加入天衍组织寻找父亲。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她主动争取某事。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她将接受新任务，前往废弃研究所。
+- 宋明远 tier=background score=69 aliases=宋哥 summary=天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。
+Update: 天衍组织组长，林小鹿的上司，面试并安排林小鹿入职，对林小鹿进行试探。
+Update: 天衍组织外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。负责面试林小鹿，安排她入职，并暗中让人调查她的背景。
+Update: 天衍组织组长，林小鹿的上司，面试并安排林小鹿入职。
+Update: 天衍组织组长，林小鹿的上司，面试并安排林小鹿入职，暗中调查她的背景。
+</known_entities>
+
+<relevant_relation_history>
+[directed_relation_states]
+- 叶知秋 -> 林小鹿: 暗示; 叶知秋作为前台同事对林小鹿友好，主动提供帮助。
+Update: 叶知秋作为前台同事，对林小鹿保持友好态度，并主动提供善意提醒。
+Update: 叶知秋对林小鹿进行善意提醒，具体内容未知。
+Update: 叶知秋对林小鹿进行暗示，可能提供重要信息或提醒。
+Update: 叶知秋作为前台同事对林小鹿友好，主动提供帮助和暗示。
+- 林小鹿 -> 宋明远: 新员工与面试官; 林小鹿作为新员工对上司宋明远保持警惕，怀疑他在调查自己。
+Update: 宋明远面试林小鹿，询问她的背景和动机，林小鹿用准备好的说辞应对，成功入职。
+Update: 林小鹿作为下属对宋明远的突然关心可能保持警惕或疑惑，但具体反应未知。
+- 林小鹿 -> 叶知秋: 接受提醒; 林小鹿与叶知秋是同事关系，但林小鹿对叶知秋保持基本礼貌，没有深入互动。
+Update: 叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。
+Update: 林小鹿作为新员工，对叶知秋的提醒保持基本礼貌，但具体反应未知。
+Update: 林小鹿作为新员工对叶知秋的提醒保持基本礼貌，但具体反应未知。
+- 宋明远 -> 林小鹿: 突然关心; 宋明远作为组长对林小鹿进行试探，可能不信任她。
+Update: 宋明远作为组长对林小鹿表示突然关心，但具体动机和态度不明。
+- 林小鹿 -> 林小鹿的父亲: 女儿对失踪父亲的思念与追寻; 林小鹿深爱父亲，因父亲失踪而焦虑，决心按照笔记本指引找到他。
+- 林小鹿 -> 姓陆的: 对未知人物的警惕; 林小鹿根据父亲警告，对姓陆的未知人物保持高度戒备。
+
+[pair_relation_states]
+- 叶知秋 <-> 林小鹿: colleague; 叶知秋接待林小鹿，带她到资料室，并告知可以随时找她。
+Update: 叶知秋和林小鹿是同事关系，叶知秋是前台同事。
+Update: 叶知秋和林小鹿是天衍组织的同事，叶知秋是前台，林小鹿是新入职的组员。
+Update: 叶知秋对林小鹿进行善意提醒，具体内容未知。
+Update: 叶知秋对林小鹿进行暗示，可能提供重要信息或提醒。
+- 林小鹿 <-> 林小鹿的父亲: kinship_parent_child; 林小鹿与父亲是亲生父女，父亲失踪后林小鹿决心寻找。
+Update: Entity summary projection: 林小鹿的父亲 and 林小鹿 show a kinship_parent_child shared-structure hint.
+- 宋明远 <-> 林小鹿: superior_subordinate; 宋明远面试林小鹿，询问她的背景和动机，林小鹿用准备好的说辞应对，成功入职。
+Update: 林小鹿与宋明远是上下级关系，宋明远是组长，林小鹿是新入职的组员。
+Update: 林小鹿与宋明远是天衍组织中的上下级关系，宋明远是组长，林小鹿是新入职的组员。
+- 叶知秋 <-> 宋明远: colleague; 叶知秋和宋明远是同事关系，叶知秋是前台，宋明远是组长。
+- 姓陆的 <-> 林小鹿: unknown; 林小鹿根据父亲警告，对姓陆的未知人物保持高度戒备，但关系基础未知。
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

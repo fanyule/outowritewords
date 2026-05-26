@@ -1,0 +1,287 @@
+{
+  "bundle_version": 1,
+  "workspace_root": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace",
+  "project_id": "cmowi3f1k0000zcv7unm0dhee",
+  "chapter_id": "cmowi43tq001nzcv7gip7mk9n",
+  "run_id": "run_cmowi43tq001nzcv7gip7mk9n_e1f5bd9721",
+  "mode": "project_batch",
+  "paths": {
+    "analysis_path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\analysis\\cmowi43tq001nzcv7gip7mk9n.json",
+    "export_path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\export\\project.json",
+    "runs_log_path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\runs.jsonl",
+    "ai_debug_log_path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\ai_debug.jsonl",
+    "relation_decisions_log_path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\relation_decisions.jsonl",
+    "quantification_audit_log_path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\quantification_audit.jsonl",
+    "stable_graph_audit_log_path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\stable_graph_audit.jsonl",
+    "local_relation_adjudication_log_path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\relation_adjudicator\\adjudications.jsonl"
+  },
+  "log_groups": {
+    "summary": [
+      "runs.jsonl",
+      "diagnostic/latest_chapter_diagnostic.json"
+    ],
+    "pipeline": [
+      "ai_debug.jsonl",
+      "relation_decisions.jsonl",
+      "quantification_audit.jsonl",
+      "stable_graph_audit.jsonl",
+      "relation_adjudicator/adjudications.jsonl"
+    ],
+    "raw": [
+      "ai_raw/"
+    ]
+  },
+  "summary": {
+    "run_event_count": 3,
+    "ai_debug_event_count": 6,
+    "relation_decision_count": 1,
+    "quantification_event_count": 0,
+    "stable_graph_event_count": 0,
+    "local_adjudication_count": 0,
+    "chapter_related_pair_count": 0,
+    "chapter_related_directed_count": 0,
+    "chapter_unknown_pair_count": 0,
+    "chapter_stage2_candidate_count": 0,
+    "chapter_stage2_skipped_unknown_count": 0,
+    "artifact_count": 4
+  },
+  "local_relation_adjudication_summary": {
+    "total": 0,
+    "abstained": 0,
+    "high_confidence": 0,
+    "label_counts": {},
+    "source_kind_counts": {}
+  },
+  "local_relation_adjudication_unknown_summary": {
+    "total_unknown": 0,
+    "high_signal_unknown_count": 0,
+    "reason_counts": {},
+    "top_unknowns": []
+  },
+  "chapter_analysis": {
+    "schema_version": 2,
+    "chapter_title": "Chapter 9",
+    "analyzed_at": "2026-05-08T06:07:23",
+    "summary": "本章内容为无意义的字母序列，无实际情节。",
+    "outline": [],
+    "entities": [],
+    "identity_revelations": [],
+    "events": [],
+    "interactions": [],
+    "directed_relations": [],
+    "pair_relations": [],
+    "fact_updates": [],
+    "unresolved": []
+  },
+  "project_export": {
+    "project": {
+      "id": "book_31416459be5c",
+      "title": "????????-20260508-135456",
+      "language": "zh-CN",
+      "schema_version": 2,
+      "created_at": "2026-05-08T05:56:15.601372"
+    },
+    "chapters": [
+      {
+        "id": "ch_0001",
+        "title": "全文",
+        "order": 0
+      }
+    ],
+    "nodes": [],
+    "directed_edges": [],
+    "pair_edges": []
+  },
+  "runs": [
+    {
+      "time": "2026-05-08T06:07:19.520660+00:00",
+      "event": "chapter_analysis_start",
+      "run_id": "run_cmowi43tq001nzcv7gip7mk9n_e1f5bd9721",
+      "project_id": "cmowi3f1k0000zcv7unm0dhee",
+      "chapter_id": "cmowi43tq001nzcv7gip7mk9n",
+      "chapter_title": "Chapter 9",
+      "mode": "project_batch",
+      "force": true,
+      "chapter_index": 9,
+      "chapter_total": 9
+    },
+    {
+      "time": "2026-05-08T06:07:23.173146+00:00",
+      "event": "relation_recall_deficit",
+      "project_id": "cmowi3f1k0000zcv7unm0dhee",
+      "latest_chapter_id": "cmowi43tq001nzcv7gip7mk9n",
+      "latest_chapter_order": 9,
+      "recall_deficit_score": 35.0,
+      "density_deficit": 0.0,
+      "unknown_ratio": 1.0,
+      "flatness_score": 0.0,
+      "compensation_applied": false,
+      "run_id": "run_cmowi43tq001nzcv7gip7mk9n_e1f5bd9721",
+      "flow": "analyze_project",
+      "chapter_id": "cmowi43tq001nzcv7gip7mk9n",
+      "chapter_title": "Chapter 9"
+    },
+    {
+      "time": "2026-05-08T06:07:23.297550+00:00",
+      "event": "chapter_analysis_done",
+      "run_id": "run_cmowi43tq001nzcv7gip7mk9n_e1f5bd9721",
+      "project_id": "cmowi3f1k0000zcv7unm0dhee",
+      "chapter_id": "cmowi43tq001nzcv7gip7mk9n",
+      "chapter_title": "Chapter 9",
+      "mode": "project_batch",
+      "status": "ok",
+      "output_path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\analysis\\cmowi43tq001nzcv7gip7mk9n.json",
+      "ai_debug_path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\ai_debug.jsonl",
+      "relation_decisions_path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\relation_decisions.jsonl",
+      "quantification_audit_path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\quantification_audit.jsonl"
+    }
+  ],
+  "ai_debug": [
+    {
+      "time": "2026-05-08T06:07:19.550588+00:00",
+      "event": "analyze_chapter_start",
+      "run_id": "run_cmowi43tq001nzcv7gip7mk9n_e1f5bd9721",
+      "project_id": "cmowi3f1k0000zcv7unm0dhee",
+      "chapter_id": "cmowi43tq001nzcv7gip7mk9n",
+      "chapter_title": "Chapter 9",
+      "flow": "analyze_project",
+      "title": "Chapter 9",
+      "textLength": 3768,
+      "chunkCount": 1,
+      "maxRequestChars": 60000,
+      "maxResponseTokens": 15000,
+      "recentSummaryPreview": "- Chapter 6: 本章内容为无意义的字母序列，无实际情节。 - Chapter 7: 本章内容为无意义的字母序列，无实际情节。 - Chapter 8: 本章内容为无意义的字母序列，无实际情节。",
+      "bookMemoryPreview": ""
+    },
+    {
+      "time": "2026-05-08T06:07:19.552748+00:00",
+      "event": "extract_chunk_start",
+      "run_id": "run_cmowi43tq001nzcv7gip7mk9n_e1f5bd9721",
+      "project_id": "cmowi3f1k0000zcv7unm0dhee",
+      "chapter_id": "cmowi43tq001nzcv7gip7mk9n",
+      "chapter_title": "Chapter 9",
+      "flow": "analyze_project",
+      "title": "Chapter 9",
+      "chunkIndex": 1,
+      "chunkTotal": 1,
+      "chunkLength": 3768,
+      "promptPreview": "<chapter> <title>Chapter 9</title> <content> Chapter 9 content. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lamb...(truncated)",
+      "promptPath": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\ai_raw\\20260508_060719_551795_extract_chunk_Chapter_9_prompt_1_of_1.txt",
+      "systemPromptPreview": "You are a novel chapter analyst. Return strict JSON only. No explanation. No markdown. Your job: 1. Summarize the current chapter. 2. Extract character entities. 3. Resolve obvious aliases or codenames when the context is strong enough. 4. Extract chapter events first. 5. Extract directed interactions inside those events. 6. Then summarize directed relation states and pair relation states. 7. Extract identity revelations and fact updates. Output shape: { \"summary\": \"short chapter summary\", \"entities\": [ { \"name\": \"canonical character name\", \"aliases\": [\"alias A\", \"alias B\"], \"chapter_role\": \"protagonist|major_actor|supporting|mentioned|background|transient\", \"summary\": \"short character state summary\" } ], \"directed_relations\": [ { \"from\": \"canonical name\", \"to\": \"canonical name\", \"raw_label\": \"short natural-language label\", \"structural_base\": \"short enum\", \"structural_base_raw\": \"short source phrase before enum selection\", \"dynamic_stance\": \"short enum\", \"dynamic_stance_raw\": \"short source phrase before enum selection\", \"state_summary\": \"1-2 sentence relationship state summary\", \"enum_reason\": \"why the controlled enum values were selected\", \"evidence_summary\": \"brief evidence summa...(truncated)",
+      "systemPromptPath": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\ai_raw\\20260508_060719_551141_extract_chunk_Chapter_9_system_prompt_1_of_1.txt"
+    },
+    {
+      "time": "2026-05-08T06:07:21.456262+00:00",
+      "event": "extract_chunk_done",
+      "run_id": "run_cmowi43tq001nzcv7gip7mk9n_e1f5bd9721",
+      "project_id": "cmowi3f1k0000zcv7unm0dhee",
+      "chapter_id": "cmowi43tq001nzcv7gip7mk9n",
+      "chapter_title": "Chapter 9",
+      "flow": "analyze_project",
+      "title": "Chapter 9",
+      "summaryLength": 20,
+      "entityCount": 0,
+      "relationCount": 0,
+      "pairRelationCount": 0,
+      "totalRelationCount": 0,
+      "responsePreview": "{ \"summary\": \"本章内容为无意义的字母序列，无实际情节。\", \"entities\": [], \"directed_relations\": [], \"pair_relations\": [], \"identity_revelations\": [], \"events\": [], \"interactions\": [], \"fact_updates\": [] }",
+      "responsePath": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\ai_raw\\20260508_060721_455393_extract_chunk_Chapter_9_response_1_of_1.txt"
+    },
+    {
+      "time": "2026-05-08T06:07:21.456967+00:00",
+      "event": "relation_sweep_skipped",
+      "run_id": "run_cmowi43tq001nzcv7gip7mk9n_e1f5bd9721",
+      "project_id": "cmowi3f1k0000zcv7unm0dhee",
+      "chapter_id": "cmowi43tq001nzcv7gip7mk9n",
+      "chapter_title": "Chapter 9",
+      "flow": "analyze_project",
+      "title": "Chapter 9",
+      "majorActorCount": 0,
+      "initialDirectedRelationCount": 0,
+      "initialPairRelationCount": 0,
+      "initialTotalRelationCount": 0,
+      "candidatePairCount": 0
+    },
+    {
+      "time": "2026-05-08T06:07:21.461563+00:00",
+      "event": "state_merge_start",
+      "run_id": "run_cmowi43tq001nzcv7gip7mk9n_e1f5bd9721",
+      "project_id": "cmowi3f1k0000zcv7unm0dhee",
+      "chapter_id": "cmowi43tq001nzcv7gip7mk9n",
+      "chapter_title": "Chapter 9",
+      "flow": "analyze_project",
+      "title": "Chapter 9",
+      "extractedEntityCount": 0,
+      "extractedRelationCount": 0,
+      "recentSummaryPreview": "- Chapter 6: 本章内容为无意义的字母序列，无实际情节。 - Chapter 7: 本章内容为无意义的字母序列，无实际情节。 - Chapter 8: 本章内容为无意义的字母序列，无实际情节。",
+      "bookMemoryPreview": "",
+      "promptPreview": "<chapter_title> Chapter 9 </chapter_title> <extracted_result> {\"schema_version\":2,\"chapter_title\":\"Chapter 9\",\"analyzed_at\":\"2026-05-08T06:07:21\",\"summary\":\"本章内容为无意义的字母序列，无实际情节。\",\"outline\":[],\"entities\":[],\"identity_revelations\":[],\"events\":[],\"interactions\":[],\"directed_relations\":[],\"pair_relations\":[],\"fact_updates\":[],\"unresolved\":[]} </extracted_result> <recent_summary> - Chapter 6: 本章内容为无意义的字母序列，无实际情节。 - Chapter 7: 本章内容为无意义的字母序列，无实际情节。 - Chapter 8: 本章内容为无意义的字母序列，无实际情节。 </recent_summary> <focus_entities> </focus_entities> <known_entities> </known_entities> <relevant_relation_history> </relevant_relation_history> Merge the extracted result into a cleaner canonical result. Return JSON only.",
+      "promptPath": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\ai_raw\\20260508_060721_460468_state_merge_Chapter_9_prompt.txt",
+      "systemPromptPreview": "You are a novel state-merging analyst. You do not re-read the full chapter text. You only receive: 1. an extracted chapter result, 2. recent chapter summaries, 3. focus entities for this chapter, 4. relevant entity registry, 5. relevant relationship history. Return strict JSON only. No explanation. No markdown. Your job: 1. Canonicalize obvious aliases or codenames to stable character names. 2. Keep only character entities, not locations or objects. 3. Keep chapter_role chapter-local instead of inferring final whole-book importance. 4. Merge interactions into current directed relation states. 5. Keep pair_relations only for shared structural facts. 6. Produce a clean final chapter result with evidence objects preserved. Output shape: { \"summary\": \"clean chapter summary\", \"entities\": [ { \"name\": \"canonical character name\", \"aliases\": [\"alias A\", \"alias B\"], \"chapter_role\": \"protagonist|major_actor|supporting|mentioned|background|transient\", \"summary\": \"short character state summary\" } ], \"directed_relations\": [ { \"from\": \"canonical name\", \"to\": \"canonical name\", \"raw_label\": \"short natural-language label\", \"structural_base\": \"short enum\", \"structural_base_raw\": \"short source phrase ...(truncated)",
+      "systemPromptPath": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\ai_raw\\20260508_060721_459549_state_merge_Chapter_9_system_prompt.txt"
+    },
+    {
+      "time": "2026-05-08T06:07:23.073836+00:00",
+      "event": "state_merge_done",
+      "run_id": "run_cmowi43tq001nzcv7gip7mk9n_e1f5bd9721",
+      "project_id": "cmowi3f1k0000zcv7unm0dhee",
+      "chapter_id": "cmowi43tq001nzcv7gip7mk9n",
+      "chapter_title": "Chapter 9",
+      "flow": "analyze_project",
+      "title": "Chapter 9",
+      "summaryLength": 20,
+      "entityCount": 0,
+      "relationCount": 0,
+      "pairRelationCount": 0,
+      "totalRelationCount": 0,
+      "responsePreview": "{ \"summary\": \"本章内容为无意义的字母序列，无实际情节。\", \"entities\": [], \"directed_relations\": [], \"pair_relations\": [], \"identity_revelations\": [], \"events\": [], \"interactions\": [], \"fact_updates\": [] }",
+      "responsePath": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\ai_raw\\20260508_060723_073211_state_merge_Chapter_9_response.txt"
+    }
+  ],
+  "relation_decisions": [
+    {
+      "time": "2026-05-08T06:07:23.172700+00:00",
+      "project_id": "cmowi3f1k0000zcv7unm0dhee",
+      "run_id": "run_cmowi43tq001nzcv7gip7mk9n_e1f5bd9721",
+      "flow": "analyze_project",
+      "chapter_id": "cmowi43tq001nzcv7gip7mk9n",
+      "chapter_title": "Chapter 9",
+      "decision_type": "relation_state_summary",
+      "directed_count": 0,
+      "pair_count": 0,
+      "note": "no relation states were materialized during this rebuild"
+    }
+  ],
+  "chapter_related_relation_decisions": {
+    "pair_states": [],
+    "directed_states": []
+  },
+  "pair_decision_debug": [],
+  "chapter_pair_decision_debug": [],
+  "chapter_stage2_candidate_debug": [],
+  "chapter_stage2_skipped_unknown_debug": [],
+  "directed_decision_debug": [],
+  "chapter_directed_decision_debug": [],
+  "local_relation_adjudications": [],
+  "local_relation_adjudication_unknowns": [],
+  "quantification_audit": [],
+  "stable_graph_audit": [],
+  "artifacts": [
+    {
+      "path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\ai_raw\\20260508_060719_551795_extract_chunk_Chapter_9_prompt_1_of_1.txt",
+      "content": "<chapter>\n<title>Chapter 9</title>\n<content>\nChapter 9 content. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega. Alpha beta gamma delta epsilon zeta eta theta iota kappa lambda mu nu xi omicron pi rho sigma tau upsilon phi chi psi omega.\n</content>\n</chapter>\n\n<recent_summary>\n- Chapter 6: 本章内容为无意义的字母序列，无实际情节。\n- Chapter 7: 本章内容为无意义的字母序列，无实际情节。\n- Chapter 8: 本章内容为无意义的字母序列，无实际情节。\n</recent_summary>\n\n<book_memory>\n\n</book_memory>\n\nAnalyze the chapter and return JSON only."
+    },
+    {
+      "path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\ai_raw\\20260508_060721_455393_extract_chunk_Chapter_9_response_1_of_1.txt",
+      "content": "{\n  \"summary\": \"本章内容为无意义的字母序列，无实际情节。\",\n  \"entities\": [],\n  \"directed_relations\": [],\n  \"pair_relations\": [],\n  \"identity_revelations\": [],\n  \"events\": [],\n  \"interactions\": [],\n  \"fact_updates\": []\n}"
+    },
+    {
+      "path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\ai_raw\\20260508_060721_460468_state_merge_Chapter_9_prompt.txt",
+      "content": "<chapter_title>\nChapter 9\n</chapter_title>\n\n<extracted_result>\n{\"schema_version\":2,\"chapter_title\":\"Chapter 9\",\"analyzed_at\":\"2026-05-08T06:07:21\",\"summary\":\"本章内容为无意义的字母序列，无实际情节。\",\"outline\":[],\"entities\":[],\"identity_revelations\":[],\"events\":[],\"interactions\":[],\"directed_relations\":[],\"pair_relations\":[],\"fact_updates\":[],\"unresolved\":[]}\n</extracted_result>\n\n<recent_summary>\n- Chapter 6: 本章内容为无意义的字母序列，无实际情节。\n- Chapter 7: 本章内容为无意义的字母序列，无实际情节。\n- Chapter 8: 本章内容为无意义的字母序列，无实际情节。\n</recent_summary>\n\n<focus_entities>\n\n</focus_entities>\n\n<known_entities>\n\n</known_entities>\n\n<relevant_relation_history>\n\n</relevant_relation_history>\n\n    Merge the extracted result into a cleaner canonical result.\n    Return JSON only."
+    },
+    {
+      "path": "F:\\workspaceAIxiaoshuo\\AI-Novel-Writing-Assistant-main\\server\\novel-graphs\\cmowi3f1k0000zcv7unm0dhee\\workspace\\logs\\ai_raw\\20260508_060723_073211_state_merge_Chapter_9_response.txt",
+      "content": "{\n  \"summary\": \"本章内容为无意义的字母序列，无实际情节。\",\n  \"entities\": [],\n  \"directed_relations\": [],\n  \"pair_relations\": [],\n  \"identity_revelations\": [],\n  \"events\": [],\n  \"interactions\": [],\n  \"fact_updates\": []\n}"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+<chapter_title>
+记忆混乱的代价
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"记忆混乱的代价","analyzed_at":"2026-05-08T12:05:29","summary":"苏晚醒来后发现自己记忆混乱，家中出现不明水渍和笔记本，触摸笔记本后闪回父亲被注射实验体的画面。陈默来访，告知父亲被关在天枢地下三层，并警告她不要过度使用能力。苏晚在陈默离开后再次触摸墙上的划痕，发现自己曾做过此事但毫无记忆。她入睡后梦见父亲被绑在操作台上，醒来后收到陈默和方瑶的消息，感到现实与梦境难以区分。","outline":[{"order":0,"text":"苏晚醒来后发现自己记忆混乱，家中出现不明水渍和笔记本，触摸笔记本后闪回父亲被注射实验体的画面。","involved_names":["苏晚","林建国"]},{"order":1,"text":"陈默来访，警告苏晚不要过度使用能力，并告知父亲被关在天枢地下三层，承诺继续调查。","involved_names":["陈默","苏晚"]},{"order":2,"text":"苏晚触摸墙上的划痕后闪回自己曾做过此事，但毫无记忆。","involved_names":["苏晚"]},{"order":3,"text":"苏晚入睡后梦见父亲被绑在操作台上，重复实验体一词，惊醒后收到陈默和方瑶的消息。","involved_names":["苏晚","林建国"]}],"entities":[{"name":"苏晚","aliases":["晓晓","晚晚"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"大学生，父亲林建国失踪三年，母亲改嫁后独自生活。能力觉醒后加入天枢，但记忆开始出现混乱，无法区分真实与植入记忆。"},{"name":"陈默","aliases":[],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天枢组织外勤组长，三十出头，表情平静，受林建国委托引导苏晚，对苏晚的能力代价有了解，并继续调查林建国下落。"},{"name":"林建国","aliases":["父亲"],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪，被囚禁在天枢地下三层，作为实验体接受注射。"},{"name":"方瑶","aliases":[],"chapter_role":"mentioned","tier":"active","importance_score":40,"summary":"天枢科研部主管，表面温和但暗中评估苏晚的利用价值，与林建国存在未明确的关联。"}],"identity_revelations":[],"events":[{"event_id":"evt_1","intra_chapter_order":0,"event_type":"记忆混乱","narrative_weight":"core","narrative_weight_raw":"核心事件，推动剧情","enum_reason":"该事件是本章的核心，揭示了苏晚记忆混乱的代价。","summary":"苏晚醒来后发现自己记忆混乱，家中出现不明水渍和笔记本，触摸笔记本后闪回父亲被注射实验体的画面。","location":"苏晚的公寓","participants":[{"entity_name":"苏晚","role":"actor","confidence":1.0},{"entity_name":"林建国","role":"target","confidence":0.9}],"evidence_summary":"苏晚看到地板上的水渍、墙上的划痕和笔记本，触摸笔记本后闪回父亲被注射的画面。","evidence_quotes":["实验体编号0731，注射后三小时出现记忆混乱","一个男人被绑在椅子上，头低垂着，看不清脸。有人站在他面前，手里拿着注射器，针头扎进他的颈动脉。"],"confidence":0.95},{"event_id":"evt_2","intra_chapter_order":1,"event_type":"陈默来访","narrative_weight":"mainline","narrative_weight_raw":"主要事件，推进剧情","enum_reason":"该事件是本章的主要情节，推进了父亲下落的线索。","summary":"陈默来访，警告苏晚不要过度使用能力，并告知父亲被关在天枢地下三层，承诺继续调查。","location":"苏晚的公寓","participants":[{"entity_name":"陈默","role":"actor","confidence":1.0},{"entity_name":"苏晚","role":"target","confidence":1.0}],"evidence_summary":"陈默警告苏晚二十四小时内不准使用能力，展示父亲在天枢地下三层的照片。","evidence_quotes":["你需要休息。从现在开始，二十四小时内不准使用能力。","他在天枢的地下三层。我暂时进不去，那边的权限级别太高，我的卡只能到地下二层。"],"confidence":0.95},{"event_id":"evt_3","intra_chapter_order":2,"event_type":"记忆闪回","narrative_weight":"detail","narrative_weight_raw":"细节事件，揭示能力代价","enum_reason":"该事件是细节，进一步展示苏晚记忆混乱的严重性。","summary":"苏晚触摸墙上的划痕后闪回自己曾做过此事，但毫无记忆。","location":"苏晚的公寓走廊","participants":[{"entity_name":"苏晚","role":"actor","confidence":1.0}],"evidence_summary":"苏晚触摸墙上的划痕，闪回自己的手在墙上用力划过。","evidence_quotes":["她自己的手。指甲在墙上用力划过。发出刺耳的声音。","她不记得自己什么时候做过这件事。"],"confidence":0.9},{"event_id":"evt_4","intra_chapter_order":3,"event_type":"噩梦","narrative_weight":"detail","narrative_weight_raw":"细节事件，揭示内心恐惧","enum_reason":"该事件是细节，揭示苏晚对父亲的担忧和记忆混乱的影响。","summary":"苏晚入睡后梦见父亲被绑在操作台上，重复实验体一词，惊醒后收到陈默和方瑶的消息。","location":"苏晚的卧室","participants":[{"entity_name":"苏晚","role":"actor","confidence":1.0},{"entity_name":"林建国","role":"target","confidence":0.9}],"evidence_summary":"苏晚梦见父亲被绑在操作台上，醒来后收到陈默和方瑶的消息，感到现实与梦境难以区分。","evidence_quotes":["是她的父亲。他的眼睛睁得很大，瞳孔涣散，嘴唇翕动着，一遍又一遍重复着同一个词。实验体。","她分不清哪一条是真实的，哪一条是梦境。"],"confidence":0.9}],"interactions":[{"from":"陈默","to":"苏晚","interaction_type":"protection","interaction_type_raw":"陈默扶住眩晕的苏晚并警告她","impact_level":"high","impact_level_raw":"直接影响苏晚的行动","polarity":"positive","polarity_raw":"陈默表现出关心和保护","enum_reason":"陈默的行为是保护性的，旨在防止苏晚因过度使用能力而受伤。","summary":"陈默扶住眩晕的苏晚，警告她不要过度使用能力，并承诺继续调查父亲的事。","evidence_summary":"陈默扶住苏晚，警告她二十四小时内不准使用能力。","evidence_quotes":["你需要休息。从现在开始，二十四小时内不准使用能力。","你不会死。我不会让你死。"],"interaction_analysis":"陈默的保护行为表明他关心苏晚的安全，同时继续履行引导职责。","confidence":0.9},{"from":"苏晚","to":"陈默","interaction_type":"cooperation","interaction_type_raw":"苏晚接受陈默的帮助并追问父亲下落","impact_level":"medium","impact_level_raw":"推动剧情发展","polarity":"mixed","polarity_raw":"苏晚依赖陈默但保持警惕","enum_reason":"苏晚与陈默合作接受帮助，但内心保持警惕。","summary":"苏晚接受陈默的扶助和警告，但追问父亲下落时表现出警惕。","evidence_summary":"苏晚在眩晕时被陈默扶住，接过水杯时闪回陈默提及父亲的事，她追问陈默查到了什么。","evidence_quotes":["你查到了什么？","苏晚盯着陈默，想从他的表情里找到破绽"],"interaction_analysis":"苏晚对陈默既有依赖又有警惕，这种矛盾源于她对陈默动机的不确定。","confidence":0.8}],"directed_relations":[{"from":"陈默","to":"苏晚","raw_label":"保护与引导","state_summary":"陈默作为天枢外勤组长，继续引导和保护苏晚，警告她能力使用的风险，并承诺继续调查她父亲的下落。","structural_base":"same_faction","structural_base_raw":"同一组织成员","dynamic_stance":"protective","dynamic_stance_raw":"陈默扶住苏晚并警告她不要过度使用能力","enum_reason":"陈默与苏晚同属天枢组织，且陈默表现出保护性行为。","evidence_summary":"陈默扶住眩晕的苏晚，警告她二十四小时内不准使用能力，并承诺继续调查父亲的事。","evidence_quotes":["你需要休息。从现在开始，二十四小时内不准使用能力。","你不会死。我不会让你死。"],"relation_analysis":"陈默对苏晚的保护性行为表明他关心她的安全，同时继续履行引导职责。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.85},{"from":"苏晚","to":"陈默","raw_label":"依赖与警惕","state_summary":"苏晚在记忆混乱中依赖陈默的帮助，但对他如何知道父亲的事感到疑惑，内心保持警惕。","structural_base":"same_faction","structural_base_raw":"同一组织成员","dynamic_stance":"conflicted","dynamic_stance_raw":"苏晚依赖陈默的帮助但对他保持警惕","enum_reason":"苏晚接受陈默的扶助和警告，但对他知道父亲的事感到不安。","evidence_summary":"苏晚在眩晕时被陈默扶住，接过水杯时闪回陈默提及父亲的事，她追问陈默查到了什么。","evidence_quotes":["你查到了什么？","苏晚盯着陈默，想从他的表情里找到破绽"],"relation_analysis":"苏晚对陈默既有依赖又有警惕，这种矛盾源于她对陈默动机的不确定。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8},{"from":"苏晚","to":"林建国","raw_label":"女儿寻找父亲","state_summary":"苏晚深爱父亲，得知父亲被囚禁在天枢地下三层后决心救他，但记忆混乱中不断闪回父亲被注射的画面。","structural_base":"kinship_parent_child","structural_base_raw":"亲生父女","dynamic_stance":"protective","dynamic_stance_raw":"苏晚深爱父亲并决心救他","enum_reason":"苏晚与林建国是亲生父女，苏晚表现出强烈的保护欲。","evidence_summary":"苏晚在闪回中看到父亲被注射，在梦中见到父亲被绑在操作台上，醒来后决心继续调查。","evidence_quotes":["我爸……他在那里做什么实验？","她的父亲。他的眼睛睁得很大，瞳孔涣散，嘴唇翕动着，一遍又一遍重复着同一个词。实验体。"],"relation_analysis":"苏晚对父亲的保护欲驱动她继续调查，但记忆混乱增加了她的焦虑。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.95},{"from":"陈默","to":"林建国","raw_label":"受托调查","state_summary":"陈默受林建国委托，继续调查他的下落，并告知苏晚父亲被关在天枢地下三层。","structural_base":"same_faction","structural_base_raw":"同一组织成员","dynamic_stance":"trusting","dynamic_stance_raw":"陈默受林建国委托继续调查","enum_reason":"陈默与林建国同属天枢组织，且陈默表现出信任和合作。","evidence_summary":"陈默告诉苏晚父亲在天枢地下三层，并展示照片作为证据。","evidence_quotes":["他在天枢的地下三层。我暂时进不去，那边的权限级别太高，我的卡只能到地下二层。"],"relation_analysis":"陈默继续履行对林建国的承诺，调查他的下落并传递信息给苏晚。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8}],"pair_relations":[{"entity_a":"苏晚","entity_b":"陈默","shared_structural_base":"same_faction","shared_structural_base_raw":"同一组织成员","pair_summary":"苏晚和陈默同属天枢组织，陈默作为上级引导和保护苏晚，苏晚依赖但保持警惕。","evidence_summary":"陈默警告苏晚不要过度使用能力，并承诺继续调查父亲的事。","evidence_quotes":["你需要休息。从现在开始，二十四小时内不准使用能力。","你父亲的事，我会继续查。"],"pair_analysis":"两人同属天枢组织，陈默对苏晚有保护性引导，苏晚则依赖他的帮助但内心警惕。","shared_intensity_score":50,"confidence":0.85},{"entity_a":"苏晚","entity_b":"林建国","shared_structural_base":"kinship_parent_child","shared_structural_base_raw":"亲生父女","pair_summary":"苏晚和林建国是亲生父女，关系亲密，苏晚深爱父亲并决心救他。","evidence_summary":"苏晚在闪回和梦中看到父亲被注射，醒来后决心继续调查。","evidence_quotes":["我爸……他在那里做什么实验？","她的父亲。他的眼睛睁得很大，瞳孔涣散，嘴唇翕动着，一遍又一遍重复着同一个词。实验体。"],"pair_analysis":"父女关系明确，苏晚对父亲的保护欲驱动她的行动。","shared_intensity_score":50,"confidence":0.95}],"fact_updates":[{"subject":"苏晚","predicate":"记忆混乱","object_value":"出现记忆混乱，无法区分真实记忆与植入记忆，家中出现不明水渍和笔记本，触摸后闪回父亲被注射的画面。","summary":"苏晚的能力使用过度导致记忆混乱，出现无法解释的痕迹和闪回。","is_state":true,"retracted":false,"confidence":0.95},{"subject":"林建国","predicate":"被囚禁位置","object_value":"天枢地下三层，作为实验体接受注射。","summary":"陈默告知苏晚父亲被关在天枢地下三层，苏晚的闪回证实父亲被注射实验体编号0731。","is_state":true,"retracted":false,"confidence":0.9},{"subject":"陈默","predicate":"承诺继续调查","object_value":"承诺继续调查林建国的事，并警告苏晚不要过度使用能力。","summary":"陈默承诺继续调查父亲的事，并警告苏晚二十四小时内不准使用能力。","is_state":true,"retracted":false,"confidence":0.9},{"subject":"苏晚","predicate":"收到消息","object_value":"收到陈默和方瑶的消息，分别约她明天见面。","summary":"苏晚醒来后收到陈默和方瑶的消息，感到现实与梦境难以区分。","is_state":false,"retracted":false,"confidence":0.9}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 父亲的遗物: 苏晚在父亲失踪三年后整理杂物间，发现父亲的手表，触摸后触发记忆片段，看到父亲被灰色西装男子审讯的场景，得知父亲与天枢组织有关。她决定前往西郊科技园区，潜入天枢生物科技研究院，在地下室找到父亲被关押的房间，但被灰色西装男子发现并追捕，最终被迫逃离。
+- 天枢的邀请: 天枢外勤组长陈默突然到访苏晚家，告知她父亲林建国被囚禁在天枢地下二层B107室，并透露苏晚觉醒的能力是找到父亲留下的‘秘法’的关键。陈默以父亲下落为条件邀请苏晚加入天枢，苏晚在目睹父亲受审的记忆片段后同意加入。
+- 能力测试: 苏晚在天枢研究院接受能力测试，触摸手表后感知到工程师的死亡记忆片段，被陈默告知能力代价。随后登记加入天枢，见到科研部主管方瑶，方瑶表面温和但暗中评估苏晚的利用价值，并秘密启动与林建国相关的基因锁计划。苏晚回到宿舍后克制住使用笔记本的冲动，决定先了解组织。
+</recent_summary>
+
+<focus_entities>
+- 方瑶
+- 林建国
+- 苏晚
+- 陈默
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 苏晚 tier=core score=100 aliases=晓晓, 晚晚 summary=大学生，父亲林建国失踪三年，母亲改嫁后独自生活。勇敢果断，决心寻找父亲。发现父亲的手表后触发记忆片段，潜入天枢研究院试图营救父亲，但被迫逃跑。
+Update: 大学生，父亲林建国失踪三年，母亲改嫁后独自生活。刚觉醒通过触摸物品获取记忆画面的能力，决心救出父亲。
+Update: 大学生，父亲林建国失踪三年，母亲改嫁后独自生活。觉醒感知类异能，能通过触摸物品读取残留记忆。加入天枢组织，决心寻找父亲。
+- 林建国 tier=active score=90 aliases=父亲 summary=前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪。被囚禁在地下室，身体虚弱，通过手表向苏晚传递警告，劝她离开。
+Update: 前国家科学院院士，天枢首席科学家，三年前失踪。被囚禁在地下二层B107室，曾将‘秘法’编码进苏晚的基因中。
+Update: 前国家科学院院士，天枢生物科技研究院首席科学家，三年前失踪。被囚禁在地下室，苏晚的父亲。
+- 陈默 tier=active score=80 summary=天枢生物科技研究院外勤组长，三十出头，表情平静，受林建国委托在苏晚能力觉醒后接触她，并引导她加入天枢。
+Update: 天枢组织外勤组长，走路无声，身份不简单。受林建国委托引导苏晚加入天枢，带苏晚进行能力测试，并给予保护性建议。
+- 方瑶 tier=background score=62 summary=天枢研究院科研部主管，三十岁左右，长发低马尾，戴细框眼镜。表面温和，实则将苏晚视为工具，秘密启动与林建国相关的基因锁计划。
+</known_entities>
+
+<relevant_relation_history>
+[directed_relation_states]
+- 陈默 -> 苏晚: 引导与招募; 陈默受林建国委托，在苏晚能力觉醒后主动接触她，以父亲下落为条件引导她加入天枢，态度平静但带有利用性质。
+Update: 陈默向苏晚透露父亲被囚禁在天枢地下二层，并展示照片和纸片作为证据。
+Update: 陈默作为上级引导苏晚完成测试，给予保护性建议，暗示组织内部有风险，但态度平静且带有利用性质。
+Update: 陈默在测试后告知苏晚能力代价和使用上限，并暗示不要在摄像头下使用能力。
+- 苏晚 -> 林建国: 女儿寻找父亲; 苏晚深爱父亲，发现父亲被囚禁后不顾危险前往营救，决心坚定。
+Update: 苏晚在地下室找到父亲被关押的房间，隔门对话，确认父亲还活着，父亲劝她离开。
+Update: 苏晚深爱父亲，得知父亲被囚禁后决心加入天枢以救出父亲，情感强烈。
+Update: 苏晚深爱父亲，决心查明真相，但克制自己先了解组织，避免冲动使用能力。
+- 白大褂 -> 林建国: 审讯与折磨; 白大褂代表天枢组织对林建国进行审讯，使用注射手段逼问‘秘法’，态度冷酷。
+Update: 在记忆闪回中，白大褂给林建国注射药物，导致林建国剧烈颤抖和痛苦。
+- 灰色西装男子 -> 林建国: 审讯与威胁; 灰色西装男子代表天枢组织审讯林建国，以女儿安全威胁他交出核心算法。
+Update: 灰色西装男子审讯林建国，以女儿安全威胁他交出核心算法。
+- 灰色西装男子 -> 苏晚: 追捕入侵者; 灰色西装男子发现苏晚潜入后，立即组织保安追捕，意图阻止她。
+Update: 灰色西装男子发现苏晚潜入后，立即组织保安追捕，苏晚被迫逃跑。
+- 苏晚 -> 陈默: 警惕与接受; 苏晚对陈默的突然出现和天枢身份保持高度警惕，但为了救父亲，她选择接受陈默的邀请加入天枢。
+Update: 苏晚在权衡后同意加入天枢，以换取救父的机会。
+- 方瑶 -> 苏晚: 评估与利用; 方瑶表面欢迎苏晚，笑容温和，但眼神中带有审视和评估，将苏晚视为工具，秘密启动与林建国相关的基因锁计划。
+Update: 方瑶与苏晚见面，笑容温和，但眼神审视，苏晚感到不适。
+- 林建国 -> 苏晚: 父亲警告女儿; 林建国担心女儿安全，通过手表传递警告，并在苏晚到达时劝她离开。
+Update: 林建国深爱女儿，在被囚禁期间仍通过陈默传递信息，并在记忆片段中劝苏晚不要来找他，以保护她的安全。
+- 方瑶 -> 林建国: 计划关联; 方瑶与林建国之间存在未明确的关联，她正在启动与林建国相关的基因锁计划。
+- 陈默 -> 林建国: 合作与受托; 陈默与林建国之间存在合作约定，陈默受林建国委托在苏晚能力觉醒后接触她，并传递信息。
+
+[pair_relation_states]
+- 苏晚 <-> 陈默: same_faction; 苏晚同意加入天枢后，与陈默成为同一组织成员，但双方关系尚浅，苏晚保持警惕。
+Update: 陈默向苏晚透露父亲被囚禁在天枢地下二层，并展示照片和纸片作为证据。
+Update: 苏晚在权衡后同意加入天枢，以换取救父的机会。
+Update: 苏晚加入天枢后，与陈默成为同一组织成员，但双方关系尚浅，苏晚保持警惕。
+Update: 陈默在测试后告知苏晚能力代价和使用上限，并暗示不要在摄像头下使用能力。
+- 林建国 <-> 白大褂: unknown; 在记忆闪回中，白大褂给林建国注射药物，导致林建国剧烈颤抖和痛苦。
+- 林建国 <-> 灰色西装男子: opposing_faction; 灰色西装男子代表天枢组织审讯林建国，双方处于敌对阵营。
+Update: 灰色西装男子审讯林建国，以女儿安全威胁他交出核心算法。
+- 林建国 <-> 苏晚: kinship_parent_child; 苏晚和林建国是亲生父女，关系亲密，彼此关心。
+Update: 苏晚在地下室找到父亲被关押的房间，隔门对话，确认父亲还活着，父亲劝她离开。
+Update: 苏晚和林建国是亲生父
+...(truncated)
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

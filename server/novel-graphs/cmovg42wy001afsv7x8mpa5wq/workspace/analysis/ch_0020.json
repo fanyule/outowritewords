@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "chapter_title": "第20章 金属盒背后的线索",
+  "analyzed_at": "2026-05-08T02:20:37",
+  "summary": "本章暂无正文内容，仅标题暗示林小鹿发现金属盒背后的线索，可能涉及父亲林远舟留下的关键信息。",
+  "outline": [],
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": [
+        "小鹿",
+        "林远舟的女儿"
+      ],
+      "chapter_role": "protagonist",
+      "tier": "active",
+      "importance_score": 70,
+      "summary": "女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。"
+    },
+    {
+      "name": "林远舟",
+      "aliases": [
+        "陈默"
+      ],
+      "chapter_role": "mentioned",
+      "tier": "active",
+      "importance_score": 60,
+      "summary": "林小鹿失踪的父亲，留下笔记本和地址，与组织有接触，可能卷入了危险的事。"
+    }
+  ],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "directed_relations": [],
+  "pair_relations": [],
+  "fact_updates": [],
+  "unresolved": []
+}

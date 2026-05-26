@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "chapter_title": "第11章 残页上的暗语",
+  "analyzed_at": "2026-05-08T02:16:24",
+  "summary": "本章暂无正文内容，仅标题暗示林小鹿发现残页上的暗语，可能涉及关键线索或密码。",
+  "outline": [],
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": [
+        "小鹿",
+        "林远舟的女儿"
+      ],
+      "chapter_role": "protagonist",
+      "tier": "active",
+      "importance_score": 70,
+      "summary": "女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。"
+    }
+  ],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "directed_relations": [],
+  "pair_relations": [],
+  "fact_updates": [],
+  "unresolved": []
+}

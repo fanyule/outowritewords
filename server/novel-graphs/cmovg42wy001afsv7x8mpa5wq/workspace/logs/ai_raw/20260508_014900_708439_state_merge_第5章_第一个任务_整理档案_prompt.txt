@@ -1,0 +1,61 @@
+<chapter_title>
+第5章 第一个任务：整理档案
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"第5章 第一个任务：整理档案","analyzed_at":"2026-05-08T01:49:00","summary":"林小鹿被安排到档案室整理旧档案，在整理过程中发现了关于青石镇调查的纪要，其中提到地下遗迹和符文刻痕，并看到了父亲林远舟的名字。宋明远突然出现，翻看了那份档案，但未多言。","outline":[{"order":0,"text":"眼镜女人带林小鹿到地下二层的档案室，交代她整理旧档案的任务。","involved_names":["林小鹿","眼镜女人"]},{"order":1,"text":"林小鹿在整理档案时发现一份'青石镇调查纪要'，其中提到地下遗迹和符文刻痕，并看到父亲林远舟的名字。","involved_names":["林小鹿"]},{"order":2,"text":"林小鹿整理完档案后准备离开，宋明远突然出现，走进档案室翻看了青石镇调查纪要，然后带林小鹿去食堂。","involved_names":["林小鹿","宋明远"]}],"entities":[{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"女大学生，父亲失踪三个月，加入天衍组织寻找父亲。本章在档案室整理档案时发现了父亲参与青石镇调查的线索。"},{"name":"宋明远","aliases":["宋哥","宋组长"],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天衍组织组长，林小鹿的上司。本章在档案室整理结束后出现，翻看了青石镇调查纪要，但未表态。"},{"name":"眼镜女人","aliases":[],"chapter_role":"supporting","tier":"active","importance_score":40,"summary":"天衍组织工作人员，戴眼镜的年轻女人，负责带林小鹿到档案室并交代任务。"}],"identity_revelations":[{"source_name":"林远舟","target_name":"林远舟","revelation_type":"true_identity","evidence":"档案中显示林远舟作为外部顾问参与青石镇调查，确认其与天衍组织有关联。","confidence":0.95}],"events":[{"event_id":"e1","intra_chapter_order":0,"event_type":"任务分配","narrative_weight":"mainline","narrative_weight_raw":"眼镜女人带林小鹿到档案室并交代任务","enum_reason":"这是本章的起始事件，推动后续发现。","summary":"眼镜女人带林小鹿到地下二层的档案室，交代她整理旧档案的任务。","location":"组织大楼地下二层档案室","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"眼镜女人","role":"actor","confidence":0.9}],"evidence_summary":"眼镜女人带林小鹿到档案室，交代任务后离开。","evidence_quotes":["'这就是档案室。'眼镜女人指了指靠墙的那排柜子，'你今天的任务是把这些旧档案按年份重新编号归档。'"],"confidence":1.0},{"event_id":"e2","intra_chapter_order":1,"event_type":"发现线索","narrative_weight":"turning_point","narrative_weight_raw":"林小鹿发现青石镇调查纪要","enum_reason":"这是本章的关键转折点，林小鹿获得了父亲失踪的重要线索。","summary":"林小鹿在整理档案时发现一份'青石镇调查纪要'，其中提到地下遗迹和符文刻痕，并看到父亲林远舟的名字。","location":"组织大楼地下二层档案室","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0}],"evidence_summary":"林小鹿在整理三年前的档案时发现青石镇调查纪要，内容涉及地下遗迹和符文刻痕，并看到父亲林远舟作为外部顾问参与。","evidence_quotes":["一份档案的封面上，写着'青石镇调查纪要'七个字。","她一行行扫过去，在倒数第三行看到了一个名字。林远舟。"],"confidence":1.0},{"event_id":"e3","intra_chapter_order":2,"event_type":"上司检查","narrative_weight":"mainline","narrative_weight_raw":"宋明远突然出现并翻看档案","enum_reason":"这是本章的收尾事件，宋明远的出现增加了悬念。","summary":"林小鹿整理完档案后准备离开，宋明远突然出现，走进档案室翻看了青石镇调查纪要，然后带林小鹿去食堂。","location":"组织大楼地下二层档案室门口","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"宋明远","role":"actor","confidence":1.0}],"evidence_summary":"宋明远在林小鹿准备离开时出现，走进档案室翻看青石镇调查纪要，然后带她去食堂。","evidence_quotes":["宋明远站在门口。","他伸手拿起来，翻开看了看，然后合上，放回原位。","'走吧，我带你去食堂。午饭时间到了。'"],"confidence":1.0}],"interactions":[{"from":"眼镜女人","to":"林小鹿","interaction_type":"command","interaction_type_raw":"交代任务","impact_level":"low","impact_level_raw":"日常任务分配","polarity":"neutral","polarity_raw":"职业化的交代","enum_reason":"眼镜女人作为工作人员，向林小鹿下达任务指令。","summary":"眼镜女人带林小鹿到档案室，交代她整理旧档案的任务，然后离开。","evidence_summary":"眼镜女人带林小鹿到档案室，指出档案柜和编号规则，交代任务后离开。","evidence_quotes":["'这就是档案室。'眼镜女人指了指靠墙的那排柜子，'你今天的任务是把这些旧档案按年份重新编号归档。'"],"interaction_analysis":"这是典型的上级向下级分配任务，属于命令型互动。","confidence":1.0},{"from":"宋明远","to":"林小鹿","interaction_type":"daily_interaction","interaction_type_raw":"询问工作并带她去食堂","impact_level":"medium","impact_level_raw":"上司的例行关心，但翻看档案的行为增加了悬念","polarity":"neutral","polarity_raw":"表面平静，但林小鹿内心紧张","enum_reason":"宋明远作为上司，进行日常的工作询问和安排，但翻看档案的行为带有试探意味。","summary":"宋明远在林小鹿整理完档案后出现，询问工作情况，翻看青石镇调查纪要，然后带她去食堂。","evidence_summary":"宋明远询问林小鹿是否整理完，走进档案室翻看青石镇调查纪要，然后带她去食堂。","evidence_quotes":["'整理完了？'他问。","他伸手拿起来，翻开看了看，然后合上，放回原位。","'走吧，我带你去食堂。午饭时间到了。'"],"interaction_analysis":"宋明远的互动表面是日常关心，但翻看青石镇档案的行为暗示他对林小鹿的工作内容有所关注，可能出于试探或警惕。","confidence":0.8}],"directed_relations":[{"from":"林小鹿","to":"宋明远","raw_label":"警惕与观察","state_summary":"林小鹿对宋明远保持表面服从但内心高度警惕，尤其在他翻看青石镇档案后，怀疑他可能知道或隐瞒了什么。","structural_base":"superior_subordinate","structural_base_raw":"宋明远是组长，林小鹿是新员工","dynamic_stance":"wary","dynamic_stance_raw":"林小鹿注意到宋明远翻看档案的动作，内心警惕","enum_reason":"宋明远是林小鹿的上司，属于上下级关系；林小鹿对他保持警惕，符合wary。","evidence_summary":"宋明远突然出现并翻看青石镇调查纪要，林小鹿心跳加速但表面平静。","evidence_quotes":["林小鹿的心跳猛地加速，但脸上没有露出任何表情。","宋明远走进档案室，在桌前停了一下，目光落在最上面那份'青石镇调查纪要'上。他伸手拿起来，翻开看了看，然后合上，放回原位。"],"relation_analysis":"林小鹿作为新员工，对上司宋明远有天然的服从关系，但本章中宋明远对青石镇档案的关注让林小鹿产生警惕，怀疑他可能与此事有关。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.8},{"from":"宋明远","to":"林小鹿","raw_label":"上司对下属的例行关注","state_summary":"宋明远作为上司，对林小鹿进行例行关心和安排，但翻看青石镇档案的行为表明他对林小鹿的工作内容有所关注，动机不明。","structural_base":"superior_subordinate","structural_base_raw":"宋明远是组长，林小鹿是新员工","dynamic_stance":"neutral","dynamic_stance_raw":"宋明远询问整理情况，带她去食堂，但翻看档案的动作暗示可能有所关注","enum_reason":"宋明远是林小鹿的上司，属于上下级关系；他的态度表面中立，但翻看档案的行为暗示可能有更深意图。","evidence_summary":"宋明远询问林小鹿整理情况，带她去食堂，并翻看了青石镇调查纪要。","evidence_quotes":["'整理完了？'他问。","宋明远走进档案室，在桌前停了一下，目光落在最上面那份'青石镇调查纪要'上。他伸手拿起来，翻开看了看，然后合上，放回原位。"],"relation_analysis":"宋明远作为上司，对林小鹿的工作进行例行检查，但特意翻看青石镇档案表明他对该档案或林小鹿的反应有所关注，可能出于警惕或试探。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.7}],"pair_relations":[{"entity_a":"林小鹿","entity_b":"宋明远","shared_structural_base":"superior_subordinate","shared_structural_base_raw":"宋明远是组长，林小鹿是新员工","pair_summary":"林小鹿和宋明远是明确的上司与下属关系，宋明远负责安排林小鹿的工作，林小鹿服从指令。","evidence_summary":"宋明远安排林小鹿整理档案，并在结束后询问情况，带她去食堂。","evidence_quotes":["'整理完了？'他问。","'走吧，我带你去食堂。午饭时间到了。'"],"pair_analysis":"本章中宋明远作为组长直接安排林小鹿的任务，并亲自检查工作，体现了明确的上下级关系。","shared_intensity_score":50,"confidence":0.9}],"fact_updates":[{"subject":"林远舟","predicate":"参与青石镇调查","object_value":"作为外部顾问参与青石镇调查，日期为三年前六月十七日","summary":"档案显示林远舟作为外部顾问参与青石镇调查，确认其与天衍组织有关联。","is_state":true,"retracted":false,"confidence":0.95},{"subject":"青石镇","predicate":"存在地下遗迹","object_value":"青石镇西北约三公里处发现地下遗迹入口，内有符文刻痕，与已知异能体系存在差异","summary":"青石镇调查纪要提到发现地下遗迹和符文刻痕，可能与林远舟失踪有关。","is_state":true,"retracted":false,"confidence":0.9}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 第38章 陆沉的橄榄枝: 本章暂无正文内容，仅标题暗示陆沉向林小鹿伸出橄榄枝，可能涉及合作或招揽。
+- 第39章 两难的选择: 本章暂无正文内容，仅标题暗示林小鹿面临两难选择，可能涉及对叶知秋或宋明远的信任抉择。
+- 第40章 暗流下的邀约: 本章暂无正文内容，仅标题暗示暗流下的邀约，可能涉及林小鹿与陆沉或叶知秋之间的秘密接触。
+</recent_summary>
+
+<focus_entities>
+- 宋明远
+- 林小鹿
+- 眼镜女人
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=100 aliases=小鹿 summary=女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。
+Update: 女大学生，父亲失踪三个月，持有父亲留下的笔记本，正在按线索寻找父亲。
+Update: 女大学生，父亲失踪三个月，持父亲笔记本找到天衍组织入口，正在接受异能检测的新成员。
+Update: 女大学生，父亲失踪三个月，持父亲笔记本加入天衍组织。本章通过异能检测，成为外围成员，领取临时证件和初始任务。内心警惕，控制情绪和生理反应，对组织环境保持戒备。
+Update: 女大学生，外院大二英语专业，父亲失踪后加入天衍组织，决心寻找父亲。本章中她作为新员工被安排整理档案，暗中寻找父亲线索。
+Update: 女大学生，外院大二英语专业，父亲失踪三个月，加入天衍组织寻找父亲。本章中她整理档案时发现青石镇调查纪要，被宋明远试探，收到匿名警告，凌晨撤离住处。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她执行组织任务，同时面临考试压力和组织内部的信任危机。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。本章中接受叶知秋的警告与情报。
+Update: 女大学生，外院大二英语专业，父亲失踪后加入天衍组织，决心寻找父亲。本章中她主动向组长宋明远申请升级任务，获得C级任务外围工作机会。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中她接到新任务，目标地点为废弃研究所。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在残页上发现暗语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有异常发现。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她成为宋明远试探的对象。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中与叶知秋进行情报交易。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在金属盒背后发现线索。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在伪装下进行紧急行动。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她获得代号并转向主动行动。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在考试周遇到紧急任务。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在打工时被老板突然查岗。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她面临紧急情况，需要同时处理三条任务线。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在任务中有意外发现。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中面临宋明远的试探升级。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。对叶知秋保持礼貌配合，但内心高度警惕。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章中面临双重压力并做出决断。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在废弃工厂中获取暗语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在目标临终前听到了低语。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在战利品中发现另一条线索。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她正在追踪某个代号。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在暗流中面临抉择。
+Update: 女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本
+...(truncated)
+</known_entities>
+
+<relevant_relation_history>
+
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

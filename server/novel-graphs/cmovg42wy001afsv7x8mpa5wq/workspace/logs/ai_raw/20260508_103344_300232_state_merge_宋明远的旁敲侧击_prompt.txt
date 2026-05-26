@@ -1,0 +1,64 @@
+<chapter_title>
+宋明远的旁敲侧击
+</chapter_title>
+
+<extracted_result>
+{"schema_version":2,"chapter_title":"宋明远的旁敲侧击","analyzed_at":"2026-05-08T10:33:44","summary":"宋明远在办公室以闲聊方式试探林小鹿是否藏匿了金属盒，林小鹿谨慎应对，意识到对方在钓鱼，决定尽快打开盒子。","outline":[{"order":0,"text":"林小鹿进入宋明远办公室汇报任务，宋明远通过仓库清理照片试探她是否藏匿了金属盒，最后留下钩子暗示可以坦白。","involved_names":["林小鹿","宋明远"]}],"entities":[{"name":"林小鹿","aliases":["小鹿"],"chapter_role":"protagonist","tier":"active","importance_score":40,"summary":"天衍组织新成员，外院大二学生，父亲失踪后加入组织寻找线索。本章中藏匿了金属盒，被宋明远试探，内心高度警惕。"},{"name":"宋明远","aliases":["宋哥","宋组长"],"chapter_role":"major_actor","tier":"active","importance_score":40,"summary":"天衍外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。本章中通过照片和对话试探林小鹿是否藏了金属盒，最后留下钩子暗示可以坦白。"}],"identity_revelations":[],"events":[{"event_id":"evt_1","intra_chapter_order":0,"event_type":"试探对话","narrative_weight":"core","narrative_weight_raw":"核心事件，推动情节发展","enum_reason":"该事件是本章核心，直接展现两人之间的试探与警惕。","summary":"林小鹿进入宋明远办公室汇报任务，宋明远通过仓库清理照片试探她是否藏匿了金属盒，最后留下钩子暗示可以坦白。","location":"宋明远办公室","participants":[{"entity_name":"林小鹿","role":"actor","confidence":1.0},{"entity_name":"宋明远","role":"actor","confidence":1.0}],"evidence_summary":"宋明远拿出照片指出林小鹿翻过的箱子，提及金属盒，林小鹿谨慎应对。","evidence_quotes":["我还以为你会对那个金属盒子感兴趣。","那个金属盒，如果你真的对它感兴趣，可以跟我说。"],"confidence":1.0}],"interactions":[{"from":"宋明远","to":"林小鹿","interaction_type":"deception","interaction_type_raw":"旁敲侧击，假装闲聊","impact_level":"high","impact_level_raw":"试探行为对林小鹿造成很大心理压力","polarity":"negative","polarity_raw":"试探带有不信任和威胁意味","enum_reason":"宋明远没有直接质问，而是通过假装随意的方式试探，属于欺骗性互动。","summary":"宋明远以闲聊方式提及金属盒，暗示知道林小鹿藏了东西，最后留下钩子。","evidence_summary":"宋明远拿出照片，说‘我还以为你会对那个金属盒子感兴趣’，最后说‘如果感兴趣可以跟我说’。","evidence_quotes":["我还以为你会对那个金属盒子感兴趣。","那个金属盒，如果你真的对它感兴趣，可以跟我说。"],"interaction_analysis":"宋明远通过假装闲聊和留下钩子来试探林小鹿，属于欺骗性互动。","confidence":0.9},{"from":"林小鹿","to":"宋明远","interaction_type":"deception","interaction_type_raw":"假装不知情","impact_level":"high","impact_level_raw":"林小鹿需要控制反应避免暴露","polarity":"negative","polarity_raw":"林小鹿对宋明远撒谎","enum_reason":"林小鹿故意隐瞒自己藏匿金属盒的事实，属于欺骗。","summary":"林小鹿假装对金属盒不感兴趣，谎称怕弄脏衣服，并否认知道金属盒的存在。","evidence_summary":"林小鹿说‘什么金属盒？’‘我看到了，但是觉得那盒子有点旧，不太像有什么用的样子’。","evidence_quotes":["什么金属盒？","我看到了，但是觉得那盒子有点旧，不太像有什么用的样子。"],"interaction_analysis":"林小鹿通过假装不知情来掩盖自己藏匿金属盒的行为，属于欺骗性互动。","confidence":0.9}],"directed_relations":[{"from":"林小鹿","to":"宋明远","raw_label":"高度警惕，认为对方在钓鱼","state_summary":"林小鹿作为下属对宋明远保持高度警惕，认为他已知晓自己藏匿金属盒，并在最后留下钩子引诱自己坦白。","structural_base":"superior_subordinate","structural_base_raw":"上下级关系，林小鹿是下属","dynamic_stance":"distrustful","dynamic_stance_raw":"林小鹿认为宋明远在试探和钓鱼","enum_reason":"林小鹿内心认为宋明远在钓鱼，不信任他的意图。","evidence_summary":"宋明远通过照片指出林小鹿翻过的箱子，并提及金属盒，最后说‘如果感兴趣可以跟我说’，林小鹿感到被试探。","evidence_quotes":["那个金属盒，如果你真的对它感兴趣，可以跟我说。","他这是在钓鱼。"],"relation_analysis":"林小鹿从宋明远的提问和最后那句话中解读出试探和钓鱼意图，因此动态立场为不信任。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.9},{"from":"宋明远","to":"林小鹿","raw_label":"试探与监督","state_summary":"宋明远作为上级，通过照片和对话试探林小鹿是否藏匿了金属盒，最后留下钩子，表明他怀疑但未直接揭穿。","structural_base":"superior_subordinate","structural_base_raw":"上下级关系，宋明远是组长","dynamic_stance":"wary","dynamic_stance_raw":"宋明远通过照片和对话试探林小鹿","enum_reason":"宋明远没有直接质问，而是旁敲侧击，表现出谨慎的怀疑。","evidence_summary":"宋明远拿出仓库清理照片，指出林小鹿翻过的箱子，并提及金属盒，最后说‘如果感兴趣可以跟我说’。","evidence_quotes":["我还以为你会对那个金属盒子感兴趣。","那个金属盒，如果你真的对它感兴趣，可以跟我说。"],"relation_analysis":"宋明远通过间接方式试探林小鹿，表明他保持警惕和怀疑。","affinity_score":0,"intensity_score":50,"stability_score":50,"strength_score":50,"confidence":0.85}],"pair_relations":[{"entity_a":"林小鹿","entity_b":"宋明远","shared_structural_base":"superior_subordinate","shared_structural_base_raw":"上下级关系","pair_summary":"林小鹿是宋明远的下属，两人之间存在明确的上下级关系。","evidence_summary":"林小鹿向宋明远汇报任务情况，宋明远安排任务并试探她。","evidence_quotes":["进来，坐。","明天的任务安排，我发你手机上了。"],"pair_analysis":"本章中林小鹿进入宋明远办公室汇报，宋明远以组长身份安排任务，上下级关系明确。","shared_intensity_score":50,"confidence":0.95}],"fact_updates":[{"subject":"林小鹿","predicate":"藏匿金属盒被宋明远察觉","object_value":"宋明远通过照片和对话暗示知道林小鹿藏了金属盒","summary":"宋明远在办公室试探林小鹿，提及金属盒，林小鹿意识到对方已知晓。","is_state":true,"retracted":false,"confidence":0.9},{"subject":"宋明远","predicate":"对林小鹿保持怀疑","object_value":"宋明远通过试探确认林小鹿藏匿了金属盒，但未直接揭穿","summary":"宋明远最后留下钩子，暗示林小鹿可以坦白，表明他怀疑但未行动。","is_state":true,"retracted":false,"confidence":0.85}],"unresolved":[]}
+</extracted_result>
+
+<recent_summary>
+- 叶知秋的暗示: 林小鹿到情报室向叶知秋请教情报整理，叶知秋讲解分类原则，并暗示组织内部存在隐藏任务，任务简报中的目标可能只是掩护。林小鹿发现叶知秋给的索引册有重新装订和被撕毁的痕迹，与父亲档案情况一致，怀疑叶知秋的动机，决定明天接头前不告诉她。
+- 巩固信任与暗流: 林小鹿向宋明远提交任务报告，宋明远表面认可但暗中调查她的背景，并安排叶知秋监视她。林小鹿收到未知号码的接头提醒短信，决定回复确认并准备赴约。
+- 任务中的异常发现: 林小鹿随宋明远前往城西废弃仓库执行清理任务，在清理过程中发现一个刻有父亲笔记中符号的金属盒，她偷偷藏入外套内袋，但被宋明远察觉。两人之间的信任出现裂纹，林小鹿决定尽快打开盒子。
+</recent_summary>
+
+<focus_entities>
+- 宋明远
+- 林小鹿
+</focus_entities>
+
+<known_entities>
+[known_entities]
+- 林小鹿 tier=core score=100 aliases=小鹿 summary=外院大二学生，英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后，决定加入天衍组织寻找父亲。
+Update: 外院大二学生，英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后，决心加入天衍组织寻找父亲。本章中她独自前往寻鹿咖啡馆接头，拿到新线索并遭遇跟踪。
+Update: 外院大二学生，英语专业，父亲失踪三个月，她根据父亲笔记本线索来到旧书店街17号，通过暗号进入天衍组织地下基地，接受异能检测，有觉醒潜质。
+Update: 外院大二学生，英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后，决定加入天衍组织寻找父亲。目前通过异能检测，成为天衍外围成员，获得临时证件。
+Update: 外院大二学生，英语专业，父亲失踪三个月，为寻找父亲加入天衍组织，目前为外围成员，正在执行整理档案的任务。
+Update: 天衍组织新入职实习生，外院大二学生，父亲林远舟失踪三个月。她通过父亲笔记本线索加入组织，在档案室发现青石镇调查纪要，正被宋明远怀疑和监视。
+Update: 外院大二学生，英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后，决定加入天衍组织寻找父亲。目前是天衍外围成员，执行紧急任务后收到叶知秋的警告短信。
+Update: 外院大二学生，英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后，决定加入天衍组织寻找父亲。本章中主动向宋明远申请升级任务，获得参与C级任务外围工作的机会。
+Update: 外院大二学生，英语专业，天衍组织新成员。父亲失踪半年，她正秘密寻找父亲下落。本章中随宋明远执行C级清理任务，在废弃研究所发现父亲以假名留下的档案和警告。
+Update: 天衍组织外围成员，C级权限，外院大二学生，父亲失踪，正在秘密调查父亲下落。
+Update: 外院大二学生，英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后，决定加入天衍组织寻找父亲。本章中向叶知秋请教情报整理，发现索引册被撕毁的痕迹，对叶知秋的动机产生怀疑。
+Update: 天衍组织新成员，外院大二学生，父亲失踪后加入组织寻找父亲。对宋明远保持高度警惕，暗中准备接头。
+Update: 外院大二学生，英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后，决定加入天衍组织寻找父亲。本章中随宋明远执行仓库清理任务，发现刻有父亲符号的金属盒并偷偷藏起。
+- 宋明远 tier=core score=88 aliases=宋哥, 宋组长 summary=天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。面试林小鹿，安排她看资料，并暗中让人调查她的背景。
+Update: 天衍组织外勤组长，面试林小鹿并同意她入职，对林小鹿的出现方式有疑问，将进行更仔细的背景调查。
+Update: 天衍组织成员，深灰色夹克，负责林小鹿的面试和入职安排，对林小鹿保持关注和试探。
+Update: 天衍组织外勤组长，四十岁上下，灰色夹克，短发，声音沙哑。对林小鹿高度怀疑，已发现档案被翻动痕迹，安排人调查林小鹿背景，并监控了接头地点。
+Update: 天衍的外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。本章中林小鹿向他申请升级任务，他同意并给了她仓库钥匙，要求她提交踩点报告，同时暗中调查林小鹿的背景。
+Update: 天衍组织外勤组长，三十来岁。本章亲自带队执行C级任务，途中试探林小鹿的青石镇背景，并接到疑似监控接头地点的电话，对林小鹿保持审视。
+Update: 天衍组织外勤组长，对林小鹿保持监督和试探，本章中其车辆出现在档案室楼下。
+Update: 天衍组织外勤组长，林小鹿的上级。本章中被林小鹿提及，林小鹿怀疑叶知秋可能是宋明远安排的眼线。
+Update: 天衍组织外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。对林小鹿表面认可但暗中调查，安排叶知秋监视她。
+Update: 天衍组织外勤组长，三十来岁，穿深蓝色衬衫，戴旧表。本章中带领林小鹿执行仓库清理任务，察觉到林小鹿藏匿物品的动作，但未当场揭穿。
+- 叶知秋 tier=core score=83 aliases=叶姐, 小叶 summary=天衍的前台兼行政人员，戴眼镜的年轻女人。带林小鹿熟悉环境，并受宋明远指示调查林小鹿的背景。
+Update: 天衍组织接待员，负责林小鹿的接待和初步评估，进行基础异能检测，并带她进入深层检测室。
+Update: 天衍组织的接待员，负责林小鹿的检测和引导，态度职业化，对林小鹿有所怀疑，已上报宋明远关于林小鹿接头的事。
+Update: 天衍组织前台兼行政人员，戴眼镜的年轻女人。本章中仅在一楼大厅与林小鹿点头示意。
+Update: 天衍组织情报分析员，负责接待林小鹿并上报其接头情况。本章中通过短信警告林小鹿接头地点已被监控。
+Update: 天衍组织情报分析员，戴眼镜的年轻女人。哥哥半年前失踪，组织调查结论为‘个人原因离岗，去向不明’。
+Update: 天衍的前台兼行政人员，戴眼镜的年轻女人。本章中通过短信与林小鹿联系，确认她申请任务成功，并警告她宋明远查了她的背景。
+Update: 天衍组织情报分析员，曾警告林小鹿接头地点被监控。本章中林小鹿考虑联系她但最终未拨出电话。
+Update: 天衍组织情报室的分析员，负责情报整理和分类。本章中向林小鹿讲解情报分类原则，暗示组织内部存在隐藏任务，并给了林小鹿一本有撕毁痕迹的索引册。
+Update: 天衍组织情报分析员，戴眼镜的年轻女人。受宋明远指示监视林小鹿，但之前曾暗示保护林小鹿。
+</known_entities>
+
+<relevant_relation_history>
+[directed_relation_states]
+-
+...(truncated)
+</relevant_relation_history>
+
+    Merge the extracted result into a cleaner canonical result.
+    Return JSON only.

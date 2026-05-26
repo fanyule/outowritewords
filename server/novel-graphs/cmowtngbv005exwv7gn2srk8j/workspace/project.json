@@ -1,0 +1,81 @@
+{
+  "id": "cmowtngbv005exwv7gn2srk8j",
+  "title": "觉醒记忆，我成了大佬",
+  "language": "zh-CN",
+  "source_txt_path": "source/source.txt",
+  "source_format": "txt",
+  "chapters": [
+    {
+      "id": "cmowtwz240070xwv75ezuot2k",
+      "title": "父亲的遗物",
+      "order": 1,
+      "source_href": "novel:cmowtngbv005exwv7gn2srk8j/chapter:cmowtwz240070xwv75ezuot2k",
+      "text_path": "source/chapters/cmowtwz240070xwv75ezuot2k.txt"
+    },
+    {
+      "id": "cmowtwz260071xwv7wcivatca",
+      "title": "天枢的邀请",
+      "order": 2,
+      "source_href": "novel:cmowtngbv005exwv7gn2srk8j/chapter:cmowtwz260071xwv7wcivatca",
+      "text_path": "source/chapters/cmowtwz260071xwv7wcivatca.txt"
+    },
+    {
+      "id": "cmowtwz270072xwv7yyf95g4w",
+      "title": "能力测试",
+      "order": 3,
+      "source_href": "novel:cmowtngbv005exwv7gn2srk8j/chapter:cmowtwz270072xwv7yyf95g4w",
+      "text_path": "source/chapters/cmowtwz270072xwv7yyf95g4w.txt"
+    },
+    {
+      "id": "cmowtwz280073xwv7bggzaei2",
+      "title": "第一件任务",
+      "order": 4,
+      "source_href": "novel:cmowtngbv005exwv7gn2srk8j/chapter:cmowtwz280073xwv7bggzaei2",
+      "text_path": "source/chapters/cmowtwz280073xwv7bggzaei2.txt"
+    },
+    {
+      "id": "cmowtwz280074xwv7o5xdxdkx",
+      "title": "方瑶的试探",
+      "order": 5,
+      "source_href": "novel:cmowtngbv005exwv7gn2srk8j/chapter:cmowtwz280074xwv7o5xdxdkx",
+      "text_path": "source/chapters/cmowtwz280074xwv7o5xdxdkx.txt"
+    },
+    {
+      "id": "cmowtwz290075xwv7my3ibp0y",
+      "title": "赵毅的警告",
+      "order": 6,
+      "source_href": "novel:cmowtngbv005exwv7gn2srk8j/chapter:cmowtwz290075xwv7my3ibp0y",
+      "text_path": "source/chapters/cmowtwz290075xwv7my3ibp0y.txt"
+    },
+    {
+      "id": "cmowtwz290076xwv7de7snwcf",
+      "title": "记忆混乱的代价",
+      "order": 7,
+      "source_href": "novel:cmowtngbv005exwv7gn2srk8j/chapter:cmowtwz290076xwv7de7snwcf",
+      "text_path": "source/chapters/cmowtwz290076xwv7de7snwcf.txt"
+    },
+    {
+      "id": "cmowtwz2a0077xwv79g6xqoio",
+      "title": "禁地地图",
+      "order": 8,
+      "source_href": "novel:cmowtngbv005exwv7gn2srk8j/chapter:cmowtwz2a0077xwv79g6xqoio",
+      "text_path": "source/chapters/cmowtwz2a0077xwv79g6xqoio.txt"
+    },
+    {
+      "id": "cmowtwz2a0078xwv7bv5x9p28",
+      "title": "方瑶的局",
+      "order": 9,
+      "source_href": "novel:cmowtngbv005exwv7gn2srk8j/chapter:cmowtwz2a0078xwv7bv5x9p28",
+      "text_path": "source/chapters/cmowtwz2a0078xwv7bv5x9p28.txt"
+    },
+    {
+      "id": "cmowtwz2b0079xwv76tmf7prn",
+      "title": "监视者",
+      "order": 10,
+      "source_href": "novel:cmowtngbv005exwv7gn2srk8j/chapter:cmowtwz2b0079xwv76tmf7prn",
+      "text_path": "source/chapters/cmowtwz2b0079xwv76tmf7prn.txt"
+    }
+  ],
+  "created_at": "2026-05-08T12:16:55.030674",
+  "updated_at": "2026-05-08T12:16:55.030685"
+}

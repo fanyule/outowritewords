@@ -1,0 +1,110 @@
+{
+  "summary": "本章无正文内容，仅标题暗示叶知秋向林小鹿发出警告并提供情报。",
+  "entities": [
+    {
+      "name": "叶知秋",
+      "aliases": ["叶", "叶姐", "小叶"],
+      "chapter_role": "protagonist",
+      "summary": "天衍组织的前台接待员，年轻女性，戴眼镜，穿白色衬衫和深色长裤。曾因哥哥失踪而对林小鹿产生保护欲，主动提供情报和警告。"
+    },
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，加入天衍组织寻找父亲。对叶知秋保持礼貌配合，但内心高度警惕。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "发出警告与提供情报",
+      "structural_base": "colleague",
+      "structural_base_raw": "天衍组织前台同事",
+      "dynamic_stance": "protective",
+      "dynamic_stance_raw": "主动冒险警告并分享秘密",
+      "state_summary": "叶知秋作为天衍前台同事，对林小鹿保持友好和保护态度，曾主动提供情报和警告。本章标题暗示双方信任进一步巩固，但存在暗流。",
+      "enum_reason": "叶知秋主动向林小鹿发出警告并提供情报，表明她对林小鹿有一定信任或善意，动机不明但带有保护倾向。",
+      "evidence_summary": "标题暗示叶知秋向林小鹿发出警告并提供情报。",
+      "evidence_quotes": ["叶知秋的警告与情报"],
+      "relation_analysis": "叶知秋作为天衍前台同事，对林小鹿保持友好和保护态度，曾主动提供情报和警告。本章标题暗示双方信任进一步巩固，但存在暗流。",
+      "confidence": 0.7
+    },
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "接受警告与情报",
+      "structural_base": "colleague",
+      "structural_base_raw": "天衍组织前台同事",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "接受叶知秋的警告并追问细节",
+      "state_summary": "林小鹿对叶知秋保持信任，接受其提供的情报和帮助，并据此调整自己的行动。",
+      "enum_reason": "林小鹿接受叶知秋的警告，并追问更多信息，表现出对叶知秋的信任。",
+      "evidence_summary": "标题暗示林小鹿接受叶知秋的警告与情报。",
+      "evidence_quotes": ["叶知秋的警告与情报"],
+      "relation_analysis": "林小鹿对叶知秋保持信任，接受其提供的情报和帮助，并据此调整自己的行动。",
+      "confidence": 0.7
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "叶知秋",
+      "entity_b": "林小鹿",
+      "shared_structural_base": "colleague",
+      "shared_structural_base_raw": "天衍组织前台同事",
+      "pair_summary": "叶知秋和林小鹿是天衍组织的同事关系，叶知秋作为前台接待员，林小鹿作为新成员。",
+      "evidence_summary": "标题暗示双方进行情报交易，信任进一步巩固。",
+      "evidence_quotes": ["叶知秋的警告与情报"],
+      "pair_analysis": "叶知秋和林小鹿是天衍组织的同事关系，叶知秋作为前台接待员，林小鹿作为新成员。本章标题暗示双方信任进一步巩固，但存在暗流。",
+      "confidence": 0.7
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "e1",
+      "intra_chapter_order": 0,
+      "event_type": "warning",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "标题核心事件",
+      "summary": "叶知秋向林小鹿发出警告并提供情报。",
+      "location": "未知",
+      "enum_reason": "标题明确为本章核心内容。",
+      "evidence_summary": "标题暗示叶知秋向林小鹿发出警告并提供情报。",
+      "evidence_quotes": ["叶知秋的警告与情报"],
+      "participants": [
+        {"entity_name": "叶知秋", "role": "actor", "confidence": 0.9},
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.9}
+      ],
+      "confidence": 0.7
+    }
+  ],
+  "interactions": [
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "interaction_type": "revelation",
+      "interaction_type_raw": "发出警告与提供情报",
+      "impact_level": "high",
+      "impact_level_raw": "警告与情报可能影响林小鹿后续行动",
+      "polarity": "positive",
+      "polarity_raw": "叶知秋主动提供帮助",
+      "summary": "叶知秋向林小鹿发出警告并提供情报。",
+      "enum_reason": "叶知秋主动向林小鹿透露重要信息，属于揭示性互动。",
+      "evidence_summary": "标题暗示叶知秋向林小鹿发出警告并提供情报。",
+      "evidence_quotes": ["叶知秋的警告与情报"],
+      "interaction_analysis": "叶知秋主动向林小鹿发出警告并提供情报，表明她对林小鹿有一定信任或善意。",
+      "confidence": 0.7
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "叶知秋",
+      "predicate": "向林小鹿发出警告并提供情报",
+      "object_value": "警告与情报内容未知",
+      "summary": "叶知秋向林小鹿发出警告并提供情报。",
+      "is_state": false,
+      "confidence": 0.7
+    }
+  ]
+}

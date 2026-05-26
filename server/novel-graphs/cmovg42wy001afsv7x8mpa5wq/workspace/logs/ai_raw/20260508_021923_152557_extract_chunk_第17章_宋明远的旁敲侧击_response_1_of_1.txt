@@ -1,0 +1,110 @@
+{
+  "summary": "本章暂无正文内容，仅标题暗示宋明远对林小鹿进行旁敲侧击的试探。",
+  "entities": [
+    {
+      "name": "宋明远",
+      "aliases": ["宋哥", "宋组长"],
+      "chapter_role": "protagonist",
+      "summary": "天衍组织外勤组长，四十岁上下，灰色夹克，短发，声音沙哑。本章标题暗示他对林小鹿进行旁敲侧击的试探。"
+    },
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿", "林远舟的女儿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，父亲林远舟失踪三个月，持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章标题暗示她受到宋明远的试探。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "raw_label": "旁敲侧击试探",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "外勤组长与新成员",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "试探",
+      "state_summary": "宋明远作为天衍外勤组长，对林小鹿保持警惕和试探态度，试图通过旁敲侧击获取信息。",
+      "enum_reason": "宋明远是林小鹿的上司，属于上下级关系；其试探行为表明不信任和警惕。",
+      "evidence_summary": "本章标题暗示宋明远对林小鹿进行旁敲侧击的试探。",
+      "evidence_quotes": ["第17章 宋明远的旁敲侧击"],
+      "relation_analysis": "标题直接表明宋明远对林小鹿进行试探，结合其组长身份，属于上级对下级的警惕性行为。",
+      "confidence": 0.6
+    },
+    {
+      "from": "林小鹿",
+      "to": "宋明远",
+      "raw_label": "被试探",
+      "structural_base": "superior_subordinate",
+      "structural_base_raw": "新成员与组长",
+      "dynamic_stance": "wary",
+      "dynamic_stance_raw": "被试探",
+      "state_summary": "林小鹿作为新成员，面对宋明远的试探保持警惕，可能采取谨慎应对。",
+      "enum_reason": "林小鹿是下属，面对上级试探自然保持警惕。",
+      "evidence_summary": "本章标题暗示林小鹿受到宋明远的试探。",
+      "evidence_quotes": ["第17章 宋明远的旁敲侧击"],
+      "relation_analysis": "标题表明林小鹿是被试探的一方，结合其新成员身份，应对态度应为警惕。",
+      "confidence": 0.6
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "宋明远",
+      "entity_b": "林小鹿",
+      "shared_structural_base": "superior_subordinate",
+      "shared_structural_base_raw": "外勤组长与新成员",
+      "pair_summary": "宋明远和林小鹿是天衍组织内的上下级关系，宋明远作为组长对林小鹿进行试探。",
+      "evidence_summary": "本章标题暗示宋明远对林小鹿进行旁敲侧击的试探。",
+      "evidence_quotes": ["第17章 宋明远的旁敲侧击"],
+      "pair_analysis": "标题直接表明两人之间的试探关系，结合已知上下级身份，构成稳定的上下级结构。",
+      "confidence": 0.6
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch17_evt1",
+      "intra_chapter_order": 0,
+      "event_type": "试探",
+      "narrative_weight": "core",
+      "narrative_weight_raw": "标题核心事件",
+      "summary": "宋明远对林小鹿进行旁敲侧击的试探。",
+      "location": "未知",
+      "enum_reason": "标题直接点明本章核心事件。",
+      "evidence_summary": "本章标题暗示宋明远对林小鹿进行试探。",
+      "evidence_quotes": ["第17章 宋明远的旁敲侧击"],
+      "participants": [
+        {"entity_name": "宋明远", "role": "actor", "confidence": 0.6},
+        {"entity_name": "林小鹿", "role": "target", "confidence": 0.6}
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "interactions": [
+    {
+      "from": "宋明远",
+      "to": "林小鹿",
+      "interaction_type": "conflict",
+      "interaction_type_raw": "旁敲侧击",
+      "impact_level": "medium",
+      "impact_level_raw": "试探",
+      "polarity": "negative",
+      "polarity_raw": "试探",
+      "summary": "宋明远对林小鹿进行旁敲侧击的试探，可能带有质疑或调查意图。",
+      "enum_reason": "试探行为带有潜在对抗性，属于冲突范畴。",
+      "evidence_summary": "本章标题暗示宋明远对林小鹿进行试探。",
+      "evidence_quotes": ["第17章 宋明远的旁敲侧击"],
+      "interaction_analysis": "标题中的'旁敲侧击'暗示非直接但带有压力的询问，属于冲突性互动。",
+      "confidence": 0.6
+    }
+  ],
+  "fact_updates": [
+    {
+      "subject": "宋明远",
+      "predicate": "对林小鹿进行试探",
+      "object_value": "旁敲侧击",
+      "summary": "宋明远在本章中对林小鹿进行旁敲侧击的试探。",
+      "is_state": true,
+      "confidence": 0.6
+    }
+  ]
+}

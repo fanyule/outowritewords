@@ -1,0 +1,57 @@
+{
+  "schema_version": 2,
+  "chapter_title": "第39章 两难的选择",
+  "analyzed_at": "2026-05-08T02:26:46",
+  "summary": "本章暂无正文内容，仅标题暗示林小鹿面临两难选择，可能涉及是否接受陆沉的橄榄枝或是否信任叶知秋的警告。",
+  "outline": [],
+  "entities": [
+    {
+      "name": "叶知秋",
+      "aliases": [
+        "叶姐",
+        "小叶"
+      ],
+      "chapter_role": "mentioned",
+      "tier": "active",
+      "importance_score": 70,
+      "summary": "天衍组织的前台工作人员，年轻女性，戴眼镜，对林小鹿保持保护态度，曾主动提供情报和警告。"
+    },
+    {
+      "name": "林小鹿",
+      "aliases": [
+        "小鹿",
+        "林远舟的女儿"
+      ],
+      "chapter_role": "protagonist",
+      "tier": "active",
+      "importance_score": 70,
+      "summary": "女大学生，父亲林远舟失踪三个月，她持父亲留下的笔记本加入天衍组织，决心寻找父亲。本章中她面临两难选择。"
+    },
+    {
+      "name": "陆沉",
+      "aliases": [],
+      "chapter_role": "mentioned",
+      "tier": "active",
+      "importance_score": 60,
+      "summary": "标题中出现的代号人物，身份不明，可能为关键线索，向林小鹿伸出橄榄枝，动机尚不明确。"
+    },
+    {
+      "name": "宋明远",
+      "aliases": [
+        "宋哥",
+        "宋组长"
+      ],
+      "chapter_role": "mentioned",
+      "tier": "active",
+      "importance_score": 50,
+      "summary": "天衍组织外勤组长，对林小鹿保持审视和试探态度，曾调查其背景并监控接头地点。"
+    }
+  ],
+  "identity_revelations": [],
+  "events": [],
+  "interactions": [],
+  "directed_relations": [],
+  "pair_relations": [],
+  "fact_updates": [],
+  "unresolved": []
+}

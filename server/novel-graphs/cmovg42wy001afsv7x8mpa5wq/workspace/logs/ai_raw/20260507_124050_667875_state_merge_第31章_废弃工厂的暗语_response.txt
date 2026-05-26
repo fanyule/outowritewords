@@ -1,0 +1,47 @@
+{
+  "summary": "本章无正文内容，仅标题暗示林小鹿前往废弃工厂并解读暗语。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她前往废弃工厂并解读暗语。"
+    }
+  ],
+  "directed_relations": [],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "e001",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "本章无正文内容",
+      "summary": "本章无正文内容，仅标题暗示林小鹿前往废弃工厂并解读暗语。",
+      "location": "废弃工厂",
+      "enum_reason": "本章无正文内容，仅标题提供信息，属于细节性提示。",
+      "evidence_summary": "本章无正文内容，仅标题暗示。",
+      "evidence_quotes": ["第31章 废弃工厂的暗语"],
+      "participants": [
+        {
+          "entity_name": "林小鹿",
+          "role": "actor",
+          "confidence": 0.5
+        }
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "前往废弃工厂",
+      "object_value": "废弃工厂",
+      "summary": "标题暗示林小鹿前往废弃工厂并解读暗语。",
+      "is_state": false,
+      "confidence": 0.3
+    }
+  ]
+}

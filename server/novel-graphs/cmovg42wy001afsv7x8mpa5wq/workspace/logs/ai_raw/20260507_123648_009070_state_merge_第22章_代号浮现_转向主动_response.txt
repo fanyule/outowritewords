@@ -1,0 +1,104 @@
+{
+  "summary": "本章无正文内容，仅标题暗示林小鹿发现代号并转向主动行动。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她发现代号并转向主动行动。"
+    },
+    {
+      "name": "叶知秋",
+      "aliases": ["小叶"],
+      "chapter_role": "mentioned",
+      "summary": "天衍组织前台同事，戴眼镜的年轻女人，接待林小鹿，带她到资料室，并告知可以随时找她。本章标题暗示她与林小鹿进行情报交易。"
+    }
+  ],
+  "directed_relations": [
+    {
+      "from": "林小鹿",
+      "to": "叶知秋",
+      "raw_label": "情报交易",
+      "structural_base": "colleague",
+      "structural_base_raw": "同事关系",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "主动进行情报交易",
+      "state_summary": "林小鹿与叶知秋是天衍组织的同事，本章标题暗示林小鹿主动与叶知秋进行情报交易，表明林小鹿对叶知秋有一定信任。",
+      "enum_reason": "标题暗示情报交易，表明信任基础",
+      "evidence_summary": "标题'代号浮现，转向主动'及前章标题'与叶知秋的情报交易'暗示林小鹿主动与叶知秋交易",
+      "evidence_quotes": ["第22章 代号浮现，转向主动"],
+      "relation_analysis": "标题暗示林小鹿主动与叶知秋进行情报交易，表明林小鹿对叶知秋有一定信任，因此动态立场为trusting。",
+      "confidence": 0.3
+    },
+    {
+      "from": "叶知秋",
+      "to": "林小鹿",
+      "raw_label": "情报交易",
+      "structural_base": "colleague",
+      "structural_base_raw": "同事关系",
+      "dynamic_stance": "trusting",
+      "dynamic_stance_raw": "进行情报交易",
+      "state_summary": "叶知秋作为前台同事，与林小鹿进行情报交易，表明叶知秋对林小鹿有一定信任或利益考量。",
+      "enum_reason": "标题暗示情报交易，表明信任或利益考量",
+      "evidence_summary": "标题'代号浮现，转向主动'及前章标题'与叶知秋的情报交易'暗示叶知秋与林小鹿交易",
+      "evidence_quotes": ["第22章 代号浮现，转向主动"],
+      "relation_analysis": "标题暗示叶知秋与林小鹿进行情报交易，表明叶知秋对林小鹿有一定信任或利益考量，因此动态立场为trusting。",
+      "confidence": 0.3
+    }
+  ],
+  "pair_relations": [
+    {
+      "entity_a": "林小鹿",
+      "entity_b": "叶知秋",
+      "shared_structural_base": "colleague",
+      "shared_structural_base_raw": "同事关系",
+      "pair_summary": "林小鹿与叶知秋是天衍组织的同事，本章标题暗示两人进行情报交易，关系从普通同事升级为交易伙伴。",
+      "evidence_summary": "标题'代号浮现，转向主动'及前章标题'与叶知秋的情报交易'暗示两人交易",
+      "evidence_quotes": ["第22章 代号浮现，转向主动"],
+      "pair_analysis": "标题暗示两人进行情报交易，表明关系从普通同事升级为交易伙伴，因此共享结构仍为colleague。",
+      "confidence": 0.3
+    }
+  ],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "e22_1",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "无正文内容",
+      "summary": "本章无正文内容，仅标题暗示林小鹿发现代号并转向主动行动。",
+      "location": "",
+      "enum_reason": "无正文内容，仅标题暗示",
+      "evidence_summary": "标题'代号浮现，转向主动'",
+      "evidence_quotes": ["第22章 代号浮现，转向主动"],
+      "participants": [
+        {
+          "entity_name": "林小鹿",
+          "role": "actor",
+          "confidence": 0.3
+        }
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "发现代号",
+      "object_value": "代号浮现",
+      "summary": "标题暗示林小鹿发现某个代号。",
+      "is_state": false,
+      "confidence": 0.3
+    },
+    {
+      "subject": "林小鹿",
+      "predicate": "转向主动",
+      "object_value": "主动行动",
+      "summary": "标题暗示林小鹿从被动转为主动行动。",
+      "is_state": true,
+      "confidence": 0.3
+    }
+  ]
+}

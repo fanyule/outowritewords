@@ -1,0 +1,43 @@
+{
+  "summary": "本章无正文内容，仅标题暗示林小鹿在残页上发现暗语，可能获得关键线索。",
+  "entities": [
+    {
+      "name": "林小鹿",
+      "aliases": ["小鹿"],
+      "chapter_role": "protagonist",
+      "summary": "女大学生，外院大二英语专业，课余在咖啡馆打工。父亲失踪三个月，她发现父亲留下的笔记本后加入天衍组织，决心寻找父亲。本章标题暗示她在残页上发现暗语。"
+    }
+  ],
+  "directed_relations": [],
+  "pair_relations": [],
+  "identity_revelations": [],
+  "events": [
+    {
+      "event_id": "ch11_unknown",
+      "intra_chapter_order": 0,
+      "event_type": "unknown",
+      "narrative_weight": "detail",
+      "narrative_weight_raw": "本章暂无内容",
+      "summary": "本章无正文内容，仅标题暗示林小鹿在残页上发现暗语。",
+      "location": "未知",
+      "enum_reason": "无正文内容，仅标题提供信息，属于细节性提示。",
+      "evidence_summary": "本章标题为'残页上的暗语'，但无正文内容。",
+      "evidence_quotes": ["第11章 残页上的暗语"],
+      "participants": [
+        {"entity_name": "林小鹿", "role": "actor", "confidence": 0.5}
+      ],
+      "confidence": 0.3
+    }
+  ],
+  "interactions": [],
+  "fact_updates": [
+    {
+      "subject": "林小鹿",
+      "predicate": "发现残页上的暗语",
+      "object_value": "可能获得关键线索",
+      "summary": "本章标题暗示林小鹿在残页上发现暗语，可能获得关键线索。",
+      "is_state": false,
+      "confidence": 0.3
+    }
+  ]
+}
